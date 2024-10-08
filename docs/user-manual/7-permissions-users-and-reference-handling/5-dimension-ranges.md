@@ -1,0 +1,19 @@
+---
+title: Dimension ranges
+sidebar_position: 5
+hide_title: true
+---
+## Dimension ranges <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+
+ExFlow \| Setup \| Resources \| Dimension ranges
+
+If dimension ranges or approver ranges are used separately, they will be treated as separate values (OR statement). If a combination of those two are used the approver range will be combined with the dimension ranges (AND statement). Ranges using .. and commas is supported, statement is not supported.
+
+![Graphical user interface, text, email Description automatically generated](@site/static/img/media/image65.png)
+
+| Buttons (Action pane) |
+|:-|:-|
+| Save                  | Save the changes.         |
+| New                   | Add a new line.           |
+| Delete                | Delete the selected line. |
+

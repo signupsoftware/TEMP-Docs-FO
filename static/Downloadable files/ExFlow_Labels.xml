@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+******************************************************************************************************************
+		ExFlow Instance Documentation	
+		
+		Title 		= ExFlow_Labels.xml
+		Publisher 	= SignUp Software AB
+		Creator 	= Fredrik Andersson
+		Created 	= 2020-01-14
+		Modified    = ""		
+******************************************************************************************************************
+-->
+<module version="1.0">
+    <document-merge>
+        <g-funcs>
+            <g name="AmountInclVat">Invoice gross amount</g>
+        	<g name="BatchNo">Batch number</g>
+        	<g name="CreditInvoice">Credit invoice</g>
+        	<g name="CurrencyCode">CurrencyCode</g>
+        	<g name="DueDate">Due date</g>
+        	<g name="DueDays">Due days</g>
+        	<g name="ExFlowXML">Generated ExFlow XML Invoice</g>
+        	<g name="HeaderDetails">Header details</g>
+        	<g name="ImageName">Image name</g>
+        	<g name="Invoice">Invoice</g>
+        	<g name="InvoiceLines">Invoice lines</g>
+        	<g name="InvoiceNo">Invoice number</g>
+        	<g name="ItemDescription">Description</g>
+        	<g name="ItemNo">Item number</g>
+        	<g name="LineTotal">Line amount</g>
+    		<g name="Message">Message</g>
+    		<g name="MessageId">MessageId</g>
+        	<g name="Miscellaneous">Miscellaneous</g>
+        	<g name="MiscHead1">Misc value 1</g>
+        	<g name="MiscHead2">Misc value 2</g>
+        	<g name="MiscHead3">Misc value 3</g>
+        	<g name="MiscHead4">Misc value 4</g>
+        	<g name="MiscHead5">Misc value 5</g>
+        	<g name="MiscHead6">Misc value 6</g>
+        	<g name="MiscHead7">Misc value 7</g>
+        	<g name="MiscHead8">Misc value 8</g>
+        	<g name="MiscHead9">Misc value 9</g>
+        	<g name="MiscHead10">Misc value 10</g>
+        	<g name="OrderNo">Order number</g>
+        	<g name="PaymId">Payment identification</g>
+    		<g name="PayToAccount">Payment to account</g>
+        	<g name="PostingDate">Invoice date</g>
+        	<g name="Project">Project</g>
+        	<g name="Quantity">Quantity</g>
+        	<g name="Reference">Reference</g>
+    		<g name="ReferencePayment">Payment reference</g>
+        	<g name="ScanDate">Scanned date</g>
+        	<g name="ScanTime">Scanned time</g>
+    		<g name="StylesheetInfo">Image is generated based on an electronic invoice and presented through an XSL stylesheet</g>
+    		<g name="StylesheetVersion">Stylesheet version: 1.0</g>     
+			<g name="UnitOfMeassure">Unit of Meassure</g>     
+			<g name="UnitPrice">Unit price</g>        	
+            <g name="UserName">User name</g>
+			<g name="VatAmount">VAT amount</g>
+    		<g name="VendorId">Vendor identifier</g>
+    		<g name="VendorName">Vendor name</g>
+        	<g name="VendorNo">Vendor number</g>
+        </g-funcs>
+    </document-merge>
+</module>

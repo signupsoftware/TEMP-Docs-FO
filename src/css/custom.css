@@ -1,0 +1,438 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  max-width: var(--ifm-container-width-xl);
+}
+
+.row {
+  display: flex;
+  flex-wrap: unset;
+  margin: 0 calc(var(--ifm-spacing-horizontal)* -1);
+}
+
+
+.hero {
+  background-color: white;
+  height: 450px;
+}
+
+.hero--primary {
+  padding-top: 0px!important;
+  height: 1px;
+}
+
+/* Footer overrides */
+
+[data-theme='dark'] .footer {
+  background-color: #3a2e25;
+}
+[data-theme='light'] .footer {
+  /*background-color: #F1E4D5; */
+  background-color: #feddb8;
+  /*background-color: red;*/
+}
+
+[data-theme='dark'] .footer__link-item {
+  color: #DDD;
+}
+[data-theme='light'] .footer__link-item {
+  color: #000;
+}
+[data-theme='dark'] .footer__title {
+  color: #DDD;
+}
+[data-theme='light'] .footer__title {
+  color: #000;
+}
+
+
+.background_wrap {
+  /*background-image: url("../../static/img/office_graphs.jpg");*/
+  background-image: url("../../static/img/Hero_BC\ 1.png");
+  background-size: cover;
+  width: 100%;
+  
+  /*
+  flex: 1 0 auto;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 1;
+  */
+  
+}
+
+
+.office_background {
+  background: linear-gradient(90deg, #278a89f2, #278a8980);
+/*
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  opacity: .99;
+  */
+}
+
+/*
+
+.wave_box {
+  background: url("../../static/img/waves.svg") no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+
+.waves {
+  opacity: .6;
+  fill: #f8f1ea;
+}
+*/
+
+.nectar_shape_divider_rkAg {  
+  opacity: 1;
+  fill: #f8f1ea;
+  height: auto;
+}
+
+.nectar_shape_divider_wrap_xJrz {
+  bottom: 0;
+  height: 660px;
+   
+  width: 100%;
+  z-index: -1;
+
+
+  /*bottom: 0;*/
+  /*height: inherit;*/
+  /*
+  height: 300px;
+  display: block;
+  */
+  /*background: lightgreen;*/
+
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*z-index: -1*/
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:first-child {
+  opacity: .1;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(2) {
+  opacity: .12;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(3) {
+  opacity: .18;
+}
+
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(4) {
+  opacity: .33;  
+}
+/*
+.nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: white;
+}
+*/
+[data-theme='dark'] .nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: #1c1e21;
+}
+[data-theme='light'] .nectar_shape_divider_wrap_xJrz svg path:nth-child(5) {
+  opacity: 1;
+  fill: #f8f1ea;
+}
+[data-theme='dark'] .features_src-components-HomepageFeatures-styles-module {
+  background-color: #1c1e21;
+}
+[data-theme='light'] .features_src-components-HomepageFeatures-styles-module {
+  background-color: #f8f1ea;
+}
+[data-theme='dark'] .features_t9lD {
+  background-color: #1c1e21;
+}
+[data-theme='light'] .features_t9lD {
+  background-color: #f8f1ea;
+}
+.features_t9lD {
+  background-color: #f8f1ea;
+}
+
+html[data-theme='light'] {
+  --ifm-background-color: #f8f1ea;
+}
+
+[data-theme='dark'] a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
+.page_title {
+  position: relative;
+  top: 220px;
+  height: auto;
+  font-weight: normal;
+}
+
+/* Side menu */
+.menu__link--active {
+  background-color: #f8f1ea;
+  color: #fdad54;
+}
+.menu__link--active:hover {
+  color: #606770;
+}
+
+/* Navbar Font */
+:root nav.navbar {
+  font-family: 'DMSans', sans-serif;
+}
+
+/* ----------------------------------------------------------------------------- */
+/*    EA 2024-09-12 New design
+/* ----------------------------------------------------------------------------- */
+
+.background-image {
+  background-image: url("../../static/img/main_background.png");
+  background-size: cover;
+  flex: 1 0 auto;
+  display: flex;
+}
+
+.main-container {
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.menu-container {
+  margin-left: 25px;
+  width: fit-content;
+}
+
+.main-title {
+  font-family: DMSans, sans-serif;
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 49px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 1000px;
+  /*
+  font-weight: 200;
+  */
+  /*
+  padding-top: 60px; 
+  padding-bottom: 50px;
+  margin-left: 25px;
+  color: #333335;
+  font-family: 'DMSans', sans-serif;
+  font-size: 32pt;
+  */
+}
+
+.menu-item {
+  width: fit-content;
+  height: 40px;
+  background-color: #FDAD54; 
+  border-radius: 10px;
+  margin-top: 22px;
+  align-content: center;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: 'DMSans', sans-serif;
+  font-size: 13pt;
+}
+.menu-item:hover {
+  background-color: #FFC48C;
+}
+
+.menu-item-link {
+  color: black;
+  text-decoration: none !important;
+}
+
+.hidden {
+  display: none !important;
+  }
+  
+/*
+  font-family: 'Archia', sans-serif;
+  font-size: 12pt;
+*/
+
+/* Agreement documents, delete these if not used in final */
+:root {
+  --font-size-normal-text: 14pt;
+  --font-size-normal-header: 18pt;
+  --font-size-big-header: 20pt;
+  --font-family-document: 'Times New Roman', Times, serif;
+}
+
+.agreement-doc {
+  width: 60%;  
+}
+.agreement-doc h3 {
+  /*font-family: 'Times New Roman', Times, serif;*/
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+} 
+.agreement-doc ul {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  line-height: normal;
+} 
+.agreement-doc ul li {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  margin: 10px;
+  padding: 0px;
+  color: black;
+} 
+.agreement-doc p {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  line-height: normal;
+} 
+.agreement-doc h4  {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+} 
+.paragraph {
+  white-space: nowrap;
+}
+.paragraph h4{
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+}
+.paragraph h3{
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+}
+.paragraph-big h1 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-big-header);
+}
+.paragraph-big h2 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-big-header);
+}
+.paragraph-text {  
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  margin-left: 20px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+
+}
+
+[data-theme='light'] .agreement-doc img {
+  width: 250px;
+  height: 111px;
+  background-image: url("/static/img/signup_logo_black.png");
+}
+[data-theme='dark'] .agreement-doc img {
+  width: 250px;
+  height: 111px;
+  background-image: url("/static/img/signup_logo.png");
+}
+/* END Agreement documents, delete these if not used in final */
+
+.agreement-table table {
+  width: 800px !important;
+  border-spacing: 0;
+  margin-top: 20px;
+  
+  border-collapse: collapse;
+  border-style : hidden !important;
+  border-spacing: 0 !important;  
+  border: none;
+}
+.agreement-table table th {
+  display: none;
+  border-top: none;
+  border-bottom: none;
+  border: none;
+  border-collapse: collapse;
+}
+.agreement-table table tr td {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 30px;
+
+  border-collapse: collapse;
+  border-style : hidden !important;
+  border-spacing: 0 !important;  
+  border: none;
+}
+.agreement-table img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Tables in .md files */
+[data-theme='light'] table thead {
+  background-color: #fdad54;
+  border: var(--ifm-table-border-width) solid #fdad54;
+}
+[data-theme='light'] table td, table th {
+  border: var(--ifm-table-border-width) solid #fdad54 !important;
+  vertical-align: top;
+}
+[data-theme='dark'] table thead {
+  background-color: #333335;
+  border-color: #333335;
+}
+[data-theme='dark'] table td, table th {
+  border: var(--ifm-table-border-width) solid #333335;
+  vertical-align: top;
+}
+/*
+[data-theme='dark'] a {
+  color: white;
+  text-decoration: none;
+}
+*/
+
+.footer__copyright {
+  color: black;
+}
