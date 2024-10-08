@@ -21,7 +21,7 @@ ExFlow \| Setup \| General Parameters
 
 To be able to use the new functionality the “Fast validate in ExFlow Web” parameter must be enabled.
 
-![Graphical user interface Description automatically generated with low confidence](@site/static/img/media/Image223.png)
+![Graphical user interface Description automatically generated with low confidence](@site/static/img/media/image223.png)
 
 
 ### Separate suggest approvers from validate
