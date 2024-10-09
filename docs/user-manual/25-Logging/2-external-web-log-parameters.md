@@ -2,8 +2,9 @@
 title: External web Log
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Logging <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Logging <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Logging
 

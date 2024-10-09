@@ -2,8 +2,11 @@
 title: ExFlow vendor aging report
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow vendor aging report <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow vendor aging report
+ 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Inquiries and reports \| ExFlow vendor aging report
 
@@ -17,7 +20,7 @@ There are four additional fields compared to the standard vendor aging report:
 
 ![Table Description automatically generated](@site/static/img/media/image123.png)
 
-| Columns (report)              |
+| Columns (report)              | |
 |:-|:-|
 | Balance without sales tax     | Balance amount without any registered sales tax      |
 | Transaction without sales tax | Transaction amount without any registered sales tax  |

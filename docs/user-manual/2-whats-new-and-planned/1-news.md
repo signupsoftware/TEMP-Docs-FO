@@ -2,9 +2,10 @@
 title: News    
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
 
-# Release ExFlow 2.15.1 <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+# Release ExFlow 2.15.1 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Released in July 2024, see more information about the details 
 under "Release notes".

@@ -436,3 +436,40 @@ html[data-theme='light'] {
 .footer__copyright {
   color: black;
 }
+
+
+
+
+.pdf-button {
+  background-color: #FDAD54;
+  border-radius: 8px;
+  border: none;
+  float: right;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.3s;
+  position: relative;
+  top: -55px;
+  display: flex;
+}
+.pdf-button:hover {
+  background-color: #FFC48C;
+  text-decoration: none;
+  color: #555;
+}
+.btn_higher {
+  top: -120px;
+}
+/* ----------------------------------------------------------------------------- */
+/* Markdown page styling */
+
+.markdown > h2 {
+  font-family: "Archia";
+  font-weight: 600;
+}
+
+
+
+

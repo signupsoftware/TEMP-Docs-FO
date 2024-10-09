@@ -2,8 +2,10 @@
 title: Common Issues
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Common issues - Import form <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Common issues - Import form 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Q: **Vendor is not found**
 - Check Identification rules (validation message) to find out what data is missing.

@@ -2,8 +2,10 @@
 title: Accrual of estimated costs
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## Accrual of estimated costs of all document line types <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Accrual of estimated costs of all document line types 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Post \| Accrual \| Create journal for accrual of estimated costs of all document line types
 

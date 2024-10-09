@@ -2,8 +2,10 @@
 title: Analytics Reports
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice process overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice process overview 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 First page gives a general overview of the companies vendor invoices and the time to process them. Filtering can be made by company by using the filter tab to the right. For filtering on a specific company in the ribbon to the left, mark the item and set a unique company id filter for that specific chart. Some of the charts can be filtered by company id using the general filter “Filters on all pages”. 
 

@@ -2,8 +2,9 @@
 title: Definitions
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Definitions <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Definitions <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Miscellaneous \| Notifications \| Definitions
 

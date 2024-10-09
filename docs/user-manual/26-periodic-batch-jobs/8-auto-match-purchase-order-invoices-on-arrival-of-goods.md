@@ -2,8 +2,10 @@
 title: Auto match purchase order invoices on arrival of goods
 sidebar_position: 8
 hide_title: true
+custom_edit_url: null
 ---
-## Auto match purchase order invoices on arrival of goods <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Auto match purchase order invoices on arrival of goods 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Auto match purchase order invoices on arrival of goods
 

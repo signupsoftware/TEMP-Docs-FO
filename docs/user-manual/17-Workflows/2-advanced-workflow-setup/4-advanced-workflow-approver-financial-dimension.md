@@ -2,8 +2,10 @@
 title: Advanced workflow approver on financial dimension
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## Advanced workflow approver on financial dimension <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Advanced workflow approver on financial dimension 
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Workflows \| Advanced workflow setup \| Advanced workflow approver on financial dimension
 
@@ -18,7 +20,7 @@ The functions is based on Account structure functionality, but will not interfer
 ![Table Description automatically generated](@site/static/img/media/image83.png)
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Edit|Allow adding and editing of structure.|
 |New|Add a new coding structure.<br/>This will require you to enter name and description of the coding structure, as well as determine whether the structure should have main account as segment or not.|
@@ -30,7 +32,7 @@ The functions is based on Account structure functionality, but will not interfer
 |Cancel activation|De-activation of the selected coding structure|
 |Approvers|When clicked, a new window will open, in which the owners/approvers for the coding structure are maintained|
 
-|Fields / Headings|
+|Fields / Headings| |
 |:-|:-|
 |Name|Displays the name of the coding structure|
 |Description|Displays the description of the coding structure|

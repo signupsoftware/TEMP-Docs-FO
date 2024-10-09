@@ -2,8 +2,9 @@
 title: Thailand
 sidebar_position: 7  
 hide_title: true
+custom_edit_url: null
 ---
-## Thailand <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Thailand <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Setup
 Withholding tax in Thailand refers to the tax that is deducted at the source of income and should be setup in standard configuration before continuing to work with Exflow. 

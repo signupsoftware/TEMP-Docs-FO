@@ -2,8 +2,10 @@
 title: Invoice line history clean-up
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice line history clean up <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice line history clean up 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Clean up \| Invoice line history clean up
 

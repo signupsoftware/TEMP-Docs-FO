@@ -2,8 +2,10 @@
 title: Setup Automatic postings
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Setup Automatic postings <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup Automatic postings
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Setup for automatic postings
 
@@ -11,7 +13,7 @@ Setup for automatic postings is a general settings form for ExFlow automatizatio
 
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image47.png)
 
-| Buttons (action pane) |
+| Buttons (action pane) | |
 |:-|:-|
 | Save                  | Save                 |
 | Options               | Standard D365FO menu |
@@ -22,7 +24,7 @@ Allocate charges are used when purchase order invoices are posted without having
 
 ![Graphical user interface Description automatically generated](@site/static/img/media/image48.png)
 
-| Allocate charges          |
+| Allocate charges          | |
 |:-|:-|
 | Account code              | Choose between All, Table or Group.                                 |
 | Account relation          | Choose specific vendor/group depending on settings in account code. |
@@ -38,7 +40,7 @@ Project category item sales tax group is used to automatically choose an Item sa
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image49.png)
 
-| Project Category Item sales tax group - fields |
+| Project Category Item sales tax group - fields | |
 |:-|:-|
 | Project category code                          | Choose between All, Table or Group                                  |
 | Project category relation                      | Choose the desired category relation.                               |
@@ -52,7 +54,7 @@ Vendors for credit settlement is used if the ExFlow parameter "Authorized vendor
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image50.png)
 
-| Vendors for credit settlement |
+| Vendors for credit settlement | |
 |:-|:-|
 | Account code                  | Choose between All, Table or Group.                                 |
 | Account relation              | Choose specific vendor/group depending on settings in account code. |
@@ -63,7 +65,7 @@ Vendors for pre-payment is used if the ExFlow parameter "Authorized vendors only
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image51.png)
 
-| Vendors for prepayment |
+| Vendors for prepayment | |
 |:-|:-|
 | Account code           | Choose between All, Table or Group.                                 |
 | Account relation       | Choose specific vendor/group depending on settings in account code. |
@@ -75,7 +77,7 @@ The function vendors for goods arrival are used for invoices that are put on hol
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image52.png)
 
 
-|Vendors for goods arrival|
+|Vendors for goods arrival| |
 |:-|:-|
 |Account code|Choose between All, Table or Group.|
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|
@@ -88,7 +90,7 @@ Attribute value map is used to setup tags that are read from the imported XML fi
 ![A picture containing text, screenshot, indoor Description automatically generated](@site/static/img/media/image53.png)
 
 
-|Attribute value map|
+|Attribute value map| |
 |:-|:-|
 |Account code|Choose between All, Table or Group.|
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|
@@ -108,7 +110,7 @@ System total amount approval replaces the setting in ExFlow parameters, purchase
 ![Graphical user interface Description automatically generated](@site/static/img/media/image54.png)
 
 
-|System total amount approval|
+|System total amount approval| |
 |:-|:-|
 |Account code|Choose between All, Table or Group.|
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|
@@ -122,7 +124,7 @@ System line amount approval replaces the setting in ExFlow parameters, purchase 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image55.png)
 
 
-|System line amount approval|
+|System line amount approval| |
 |:-|:-|
 |Account code|Choose between All, Table or Group.|
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|
@@ -137,7 +139,7 @@ Adjust VAT at approval gives the possibility to define the limits for adjusting 
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image56.png)
 
 
-|Adjust VAT at approval|
+|Adjust VAT at approval| |
 |:-|:-|
 |Account code|Choose between All, Table or Group.|
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|

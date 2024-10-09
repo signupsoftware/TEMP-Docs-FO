@@ -2,8 +2,10 @@
 title: Import methods overview 
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Import Methods overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Import Methods overview 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Import methods
 
@@ -13,7 +15,7 @@ This form is used for setting up methods of importing invoice data and images in
 
 This means that both the standard import setup in ExFlow parameters can be used in combination with multiple import methods. ExFlow also supports PEPPOL, OIOUBL formats.
 
-|Buttons action pane|
+|Buttons action pane| |
 |:-|:-|
 |Save|Save.|
 |New|Setup a new import method.|
@@ -34,7 +36,7 @@ This means that both the standard import setup in ExFlow parameters can be used 
 |Import document types|The type of document that the method should import. If it is a vendor invoice or if it is an attachment.|
 
 
-|FTP|
+|FTP| |
 |:-|:-|
 |FTP Address|The address to the FTP server.|
 |Subfolder|If an FTP subfolder is used.|
@@ -44,19 +46,19 @@ This means that both the standard import setup in ExFlow parameters can be used 
 |Use default encoding|If default encoding of the imported file should be used if UTF-8 encoding format could not be found.|
 
 
-| SFTP|
+| SFTP| |
 |:-|:-|
 | Port | If a dedicated port should be used.|
 | Use certificate | If a certificate should be used for the SFTP connection. |
 | Certificate | Which certificate that should be used.|
 
-| XML transformation   |
+| XML transformation   | |
 |:-|:-|
 | Specify XSLT         | Specify if a unique XSLT should be used. |
 | The name of the XSLT | Choose the XSLT file to be used.         |
 | Ignore DTD processing| Yes, if tag in XML source file, see image below, includes Note.dtd, otherwise No. See more information in setup instructions.       |
 
-| Attachments                        |
+| Attachments                        | |
 |:-|:-|
 | Process attachments                | If attachments should be fetched based on the information from the XSLT file, multiple attachments are now supported. |
 | Attachment folder                  | A subfolder on the FTP server that store the attachments.                                                             |
@@ -64,17 +66,17 @@ This means that both the standard import setup in ExFlow parameters can be used 
 | Attachment folder                  | A subfolder on the FTP server that store the attachments.                                                             |
 |Clean Base64 string| To clean the Base64 string.|
 
-| External codes  |
+| External codes  | |
 |:-|:-|
 | Use supplier id | If supplier id from ExFlow Data Capture online should be used, set to Yes. |
 | Vendor code | Vendor code. |
 
-|Document handling|
+|Document handling| |
 |:-|:-|
 |Document type invoice|Reference to the standard D365 FO document type, to be used by ExFlow for storage of invoice files.|
 |Attachment document type|Reference to the standard D365 FO document type, to be used by ExFlow for storage of invoice files.|
 
-|Import method ExFlow Data Capture API|
+|Import method ExFlow Data Capture API| |
 |:-|:-|
 |**ExFlow Data Capture API** integration|![](@site/static/img/media/image25.png)|
 |Enabled|If the method should be active.|
@@ -96,7 +98,7 @@ This means that both the standard import setup in ExFlow parameters can be used 
 |Attachment document type|Reference to the standard D365 FO document type, to be used by ExFlow for storage of invoice files.|
 
 
-| Import method Azure Blob Storage   |
+| Import method Azure Blob Storage   | |
 |:-|:-|
 | Azure Blob Storage                 | ![](@site/static/img/media/image27.png)                  |
 | Enabled                            | If the method should be active.                                                                     |

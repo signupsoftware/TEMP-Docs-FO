@@ -2,8 +2,10 @@
 title: Setup and the PO Reconnect Power App functionality
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Setup PO Reconnect Power App <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup PO Reconnect Power App 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Installation of PO Reconnect canvas app
 The PO Reconnect zip fil must be imported into Solutions.

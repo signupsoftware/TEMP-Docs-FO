@@ -2,8 +2,10 @@
 title: External integration form
 sidebar_position: 7
 hide_title: true
+custom_edit_url: null
 ---
-## External integration form <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## External integration form
+ <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Inquiries and reports \| External integration form
 

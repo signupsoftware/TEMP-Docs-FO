@@ -2,8 +2,10 @@
 title: Setup vendors in Account payable module
 sidebar_position: 9
 hide_title: true
+custom_edit_url: null
 ---
-## Vendor default offset account <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Vendor default offset account 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 To set up in the Default account section, navigate to;
  

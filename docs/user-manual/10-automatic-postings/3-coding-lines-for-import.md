@@ -2,8 +2,10 @@
 title: Coding lines for import
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Coding lines for import <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Coding lines for import 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Coding lines for import - Deprecated feature
 

@@ -2,15 +2,16 @@
 title: General parameters
 sidebar_position: 7
 hide_title: true
+custom_edit_url: null
 ---
-## General parameters <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## General parameters <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| General parameters
 
 ### Parameters
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image14.png)
 
-| Parameters |
+| Parameters | |
 |:-|:-|
 | Hostname | The link with the "Hostname" is automatically updated and used when an external link is created for invoice images to be used, for example in Power BI (Business Intelligence). This link only needs to be updated manually when a test environment is set up based on production. This link is used in conjunction with the periodic job "Update invoice image URL". |
 | License code | It is mandatory to obtain and fill in a license code to be able to use ExFlow. To obtain the license code please contact Signup Software AB or your ExFlow partner.
@@ -20,7 +21,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image15.png)
 
-|License information|
+|License information| |
 |:-|:-|
 |Is valid|Shows if the license is valid.|
 |Valid To Date|Valid to date is used if you have received a demo license.|
@@ -34,7 +35,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 ### Invoices per company report
 ![Graphical user interface Description automatically generated](@site/static/img/media/image16.png)
 
-| Invoices per company |
+| Invoices per company | |
 |:-|:-|
 | From date | From date |
 | To date  | To date |
@@ -45,7 +46,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 ### Web setup
 ![Graphical user interface Description automatically generated](@site/static/img/media/image17.png)
 
-| Web setup  |
+| Web setup  | |
 |:-|:-|
 | Recent  | In this field the number of day's can be setup for how long the filtering on recent handled invoices in ExFlow should be based on. (Value 0 = 30 days by default)|
 | Fast fetch invoice document to web | If this setting is switched on a different communication method between ExFlow web and D365FO is used that will speed up the communication for invoices with hundreds of lines. The old way will be deprecated in later versions.|
@@ -57,7 +58,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 ### Document chat
 ![Graphical user interface Description automatically generated](@site/static/img/media/image18.png)
 
-| Document chat |
+| Document chat | |
 |:-|:-|
 | Filter users  | Determines if the chat functionality should be limited to the user's setup in the current company for which the invoice is registered in. |
 
@@ -66,7 +67,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 #### Setup option for PDF Web Service
 If PDF web service is used, relevant information should be entered here.
 
-|PDF Web service|
+|PDF Web service| |
 |:-|:-|
 |Web service URL|The URL for the web service.|
 |Password| Password.|
@@ -81,7 +82,7 @@ Additional fields like Storage Account name, Storage Account Key and Container r
 **NOTE: That the storage account is required to have
 Allow blob anonymous access enabled as public.**
 
-|Azure storage|
+|Azure storage| |
 |:-|:-|
 |Use external blob storage|Enables the use of the external blob storage.|
 |Storage account name|Storage account name	The name of the storage account in Azure Storage.|
@@ -93,7 +94,7 @@ Allow blob anonymous access enabled as public.**
 ### Line item charges
 ![medium](@site/static/img/media/image20.png)
 
-|Line item charges|
+|Line item charges| |
 |:-|:-|
 |Line item charges|When selected, the line item charge menu items in ExFlow Parameters are made available and selectable<br/><br/>Please also see the relevant white paper or contact your ExFlow partner for further details.|
 
@@ -103,7 +104,7 @@ The feature management tab is used to enable/disable new features within ExFlow.
 
 ![small](@site/static/img/media/image21.png)
 
-|Feature management|
+|Feature management| |
 |:-|:-|
 | Validate project line quantity| Correction made and schould always be enabled|
 | Override charge dimension| To override the dimensions on charge setup|
@@ -122,7 +123,7 @@ The feature management tab is used to enable/disable new features within ExFlow.
 ### System Options
 ![small](@site/static/img/media/image494.png)
 
-|System options|
+|System options| |
 |:-|:-|
 | Validate invoice in ExFlow web| To validate all lines on the invoice and get all the errors in the same time. Without this enabled, Exflow stops on the first error and then after correction looks at the next one and so on. 
 0 = disabled, 1= default. 1 thread for all validations. 2-xx = Splits the validation in parallel threads.|

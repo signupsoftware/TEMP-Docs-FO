@@ -2,8 +2,10 @@
 title: Workflow for agreement approval
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## Workflow for agreement approval <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Workflow for agreement approval
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow | Setup | Workflows | Workflows
 

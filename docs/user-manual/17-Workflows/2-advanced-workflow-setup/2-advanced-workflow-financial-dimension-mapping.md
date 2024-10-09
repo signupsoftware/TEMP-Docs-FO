@@ -2,8 +2,10 @@
 title: Advanced workflow financial dimension mapping
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Advanced workflow financial dimension mapping <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Advanced workflow financial dimension mapping 
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Workflows \| Advanced workflow setup \| Advanced workflow financial dimension mapping
 
@@ -13,7 +15,7 @@ Before referencing a financial dimension value in the advanced approval workflow
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image81.png)
 
-| Buttons (Action pane)   |
+| Buttons (Action pane)   | |
 |:-|:-|
 | Edit | Edit the record  |
 | New  | Add a new line   |

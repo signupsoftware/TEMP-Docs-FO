@@ -2,8 +2,9 @@
 title: Overview
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Overview <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### My vendor invoices
 ExFlow for D365 FO is delivered with a workspace named "My vendor Invoices", where approvers are directed when they click on the link received by in the status report email. if the external web is used, they can be directed to that instead. This workspace provides the approvers with an overview of their invoices through a D365 FO dashboard and a summary that is categorized accordingly:

@@ -2,8 +2,9 @@
 title: Analytics introduction, Pre requesites and setup
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 The ExFlow embedded analytical reports can be reached from the ExFlow vendor invoice Management Workspace. ExFlow Analytics contains six (6) different pages, one (1) with a general overview of ExFlow invoices, one (1) with cost invoice information and two (2) pages focusing on purchase order invoices and one (1) for approval information data that is connected with the last page “Approver invoices” for detailed information. 
 The analytics user should have some basic understanding on how Power BI works and the standard functionality with filtering etc. that can be used within Power BI. 

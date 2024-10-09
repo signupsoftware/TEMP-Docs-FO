@@ -2,8 +2,9 @@
 title: Peppol Service
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## General Description <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## General Description <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Peppol incoming and outgoing invoices will handle the transportation between D365FO and an external party when sending outgoing and receiving invoices in the Peppol 3.0 format. Electronic documents in D365FO must be setup for Peppol outgoing invoices. The ExFlow Document Integration platform is added as a new module in D365FO and will handle the transportation of the Peppol Invoice from and to D365FO using a Peppol broker and the invoice will be sent to the customers that shall receive the invoices. With this new module you will also get a good overview of your Peppol invoices and what state they are in. 
 

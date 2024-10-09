@@ -2,8 +2,10 @@
 title: Approve invoices and handle changes
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Approving and changing accounts in the ExFlow approval form <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Approving and changing accounts in the ExFlow approval form 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ![](@site/static/img/media/image108.png)
 

@@ -2,8 +2,9 @@
 title: Dimension ranges
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## Dimension ranges <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Dimension ranges <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Dimension ranges
 
@@ -11,7 +12,7 @@ If dimension ranges or approver ranges are used separately, they will be treated
 
 ![Graphical user interface, text, email Description automatically generated](@site/static/img/media/image65.png)
 
-| Buttons (Action pane) |
+| Buttons (Action pane) | |
 |:-|:-|
 | Save                  | Save the changes.         |
 | New                   | Add a new line.           |

@@ -2,8 +2,9 @@
 title: Setup and work with post control
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This function gives the accounts payable team the option to add an extra layer of quality assurance either before an invoice is routed for approval, or before the final posting takes place. 
 

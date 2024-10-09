@@ -2,8 +2,10 @@
 title: Update invoice image URL
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Update invoice image URL <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Update invoice image URL 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Maintenance \| Update invoice image URL
 

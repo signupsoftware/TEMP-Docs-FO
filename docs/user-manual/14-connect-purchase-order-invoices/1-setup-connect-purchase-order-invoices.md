@@ -2,8 +2,10 @@
 title: Setup Connect for purchase order invoices
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Setup Connect for purchase order invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup Connect for purchase order invoices 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Connect \| Setup
 

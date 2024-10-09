@@ -2,8 +2,10 @@
 title: Vendor identifier rules
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## Vendor identifier rules <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Vendor identifier rules
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Vendor identifier rules
 

@@ -2,8 +2,9 @@
 title: Copy the setup and configuration
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Below information contains is about how to create a copy of ExFlow settings from one legal entity to another in same D365FO environment or from one legal entity to another legal entity where both fall in separate installations.
 

@@ -2,8 +2,10 @@
 title: Release Notes
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Release 2.15.1 <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Release 2.15.1
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 #### INTRODUCTION
 A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of July 2024.

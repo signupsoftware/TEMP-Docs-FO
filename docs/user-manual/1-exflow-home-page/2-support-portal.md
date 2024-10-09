@@ -2,8 +2,10 @@
 title: Support portal
 sidebar_position: 2        
 hide_title: true
+custom_edit_url: null
 ---
-## SignUp Software Helpdesk <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## SignUp Software Helpdesk
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 **Support email**: No longer possible to request support by email.
 

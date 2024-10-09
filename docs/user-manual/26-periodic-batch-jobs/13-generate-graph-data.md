@@ -2,8 +2,10 @@
 title: Generate graph data
 sidebar_position: 13
 hide_title: true
+custom_edit_url: null
 ---
-## Generate graph data <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Generate graph data 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Maintenance \| Generate graph data
 

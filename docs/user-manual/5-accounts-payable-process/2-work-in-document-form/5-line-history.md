@@ -2,14 +2,15 @@
 title: Line History
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## Line History <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Line History <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 On the line tab, click the Line history button to see information for the marked line. This view will display only actions for one row to be able to follow the changes more easily.
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image101.png)
 
-| Fields        |
+| Fields        | |
 |:-|:-|
 | Voucher       | Displays the voucher number.                                                                                                                                     |
 | Invoice       | Displays the invoice number.                                                                                                                                     |

@@ -2,8 +2,10 @@
 title: ExFlow vendor invoice management   
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow vendor invoice management <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow vendor invoice management 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Workspaces \| ExFlow vendor invoice management
 
@@ -15,7 +17,7 @@ The tiles are clickable and will open the result based on the filter set on the 
 
 ![Timeline, Teams Description automatically generated](@site/static/img/media/image114.png)
 
-| Workspace          |
+| Workspace          | |
 |:-|:-|
 | Workspace          | Display's tiles showing number of invoices in different statuses.        |
 | Analytics          | Display's invoice and approval information in embedded Power BI reports. |
@@ -23,7 +25,7 @@ The tiles are clickable and will open the result based on the filter set on the 
 | Show cross company | Display cross company information in the tiles.                          |
 
 
-|Tiles|
+|Tiles| |
 |:-|:-|
 |Invoices ready for import|Number of invoices ready for import in ExFlow.|
 |Open imported invoices|Number of invoices to process in ExFlow import form.|

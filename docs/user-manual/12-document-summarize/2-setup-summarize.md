@@ -2,8 +2,10 @@
 title: Setup Summarize
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Setup Summarize <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup Summarize 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This functionality is not recommended to switch on if your installation does not have invoices with many rows. 
 

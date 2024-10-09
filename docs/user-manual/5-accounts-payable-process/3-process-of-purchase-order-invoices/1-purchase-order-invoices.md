@@ -2,8 +2,10 @@
 title: Purchase order invoices
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Purchase order invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Purchase order invoices
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Matching an invoice against a purchase order can be done in several ways. An invoice can either be interpreted at the line level or at the header level. If line level interpretation is used the system will automatically fetch the correct purchase order and match the invoice lines towards the purchase order lines by using the item numbers or external item numbers, followed by quantity and price. ExFlow uses the matching principles set up within D365 FO. This means, for example, that if three-way matching is set up in D365 FO, ExFlow will match purchase order invoices against the delivered quantity, price, and item number. Depending on whether tolerances are set up or not, ExFlow will also take those settings in consideration.
 
@@ -59,7 +61,7 @@ Approvers in the organization use the web portal to view, edit and approve assig
 
 In the Document form, the user can push the button 'Cross company' to be able to show invoices from all companies running ExFlow.
 
-| Document forms        |
+| Document forms        | |
 |:-|:-|
 | Document form All     | Shows both Cost invoices and Purchase order invoices. |
 | Document form Expense | Shows only Cost invoices.                             |

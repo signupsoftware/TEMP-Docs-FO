@@ -2,8 +2,10 @@
 title: Electronic invoices in the Peppol 3.0 format.
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## Electronic invoices in the Peppol 3.0 format. <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Electronic invoices in the Peppol 3.0 format.
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### General description
 It’s more and more common to use electronic invoices and currently we offer two solutions for receiving electronic invoices in the Peppol 3.0 format.

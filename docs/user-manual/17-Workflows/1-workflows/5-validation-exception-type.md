@@ -2,8 +2,10 @@
 title: Validation exception type
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow validation exception type <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow validation exception type 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 The purpose of the ExFlow Validation Exception Type workflow is to set certain conditions for when an approver should not be able to approve an invoice.
 

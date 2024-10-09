@@ -2,8 +2,9 @@
 title: ExFlow web
 sidebar_position: 8
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow web <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow web <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 * Requiries Azure subscription admin account.
 * Installation done by Partner/Customer.

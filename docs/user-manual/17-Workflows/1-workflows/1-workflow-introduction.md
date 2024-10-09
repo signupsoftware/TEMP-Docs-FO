@@ -2,8 +2,10 @@
 title: Workflow introduction
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Workflow introduction <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Workflow introduction 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Workflows
 
@@ -13,7 +15,7 @@ To set up workflows, follow the guidelines of standard D365 FO documentation and
 
 ExFlow supports several types of workflow rules to be configured. These workflow types can support the automated assignment of approvers, validating data - both provided on the invoice or by the approvers, automating actions based on entered data, etcetera.
 
-|ExFlow Workflows|
+|ExFlow Workflows| |
 |:-|:-|
 |ExFlow Approval Workflow Type| Defining all approval rules. Find approvers based on conditions, will always be validated unless manually adding approvers.|
 |ExFlow action import workflow|The workflow supports changes before and after the invoice is imported. Values can be changed or updated depending on conditions, is used in ExFlow import form.|

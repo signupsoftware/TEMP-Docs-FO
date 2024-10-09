@@ -2,8 +2,10 @@
 title: Import history data clean up
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Import history data clean up <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Import history data clean up 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Clean up \| Import history data clean-up
 

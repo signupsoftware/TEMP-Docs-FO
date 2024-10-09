@@ -2,8 +2,10 @@
 title: Posting proposal advanced
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Posting proposal advanced <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Posting proposal advanced 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Miscellaneous \| Posting proposal advanced
 
@@ -17,7 +19,7 @@ Additionally, the "Posting Proposal Advanced" feature allows users to distribute
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image86.png)
 
-| Buttons (Action pane) |
+| Buttons (Action pane) | |
 |:-|:-|
 | Save                  | Save.                                 |
 | New                   | Add a new Posting proposal.           |

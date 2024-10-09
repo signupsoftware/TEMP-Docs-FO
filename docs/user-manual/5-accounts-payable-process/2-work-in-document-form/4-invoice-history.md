@@ -2,14 +2,15 @@
 title: Invoice History
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice History <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice History <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Open an invoice in edit mode from ExFlow document form. In the header menu exit "General" press the button "Invoice history". A new form will open with a summary of actions based on invoice header and invoice lines.
 
 ![](@site/static/img/media/image100.png)
 
-| Fields        |
+| Fields        | |
 |:-|:-|
 | Voucher       | Displays the voucher number.                                                                                                                                     |
 | Invoice       | Displays the invoice number.                                                                                                                                     |

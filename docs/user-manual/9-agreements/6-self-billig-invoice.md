@@ -2,8 +2,9 @@
 title: Self-Billing invoice
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
-## Self-Billing invoice <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Self-Billing invoice <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow agreement also supports self-billing invoices, meaning that you can issue an invoice through the agreement form based on the defined criteria. It is a requirement to add one attachment (of a defined type either on header or line level) to the agreement itself. Make sure you use the same file type you have defined for self-billing in ExFlow parameters (ExFlow Setup - Parameters -- Tab Approval - Agreements - Self billing invoice document type).
 
@@ -22,7 +23,7 @@ This feature is used to create self-billing invoices. It can set up to run as a 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image42.png)
 
 
-|Parameters|
+|Parameters| |
 |:-|:-|
 |Include agreement lines|**No** - only agreements with header and no lines information will be considered. The SBI will be created with agreement header information (amount, currency, dates, recurrence, tax info, attachment).<br/>**Yes** - both agreements with and without lines information will be considered. For agreement with lines, the SBI will be created with header information, but the invoice amount, invoice date and attachment will be picked from the agreement lines. If the attachment is missing on agreement lines it is picked from the header. The line that will be used to create SBI is chosen if the line invoice date is in between the start and end date on the agreement and outside the periodicity setting on the agreement and not equal to last generated date.|
 |Filter|Filter out the records based on the query.|

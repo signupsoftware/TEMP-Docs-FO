@@ -2,8 +2,10 @@
 title: Setup and use Line item charges
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Setup and use Line item charges <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup and use Line item charges
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ## Introduction
 **Background**<br/>
@@ -69,7 +71,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/parame
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image582.png)
 
-| Line item charges |
+| Line item charges | |
 |:-|:-|
 | Line item charges | Set to `yes` if line item charges should be used. |
 | Line item charges attributes| Set to `yes` if line item charges should be imported via file within the attributes functionality. **Please note** that the general attribute parameter for ExFlow has to be switched
@@ -77,7 +79,7 @@ on in the tab Import “Enable import attributes”.|
 |Invoice line charges in line amount| If the charges amount should be included in the line amount when used for workflows checking approval limits or when the approval amount control is used to include the line charge amount.|
 |Max line charge amount| The fall back parameter for the total amount of line charges that should get automatically approved if the sum of all line charges that are the same and are below this amount.|
 
-| Charge code for charges from invoice for auto approval |
+| Charge code for charges from invoice for auto approval | |
 |:-|:-|
 | Charge 1-5 from invoice | These fields are setup to determine which charge types that should be used when importing charges values on header level via Misc fields 1-5. If any of them are setup with an item charge they will be auto allocated on the lines.|
 | Other fields | The other fields in this screen shoot are explained in the document platfor and are used for standard header charges and purchase order invoice matching. |

@@ -2,8 +2,10 @@
 title: Introduction and Limitations
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction and Limitations <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction and Limitations 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Introduction
 Approving invoices in the external web can take a long time. This is most often due to the “suggest approver” functionality, when the system tries to create a new approval chain using advanced logic. 

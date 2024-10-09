@@ -2,8 +2,9 @@
 title: Broadcast email
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
-## Broadcast email <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Broadcast email <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Notifications \| Broadcast email
 

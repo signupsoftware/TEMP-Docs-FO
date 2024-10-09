@@ -2,8 +2,9 @@
 title: Delegations
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## My delegations <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## My delegations <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Invoices \| My vendor invoices \| My delegations
 

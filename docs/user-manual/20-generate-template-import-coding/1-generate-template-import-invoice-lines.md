@@ -2,10 +2,12 @@
 title: Generate template for importing invoice lines
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
 import anythingYouWant from "/video/Import_Coding_From_Excel.mp4";
 
-## Generate template for importing invoice lines <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Generate template for importing invoice lines 
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Miscellaneous \| Generate template for importing invoice lines
 

@@ -2,8 +2,9 @@
 title: Import History
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice History <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice History <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Inquiries and reports \| Import history
 
@@ -21,7 +22,7 @@ Pushing the button 'Create invoice' in the header menu and it is possible to att
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image116.png)
 
-| Buttons (Action pane) |
+| Buttons (Action pane) | |
 |:-|:-|
 | Save                  | Save the changes made on this form.                                                               |
 | Edit                  | Open the form in Edit-mode.                                                                       |
@@ -33,7 +34,7 @@ Pushing the button 'Create invoice' in the header menu and it is possible to att
 | Show all companies    | Switch to 'Yes' if invoices from all companies should be visible in the grid.                     |
 
 
-|**Fields (Upper pane)**|
+|**Fields (Upper pane)**| |
 |:-|:-|
 |Batch number|Batch number|
 |Credit|0= invoice, Blank=Credit note|
@@ -84,7 +85,7 @@ Pushing the button 'Create invoice' in the header menu and it is possible to att
 |Type of operation|Specific for Mexico – please see white paper on Mexico localization|
 
 
-| Fields (Lower pane)  |
+| Fields (Lower pane)  | |
 |:-|:-|
 | Purchase order       | Purchase order number interpreted on the line |
 | Project number row   | Project number interpreted                    |

@@ -2,8 +2,9 @@
 title: Invoice search
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-##  Search for invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+##  Search for invoices <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 1. Go to ExFlow -> My vendor invoices.
 2. To the far right side click the "Search" link.

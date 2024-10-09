@@ -2,8 +2,10 @@
 title: Release Plans
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Roadmap 2024 <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Roadmap 2024
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Planned Major Releases 2024
 Major Release R1 2024 - end of May 2024
