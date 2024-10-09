@@ -2,8 +2,9 @@
 title: Process
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Agreement process <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Agreement process <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| References \| Agreements
 

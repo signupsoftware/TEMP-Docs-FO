@@ -2,8 +2,10 @@
 title: Technical Requirements   
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Technical Requirements for installation <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Technical Requirements for installation 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 The following technical specifications are the pre-requisites for the installation of ExFlow with Microsoft Dynamics 365 for Finance and Operations. 
 Note: The Customer is responsible for having the right license and support agreements with Microsoft.

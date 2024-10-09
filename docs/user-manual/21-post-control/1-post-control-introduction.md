@@ -2,8 +2,9 @@
 title: Post control introduction
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Post control <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Post control <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This function gives the accounts payable team the option to add an extra layer of quality assurance either before an invoice is routed for approval, before the final posting takes place or at both times.
 
@@ -15,7 +16,7 @@ One or several invoices may be marked and "Set as controlled" by using the butto
 Once the invoice is set to controlled, the batch job can be used to post the invoice/s. Depending on the settings in the ExFlow parameters, the post control function can also be active when invoices are manually posted in the invoice journal.
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Cross company|A tick box is populated called "Show all companies" and if ticked, all companies’ invoices will be displayed. The standard filtering can be used to set up a user which will by default only see (e.g.) 2 out of 10 companies in Cross company mode.|
 |Edit|Open the selected invoice in Edit-mode.|
@@ -27,7 +28,7 @@ Once the invoice is set to controlled, the batch job can be used to post the inv
 |General/Invoice History|Invoice History opens a new form where all the details about the invoice process can be tracked for the selected invoice.<br/>See more details about this functionality below.|
 
 
-|**Fields (Upper pane)**|
+|**Fields (Upper pane)**| |
 |:-|:-|
 |Show all (check box)|Ticked: Show all invoices that have been processed by ExFlow, regardless of Invoice status and Flow status.<br/>Unticked: Which invoices are displayed are controlled by the Invoice status and Flow status fields.|
 |Show all companies|This is used in combination with the ‘Cross company’ button and if pushed, the header is to display all invoices for companies running ExFlow.|
@@ -39,7 +40,7 @@ Once the invoice is set to controlled, the batch job can be used to post the inv
 |Show invoices with inactive approvers|This filter can be used to check invoices with approvers assigned, that have been inactivated as ExFlow users.|
 
 
-| Fields                         |
+| Fields                         | |
 |:-|:-|
 | Company Id                     | Displays the company an invoice belongs to.                                                                                   |
 | Requires post control          | Displays if 'Post control' is activated for this invoice.                                                                     |
@@ -67,7 +68,7 @@ Once the invoice is set to controlled, the batch job can be used to post the inv
 | Post control made by           | The user in Dynamics 365 that has performed the final control.                                                                |
 
 
-|Fields (Lower pane) This pane shows the lines on the selected invoice.|
+|Fields (Lower pane) This pane shows the lines on the selected invoice.| |
 |:-|:-|
 |Document line type|**Shows the line type.**<br/>Ledger: Line with General ledger accounting only.<br/>Item: Line with stocked items and linked to a purchase order<br/>Charges: Charges that are added to a PO/item invoice.<br/>Project: Line related to the Project module with a project id.<br/>Asset: Line related to the Fixed assets module with an asset id.<br/>Procurement: Line that defines the Procurement category.|
 |Accounting details|Shows coding details for the line.|

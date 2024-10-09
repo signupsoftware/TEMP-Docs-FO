@@ -2,8 +2,10 @@
 title: Functional process of Split and Validate
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## The funtional process to handle Split and Validate <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## The funtional process to handle Split and Validate 
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Process to handle Separate Suggest Approver
 When the user approves invoice lines in the external web, information is sent to D365FO, the system will then process the lines at a later stage. If this is the last approver on the invoice the invoice status is set to “Unprocessed”.

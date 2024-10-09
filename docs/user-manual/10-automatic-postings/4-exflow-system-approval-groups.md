@@ -2,8 +2,10 @@
 title: ExFlow system approval groups
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow system approval groups <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow system approval groups 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| ExFlow system approval groups
 
@@ -15,7 +17,7 @@ The groups must after they have been created be set on the vendor/vendors that s
 
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image71.png)
 
-| Buttons action pane           |
+| Buttons action pane           | |
 |:-|:-|
 | Edit                          | Edit                                 |
 | New                           | Create a new line                    |

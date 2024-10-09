@@ -2,8 +2,10 @@
 title: Upgrade invoice image for historical data
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Upgrade invoice image for historical data <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Upgrade invoice image for historical data 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Maintenance \| Upgrade invoice image for historical data
 

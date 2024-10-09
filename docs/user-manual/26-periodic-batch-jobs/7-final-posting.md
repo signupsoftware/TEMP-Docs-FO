@@ -2,8 +2,10 @@
 title: Final posting
 sidebar_position: 7
 hide_title: true
+custom_edit_url: null
 ---
-## Final posting <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Final posting 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Cost account invoices
 

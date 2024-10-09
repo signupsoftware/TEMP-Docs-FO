@@ -2,8 +2,9 @@
 title: Setup ExFlow Users
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow Users <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow Users <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Maintenance \| Users
 
@@ -25,7 +26,7 @@ The functionality where security roles will be replaced with user groups are des
 ![Table Description automatically generated](@site/static/img/media/image28.png)
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Edit|Edit ExFlow users|
 |New|Add a new ExFlow user, who will have permissions to approve invoices in the selected company.|
@@ -36,7 +37,7 @@ The functionality where security roles will be replaced with user groups are des
 |Maintain<br/>Delegations setup<br/>(Multiple companies)|Edit users delegation setup in multiple companies at the same time. (Filter in multiple companies shows replacers active companies)|
 |Maintain<br/>Filter Role/Group/Replacer|Opens a new form in which users can be filtered based on replacers, groups, or roles. Can be exported to excel for audit.|
 
-|Fields-User ID|
+|Fields-User ID| |
 |:-|:-|
 |Active|Marked if the approver is Active, i.e., allowed to be a user/approver in ExFlow.|
 |Part of ExFlow Approver security group|If the user is a part of an ExFlow security group|
@@ -53,17 +54,17 @@ The functionality where security roles will be replaced with user groups are des
 |Handle confidential inv.|To be ticked if the user should have permission to handle and view invoices that are set as "Yes" for confidential in ExFlow import.|
 
 
-|Tab-Role|
+|Tab-Role| |
 |:-|:-|
 |Role reference|If a user should be assigned a role. There must always be a user setup behind each role. Invoices can for example, be sent out for approval to a role having several unique approvers as members of that role.|
 
 
-|Tab-User Group|
+|Tab-User Group| |
 |:-|:-|
 |User group|If a user should be assigned to a user group. The groups are standard D365FO user groups created in System administration. Is used if approvers are set by user groups.|
 
 
-|Tab-Replacer|
+|Tab-Replacer| |
 |:-|:-|
 |Replacer|The User id for the replacer.|
 |Name|The Replacer’s user name.|

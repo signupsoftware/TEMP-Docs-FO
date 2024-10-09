@@ -2,8 +2,9 @@
 title: Extended Search
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
-## Extended Search <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Extended Search <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Resources \| Extended search
 
@@ -13,7 +14,7 @@ Open the form 'Extended search" and set up which group/groups that should have e
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image67.png)
 
-| Buttons (Action pane) |
+| Buttons (Action pane) | |
 |:-|:-|
 | Edit                  | Edit the lines.          |
 | New                   | Add a new line           |

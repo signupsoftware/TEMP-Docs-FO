@@ -2,45 +2,46 @@
 title: Parameters
 sidebar_position: 6    
 hide_title: true
+custom_edit_url: null
 ---
-## Parameters <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Parameters <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Parameters
 
 ### General
 ![](@site/static/img/media/image2.png)
 
-| Enable ExFlow |
+| Enable ExFlow | |
 |:-|:-|
 | Enable ExFlow | Enable / disable ExFlow in standard D365 FO objects. This can be helpful in determining if an issue is related to ExFlow or not. |
 | Show invoice side by side | Enable / disable the invoice image to be displayed inside the ExFlow forms. |
 | Show attachments | Enable / disable if attachments should be displayed as a tab next to the side-by-side functionality. |
 
-| ExFlow Web |
+| ExFlow Web | |
 |:-|:-|
 | URL to Web for invoice approval | Enter the URL address for the ExFlow web that should be sent in the email notification. |
 | Remove financial dimensions not in account structure | Switching on this function will remove financial dimensions in ExFlow web that is not part of the account structure when autofill is used. |
 | Summarize | Enable Summarize functionality for ExFlow web. To summarize invoice lines that has equal values based on certain criteria and only send out those lines for approval. |
 
-|Coding validation at approval|
+|Coding validation at approval| |
 |:-|:-|
 |Coding validation at approval|**Always** - if the account structure validation should be active in the approval form.<br/>**Last Approver** - if the account structure validation only should apply to the last approver on the invoice.<br/>**None** - if there should not be any validation in the approval form, besides Dynamics 365 standard validation.|
 |Separate suggest approvers from validate|The purpose of this solution is to speed up the handling of invoices in the external web. The solution makes it possible to run the "suggest approver" logic separated from validation when using the web app.|
 
-|Posting proposal|
+|Posting proposal| |
 |:-|:-|
 |Vendor and reference required for matching|If check marked, it is mandatory to have a Vendor, as well as Reference on the invoice to get the coding allocation proposed.|
 |Delete invoice lines if no posting proposal found|This function deletes the lines in the Import form when (for example) the Vendor is changed and if no new posting proposal can be found.<br/><u>Available settings:</u> <br/> **No:** Invoices with no posting proposal lines will not be deleted <br/> **Yes:** Invoices with no posting proposal lines will be deleted <br/> **Ask**: ExFlow will ask if you want to delete invoice lines if no posting proposals exist|
 |Enable advanced posting proposal|Menu exit ExFlow/Setup/Miscellaneous/Posting proposal advanced. If the advanced posting proposal functionality is used it will replace the functionality of the old posting proposal.<br/> The old posting proposal is deprecated and will be removed in version 2.16.0|
 
-|Release for payment|
+|Release for payment| |
 |:-|:-|
 |Show release invoice for payment fields|Enable parameter to be able to block an invoice for payment in ExFlow. <br/> Two new fields are available on the "General" tab in Import form and Document form, "Invoice payment release date" and "Release date comment". The first one is which date the invoice should be released, and the comment field is used for information on why the invoice is blocked for payment. The information is also reflected on the vendor transaction.<br/>**PLEASE NOTE!** The removal of the payment block is done in Accounts payable on the invoice and not in ExFlow.|
 
 ### Document handling
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image3.png)
 
-| Document handling   |
+| Document handling   | |
 |:-|:-|
 | Document type invoice| Selected document type for storage of the invoice images.|
 | Document type attachment | Selected document type for storage of the invoice attachment files. |
@@ -48,7 +49,7 @@ ExFlow \| Setup \| Parameters
 ### Import
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/image4.png)
 
-|Import - Settings|
+|Import - Settings| |
 |:-|:-|
 |Import method|This setting is deprecated, and replaced by the Import methods located under ExFlow Setup. <br/>More information how to setup https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/import-methods-overview |
 |**Invoice parameters** - Enable batch import for scanned invoices|Check mark to activate the automatic import of invoice captured data to the ExFlow import form.|
@@ -73,7 +74,7 @@ ExFlow \| Setup \| Parameters
 |**Reference person** - Misc field 10-> Reference person|If the reference field is blank in import form and this parameter is ticked the value from the field in Misc 10 will be copied into the reference field.|
 |**Attributes** - Enable import attributes|If enabled the tab "Attribute value tab" will be visible in ExFlow form "Setup for automatic postings". This functionality is used to import data on the line level for cost account invoices for example if a ledger account, dimension values, tax settings etc. can be found in the XML file. This new functionality will in the future replace the existing function "Coding lines for import".|
 
-| Transaction text |
+| Transaction text | |
 |:-|:-|
 | Show journal description in import form | If the journal description field should be displayed in the Import form. If it is not changed or left blank, the vendor's name will be saved as the transaction text.|
 | Text | In this field the string is built that will present the description information. The max length that can be used is 60 characters. The string is built using % between each used ID from the grid. For example %1-%2-%3-%4-%5-%6, %7 will include all setup fields from the grid. |
@@ -87,7 +88,7 @@ ExFlow \| Setup \| Parameters
 ### Sales tax
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image5.png)
 
-| Sales tax  |
+| Sales tax  | |
 |:-|:-|
 | Default Item sales tax group | When import expense invoice, Select the default item sales tax group to use.  |
 | Time of sales tax posting | Information of when the sales tax is posted, display from accounts payable pararmeters.|
@@ -122,7 +123,7 @@ ExFlow \| Setup \| Parameters
 ### Project
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image6.png)
 
-|Project settings|
+|Project settings| |
 |:-|:-|
 |Fetch approver for project invoices|Set sales manager, project manager or project controller as the Reference, based on the project id from an imported invoice.|
 |Validate account structure for project lines|If approvers in the ExFlow web are allowed to change dimension values for project lines, this setting validates the dimension combination with the used account for the project against the account structure setup.|
@@ -147,7 +148,7 @@ ExFlow \| Setup \| Parameters
 ### Purchase order
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image8.png)
 
-| General|
+| General| |
 |:-|:-|
 |**Get purchase order lines**- Auto get purchase order lines| Enable if only the invoice header information is imported, and you wish for ExFlow to suggest coding of the invoice by retrieving the item lines of the referenced purchase order.|
 |Auto get purchase order charges| Enable if only the invoice header information is imported, and you wish for ExFlow to suggest coding of the invoice by retrieving the charge lines of the purchase order referenced in the invoice header. ***Only charges with Compare purchase order and invoice values field set to Yes will get retrieved.*** |
@@ -163,12 +164,12 @@ ExFlow \| Setup \| Parameters
 |Copy to offset dimensions|If set to Yes - will copy the default dimensions from the purchase order to the offset account on the invoice.|
 | Override charge dimensions| Set this to Yes if you wish to be able to override the charge dimensions on PO invoices. |
 
-| Penny difference |
+| Penny difference | |
 |:-|:-|
 | Maximum penny difference | The maximum penny difference that ExFlow shall add at scanned import, if the line sum and header net sum differ. |
 | Charge code for penny difference | The standard charge code that the penny difference should be posted with.|
 
-| Charges from invoice for auto approval |
+| Charges from invoice for auto approval | |
 |:-|:-|
 | Charge 1 from invoice | If header charges are included in the XML file, set the charge code 1 and it will be added automatically to the invoice at scanned import. |
 | Charge 2-5 from invoice | Another four invoice header fields that can be predefined in the same way as Charge 1 above. |
@@ -244,7 +245,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 ### Approval
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image9.png)
 
-|Approval parameters|
+|Approval parameters| |
 |:-|:-|
 |Allow changes to suggested approval route by D365 user|Enable if the user in Dynamics 365 is allowed to manipulate the suggested approval route.|
 |Minimum number of unique approvers|To enable the "four eyes principal". Approval of an invoice must have at least this number of different approvers.|
@@ -253,7 +254,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 |Keep original last approver|If a change in coding initiates a new approval route, shall we keep the original last approver despite the new coding setting?|
 |Add same approver after current if forwarded|If set to Yes – it will automatically add the current approver, that forwards the invoice as the next approver after the "Forwarded to" approver: <ul><li>Bengt forwards invoice to Maria.</li><li>Bengt is automatically set as the approver after Maria has approved.</li></ul>|
 
-|Approval logic|
+|Approval logic| |
 |:-|:-|
 |Method for suggesting approvers|Approval routes can be based on different methods. <br/><br/><u>Position hierarchy:</u><br/>Approval routes are based on a position hierarchy only, in combination with the reference (optional) of the invoice.<br/><br/><u>Standard workflow:</u><br/>Approval routes are based on workflow only, in combination with the reference of the invoice. Reference is the typical field used; however, many other fields may be used in the workflow configuration.<br/><br/><u>Both (Workflow and Position Hierarchy):</u><br/>The system will first try to get a match on the approval workflow and continues to position hierarchy if no approvers are found in workflow.<br/><br/><u>Use workflow to find specific position hierarchy:</u><br/>The system will use a workflow rule to determine which position hierarchy to be used using the "Find position hierarchy" workflow. For example, if there is a purchase order number, use one hierarchy and if there is no purchase order number use another hierarchy.<br/><br/><u>Both standard workflow and find position hierarchy:</u><br/>The system will first try to get a match on the standard approval workflow, and if no match continues to find and use a position hierarchy using the "Find position hierarchy" workflow. In other words, if no standard approval workflow is found, revert to the above setting "Use workflow to find specific position hierarchy".<br/><br/><u>Advanced workflow:</u><br/>The system will use the advanced approval engine that extends the options of using dedicated workflows (i.e., standard workflows) with specific name driven approvers or fixed position hierarchies. The purpose of the advanced approval engine is to be more flexible than the standard way of adding approval routes, to enable data driven approval and to create something from scratch that is easily extended without the patchwork nature that the current versions have. For more information, please contact Signup Software AB.|
 |Cross company search for workflow to find position hierarchy|If ticked, the system will look in all companies with this parameter ticked to find a workflow to determine the position hierarchy to use. If it finds multiple workflows, the first will be used. If not ticked, the system will only look for the workflow in the current company.|
@@ -263,7 +264,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 |Reviewer|If set to yes – you have the possibility to choose to have users as reviewers, i.e., the user will receive the invoice in the approval flow, but the approval of the reviewer will not count as a formal approval.<br/>**Please note** – a reviewer cannot approve the invoice if he/she is the last approver. This is valid for standard workflow, position hierarchy and advanced workflow.|
 
 
-| Advanced workflow options - This sections setting is used for the new advanced approval engine |
+| Advanced workflow options - This sections setting is used for the new advanced approval engine |  |
 |:-|:-|
 | Return only first and last approver                                                            | If for example 4 approvers are found the system will only suggest the first and the last approver.                                                                   |
 | Add parent approver if only one is found                                                       | If only one approver is suggested if for example the approver has the correct signing limit the next approver is automatically added to fulfill four eyes principal. |
@@ -271,7 +272,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 | Minimum number of approvers for posting from import form                                       | A check that validates the minimum number of approvers before an invoice is posted in ExFlow import form.                                                            |
 
 
-|Position hierarchy logic|
+|Position hierarchy logic| |
 |:-|:-|
 |Add parent approver if only one approver found|Adds a second approver to meet the (e.g., SOX) rules if only one approver is found based on the approval limits.|
 |Only first and last approver of position hierarchy are added|When Position hierarchy is used to find approval routes, this setting will only return the first and last approvers from the approval chain.|
@@ -280,7 +281,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 |Position controlled by financial dimension|If set to "Yes" this will fetch owner of financial dimension|
 |Approval based on invoice header or line amount|Select whether the approval route should be based on the Invoice line amount or the total invoice amount. E.g., if invoice is coded to IT for $250 (Approver 1’s limit) and HR for $300 (Approver 2’s limit), if set to "Invoice Amount", Approver 3 will also be added, who has a limit of $550+|
 
-|Escalation|
+|Escalation| |
 |:-|:-|
 |Escalate to|This functionality is working in combination with the periodic batch job "Escalation". See more under https://docs.exflow.cloud/finance-operations/docs/user-manual/periodic-batch-jobs/escalation.<br/> Escalate to this user or user group if no next approver can be found or an extra approver is required. Leave blank if the invoice shall follow the approval chain. **Note**; Advanced approval workflow needs to be active with position hierarchy selected|
 |Days|Number of working days before an invoice is escalated.|
@@ -313,7 +314,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 
 ![medium](@site/static/img/media/image564.png)
 
-|Post Control|
+|Post Control| |
 |:-|:-|
 |Enable post control|Activate post control which will require that the accounting personnel will approve all invoices before they can be finally posted in the invoice journal. This final validation is performed in ExFlow / Common / Final approval.|
 |Include purchase orders|If purchase order invoices should be included in the post control process.|
@@ -322,13 +323,13 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 |Allow corrections|Allow corrections in the post control form.|
 
 
-|Agreements|
+|Agreements| |
 |:-|:-|
 |Use purchase agreements|Enable if agreements (contract management and self-invoicing) functionality should be enabled.|
 |Default matching error policy|Used for determining what policy that should be used when an agreement and invoice is matched whether it should be automatically approved or sent out for manual approval. Optional choices are If greater than tolerance or if greater than or less than tolerance.|
 |Self-billing invoice document type|If contract management and self-invoicing is used a document type must be set for the system to be able to create self-billing invoice image.|
 
-|Override approval|
+|Override approval| |
 |:-|:-|
 |Max approval override amount|The maximum amount for which a clerk can override an approval of in ExFlow import form. To be able to set this amount you must have system administrator rights.|
 
@@ -336,7 +337,7 @@ Exflow provides flexibility in controlling the invoice posting date in invoice r
 ### Prepayment and settlements
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image10.png)
 
-| Prepayment and settlements tab |
+| Prepayment and settlements tab | |
 |:-|:-|
 |Enable prepayment |Enable if prepayment functionality should be used. |
 |Method to avoid duplicates| Choose which payment method to be used to avoid duplicates.|

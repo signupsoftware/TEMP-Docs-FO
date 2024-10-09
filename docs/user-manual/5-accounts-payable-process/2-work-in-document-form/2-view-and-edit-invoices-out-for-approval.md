@@ -2,8 +2,10 @@
 title: View and edit invoices out for approval
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Edit/view invoice distributed for approval <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Edit/view invoice distributed for approval
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This form shows the selected invoice to view or edit.
 
@@ -15,7 +17,7 @@ Select the `Edit` button
 
 Use this form to view and edit the data in an invoice that is distributed for approval. Accounts payable personnel typically use this form.
 
-| Buttons (Action pane)|
+| Buttons (Action pane)| |
 |:-|:-|
 |Save | Save the entered data.|
 |Arrows| Toggle between invoices.|
@@ -31,7 +33,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |General/Post | Post the purchase order. This option will open up a Dynamics 365 standard form for handling purchase order, but the data will be automatically populated based on the ExFlow lines.|
 |General/Show invoice | Open a preview window with attached PDF invoice file. |
 
-|Buttons (Lower pane), Document lines (Line view)|
+|Buttons (Lower pane), Document lines (Line view)| |
 |:-|:-|
 |Add line|Add a new line.|
 |Remove|Remove the selected line.|
@@ -45,7 +47,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |Hold<br/>(Tab Approvers)|The selected user may put on-hold the invoice line. It can be used when the additional information is required before he/she can proceed.|
 
 
-|Fields (Upper pane), Document header (Line view)|
+|Fields (Upper pane), Document header (Line view)| |
 |:-|:-|
 |Number|Displays the invoice number.|
 |Status|The current invoice status.<br/>Active: Invoice is posted from the Import form and released for approval.<br/>Approved: All lines on the invoice are approved by the final approver and no approval requirements remains on any line, i.e., the invoice is approved.<br/>Invoiced: The invoice is approved/posted in the Invoice Approval Journal.<br/>Cancelled: The invoice has been cancelled.|
@@ -63,7 +65,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |Invoice type|Invoice type is used for classifying invoices.|
 
 
-|Fields (Lower pane), Document lines (Line view)|
+|Fields (Lower pane), Document lines (Line view)| |
 |:-|:-|
 |Flow status|**Flow status of the lines:**<br/>None: The first status before it is posted from the Import form and released for approval.<br/>Active: The invoice is posted in import form and released for approval.<br/>Approved: All lines on the invoice are approved by the final approver and no approval requirements remains on any line, i.e., the invoice is approved.<br/>Received: Not applicable<br/>Invoiced: The invoice is approved/posted in the Invoice Approval Journal.<br/>Cancelled: The invoice has been cancelled.|
 |Line type|**Shows the line type.**<br/>Ledger: Line with General ledger accounting only.<br/>Item: Line with stocked items and linked to a purchase order.<br/>Charges: Charges that are added to a purchase order invoice.<br/>Project: Line related to the Project module with a project id.<br/>Asset: Line related to the Fixed assets module with an asset id.<br/>Procurement: Line that defines the Procurement category.<br/>Landed cost: Line that defines the landed cost category.|
@@ -72,7 +74,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |Amount|The line sum.|
 |Unit|Unit of measure.|
 
-|Fields (Lower pane), Line details (Line view), Tab Dimensions|
+|Fields (Lower pane), Line details (Line view), Tab Dimensions| |
 |:-|:-|
 |Account|**Enter or select the accounting dimensions values.**<br/>Alt + Up arrow: Displays the account structure’s dimensions.<br/>Alt + Down arrow: Displays the current dimension’s values.|
 |Financials dimensions|Displays the selected dimensions values.|
@@ -89,7 +91,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |Project sales tax group|Project sales tax group|
 |Project item sales tax group|Project item sales tax group|
 
-|Fields (Lower pane), Line details (Line view), Tab Approvers|
+|Fields (Lower pane), Line details (Line view), Tab Approvers| |
 |:-|:-|
 |Is role|Check marked when a Role is selected in the field User/Role.|
 |User/role|Select a User or a Role to approve this invoice line. A Role is a predefined group of users where any one of them can approve the invoice line/s.|

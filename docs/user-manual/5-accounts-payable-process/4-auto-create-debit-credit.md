@@ -3,7 +3,8 @@ title: Auto create debit and credit from posted invoices
 sidebar_position: 4
 hide_title: true
 ---
-## Auto create debit and credit from posted invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Auto create debit and credit from posted invoices
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 **NOTE: This function is only applicable to NON-PO Invoices**
 

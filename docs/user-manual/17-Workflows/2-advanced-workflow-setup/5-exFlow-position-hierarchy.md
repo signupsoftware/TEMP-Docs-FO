@@ -2,8 +2,10 @@
 title: ExFlow position Hierarchy
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow position Hierarchy <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow position Hierarchy 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Introduction
 The aim of this functionality is to have a hierarchy setup similar to D365 Standard but with the addition of different user groups or roles. This also includes the implementation of signing limits within these groups/roles which makes it easier to include them in the approval process. To achieve this, a flexible hierarchy has been used for the assignment of various resources to different positions. Additionally, a new “Exflow owner” and “Exflow position” fields are added within the financial dimensions and global reference to accommodate these adjustments in workflow management.
@@ -19,7 +21,7 @@ General ledger | Chart of accounts | Dimensions | Financial dimensions
 A new submenu for “Exflow position hierarchy”<br/>
 Navigate to Exflow | Setup | Workflows | Approval Workflow setup | Exflow position hierarchy, which has the following menu points: 
 
-| Description of functionality |
+| Description of functionality | |
 |:-|:-|
 | Menu point | Description |
 |ExFlow position hierarchy mapping| This is the same as in D365 standard, except the hierarchy list it is from the new “Exflow Position Hierarchy types”.|

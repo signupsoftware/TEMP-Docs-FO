@@ -2,8 +2,10 @@
 title: Escalation
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
-## Escalation <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Escalation 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Escalation
 

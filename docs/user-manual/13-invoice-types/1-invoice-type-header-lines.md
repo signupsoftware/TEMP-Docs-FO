@@ -2,8 +2,10 @@
 title: Invoice type header/lines
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice type header/lines <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice type header/lines 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Classifications\| Invoice type header, Invoice type lines
 
@@ -15,7 +17,7 @@ ExFlow \| Setup \|Resources \| Classifications \| Invoice type header
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image73.png)
 
-| Buttons action pane             |
+| Buttons action pane             | |
 |:-|:-|
 | Edit                            | Edit                                       |
 | New                             | Create a new line.                         |
@@ -32,7 +34,7 @@ ExFlow \| Setup \| Resources \| Classifications \| Invoice type line
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image74.png)
 
-| Buttons action pane           |
+| Buttons action pane           | |
 |:-|:-|
 | Save                          | Save                                             |
 | New                           | Create a new line.                               |

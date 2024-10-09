@@ -2,8 +2,10 @@
 title: Workflow for variance amounts
 sidebar_position: 10
 hide_title: true
+custom_edit_url: null
 ---
-## Workflow for variance amounts <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Workflow for variance amounts 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ## Introduction
 The solution is to add support in all relevant ExFlow workflow to control routing, actions or functionality based on the variance amount or percentage. As part of the solution and be able to keep the matching result easily viewable by AP operators instead of having to go into the posting dialog to find the information the variance amounts and tolerances is added in a new table connected to document line table.

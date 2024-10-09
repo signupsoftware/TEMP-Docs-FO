@@ -2,8 +2,10 @@
 title: Setup Split and Validate
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Setup Split and Validate <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Setup Split and Validate 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This functionality is not recommended to switch on if your installation does not have heavy workflows or invoices with many rows. For example, when an invoice is approved in ExFlow web and would generate a new approval chain. Since that process can take a long time, it can now be pre-spooned to later after the approval has been done. This functionality can also be setup based on vendors meaning if you know you have 4 vendors with a lot of lines. This functionality can be run for only these 4 vendors and the rest of your invoices are handled as before with immediately response for adding new approval chains.
 

@@ -2,15 +2,16 @@
 title: Overview
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Overview <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ## Import invoices
 The import form is divided into three forms. The main form ('Import form all') shows all imported invoices with the most useful information. If you want to edit or view a selected invoice you click the `Edit` button to open the detailed import form.
 
 In the import form, the user can push the button `Cross company` to be able to show invoices from all companies running ExFlow.
 
-| Import forms        |
+| Import forms        | |
 |:-|:-|
 | Import form All     | Shows both cost invoices and purchase order invoices. |
 | Import form Expense | Shows only cost invoices.                             |
@@ -38,7 +39,7 @@ For assigning one or several invoices at once to specific user mark preferred li
 
 ![Graphical user interface, application, table Description automatically generated](@site/static/img/media/image266.png)
 
-| Buttons (Action pane)       |
+| Buttons (Action pane)       | |
 |:-|:-|
 | Cross company               | Opens a new checkbox "Show all companies". When ticked, all companies' invoices will be displayed. The standard filtering can be used so that a user will by default only see (for example) 2 out of 10 companies in Cross company mode.                                                                                        |
 | Edit                        | Open the selected invoice in Edit-mode.                                                                                                                                                                                                                                                                                         |
@@ -59,7 +60,7 @@ For assigning one or several invoices at once to specific user mark preferred li
 | General/Update invoice date | This function updates the invoice date for all invoices.                                                                                                                                                                                                                                                                        |
 | Run action workflow         | This function will run any action import workflow set up.                                                                                                                                                                                                                                                                       |
 
-|Fields (Upper pane)|
+|Fields (Upper pane)| |
 |:-|:-|
 |Show all (check box)|Ticked: All imported invoices will be shown in the list, regardless of invoice status.<br/>Unticked: Only not yet posted invoices are shown.|
 |Company ID|Shows the company id for the imported invoice.|
@@ -80,7 +81,7 @@ For assigning one or several invoices at once to specific user mark preferred li
 |Scanned by user|Displays the User id for the person scanning the invoice.|
 |Scanning date|Displays the date when the invoice was scanned.|
 
-|Fields (Lower pane) | This pane shows the lines on the selected invoice.|
+|Fields (Lower pane) | This pane shows the lines on the selected invoice.| |
 |:-|:-|
 |Line type|Shows the line type.<br/>**Ledger**: Line with General ledger accounting only.<br/>**Item**: Line with stocked items linked to a purchase order<br/>**Charges**: Charges that are added to an invoice.<br/>**Project**: Line related to the Project module with a project id.<br/>**Asset**: Line related to the Fixed assets module with an asset id.<br/>**Procurement**: Line that defines the Procurement category.|
 |Accounting details|Displays the accounting/coding of the invoice.|
@@ -89,7 +90,7 @@ For assigning one or several invoices at once to specific user mark preferred li
 |Approvers|Shows the approval route and each approver’s actual status for the line.|
 
 
-|Below fields for PO invoices only:|
+|Below fields for PO invoices only:| |
 |:-|:-|
 |Purchase order|Purchase order number. NB: To apply a line of type ‘Item’, you need to also select the Lot id from the drop-down in the Edit mode/form.|
 |Charges code|If the line type is ‘Charges’, the selected Charge code (e.g., Freight, Penny difference etc.) is shown.|

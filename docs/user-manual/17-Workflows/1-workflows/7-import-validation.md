@@ -2,8 +2,10 @@
 title: Import Validation
 sidebar_position: 7
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow Import Validation <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow Import Validation 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 The purpose of the Import validation workflow is to give an opportunity to a user to set certain conditions for invoices and to be able to see what criteria´s that are not met by getting an error message during the invoice validation in the Import form.
 

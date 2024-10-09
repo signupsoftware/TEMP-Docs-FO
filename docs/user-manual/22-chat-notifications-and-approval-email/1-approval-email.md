@@ -2,8 +2,9 @@
 title: Approval email
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Approval email <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Approval email <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Miscellaneous \| Notifications \| Approval email
 

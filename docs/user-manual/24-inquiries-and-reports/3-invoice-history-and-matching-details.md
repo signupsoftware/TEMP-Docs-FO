@@ -2,8 +2,10 @@
 title: Invoice history and matching details
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice history and matching details <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice history and matching details 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Inquiries and reports \| Invoice history and matching details
 

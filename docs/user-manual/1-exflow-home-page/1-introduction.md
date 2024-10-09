@@ -2,8 +2,10 @@
 title: Introduction
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow is an add-on module to Dynamics 365 Finance and Operations ("D365 FO"). ExFlow ensures an easy and efficient way to manage your vendor invoices. This is achieved by striving for automation and touchless processing by setting up business rules and workflows. By predicting the expected incoming invoices, many transactions should be possible to automate fully or at least to some extent.
 

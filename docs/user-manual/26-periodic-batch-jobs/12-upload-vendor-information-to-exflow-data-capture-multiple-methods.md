@@ -2,8 +2,10 @@
 title: Upload vendor information to ExFlow Data Capture (Multiple methods)
 sidebar_position: 12
 hide_title: true
+custom_edit_url: null
 ---
-## Upload vendor information to ExFlow Data Capture (Multiple methods) <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Upload vendor information to ExFlow Data Capture (Multiple methods) 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Exports \| Upload vendor information to ExFlow Data Capture (Multiple methods)
 

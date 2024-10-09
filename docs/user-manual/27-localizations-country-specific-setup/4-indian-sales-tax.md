@@ -2,8 +2,9 @@
 title: Indian Sales Tax GST
 sidebar_position: 4   
 hide_title: true
+custom_edit_url: null
 ---
-## Indian Sales Tax GST <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Indian Sales Tax GST <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 GST is known as the Goods and Services Tax. It is an indirect tax which has replaced many indirect taxes in India such as the excise duty, VAT, services tax, etc. The Goods and Service Tax Act was passed in the Parliament on 29th March 2017 and came into effect on 1st July 2017. In other words, Goods and Service Tax (GST) is levied on the supply of goods and services.
 Goods and Services Tax Law in India is a comprehensive, multi-stage, destination-based tax that is levied on every value addition. GST is a single domestic indirect tax law for the entire country. Before the Goods and Services Tax could be introduced, the structure of indirect tax levy in India

@@ -2,8 +2,10 @@
 title: Signing limit per line type
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## Signing limit per line type <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Signing limit per line type 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| References \| Signing limit per line type
 

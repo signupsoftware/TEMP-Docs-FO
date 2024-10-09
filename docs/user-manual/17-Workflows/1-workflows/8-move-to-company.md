@@ -2,8 +2,10 @@
 title: Move to Company
 sidebar_position: 8
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow Move to Company <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow Move to Company 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Under Construction!
 

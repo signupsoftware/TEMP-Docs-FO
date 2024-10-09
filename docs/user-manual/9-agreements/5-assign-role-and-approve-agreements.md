@@ -2,8 +2,10 @@
 title: How to assign role and approve agreements
 sidebar_position: 5
 hide_title: true
+custom_edit_url: null
 ---
-## How to assign role and approve agreements<button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## How to assign role and approve agreements
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 
 ### Assign Agreements manager role

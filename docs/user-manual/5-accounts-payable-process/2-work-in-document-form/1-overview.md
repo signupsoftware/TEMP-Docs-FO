@@ -2,8 +2,9 @@
 title: Overview
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Overview <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Document form All
 
@@ -16,7 +17,7 @@ ExFlow \| Invoices \| Document forms \| Document form All
 In the lower section you can see the marked invoice with its connected lines, and the accounting details and approvers with its actual status.
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Cross company|Opens a new checkbox "Show all companies". When ticked, all companies’ invoices will be displayed. The standard filtering can be used (for example) a user will by default only see 2 out of 10 companies in cross company mode.|
 |Edit|Open the selected invoice in Edit-mode.|
@@ -25,7 +26,7 @@ In the lower section you can see the marked invoice with its connected lines, an
 |General/Show invoice|Displays the invoice image.|
 |General/Hide side by side|Hides the preview section displaying invoice image from the form.|
 
-|Fields (Upper pane)|
+|Fields (Upper pane)| |
 |:-|:-|
 |Show all (check box)|Ticked: Show all invoices which ever have been handled by ExFlow, regardless of Invoice status and Flow status.<br/>Unticked: Shows invoices which are controlled by the Invoice status and Flow status filters.|
 |Show all companies|This is used in combination when the ‘Cross company’ button is pushed in the header to display all invoices for companies running ExFlow.|
@@ -61,7 +62,7 @@ In the lower section you can see the marked invoice with its connected lines, an
 |Last Settlement|The date of last Settlement.|
 
 
-|Fields (Lower pane) This pane shows the lines on the selected invoice.|
+|Fields (Lower pane) This pane shows the lines on the selected invoice.| |
 |:-|:-|
 |Document line type|Shows the line type.<br/>**Ledger**: Line with General ledger accounting only.<br/>**Item**: Line with stocked items and linked to a purchase order<br/>**Charges**: Charges that are added to a PO/item invoice.<br/>**Project**: Line related to the Project module with a project id.<br/>**Asset**: Line related to the Fixed assets module with an asset id.<br/>**Procurement**: Line that defines the Procurement category.<br/>**Landed cost**: Line that defines the landed cost category.|
 |Accounting details|Shows the accounting details for the line.|

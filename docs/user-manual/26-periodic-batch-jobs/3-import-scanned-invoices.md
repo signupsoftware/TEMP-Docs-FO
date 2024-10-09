@@ -2,8 +2,10 @@
 title: Import Scanned invoices
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Import OCR invoices to import form <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Import OCR invoices to import form 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Import \| Import OCR invoices to import form
 

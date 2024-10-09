@@ -2,8 +2,10 @@
 title: Advanced workflow position hierarchy mapping
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Advanced workflow position hierarchy mapping <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Advanced workflow position hierarchy mapping 
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Workflows \| Advanced workflow setup \| Advanced workflow position hierarchy mapping
 
@@ -13,7 +15,7 @@ To reference a position hierarchy in the advanced approval workflow, a mapping o
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image80.png)
 
-| Buttons (Action pane) |
+| Buttons (Action pane) | |
 |:-|:-|
 | Edit  | Edit the record |
 | New  | Add a new line  |

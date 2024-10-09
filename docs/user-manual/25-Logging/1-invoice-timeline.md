@@ -2,8 +2,9 @@
 title: Invoice timeline
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice timeline <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice timeline <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 It is now possible to see the timeline for an invoice, the timeline is presented by using the invoice timeline button in import form and document form.
 

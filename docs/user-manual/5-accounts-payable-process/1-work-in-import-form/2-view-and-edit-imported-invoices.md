@@ -2,8 +2,10 @@
 title: View and edit imported invoices
 sidebar_position: 2
 hide_title: true
+custom_edit_url: null
 ---
-## View and edit imported invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## View and edit imported invoices 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 This form shows the selected invoice image to view or edit with "side by side" mode activated.
 
@@ -16,7 +18,7 @@ When you have reviewed all the required information, you can validate the data b
 ![A screenshot of a computer Description automatically generated with low confidence](@site/static/img/media/image95.png)
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Save|Save the data entered in the form.|
 |Delete|Delete the selected invoice.|
@@ -60,7 +62,7 @@ When you have reviewed all the required information, you can validate the data b
 |Overview|Show more fields from the Invoice header and no fields from the lines.|
 |General|Show fields related to the lines and a limited number of header fields.|
 
-|Buttons (Lower pane), Import lines (Line view)|
+|Buttons (Lower pane), Import lines (Line view)| |
 |:-|:-|
 |Add line|Add a new line.|
 |Remove|Remove the selected line.|
@@ -73,7 +75,7 @@ When you have reviewed all the required information, you can validate the data b
 |Remove<br/>(Tab Approvers)|Delete the selected approver.|
 |Get approvers from auto coding<br/>(Tab Approvers)|To get approvers from auto coding.
 
-|Fields (Upper pane), Import header (Line view)|
+|Fields (Upper pane), Import header (Line view)| |
 |:-|:-|
 |Vendor account|Select or displays the Vendor.|
 |Vendor name| Displays the vendor name.|
@@ -122,7 +124,7 @@ When you have reviewed all the required information, you can validate the data b
 |Receive document date|This field is only used if the Eastern Europe localization is switched on in ExFlow configuration form.|
 |Prepaid invoice|If this invoice is used with prepayment.|
 
-|Fields (Lower pane), Import lines (Line view)|
+|Fields (Lower pane), Import lines (Line view)| |
 |:-|:-|
 |Line type|<u>Shows the line type.</u><br/>Ledger: Line with General ledger accounting only.<br/>Item: Line with stocked items and linked to a purchase order<br/>Charges: Charges that are added to an invoice.<br/>Project: Line related to the Project module with a project id.<br/>Asset: Line related to the Fixed assets module with an asset id.<br/>Procurement: Line that defines the Procurement category.<br/>Customer: Line that defines the customer.<br/>Landed cost: Line that defines the Landed cost.|
 |Purchase quantity| Displays the purchase quantity.|
@@ -152,7 +154,7 @@ When you have reviewed all the required information, you can validate the data b
 |Unit|Unit of measure.|
 |Tax exempt number|Tax exempt number from the purchase order|
 
-|Fields (Lower pane), Line details (Line view), Tab Dimensions|
+|Fields (Lower pane), Line details (Line view), Tab Dimensions| |
 |:-|:-|
 |Account|Enter or select the accounting dimensions values.<br/>Alt + Up arrow: Displays the account structure’s dimensions.<br/>Alt + Down arrow: Displays the current dimension’s values.|
 |Financials dimensions|Displays the selected dimension values.|
@@ -160,7 +162,7 @@ When you have reviewed all the required information, you can validate the data b
 |Unit|Unit of measure.|
 
 
-|Below fields for Procurement type lines only:|
+|Below fields for Procurement type lines only:| |
 |:-|:-|
 |Procurement category|Selection of the Procurement category.|
 
@@ -176,7 +178,7 @@ When you have reviewed all the required information, you can validate the data b
 |Project Item sales tax group|Project Item sales tax group|
 
 
-| Fields (Lower pane), Line details (Line view), Tab Approvers |
+| Fields (Lower pane), Line details (Line view), Tab Approvers | |
 |:-|:-|
 | Is role                                                      | Ticked when a Role is selected in the field User/Role.                                                                                          |
 | User/role                                                    | Select a User or a Role to approve this invoice line. A Role is a predefined group of users where any one of them can approve the invoice line. |

@@ -2,8 +2,10 @@
 title: Combination dimension owner
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Combination dimension owner <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Combination dimension owner 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Workflows \| Advanced workflow setup \| Combination dimension owner
 
@@ -13,14 +15,14 @@ ExFlow advanced workflow combination dimension owner is used in the new advanced
 
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image82.png)
 
-| Buttons (Action pane)|
+| Buttons (Action pane)| |
 |:-|:-|
 | Edit| Edit the setup|
 | Save| Save the setup|
 | Add Line | Add a new line|
 | Delete Line| Delete the selected line |
 
-| Fields|
+| Fields| |
 |:-|:-|
 | Dimension 1| The first dimension that should be used for the criteria to evaluate a match.|
 | Dimension 2| The second dimension that should be used for the criteria to evaluate a match.|

@@ -2,14 +2,16 @@
 title: Suggest approvers with logging
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## Suggest approvers with logging <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Suggest approvers with logging 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 When running "Suggest approvers with logging" below form opens.
 
 ![A screenshot of a computer Description automatically generated](@site/static/img/media/image96.png)
 
-| Fields (Upper pane) - Steps               |
+| Fields (Upper pane) - Steps               | |
 |:-|:-|
 | Assignment type                            | What assignment type is the value retrieved from                                    |
 | Participant token                          | Type of step in the workflow i.e., Condition, Reference, Previous approver          |
@@ -30,7 +32,7 @@ When running "Suggest approvers with logging" below form opens.
 
 The lower pane is only valid for position hierarchy.
 
-| Fields (Lower pane) - Details |
+| Fields (Lower pane) - Details | |
 |:-|:-|
 | Approver                       | Name of the approver                                                               |
 | Position                       | Number of the approver's position                                                  |

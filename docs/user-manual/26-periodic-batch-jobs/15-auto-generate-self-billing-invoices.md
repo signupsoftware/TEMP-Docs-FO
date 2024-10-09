@@ -2,8 +2,10 @@
 title: Auto Generate Self-billing invoices
 sidebar_position: 15
 hide_title: true
+custom_edit_url: null
 ---
-## Auto Generate Self-billing invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Auto Generate Self-billing invoices 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Miscellaneous \| Maintenance \| Auto Generate Self-billing invoices
 

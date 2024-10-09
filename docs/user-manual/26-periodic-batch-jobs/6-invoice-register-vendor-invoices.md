@@ -2,8 +2,10 @@
 title: Invoice register vendor invoices
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
-## Invoice register vendor invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Invoice register vendor invoices 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Periodic tasks \| Post \| Invoice register vendor invoices \| Post invoice registered invoices
 

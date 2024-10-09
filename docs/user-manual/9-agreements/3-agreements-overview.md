@@ -2,8 +2,10 @@
 title: Agreements overview
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Agreements overview <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Agreements overview 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| References \| Agreements
 
@@ -12,7 +14,7 @@ An agreement can either be used and matched towards a cost invoice based on only
 ![Graphical user interface, table Description automatically generated](@site/static/img/media/image38.png)
 
 
-|Filter|
+|Filter| |
 |:-|:-|
 |Filter|Select filter criteria|
 |Show all|Show all agreements regardless of status.|
@@ -22,7 +24,7 @@ An agreement can either be used and matched towards a cost invoice based on only
 |Approval status|The approval of the actual agreement status (if activated or not).|
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Save|Save|
 |Edit|Edit the agreements.|
@@ -39,7 +41,7 @@ An agreement can either be used and matched towards a cost invoice based on only
 |History<br/>Agreement history|Display’s the invoice transactions and invoice images posted against the actual Agreement.|
 |History<br/>View side by side|Display’s a side-by-side view of the documents attached and set as default document|
 
-|Fields|
+|Fields| |
 |:-|:-|
 |Company|Company where the agreement is created, Company Id.|
 |Active|Active or deactivated the selected Agreement.|
@@ -73,14 +75,14 @@ An agreement can either be used and matched towards a cost invoice based on only
 |Index increase percentage|Used to increase an agreement’s amount by percentage when it is duplicated.|
 |Description|A field where a description text that can be added that explains what this Agreement is concerning.|
 
-| Line Buttons|
+| Line Buttons| |
 |:-|:-|
 |Add line| Add a new Agreement line.|
 |Delete line| Delete the selected Agreement line.|
 |Copy selected agreements| Duplicates the selected line except the Invoice date. Will copy from the selected agreement line/lines and create new line/lines and leave the dates value blank for the newly created line/lines.|
 |Attachments|Display's the attachment attached against the actual line, used for self-billing invoice.|
 
-| Line fields  |
+| Line fields  | |
 |:-|:-|
 |Line number|Line number|
 |Amount|Used either for self-billing or agreement matching on monthly basis.|

@@ -2,8 +2,10 @@
 title: Introduction and Limitations
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Introduction and Limitations <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Introduction and Limitations 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Introduction
 Summarize is a function that should only be used when a customer has invoices with a substantial number of lines. The invoices that are summarized will be possible to approve in "ExFlow web" and "My vendor invoices". 

@@ -2,8 +2,10 @@
 title: Automatic invoice coding
 sidebar_position: 1
 hide_title: true
+custom_edit_url: null
 ---
-## Automatic invoice coding <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Automatic invoice coding 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow \| Setup \| Miscellaneous \| Automatic invoice coding
 
@@ -14,7 +16,7 @@ Automatic coding of invoices can be switched on via Feature Management as a prev
 *More detailed information is found in the white paper "[Automatic invoice coding](https://support.signupsoftware.com/knowledgebase/article/KA-01149)".*
 
 
-|Buttons (Action pane)|
+|Buttons (Action pane)| |
 |:-|:-|
 |Edit|Edit the record|
 |Computed -<br/>Compute automatic coding|Generate automatic coding through batch|

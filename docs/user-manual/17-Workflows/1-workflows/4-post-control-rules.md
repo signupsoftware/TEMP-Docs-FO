@@ -2,8 +2,10 @@
 title: Post Control Rules
 sidebar_position: 4
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow Post Control Rules workflow <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow Post Control Rules workflow 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 The objective of the ExFlow post-control rules in the workflow is to establish specific conditions for determining when an invoice should undergo post control.
 

@@ -2,8 +2,10 @@
 title: Functional process of summarized invoices
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## The funtional process to handle summarized invoices <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## The funtional process to handle summarized invoices
+<button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
 The process of working with summarized invoices can seem a bit complex to begin with, however when it is used and up and running the process will be clear and follow a logical process based on how approval of invoice lines is done in ExFlow. The process of a typical invoice is as follows.
 

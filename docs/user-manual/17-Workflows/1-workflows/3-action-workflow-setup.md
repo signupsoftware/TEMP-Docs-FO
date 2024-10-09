@@ -2,8 +2,10 @@
 title: Action workflow
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## Action workflow setup <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Action workflow setup 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 Action workflow functionality in ExFlow is an out-of-the box data driven framework developed with the purpose to make it easier to extend ExFlow by making ExFlow reacting on business events performed in ExFlow and then perform actions. There are numerous events that can be triggered such as rejecting an invoice, putting an invoice on hold, importing an invoice etc.
 

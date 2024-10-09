@@ -2,8 +2,10 @@
 title: Microsoft Invoice Capture
 sidebar_position: 6
 hide_title: true
+custom_edit_url: null
 ---
-## Microsoft Invoice Capture <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## Microsoft Invoice Capture
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### General description
 Support has been provided for importing invoices to ExFlow that are interpreted in Microsoft Invoice Capture. To be able to use this Microsoft Invoice Capture has to be setup in your power platform environment and configured accordingly to standard. This document on reflect the setup that is needed in ExFlow.

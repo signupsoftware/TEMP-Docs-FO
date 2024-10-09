@@ -2,8 +2,10 @@
 title: License handling
 sidebar_position: 3
 hide_title: true
+custom_edit_url: null
 ---
-## ExFlow License key handling <button class="button" onClick={() => { print(); }} style={{float: 'right'}}>Save as PDF</button>
+## ExFlow License key handling 
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ExFlow is an add-on module for Dynamics 365 for Finance and Operations, which makes it possible in a simple way to approve supplier invoices electronically via web portal or mobile device. ExFlow rationalizes the whole process of handling suppliers’ invoices: scanning (including optional OCR input), electronic approval, posting, history and analytics.
 In order to use ExFlow inside D365FO, every Exflow installation needs to have a valid license key. 
