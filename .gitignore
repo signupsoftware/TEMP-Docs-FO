@@ -20,3 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 deploy.ps1
+
+azure-static-web-apps-yellow-pond-058ae2b03.yml

@@ -74,12 +74,13 @@ function Feature({title, url}) {
 }
 
 
+
 // Menu container
 export default function HomepageFeatures() {
   return (
     
     <section className={styles.none}>
-      <div class="main-title">
+      <div className="main-title">
       SOLUTIONS FOR<br/>
       D365 FINANCE AND OPERATIONS
       </div>
