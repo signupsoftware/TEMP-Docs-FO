@@ -7,6 +7,7 @@ custom_edit_url: null
 ## Deprecated Features 
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 :::info Deprecated from version 2.14.0
+:::
 
 #### Create journal for accrual of estimated costs
 
@@ -85,9 +86,8 @@ custom_edit_url: null
 | **Deprecated date** | January 17th 2024. |
 | **Planned to be removed from release** | 2.16.0. |
 
-:::
-
 :::info Deprecated during 2021
+:::
 
 #### Import Methods (Parameter)
 
