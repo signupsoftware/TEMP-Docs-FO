@@ -86,7 +86,6 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.16.0. |
 
-
 :::info Deprecated during 2021
 :::
 
