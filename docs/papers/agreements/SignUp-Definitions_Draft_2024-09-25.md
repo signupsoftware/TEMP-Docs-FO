@@ -12,20 +12,20 @@ custom_edit_url: null
 # DEFINITIONS
 </div>
 
-<div class="paragraph-big">
-# 1 GENERAL
+<div class="paragraph-medium">
+## 1 GENERAL
 </div>
 
 <div class="paragraph">
-### 1.1<div class="paragraph-text">Any capitalized terms and expressions used in the Agreement shall have the meaning given to them in this document.</div>
+#### 1.1<div class="paragraph-text">Any capitalized terms and expressions used in the Agreement shall have the meaning given to them in this document.</div>
 </div>
 
 <div class="paragraph">
-### 1.2<div class="paragraph-text">Unless the context otherwise requires, words in the singular include the plural and vice versa and words in one gender include any other gender. The headings in the Agreement are for convenience only and shall not affect its meaning. Any phrase in the Agreement introduced by the term "include", "including", "in particular" or any similar expression shall be construed as illustrative and shall not limit the sense of the words preceding that term.</div>
+#### 1.2<div class="paragraph-text">Unless the context otherwise requires, words in the singular include the plural and vice versa and words in one gender include any other gender. The headings in the Agreement are for convenience only and shall not affect its meaning. Any phrase in the Agreement introduced by the term "include", "including", "in particular" or any similar expression shall be construed as illustrative and shall not limit the sense of the words preceding that term.</div>
 </div>
 
-<div class="paragraph-big">
-# 2 DEFINITIONS
+<div class="paragraph-medium">
+## 2 DEFINITIONS
 </div>
 
 **"Affiliate"** means any company directly or indirectly controlling, under common control or controlled by the Customer and shall include any legal entity that is directly or indirectly controlled by, or that is under common control by a company within the same group as the Customer or a legal entity controlled by it. "Control" means ownership of at least 50% of the voting rights in a legal entity or the power to direct the management of a legal entity or control the composition of its board of directors.
@@ -34,7 +34,7 @@ custom_edit_url: null
 
 **"Business Day"** means weekdays save for public holidays in the country which the SignUp Entity, that has entered into the Agreement with the Customer, resides.
 
-**"Business Hour"** means 9:00am – 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
+**"Business Hour"** means 9:00am ï¿½ 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
 
 **"Confidential Information"** means any and all information which is either identified as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure, including, but not limited to, SignUp Materials, SignUp Software and the Agreement, computer programs, code, algorithms, names and expertise of employees and consultants, information relating to existing, previous and potential customers and contracts, know-how, trade secrets, formulas, processes, ideas, inventions (whether patentable or not), schematics and other technical, business, financial plans, and product plans and designs, forecasts, strategies and information. Confidential Information does not include information which (i) is or becomes, available within the public domain without breach of any confidentiality undertaking, (ii) is already in the possession of a Party at the time of receiving the same without obligation of confidence, (iii) is independently developed or acquired by a Party without any breach of the Agreement, or (iv) is received from a third party without restriction on its disclosure or use.
 
@@ -72,8 +72,6 @@ custom_edit_url: null
 
 **"Product Terms"** means the from time-to-time applicable terms and conditions with respect to a Software Solution.
 
-**"SaaS"** means Software-as-a-Service.
-
 **"Service Access Point"** means the logical or physical element which acts as the demarcation point between the Customer's domain and the SignUp's domain.
 
 **"SignUp"** means the SignUp Entity with which the Customer has concluded the Order Agreement.
@@ -98,8 +96,6 @@ custom_edit_url: null
 
 **"Support Services"** means the support services, other than maintenance as described in the General Terms and Conditions, provided to the Customer as set out in the applicable Product Terms.
 
-**"Support Terms"** means the terms and conditions applicable with respect to the Support Services provided by SignUp, as made available on SignUp's website from time to time.
-
 **"Taxes"** means any taxes, levies, duties or similar governmental assessments of any nature, including, for example, value-added, sales, GST, use or withholding taxes, assessable by any jurisdiction whatsoever.
 
 **"Technical Specification"** means the technical description of the Software and the technical requirements for using the Software applicable from time to time.
@@ -118,3 +114,4 @@ custom_edit_url: null
 
 
 </div>
+ 
