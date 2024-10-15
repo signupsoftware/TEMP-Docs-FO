@@ -23,5 +23,4 @@ deploy.ps1
 
 .github\workflows\azure-static-web-apps-yellow-pond-058ae2b03.yml
 
-docusaurus.config.js
 .gitignore

@@ -194,7 +194,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'MoreZZ',
             items: [
               {
                 label: 'ExFlow support',
@@ -204,12 +204,12 @@ const config = {
                 label: 'Partner portal',
                 href: 'https://azuresignup.sharepoint.com/sites/Signupsoftware',
               },
-              /*
+
               {
                 label: 'Terms and Conditions',
                 href: '/docs/papers/agreements',
               },
-              */
+
             ],
           },
         ],
