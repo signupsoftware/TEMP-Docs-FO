@@ -12,12 +12,12 @@ custom_edit_url: null
 # PRODUCT TERMS
 </div>
 
-<div class="paragraph-big">
-### ExFlow Web Hosting Services
+<div class="paragraph-fancy">
+## ExFlow Web Hosting Services
 </div>
 
 <div class="paragraph-medium">
-## 1 GENERAL
+## 1<div class="paragraph-medium-text">GENERAL</div>
 </div>
 
 <div class="paragraph">
@@ -29,7 +29,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 2 PROVISION OF THE SOFTWARE
+## 2<div class="paragraph-medium-text">PROVISION OF THE SOFTWARE</div>
 </div>
 
 <div class="paragraph">
@@ -41,13 +41,13 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 3 FEES
+## 3<div class="paragraph-medium-text">FEES</div>
 </div>
 
 The annual hosting fee for the Software is set out in the Order Agreement.
 
 <div class="paragraph-medium">
-## 4 CUSTOMER UNDERTAKINGS
+## 4<div class="paragraph-medium-text">CUSTOMER UNDERTAKINGS</div>
 </div>
 
 <div class="paragraph">
@@ -79,25 +79,26 @@ The annual hosting fee for the Software is set out in the Order Agreement.
 </div>
 
 <div class="paragraph-medium">
-## 5 SUSPENSION OF SOFTWARE
+## 5<div class="paragraph-medium-text">SUSPENSION OF SOFTWARE</div>
 </div>
 
 <div class="paragraph">
 #### 5.1<div class="paragraph-text">The Customer acknowledges and accepts that SignUp is entitled, without any liability, to temporarily suspend the provision of the Software:</div>
 </div>
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">if SignUp in its professional discretion should conclude that Customer Data, or of any of the Customer's access to or use of the Software, causes or imposes a risk for system failure or a security threat to any SignUp system or to any data therein; or</div>
 
-(a) if SignUp in its professional discretion should conclude that Customer Data, or of any of the Customer's access to or use of the Software, causes or imposes a risk for system failure or a security threat to any SignUp system or to any data therein; or
-
-(b) if the Customer, despite reminder, has overdue payments or withholds payments in contradiction with the Agreement or becomes bankrupt, ceases payments, goes into liquidation, applies for restructuring or may otherwise reasonably be considered insolvent.
-
+(b)<div class="paragraph-text">if the Customer, despite reminder, has overdue payments or withholds payments in contradiction with the Agreement or becomes bankrupt, ceases payments, goes into liquidation, applies for restructuring or may otherwise reasonably be considered insolvent.</div>
+</div>
 <div class="paragraph-medium">
-## 6 ACCESS TO CUSTOMER DATA
+## 6<div class="paragraph-medium-text">ACCESS TO CUSTOMER DATA</div>
+</div>
+<div class="paragraph-indent">
+The Customer is upon written request to SignUp entitled to obtain all Customer Data stored by SignUp in a machine-readable form acceptable to the Customer. SignUp shall be entitled to reasonable remuneration for any work related to providing the Customer with Customer Data. Following termination of the Agreement, SignUp shall return or erase all Customer Data unless such Customer Data is anonymized and/or aggregated so that any Customer identifiers have been removed.
 </div>
 
-The Customer is upon written request to SignUp entitled to obtain all Customer Data stored by SignUp in a machine-readable form acceptable to the Customer. SignUp shall be entitled to reasonable remuneration for any work related to providing the Customer with Customer Data. Following termination of the Agreement, SignUp shall return or erase all Customer Data unless such Customer Data is anonymized and/or aggregated so that any Customer identifiers have been removed.
-
 <div class="paragraph-medium">
-## 7 AVAILABILITY
+## 7<div class="paragraph-medium-text">AVAILABILITY</div>
 </div>
 
 <div class="paragraph">
@@ -107,24 +108,26 @@ The Customer is upon written request to SignUp entitled to obtain all Customer D
 <div class="paragraph">
 #### 7.2<div class="paragraph-text">In measuring the availability of the hosting of the Software against the service levels set out in Section 7.1, no account shall be taken of any measure in respect of any period of time or incident or other measured event:</div>
 </div>
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">caused by an act or omission of the Customer or of a third party other than one for whom SignUp is responsible;</div>
 
-(a) caused by an act or omission of the Customer or of a third party other than one for whom SignUp is responsible;
+(b)<div class="paragraph-text">which arises as a consequence of a Force Majeure Event;</div>
 
-(b) which arises as a consequence of a Force Majeure Event;
+(c)<div class="paragraph-text">planned downtime where SignUp has notified the Customer of such downtime in advance; or</div>
 
-(c) planned downtime where SignUp has notified the Customer of such downtime in advance; or
-
-(d) where SignUp and the Customer have agreed that the service level should be suspended or otherwise not operate.
-
+(d)<div class="paragraph-text">where SignUp and the Customer have agreed that the service level should be suspended or otherwise not operate.</div>
+</div>
 <div class="paragraph">
 #### 7.3<div class="paragraph-text">The service levels and potential service credits are set out below.</div>
 </div>
 
-| Availability       | Service credit                              |
-|--------------------|---------------------------------------------|
+<div class="agreement-table agreement-table-w-header-2">
+| Availability | Service credit |
+| :--- | :--- |
 | 99.50 - 98.50 %    | 10 % of the hosting fee for the Software.   |
 | 98.49 - 97.00 %    | 20 % of the hosting fee for the Software.   |
 | &lt; 97.00 %       | 50 % of the hosting fee for the Software.   |
+</div>
 
 <div class="paragraph">
 #### 7.4<div class="paragraph-text">If SignUp fails to meet the service levels set out in Section 11.3, the Customer shall be entitled to a service credit towards a portion of the hosting fee for the Software. Reports regarding availability will only be provided to the Customer upon request and the Customer must submit any claims for service credits in writing to SignUp no later than twenty (20) days after such request has been made. Service credits will, if availability has been measured below the service levels in Section 11.3, be credited on the next invoice for the hosting fee.</div>

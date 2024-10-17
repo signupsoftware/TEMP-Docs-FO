@@ -13,7 +13,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 1 GENERAL
+## 1<div class="paragraph-medium-text">GENERAL</div>
 </div>
 
 <div class="paragraph">
@@ -25,16 +25,16 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 2 DEFINITIONS
+## 2<div class="paragraph-medium-text">DEFINITIONS</div>
 </div>
-
+<div class="paragraph-indent">
 **"Affiliate"** means any company directly or indirectly controlling, under common control or controlled by the Customer and shall include any legal entity that is directly or indirectly controlled by, or that is under common control by a company within the same group as the Customer or a legal entity controlled by it. "Control" means ownership of at least 50% of the voting rights in a legal entity or the power to direct the management of a legal entity or control the composition of its board of directors.
 
 **"Agreement"** means, collectively the applicable Order Agreement, the General Terms and Conditions, and any other documents expressly incorporated by reference in the applicable Order Agreement, including their related annexes, exhibits, schedules, etc.
 
 **"Business Day"** means weekdays save for public holidays in the country which the SignUp Entity, that has entered into the Agreement with the Customer, resides.
 
-**"Business Hour"** means 9:00am � 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
+**"Business Hour"** means 9:00am - 5:00am in the time zone of the contracting SignUp company under the Order Agreement.
 
 **"Confidential Information"** means any and all information which is either identified as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure, including, but not limited to, SignUp Materials, SignUp Software and the Agreement, computer programs, code, algorithms, names and expertise of employees and consultants, information relating to existing, previous and potential customers and contracts, know-how, trade secrets, formulas, processes, ideas, inventions (whether patentable or not), schematics and other technical, business, financial plans, and product plans and designs, forecasts, strategies and information. Confidential Information does not include information which (i) is or becomes, available within the public domain without breach of any confidentiality undertaking, (ii) is already in the possession of a Party at the time of receiving the same without obligation of confidence, (iii) is independently developed or acquired by a Party without any breach of the Agreement, or (iv) is received from a third party without restriction on its disclosure or use.
 
@@ -111,7 +111,7 @@ custom_edit_url: null
 **"Ticket"** means an incident, service request or change request reported by the Customer to SignUp in accordance with the Agreement, as part of the Support Services.
 
 **"Volume"** means, as applicable, any agreed volume-based limitations and metrics, for use of the Software, such as, but not limited to, number of transactions, number of processed documents, number of installations, number of operating devices, etc., as set out in the applicable Order Agreement.
-
+</div>
 
 </div>
  

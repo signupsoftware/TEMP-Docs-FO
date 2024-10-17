@@ -298,117 +298,6 @@ html[data-theme='light'] {
   font-size: 12pt;
 */
 
-/* Agreement documents, delete these if not used in final */
-:root {
-  --font-size-normal-text: 14pt;
-  --font-size-normal-header: 18pt;
-  --font-size-big-header: 20pt;
-  --font-family-document: 'Times New Roman', Times, serif;
-}
-
-.agreement-doc {
-  width: 60%;  
-}
-.agreement-doc h3 {
-  /*font-family: 'Times New Roman', Times, serif;*/
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-header);
-} 
-.agreement-doc ul {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-text);
-  line-height: normal;
-} 
-.agreement-doc ul li {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-text);
-  margin: 10px;
-  padding: 0px;
-  color: black;
-} 
-.agreement-doc p {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-text);
-  line-height: normal;
-} 
-.agreement-doc h4  {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-header);
-} 
-.paragraph {
-  white-space: nowrap;
-}
-.paragraph h4{
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-header);
-}
-.paragraph h3{
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-header);
-}
-.paragraph-big h1 {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-big-header);
-}
-.paragraph-big h2 {
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-big-header);
-}
-.paragraph-text {  
-  font-family: var(--font-family-document);
-  font-size: var(--font-size-normal-text);
-  margin-left: 20px;
-  font-weight: normal;
-  display: inline-block;
-  white-space: break-spaces;
-  vertical-align: top;
-
-}
-
-[data-theme='light'] .agreement-doc img {
-  width: 250px;
-  height: 111px;
-  background-image: url("/static/img/signup_logo_black.png");
-}
-[data-theme='dark'] .agreement-doc img {
-  width: 250px;
-  height: 111px;
-  background-image: url("/static/img/signup_logo.png");
-}
-/* END Agreement documents, delete these if not used in final */
-
-.agreement-table table {
-  width: 800px !important;
-  border-spacing: 0;
-  margin-top: 20px;
-  
-  border-collapse: collapse;
-  border-style : hidden !important;
-  border-spacing: 0 !important;  
-  border: none;
-}
-.agreement-table table th {
-  display: none;
-  border-top: none;
-  border-bottom: none;
-  border: none;
-  border-collapse: collapse;
-}
-.agreement-table table tr td {
-  padding: 5px;
-  padding-left: 20px;
-  padding-right: 30px;
-
-  border-collapse: collapse;
-  border-style : hidden !important;
-  border-spacing: 0 !important;  
-  border: none;
-}
-.agreement-table img {
-  width: 32px;
-  height: 32px;
-}
-
 /* Tables in .md files */
 [data-theme='light'] table thead {
   background-color: #fdad54;
@@ -473,3 +362,214 @@ html[data-theme='light'] {
 
 
 
+/* Agreement documents, delete these if not used in final */
+:root {
+  --font-size-normal-text: 12pt;
+  --font-size-normal-header: 18pt;
+  --font-size-big-header: 20pt;
+  --font-size-main-header: 14pt;
+  --font-size-medium-header: 12pt;
+  --font-size-normal-paragraph: 12pt;
+  --font-size-small-paragraph: 11pt;
+
+  --font-size-table-header: 12pt;
+  --font-size-table-text: 12pt;
+
+  --font-family-document: 'Times New Roman', Times, serif;
+  --paragraph-line-height: 22px;
+}
+
+.agreement-doc {
+  width: 60%;  
+}
+.agreement-doc header h1 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-main-header);
+  text-align: center;
+} 
+.agreement-doc h3 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+} 
+.agreement-doc h4  {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+} 
+.agreement-doc ul {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  line-height: var(--paragraph-line-height);
+  list-style-type: none;
+} 
+.agreement-doc ul li {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text); 
+  color: black;
+  line-height: var(--paragraph-line-height);
+} 
+.agreement-doc p {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  line-height: normal;
+} 
+.list-normal-roman {
+  white-space: nowrap;
+  font-size: var(--font-size-small-paragraph);
+  margin-left: 60px;
+}
+.list-normal-roman-no-indent {
+  white-space: nowrap;
+  font-size: var(--font-size-small-paragraph);
+}
+.paragraph {
+  white-space: nowrap;
+}
+.paragraph h4{
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-paragraph);
+  font-weight: normal;
+}
+.paragraph h3{
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+}
+.paragraph-big h1 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-big-header);  
+}
+.paragraph-big h2 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-big-header);
+}
+.paragraph-big h3 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-header);
+}
+.paragraph-big-center h1 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-main-header);  
+  text-align: center;
+}
+.paragraph-big-center h3 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-main-header);  
+  text-align: center;
+}
+.paragraph-fancy h2 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-medium-header);  
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.paragraph-medium h2 {
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-medium-header);
+  font-weight: bold;
+}
+.paragraph-text {  
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-normal-text);
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+.paragraph-medium-text {
+  white-space: break-spaces;
+  display: inline-block;
+  margin-left: 50px;
+}
+.paragraph-indent p {
+  margin-left: 60px;
+  line-height: var(--paragraph-line-height);
+}
+
+[data-theme='light'] .agreement-doc img {
+  width: 250px;
+  height: 111px;
+  background-image: url("/static/img/signup_logo_black.png");
+}
+[data-theme='dark'] .agreement-doc img {
+  width: 250px;
+  height: 111px;
+  background-image: url("/static/img/signup_logo.png");
+}
+/* END Agreement documents, delete these if not used in final */
+
+.agreement-table table {
+  width: 800px !important;  
+  margin-left: 60px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.agreement-table table th {
+  display: none;  
+}
+.agreement-table table tr {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.agreement-table table td:first-child {
+  width: 30%;
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-table-header);
+  background-color: #e6d9d1;  
+}
+.agreement-table table td:nth-child(2) {
+  background-color: #f8f1ea;
+}
+.agreement-table table td:nth-child(3) {
+  background-color: #f8f1ea;
+}
+.agreement-table table td {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 30px;   
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-table-text); 
+}
+.agreement-table table td { 
+  /* border: solid 1px black !important; */
+  border: none !important;
+}
+.agreement-table img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Index table */
+.agreement-table-index table {
+  margin-left: 60px;
+  border-top: none;
+  border-bottom: none;
+}
+.agreement-table-index table tr {
+  border-collapse: collapse;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.agreement-table-index table td:first-child {
+  width: auto;
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-table-header);
+  background-color: #e6d9d1;  
+}
+
+.agreement-table-w-header th {
+  display: table-cell !important;
+}
+
+.agreement-table-w-header-2 table {
+  border: none !important;
+}
+.agreement-table-w-header-2 table th {
+  display: table-cell !important;
+  padding: 5px;
+}

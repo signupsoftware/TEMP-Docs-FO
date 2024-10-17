@@ -8,12 +8,12 @@ custom_edit_url: null
 
 ![SignUp Software](./img/signup_logo_black.png)
 
-<div class="paragraph-medium">
-## DATA PROCESSING AGREEMENT
+<div class="paragraph-big">
+# DATA PROCESSING AGREEMENT
 </div>
 
 <div class="paragraph-medium">
-## 1 GENERAL
+## 1<div class="paragraph-medium-text">GENERAL</div>
 </div>
 
 <div class="paragraph">
@@ -41,9 +41,10 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 2 DEFINITIONS
+## 2<div class="paragraph-medium-text">DEFINITIONS</div>
 </div>
 
+<div class="paragraph-indent">
 Capitalized terms used in this DPA shall have the meaning assigned to them in the General Terms and Conditions, unless the context requires otherwise. In addition to the definitions under the General Terms and Conditions, the below terms shall have the following meaning:
 
 **"Applicable Data Protection Laws"** means all EU and relevant member state legislation and regulations, including regulations and decisions issued by relevant supervisory authorities, protecting the fundamental rights and freedoms of individuals and, in particular, their right to privacy with respect to the processing of personal data that from time to time apply to SignUp and the Customer, including without limitation the GDPR, including any future interpretations thereof in court precedence from the EU Court of Justice or any other authorized court or supervisory authority.
@@ -57,9 +58,9 @@ Capitalized terms used in this DPA shall have the meaning assigned to them in th
 **"Standard Contractual Clauses"** or sometimes also referred to the "EU Model Clauses" means the standard contractual clauses for the transfer of personal data to third countries pursuant to the Regulation (EU) 2016/679 of the European Parliament and of the Council, based on the Commission Decision (EU) 2021/914 of 4th June 2021.
 
 The terms **"controller"**, **"processor"**, **"data subject"**, **"processing"**, **"personal data"**, and **"personal data breach"**, shall have the same meanings as set out in article 4 of the GDPR.
-
+</div>
 <div class="paragraph-medium">
-## 3 CUSTOMER OBLIGATIONS
+## 3<div class="paragraph-medium-text">CUSTOMER OBLIGATIONS</div>
 </div>
 
 <div class="paragraph">
@@ -82,17 +83,29 @@ The terms **"controller"**, **"processor"**, **"data subject"**, **"processing"*
 #### 4.1<div class="paragraph-text">SignUp shall process personal data hereunder solely in accordance with the documented instructions of the Customer, for the following limited purposes:</div>
 </div>
 
-(a) performance of the SignUp Services under the terms of the Agreement;
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">performance of the SignUp Services under the terms of the Agreement;</div>
+</div>
 
-(b) where applicable depending on the SignUp Services provided to the Customer under the Agreement, setting up, operating, and monitoring the underlying infrastructure (hardware, software, servers, environments, connectivity, etc) required to provide the SignUp Services to the Customer and to meet the technical, security and organizational requirements for the processing of the personal data in connection therewith;
+<div class="list-normal-roman">
+(b)<div class="paragraph-text">where applicable depending on the SignUp Services provided to the Customer under the Agreement, setting up, operating, and monitoring the underlying infrastructure (hardware, software, servers, environments, connectivity, etc) required to provide the SignUp Services to the Customer and to meet the technical, security and organizational requirements for the processing of the personal data in connection therewith;</div>
+</div>
 
-(c) processing initiated by authorized users of the Customer in their use of the SignUp Services;
+<div class="list-normal-roman">
+(c)<div class="paragraph-text">processing initiated by authorized users of the Customer in their use of the SignUp Services;</div>
+</div>
 
-(d) executing documented instructions of the Customer provided such instructions relate to and are consistent with the SignUp Services;
+<div class="list-normal-roman">
+(d)<div class="paragraph-text">executing documented instructions of the Customer provided such instructions relate to and are consistent with the SignUp Services;</div>
+</div>
 
-(e) addressing service issues or technical problems; and/or
+<div class="list-normal-roman">
+(e)<div class="paragraph-text">addressing service issues or technical problems; and/or</div>
+</div>
 
-(f) meeting any express requirement under the Applicable Data Protection Laws, in which case SignUp shall, unless it is prohibited by applicable laws from doing so, inform the Customer of that legal requirement before processing.
+<div class="list-normal-roman">
+(f)<div class="paragraph-text">meeting any express requirement under the Applicable Data Protection Laws, in which case SignUp shall, unless it is prohibited by applicable laws from doing so, inform the Customer of that legal requirement before processing.</div>
+</div>
 
 <div class="paragraph">
 #### 4.2<div class="paragraph-text">SignUp is prohibited from processing the Customer's personal data for SignUp's own purposes unless the Customer has provided its approval for such processing or if SignUp is required to process the personal data by virtue of applicable laws, in which case SignUp will be the controller for such processing.</div>
@@ -106,11 +119,17 @@ The terms **"controller"**, **"processor"**, **"data subject"**, **"processing"*
 #### 4.4<div class="paragraph-text">Taking into account the nature of the processing, SignUp will assist the Customer in complying with its obligation to respond to requests of data subjects under Applicable Data Protection Laws (including requests for exercising data subjects' rights under the Applicable Data Protection Law) by appropriate technical and organizational measures, insofar as this is possible provided that SignUp will provide such assistance to the extent:</div>
 </div>
 
-(a) the information is available to SignUp, and such information is not otherwise available to the Customer or the requested assistance cannot practicably be performed by the Customer;
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">the information is available to SignUp, and such information is not otherwise available to the Customer or the requested assistance cannot practicably be performed by the Customer;</div>
+</div>
 
-(b) the Customer acknowledges that SignUp has no responsibility to interact directly with any data subject or supervisory authority in respect of any request, demand or order (except as expressly provided under the Applicable Data Protection Law or as otherwise agreed by the Parties in writing); and
+<div class="list-normal-roman">
+(b)<div class="paragraph-text">the Customer acknowledges that SignUp has no responsibility to interact directly with any data subject or supervisory authority in respect of any request, demand or order (except as expressly provided under the Applicable Data Protection Law or as otherwise agreed by the Parties in writing); and</div>
+</div>
 
-(c) to the extent legally permitted, the Customer shall be responsible for any costs arising from SignUp's provision of such assistance.
+<div class="list-normal-roman">
+(c)<div class="paragraph-text">to the extent legally permitted, the Customer shall be responsible for any costs arising from SignUp's provision of such assistance.</div>
+</div>
 
 <div class="paragraph">
 #### 4.5<div class="paragraph-text">Subject to applicable legal retention obligations, upon termination of the Agreement SignUp will return to the Customer or delete any personal data that has been processed on the Customer's behalf under this DPA. If the Customer has not instructed SignUp whether the personal data should be returned or deleted within fourteen (14) calendar days from termination of the Agreement, SignUp is entitled to delete the personal data.</div>
@@ -133,41 +152,52 @@ The terms **"controller"**, **"processor"**, **"data subject"**, **"processing"*
 </div>
 
 <div class="paragraph-medium">
-## 5 SECURITY
+## 5<div class="paragraph-medium-text">SECURITY</div>
 </div>
-
+<div class="paragraph-indent">
 In connection with its processing of personal data hereunder SignUp will provide for and maintain appropriate administrative, physical, technical and organizational security measures for such processing, which are intended to protect personal data against accidental or unauthorized loss, destruction, alteration, disclosure or access, and to ensure a level of security appropriate to the particular risks involved in the processing. In this connection:
 
-(a) it is acknowledged that further details on the administrative, physical, technical and organizational security measures that will be implemented and maintained by SignUp in processing the personal data are described or referred to in Annex 1 hereto; and
+<div class="list-normal-roman-no-indent">
+(a)<div class="paragraph-text">it is acknowledged that further details on the administrative, physical, technical and organizational security measures that will be implemented and maintained by SignUp in processing the personal data are described or referred to in Annex 1 hereto; and</div>
+</div>
 
-(b) SignUp will not materially decrease the overall security of any SignUp Services with respect to processing of personal data.
-
+<div class="list-normal-roman-no-indent">
+(b)<div class="paragraph-text">SignUp will not materially decrease the overall security of any SignUp Services with respect to processing of personal data.</div>
+</div>
+</div>
 <div class="paragraph-medium">
-## 6 PERSONAL DATA BREACH
+## 6<div class="paragraph-medium-text">PERSONAL DATA BREACH</div>
 </div>
 
 <div class="paragraph">
 #### 6.1<div class="paragraph-text">SignUp will inform the Customer without undue delay after it becomes aware of any personal data breach in connection with the processing of personal data under this DPA, overserving the following process:</div>
 </div>
 
-(a) SignUp will investigate the personal data breach and take reasonable measures to identify its root cause(s) and, where such breach is caused by SignUp or a SignUp Sub-processor;
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">SignUp will investigate the personal data breach and take reasonable measures to identify its root cause(s) and, where such breach is caused by SignUp or a SignUp Sub-processor;</div>
+</div>
 
-(b) as information is collected or otherwise becomes available, to the extent legally permitted, SignUp will provide the Customer with a description of the personal data breach, the type of the data to which the breach relates, and, other information the Customer may reasonably request concerning the affected data subject(s) where such information is available to SignUp; and
+<div class="list-normal-roman">
+(b)<div class="paragraph-text">as information is collected or otherwise becomes available, to the extent legally permitted, SignUp will provide the Customer with a description of the personal data breach, the type of the data to which the breach relates, and, other information the Customer may reasonably request concerning the affected data subject(s) where such information is available to SignUp; and</div>
+</div>
 
-(c) the Parties agree to coordinate in good faith on developing the content of any related public statements or any required notices for the affected data subject(s) and/or the competent supervisory authorities.
+<div class="list-normal-roman">
+(c)<div class="paragraph-text">the Parties agree to coordinate in good faith on developing the content of any related public statements or any required notices for the affected data subject(s) and/or the competent supervisory authorities.</div>
+</div>
 
 <div class="paragraph">
 #### 6.2<div class="paragraph-text">The obligations set out above will not apply, to the extent that the personal data breach is caused by the Customer, the Customer's Affiliate or anyone acting for the Customer, save that SignUp will inform the Customer of the personal data breach and provide information it discovers up to the stage it identifies the breach is caused by the Customer, the Customer's Affiliate or anyone acting for the Customer. SignUp may charge the Customer for any assistance that the Customer may request when a personal data breach is attributable to or caused by the Customer.</div>
 </div>
 
 <div class="paragraph-medium">
-## 7 AUDITS
+## 7<div class="paragraph-medium-text">AUDITS</div>
+</div>
+<div class="paragraph-indent">
+SignUp shall upon the Customer's request, make all necessary information available to demonstrate compliance hereof and allow for audits, including inspections, to be performed by the Customer (or an independent third-party auditor mandated by the Customer that is reasonably acceptable to SignUp and subject to signature of a confidentiality agreement with SignUp) of SignUp relevant to the personal data processed under this DPA.
 </div>
 
-SignUp shall upon the Customer's request, make all necessary information available to demonstrate compliance hereof and allow for audits, including inspections, to be performed by the Customer (or an independent third-party auditor mandated by the Customer that is reasonably acceptable to SignUp and subject to signature of a confidentiality agreement with SignUp) of SignUp relevant to the personal data processed under this DPA.
-
 <div class="paragraph-medium">
-## 8 SUB-PROCESSORS
+## 8<div class="paragraph-medium-text">SUB-PROCESSORS</div>
 </div>
 
 <div class="paragraph">
@@ -183,7 +213,7 @@ SignUp shall upon the Customer's request, make all necessary information availab
 </div>
 
 <div class="paragraph-medium">
-## 9 LIMITATION OF LIABILITY
+## 9<div class="paragraph-medium-text">LIMITATION OF LIABILITY</div>
 </div>
 
 <div class="paragraph">
@@ -203,16 +233,20 @@ SignUp shall upon the Customer's request, make all necessary information availab
 </div>
 
 <div class="paragraph-medium">
-## 10 TRANSFER OF PERSONAL DATA
+## 10<div class="paragraph-medium-text">TRANSFER OF PERSONAL DATA</div>
 </div>
 
 <div class="paragraph">
 #### 10.1<div class="paragraph-text">The Customer acknowledges and agrees that SignUp is only entitled to transfer personal data to a country located outside the EU/EEA under the following circumstances:</div>
 </div>
 
-(a) the country is subject to an adequacy decision made by the European Commission, or, in the absence of an adequacy decision;
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">the country is subject to an adequacy decision made by the European Commission, or, in the absence of an adequacy decision;</div>
+</div>
 
-(b) SignUp has taken measures to ensure that the transfer is lawful, e.g. by ensuring that there is a transfer mechanism in place subject to article 46 GDPR or a specific derogation according to article 49 GDPR.
+<div class="list-normal-roman">
+(b)<div class="paragraph-text">SignUp has taken measures to ensure that the transfer is lawful, e.g. by ensuring that there is a transfer mechanism in place subject to article 46 GDPR or a specific derogation according to article 49 GDPR.</div>
+</div>
 
 <div class="paragraph">
 #### 10.2<div class="paragraph-text">Where personal data is transferred outside the EU/EEA on the basis of a transfer mechanism under article 46 GDPR, SignUp will conduct a risk analysis in accordance with the recommendations 01/2020 and 02/2020 of the European Data Protection Board. The Customer is, in accordance with Section 7 above, entitled to receive information about the result of such risk analysis.</div>
@@ -222,70 +256,54 @@ SignUp shall upon the Customer's request, make all necessary information availab
 #### 10.3<div class="paragraph-text">The Sub-processor List includes information about any potential third-country transfers made by SignUp within the scope of the Agreement.</div>
 </div>
 
-<div class="paragraph-medium">
-## ANNEX 1
+<div class="paragraph-big-center">
+# ANNEX 1
 </div>
 
-<div class="paragraph-big">
+<div class="paragraph-big-center">
 ### Description of processing
 </div>
 
 <div class="paragraph-medium">
-## 1 EXFLOW AND EXDOC
+## 1<div class="paragraph-medium-text">EXFLOW AND EXDOC</div>
 </div>
-
-**Description of processing**  
-Personal data will be processed to a limited extent within the scope of providing implementation services, Consultancy Services and Support Services and only in cases where SignUp needs access to the Customer's environment (which is only provided upon Customer's approval). Generally, there will be no need to access any personal data, but in circumstances where said services requires access to an invoice, processing of data in that invoice will occur.
-
-**Purpose of the processing**  
-The purpose of the processing is to be able to provide the implementation, Consultancy Services or Support Services in accordance with the Agreement.
-
-**Categories of personal data**  
-Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.
-
-**Categories of data subjects**  
-Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice.
-
-**Retention and erasure**  
-SignUp will not store any data on behalf of the Customer.
+<div class="agreement-table">
+| | |
+|:-|:-|
+| **Description of processing**  | Personal data will be processed to a limited extent within the scope of providing implementation services, Consultancy Services and Support Services and only in cases where SignUp needs access to the Customer's environment (which is only provided upon Customer's approval). Generally, there will be no need to access any personal data, but in circumstances where said services requires access to an invoice, processing of data in that invoice will occur. |
+| **Purpose of the processing**  | The purpose of the processing is to be able to provide the implementation, Consultancy Services or Support Services in accordance with the Agreement. |
+| **Categories of personal data**  | Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.|
+|**Categories of data subjects** | Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice. |
+| **Retention and erasure** | SignUp will not store any data on behalf of the Customer.|
+</div>
 
 <div class="paragraph-medium">
-## 2 EXFLOW WEB
+## 2<div class="paragraph-medium-text">EXFLOW WEB</div>
 </div>
 
-**Description of processing**  
-ExFlow Web is a cloud-based interface for approval of invoices. The processing that will be carried out is mainly storage and processing of invoices through the ExFlow Web application.
-
-**Purpose of the processing**  
-The purpose is to provide the ExFlow Web service to the Customer.
-
-**Categories of personal data**  
-Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.
-
-**Categories of data subjects**  
-Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice.
-
-**Retention and erasure**  
-Invoices are stored for sixty (60) days and are thereafter automatically erased by SignUp.
+<div class="agreement-table">
+| | |
+|:-|:-|
+| **Description of processing** | ExFlow Web is a cloud-based interface for approval of invoices. The processing that will be carried out is mainly storage and processing of invoices through the ExFlow Web application. | 
+| **Purpose of the processing** | The purpose is to provide the ExFlow Web service to the Customer. | 
+| **Categories of personal data**  | Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.| 
+| **Categories of data subjects**  | Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice.| 
+| **Retention and erasure**  | Invoices are stored for sixty (60) days and are thereafter automatically erased by SignUp.| 
+</div>
 
 <div class="paragraph-medium">
-## 3 EXFLOW DATA CAPTURE
+## 3<div class="paragraph-medium-text">EXFLOW DATA CAPTURE</div>
 </div>
 
-**Description of processing**  
-The processing in ExFlow Data Capture includes processing of invoices in a cloud-based environment. This will include storage and processing of invoice data.
-
-**Purpose of the processing**  
-The purpose of the processing is to provide the ExFlow Data Capture service in order for the Customer to be able to seamlessly interpret and extract critical invoice data.
-
-**Categories of personal data**  
-Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.
-
-**Categories of data subjects**  
-Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice.
-
-**Retention and erasure**  
-Personal data is stored for ninety (90) days and is thereafter automatically erased.
+<div class="agreement-table">
+| | |
+|:-|:-|
+| **Description of processing**  | The processing in ExFlow Data Capture includes processing of invoices in a cloud-based environment. This will include storage and processing of invoice data.| 
+| **Purpose of the processing**  | The purpose of the processing is to provide the ExFlow Data Capture service in order for the Customer to be able to seamlessly interpret and extract critical invoice data.| 
+| **Categories of personal data**  | Any data that may be available on an invoice, typically name, title, personal identification number, and other invoicing related identifiers.| 
+| **Categories of data subjects**  | Generally persons employed by or representing the Customer, or any other individual whose personal data appears on an invoice.| 
+| **Retention and erasure**  | Personal data is stored for ninety (90) days and is thereafter automatically erased.| 
+</div>
 
 </div>
  
