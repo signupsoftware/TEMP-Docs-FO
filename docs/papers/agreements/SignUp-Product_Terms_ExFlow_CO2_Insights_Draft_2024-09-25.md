@@ -11,12 +11,12 @@ custom_edit_url: null
 <div class="paragraph-big">
 # PRODUCT TERMS
 </div>
-<div class="paragraph-medium">
+<div class="paragraph-fancy">
 ## ExFlow CO2 Insights
 </div>
 
 <div class="paragraph-medium">
-## 1 INTRODUCTION
+## 1<div class="paragraph-medium-text">INTRODUCTION</div>
 </div>
 <div class="paragraph">
 #### 1.1<div class="paragraph-text">These Product Terms apply in relation to the Customer's use of the ExFlow CO2 Insights, powered by Atmoz, solution ("ExFlow CO2 Insights"). By executing an Order Agreement that references these Product Terms, the Customer agrees to the terms and conditions referred to herein and that these Product Terms shall form an integrated part of the Agreement.</div>
@@ -26,8 +26,8 @@ custom_edit_url: null
 #### 1.2<div class="paragraph-text">Defined terms used in this document shall have the meaning given to them in the General Terms and Conditions, unless otherwise expressly stated herein.</div>
 </div>
 
-<div class="paragraph-big">
-### 2&nbsp;&nbsp;&nbsp;&nbsp;SE RIGHTS AND INTELLECTUAL PROPERTY
+<div class="paragraph-medium">
+## 2<div class="paragraph-medium-text">SE RIGHTS AND INTELLECTUAL PROPERTY</div>
 </div>
 <div class="paragraph">
 #### 2.1<div class="paragraph-text">SignUp grants the Customer, during the Subscription Period, the right to use ExFlow CO2 Insights in accordance with the Agreement. The Customer undertakes to use ExFlow CO2 Insights solely in a manner that complies with the Agreement, and all applicable laws, including, but not limited to applicable restrictions concerning copyright and other intellectual property rights.</div>
@@ -58,7 +58,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 3 LIMITED WARRANTY
+## 3<div class="paragraph-medium-text">LIMITED WARRANTY</div>
 </div>
 <div class="paragraph">
 #### 3.1<div class="paragraph-text">SignUp warrants that it has the right and authority to grant the Customer the license to use ExFlow CO2 Insights subject to the grant the right to use ExFlow CO2 Insights under these Product Terms.</div>
@@ -73,15 +73,17 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 4 FEES
+## 4<div class="paragraph-medium-text">FEES</div>
 </div>
+<div class="paragraph-indent">
 The Subscription Fees for ExFlow CO2 Insights are set out in the relevant Order Agreement and payment shall be made in accordance with the payment terms set out in the General Terms and Conditions.
+</div>
 
 <div class="paragraph-medium">
-## 5 SERVICE LEVELS
+## 5<div class="paragraph-medium-text">SERVICE LEVELS</div>
 </div>
-<div class="paragraph-big">
-### 5.1 General
+<div class="paragraph">
+#### 5.1<div class="paragraph-medium-text"><b>General</b></div>
 </div>
 <div class="paragraph">
 #### 5.1.1<div class="paragraph-text">ExFlow CO2 Insights will be available twenty-four (24) hours a day, seven (7) days a week, except for planned and agreed maintenance carried out during the maintenance window.</div>
@@ -103,47 +105,72 @@ The Subscription Fees for ExFlow CO2 Insights are set out in the relevant Order 
 #### 5.1.5<div class="paragraph-text">For the avoidance of doubt, the service credits to which the Customer is entitled in the event of failure by SignUp to meet the service levels set out in these Product Terms shall be calculated against the Subscription Fees related to the ExFlow CO2 Insights solution.</div>
 </div>
 
-<div class="paragraph-big">
-### 5.2 Backup
+<div class="paragraph">
+#### 5.2<div class="paragraph-medium-text"><b>Backup</b></div>
 </div>
+<div class="paragraph-indent">
 SignUp shall ensure that data stored within the ExFlow CO2 Insights solution is backed up daily for data recovery purposes. Backups will be retained in a separate data centre.
+</div>
 
-<div class="paragraph-big">
-### 5.3 Service Level Definitions
+<div class="paragraph">
+#### 5.3<div class="paragraph-medium-text"><b>Service Level Definitions</b></div>
 </div>
-<div class="paragraph-big">
-#### 5.3.1 Availability
+<div class="paragraph">
+#### 5.3.1<div class="paragraph-text">Availability</div>
 </div>
+<div class="paragraph-indent">
 Availability is defined as the time during which the ExFlow CO2 Insights solution shall perform the functionality described in the Product Catalogue or any specification otherwise provided by SignUp.
-
-<div class="paragraph-big">
-#### 5.3.2 Uptime Service Levels
 </div>
-The ExFlow CO2 Insights solution will be available to the Customer at least 99 % of the time in each calendar month during the term, excluding the following reserved hours (collectively, "Excused Down Time"):
-(i) for down time to perform maintenance during a maintenance window; and
-(ii) midnight (Monday-Sunday) to 6:00 a.m. the next morning CET.
+
+<div class="paragraph">
+#### 5.3.2<div class="paragraph-text">Uptime Service Levels</div>
+</div>
+<div class="paragraph-indent">
+The ExFlow CO2 Insights solution will be available to the Customer at least 99 % of the time in each calendar month during the term, excluding the following reserved hours (collectively, <b>"Excused Down Time"</b>):
+<div class="list-normal-roman">
+(i)<div class="paragraph-text">for down time to perform maintenance during a maintenance window; and</div>
+
+(ii)<div class="paragraph-text">midnight (Monday-Sunday) to 6:00 a.m. the next morning CET.</div>
+</div>
 SignUp will be in breach of the foregoing uptime service level if the ExFlow CO2 Insights solution fails to achieve the 99 % availability (subject to the Excused Down Time described above), as measured over the period of a given calendar month, in accordance with the following formula:
+
 a = 100 x (b - d) / (b - c), where:
+
 "a" = the actual percentage of availability in such month
+
 "b" = total number of hours in the month
+
 "c" = total number of hours of excused down time
+
 "d" = total number of hours of service unavailable
+
 SignUp shall no later than on the twentieth (20th) day each month provide the Customer with a report that sets out the availability during the preceding month.
-
-<div class="paragraph-big">
-#### 5.3.3 Remedy
 </div>
+
+<div class="paragraph">
+#### 5.3.3<div class="paragraph-text">Remedy</div>
+</div>
+<div class="paragraph-indent">
 The Customer's sole remedy for any breach of the uptime service levels described in Section 4.3.2 above for a given month shall the following:
-(i) if the availability is less than 99 % but greater than or equal to 97 %, then the service credit will be 10 % of the Subscription Fee for ExFlow CO2 Insights,
-(ii) if the availability is less than 97 % but greater than or equal to 95 %, then the service credit will be 20 % of the Subscription Fee for ExFlow CO2 Insights,
-(iii) if the availability is less than 95 % but greater than or equal to 93 %, then the service credit will be 30 % of the Subscription Fee for ExFlow CO2 Insights,
-(iv) if the availability is less than 93 % but greater than or equal to 90 %, then the service credit will be 40 % of the Subscription Fee for ExFlow CO2 Insights,
-(v) if the availability is less than 90 %, then the credit will be 50 % of the Subscription Fee for ExFlow CO2 Insights.
+<div class="list-normal-roman">
+(i)<div class="paragraph-text">if the availability is less than 99 % but greater than or equal to 97 %, then the service credit will be 10 % of the Subscription Fee for ExFlow CO2 Insights,</div>
 
-<div class="paragraph-big">
-### 5.4 Service Credits
+(ii)<div class="paragraph-text">if the availability is less than 97 % but greater than or equal to 95 %, then the service credit will be 20 % of the Subscription Fee for ExFlow CO2 Insights,</div>
+
+(iii)<div class="paragraph-text">if the availability is less than 95 % but greater than or equal to 93 %, then the service credit will be 30 % of the Subscription Fee for ExFlow CO2 Insights,</div>
+
+(iv)<div class="paragraph-text">if the availability is less than 93 % but greater than or equal to 90 %, then the service credit will be 40 % of the Subscription Fee for ExFlow CO2 Insights,</div>
+
+(v)<div class="paragraph-text">if the availability is less than 90 %, then the credit will be 50 % of the Subscription Fee for ExFlow CO2 Insights.</div>
 </div>
+</div>
+
+<div class="paragraph">
+#### 5.4<div class="paragraph-text"><b>Service Credits</b></div>
+</div>
+<div class="paragraph-indent">
 The service credits (if any) will be credited from the next invoice for the Subscription Fee of ExFlow CO2 Insights.
+</div>
 
 </div>
  

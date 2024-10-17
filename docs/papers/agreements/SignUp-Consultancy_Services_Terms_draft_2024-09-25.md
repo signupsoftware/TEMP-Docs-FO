@@ -13,7 +13,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 1. GENERAL
+## 1<div class="paragraph-medium-text">GENERAL</div>
 </div>
 <div class="paragraph">
 #### 1.1<div class="paragraph-text">These Consultancy Services Terms governs the Customer's purchase and receipt of SignUp's Consultancy Services, including implementation and Support Services.</div>
@@ -26,7 +26,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 2. PROVISION OF THE CONSULTANCY SERVICES
+## 2<div class="paragraph-medium-text">PROVISION OF THE CONSULTANCY SERVICES</div>
 </div>
 <div class="paragraph">
 #### 2.1<div class="paragraph-text">The Customer may order Consultancy Services to be provided by SignUp e.g. to perform work in relation to implementation of the Software, development of Deliverables, termination assistance, and/or any other service that Customer orders and SignUp accepts to deliver as a Consultancy Service. Orders of Consultancy Services that will be provided as a project with defined Deliverables shall be made through the conclusion of a Statement of Work. Unless otherwise agreed between the Parties, the scope, duration, extent, of the work to be performed shall be specified in the Statement of Work, including any time plan, etc.</div>
@@ -45,16 +45,27 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 3. CUSTOMER DEPENDENCIES
+## 3<div class="paragraph-medium-text">CUSTOMER DEPENDENCIES</div>
 </div>
-<div class="paragraph-big">
-### 3.1 The Customer will cooperate with SignUp in its performance of Consultancy Services by, without limitation, and without charge:
+<div class="paragraph">
+#### 3.1<div class="paragraph-text">The Customer will cooperate with SignUp in its performance of Consultancy Services by, without limitation, and without charge:</div>
 </div>
-- (a) providing SignUp with any information and documentation relating to the Customer's operations or otherwise being of relevance for the performance of the Consultancy Services;
-- (b) making available the appropriate number of personnel that have the necessary time, qualification, skills (including without limitation language skills) and experience, and delegation of authority to appropriately and timely perform any agreed participation, coordination, cooperation, testing and other activities and provide to SignUp relevant requisite input, requirements and approvals;
-- (c) managing and implementing internal change management, e.g. changes to business processes and routines, as applicable;
-- (d) giving SignUp access to relevant facilities, utilities and resources as SignUp may reasonable require, including facilitating remote Consultancy Services by providing access to systems required to deliver the Consultancy Services and ensuring that SignUp is able to utilize industry standard collaboration tools such as Microsoft Teams; and
-- (e) performing any preparation work and other agreed obligations and duties, as applicable, or as may otherwise be reasonably required by SignUp (additional Customer obligations may apply where agreed and specified in the applicable Order Agreement).
+
+<div class="list-normal-roman">
+(a)<div class="paragraph-text">providing SignUp with any information and documentation relating to the Customer's operations or otherwise being of relevance for the performance of the Consultancy Services;</div>
+</div>
+<div class="list-normal-roman">
+(b)<div class="paragraph-text">making available the appropriate number of personnel that have the necessary time, qualification, skills (including without limitation language skills) and experience, and delegation of authority to appropriately and timely perform any agreed participation, coordination, cooperation, testing and other activities and provide to SignUp relevant requisite input, requirements and approvals;</div>
+</div>
+<div class="list-normal-roman">
+(c)<div class="paragraph-text">managing and implementing internal change management, e.g. changes to business processes and routines, as applicable;</div>
+</div>
+<div class="list-normal-roman">
+(d)<div class="paragraph-text">giving SignUp access to relevant facilities, utilities and resources as SignUp may reasonable require, including facilitating remote Consultancy Services by providing access to systems required to deliver the Consultancy Services and ensuring that SignUp is able to utilize industry standard collaboration tools such as Microsoft Teams; and</div>
+</div>
+<div class="list-normal-roman">
+(e)<div class="paragraph-text">performing any preparation work and other agreed obligations and duties, as applicable, or as may otherwise be reasonably required by SignUp (additional Customer obligations may apply where agreed and specified in the applicable Order Agreement).</div>
+</div>
 
 <div class="paragraph">
 #### 3.2<div class="paragraph-text">If the Customer engages or uses a consultancy agent, consultant, or any other third party in connection with any Consultancy Services engagement, the Customer will be responsible for such third party as if it were its own personnel and will coordinate the activities of such third party with SignUp.</div>
@@ -67,7 +78,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 4. GOVERNANCE AND CHANGES
+## 4<div class="paragraph-medium-text">GOVERNANCE AND CHANGES</div>
 </div>
 <div class="paragraph">
 #### 4.1<div class="paragraph-text">The Parties will cooperate and consult with each other in connection with SignUp's provision of Consultancy Services, and each Party recognizes that the due and timely performance thereof depends upon the continuing co-operation and goodwill, and the commitment, effort, and allocation of qualified, competent and relevant personnel, skills and resources from each Party.</div>
@@ -83,7 +94,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 5. FEES AND PRICE INDEXATION
+## 5<div class="paragraph-medium-text">FEES AND PRICE INDEXATION</div>
 </div>
 <div class="paragraph">
 #### 5.1<div class="paragraph-text">The Fees are specified in the applicable Order Agreement and are payable as invoiced. Time and materials engagements will be invoiced in arrears, and fixed price engagements as specified in the Agreement, applicable Order Agreement or as otherwise communicated by SignUp.</div>
@@ -99,7 +110,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 6. INTELLECTUAL PROPERTY RIGHTS TO DELIVERABLES
+## 6<div class="paragraph-medium-text">INTELLECTUAL PROPERTY RIGHTS TO DELIVERABLES</div>
 </div>
 <div class="paragraph">
 #### 6.1<div class="paragraph-text">SignUp or its licensors shall retain all right, title, and interest to any Deliverables and improvements, enhancements, modifications, or derivative works thereof, generated in connection with the Consultancy Services, including any Intellectual Property Rights related thereto.</div>
@@ -109,7 +120,7 @@ custom_edit_url: null
 </div>
 
 <div class="paragraph-medium">
-## 7. TERM AND TERMINATION
+## 7<div class="paragraph-medium-text">TERM AND TERMINATION</div>
 </div>
 <div class="paragraph">
 #### 7.1<div class="paragraph-text">Consultancy Services will commence on the date agreed between the Parties and, unless terminated early in accordance with the Order Agreement or as otherwise set out in the Agreement, expire when all agreed performances and deliveries thereunder have been completed.</div>
