@@ -194,7 +194,7 @@ const config = {
             ],
           },
           {
-            title: 'MoreZZ',
+            title: 'More',
             items: [
               {
                 label: 'ExFlow support',

@@ -121,7 +121,7 @@ The Customer is upon written request to SignUp entitled to obtain all Customer D
 #### 7.3<div class="paragraph-text">The service levels and potential service credits are set out below.</div>
 </div>
 
-<div class="agreement-table agreement-table-w-header-2">
+<div class="agreement-table agreement-table-w-header agreement-table-w-header-2">
 | Availability | Service credit |
 | :--- | :--- |
 | 99.50 - 98.50 %    | 10 % of the hosting fee for the Software.   |
