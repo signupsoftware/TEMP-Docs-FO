@@ -498,7 +498,6 @@ html[data-theme='light'] {
   height: 111px;
   background-image: url("/static/img/signup_logo.png");
 }
-/* END Agreement documents, delete these if not used in final */
 
 .agreement-table table {
   width: 800px !important;  
@@ -542,34 +541,82 @@ html[data-theme='light'] {
   height: 32px;
 }
 
-/* Index table */
-.agreement-table-index table {
+/* ----------------------------------------------------------------------------- */
+/*  Standard tables for agreement pages, with headers                            */
+/* ----------------------------------------------------------------------------- */
+
+.agreement-table-w-header table {
+  width: 100%;
   margin-left: 60px;
-  border-top: none;
-  border-bottom: none;
 }
-.agreement-table-index table tr {
-  border-collapse: collapse;
-  border-bottom: none;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-.agreement-table-index table td:first-child {
-  width: auto;
+.agreement-table-w-header thead {
+  border: none !important;
   font-family: var(--font-family-document);
   font-size: var(--font-size-table-header);
-  background-color: #e6d9d1;  
 }
-
 .agreement-table-w-header th {
   display: table-cell !important;
+  background-color: #e6d9d1;
+  border-collapse: collapse !important;
+  border: none !important;
+}
+.agreement-table-w-header tr {
+  border-collapse: collapse !important;
+  border: none;
+}
+.agreement-table-w-header table td {
+  padding: 5px;
+  border: none !important;
+  font-family: var(--font-family-document);
+  font-size: var(--font-size-table-header);
 }
 
+/* ----------------------------------------------------------------------------- */
+/* Fixing some annoying extra borders for smaller tables                         */
+/* ----------------------------------------------------------------------------- */
 .agreement-table-w-header-2 table {
-  border: none !important;
+  border: none !important;  
+}
+.agreement-table-w-header-2 table tr {
+  border-bottom: 1px solid black !important;
 }
 .agreement-table-w-header-2 table th {
   display: table-cell !important;
-  padding: 5px;
+  padding: 5px;  
 }
+
+
+
+/* ============================================================================= */
+/*  Index table for the Agreement pages, make this a bit more presentable        */
+/* ============================================================================= */
+.agreement-table-index table {
+  margin-left: 0px;
+  border-collapse: collapse;
+  border-top: none;
+  border-bottom: none;
+}
+/* Remove all borders from the table headers */
+.agreement-table-index table th {
+  display: table-cell;
+  background-color: #e6d9d1;
+  border: none !important;
+}
+.agreement-table-index table thead {
+  border: none;
+  padding: 0px !important;
+  margin: 0px !important;
+  height: 10px !important;
+}
+.agreement-table-index table tr {
+  border-collapse: collapse;
+  border: none;
+}  
+.agreement-table-index table td:first-child {
+  width: auto;
+  background-color: #f8f1ea; 
+}
+
+/* END Agreement documents styling */
+
+
