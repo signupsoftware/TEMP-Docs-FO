@@ -21,4 +21,16 @@ hide_table_of_contents: true
 | ![Agreement](/img/icon_agreement.png) | 2024-09-16 | [Product Terms ExFlow Web](<./SignUp-Product_Terms_ExFlow_Web_2024-09-25.md>)  |
 </div>
 
+<br/>
+
+### Statement of Work Fixed Price Implementation
+<br/>
+
+<div class="agreement-table agreement-table-index">
+|  | &nbsp;&nbsp;Date | &nbsp;&nbsp;Document | 
+| :-------- | :-------- | :-------- | 
+|  | 2020-02-21 | [ExFlow AP for D365FO](docs/papers/agreements/SoW/ExFlow_AP_for_D365FO.md) |
+|  | 2020-04-02 | [ExFlow Data Capture for D365FO](docs/papers/agreements/SoW/ExFlow_Data_Capture_for_D365FO.md) |
+</div>
+
 

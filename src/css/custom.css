@@ -15,6 +15,20 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* EA 2024-10-21 */
+  --ifm-color-primary-base-color: #fdad54;
+  --ifm-code-font-size: 100%;
+  --ifm-font-family-base: 'DMSans';
+  --ifm-font-weight-bold: 800;
+  --ifm-font-weight-semibold: 600;
+  --ifm-font-weight-alittlebold: 500;
+  --ifm-sidebar-menu-font-size: 12pt;
+  --ifm-h3-font-size: 1.5rem;
+  --ifm-menu-color:  #606770;
+    /* EA Units from old site */
+  --aa-base-unit: 16px;
+  --aa-font-size: calc(var(--aa-base-unit)* 1px);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -39,7 +53,6 @@
   margin: 0 calc(var(--ifm-spacing-horizontal)* -1);
 }
 
-
 .hero {
   background-color: white;
   height: 450px;
@@ -48,6 +61,44 @@
 .hero--primary {
   padding-top: 0px!important;
   height: 1px;
+}
+
+/* Links inside md-docs. This overrides more than it should, so other links are added below */
+[data-theme='light'] a {
+  color: var(--ifm-color-primary-base-color);
+  text-decoration: none;
+}
+[data-theme='dark'] a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* Other link styling */
+.menu a {
+  font-weight: var(--ifm-font-weight-alittlebold);
+  font-size: var(--ifm-sidebar-menu-font-size);
+  color: var(--ifm-menu-color);
+}
+.table-of-contents a {
+  color: var(--ifm-menu-color);
+}
+.navbar {
+  background-color: #F8F1EA;
+}
+.navbar a {
+  color: var(--ifm-menu-color);
+  /* font-weight: var(--ifm-font-weight-semibold);  */
+  font-weight: 500;
+  font-family: 'DmSans', sans-serif;
+  font-size: 100%;
+}
+.navbar a:hover {
+  color: var(--ifm-menu-color);
+}
+.navbar__link--active {
+  color: var(--ifm-color-primary-base-color);
 }
 
 /* Footer overrides */
@@ -192,12 +243,8 @@
 html[data-theme='light'] {
   --ifm-background-color: #f8f1ea;
 }
-
-[data-theme='dark'] a {
-  color: white;
-  text-decoration: none;
+html[data-theme='dark'] {
 }
-
 
 
 
@@ -211,7 +258,7 @@ html[data-theme='light'] {
 /* Side menu */
 .menu__link--active {
   background-color: #f8f1ea;
-  color: #fdad54;
+  color: var(--ifm-color-primary-base-color);
 }
 .menu__link--active:hover {
   color: #606770;
@@ -225,6 +272,22 @@ html[data-theme='light'] {
 /* ----------------------------------------------------------------------------- */
 /*    EA 2024-09-12 New design
 /* ----------------------------------------------------------------------------- */
+
+body h3 {
+  font-family: "Archia";
+  font-weight: 600;
+  font-size: var(--ifm-h3-font-size);
+}
+body h4 {
+  font-family: "Archia";
+  font-weight: 600;
+  font-size: var(--aa-font-size);
+}
+strong {
+  font-family: "DMSans";
+  font-weight: var(--ifm-font-weight-bold);
+  font-size: var(--aa-font-size);
+}
 
 .background-image {
   background-image: url("../../static/img/main_background.png");
@@ -269,16 +332,17 @@ html[data-theme='light'] {
 
 .menu-item {
   width: fit-content;
-  height: 40px;
-  background-color: #FDAD54; 
+  height: 55px;
+  background-color: var(--ifm-color-primary-base-color);
+  color: black; 
   border-radius: 10px;
   margin-top: 22px;
   align-content: center;
   text-align: left;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 25px;
   font-family: 'DMSans', sans-serif;
-  font-size: 13pt;
+  font-size: 15pt;
 }
 .menu-item:hover {
   background-color: #FFC48C;
@@ -298,39 +362,88 @@ html[data-theme='light'] {
   font-size: 12pt;
 */
 
-/* Tables in .md files */
+/* ----------------------------------------------------------------------------- */
+/*  Tables in .md files                                                          */
+/* ----------------------------------------------------------------------------- */
+
 [data-theme='light'] table thead {
-  background-color: #fdad54;
-  border: var(--ifm-table-border-width) solid #fdad54;
-}
-[data-theme='light'] table td, table th {
-  border: var(--ifm-table-border-width) solid #fdad54 !important;
-  vertical-align: top;
+  background-color: var(--ifm-color-primary-base-color);
+  border: var(--ifm-table-border-width) solid var(--ifm-color-primary-base-color);
 }
 [data-theme='dark'] table thead {
   background-color: #333335;
   border-color: #333335;
 }
+
+[data-theme='light'] table td, table th {
+  border: var(--ifm-table-border-width) solid var(--ifm-color-primary-base-color) !important;
+}
 [data-theme='dark'] table td, table th {
-  border: var(--ifm-table-border-width) solid #333335;
+  border: var(--ifm-table-border-width) solid #333335; 
+}
+
+table td, table th {
   vertical-align: top;
+  line-height: 19px;
+  padding: 10px;
 }
-/*
-[data-theme='dark'] a {
-  color: white;
-  text-decoration: none;
+
+
+
+/* ----------------------------------------------------------------------------- */
+/*  Special case tables, these will emulate "colspan" in order to keep           */
+/*  table headers neat and tidy.                                                 */
+.table-expanded-header table {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 900px;
 }
-*/
+
+.table-expanded-header table thead {
+  line-height: 10px;
+  background-color: var(--ifm-color-primary-base-color);
+  padding: 0px !important;
+  margin: 0px !important;
+  /* border-bottom: 1px solid red;  */
+}
+.table-expanded-header table thead th:first-child {
+  width: 600px;
+}
+.table-expanded-header table thead th:nth-child(2) {
+  flex: 1;
+  align-content: flex-end;
+  width: 300px;  
+}
+.table-expanded-header tr td:first-child {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+.table-expanded-header tr td:nth-child(2) {
+  width: 1200px;
+}
+
+/* Nested table, use only in specail cases */
+.table-invisible {
+  background-color: unset;
+  display: block !important;
+}
+.table-invisible tr {
+  border: 0;
+}
+.table-invisible tr td {
+  border-collapse: collapse;
+  border: none !important;
+}
+
 
 .footer__copyright {
+  margin-top: 15px;
   color: black;
 }
 
 
-
-
 .pdf-button {
-  background-color: #FDAD54;
+  background-color: var(--ifm-color-primary-base-color);
   border-radius: 8px;
   border: none;
   float: right;
@@ -351,6 +464,7 @@ html[data-theme='light'] {
 .btn_higher {
   top: -120px;
 }
+
 /* ----------------------------------------------------------------------------- */
 /* Markdown page styling */
 
@@ -362,7 +476,10 @@ html[data-theme='light'] {
 
 
 
-/* Agreement documents, delete these if not used in final */
+/* ============================================================================= */
+/*  Agreement documents styling                                                  */                   
+/* ============================================================================= */
+
 :root {
   --font-size-normal-text: 12pt;
   --font-size-normal-header: 18pt;
@@ -523,7 +640,7 @@ html[data-theme='light'] {
   background-color: #f8f1ea;
 }
 .agreement-table table td:nth-child(3) {
-  background-color: #f8f1ea;
+  background-color: #f8f1ea;  
 }
 .agreement-table table td {
   padding: 5px;
@@ -531,10 +648,10 @@ html[data-theme='light'] {
   padding-right: 30px;   
   font-family: var(--font-family-document);
   font-size: var(--font-size-table-text); 
-}
-.agreement-table table td { 
-  /* border: solid 1px black !important; */
   border: none !important;
+}
+.agreement-table table td a {
+  color: black;
 }
 .agreement-table img {
   width: 32px;
@@ -586,10 +703,9 @@ html[data-theme='light'] {
 }
 
 
-
-/* ============================================================================= */
+/* ----------------------------------------------------------------------------- */
 /*  Index table for the Agreement pages, make this a bit more presentable        */
-/* ============================================================================= */
+/* ----------------------------------------------------------------------------- */
 .agreement-table-index table {
   margin-left: 0px;
   border-collapse: collapse;
@@ -617,6 +733,146 @@ html[data-theme='light'] {
   background-color: #f8f1ea; 
 }
 
+/* ----------------------------------------------------------------------------- */
+/*  Image sizes in markdown files                                                */
+/* ----------------------------------------------------------------------------- */
+/*
+.img-size-small p img {
+  max-width: 600px;
+  height: auto;
+}
+.img-size-medium img {
+  max-width: 600px;
+  height: auto;
+}
+
+.img-size-large p img {
+  max-width: 600px;
+  height: auto;
+}
+*/
+
+img[alt="small"] {
+  max-width: 400px;
+  height: auto;
+}
+img[alt="medium"] {
+  max-width: 600px;
+  height: auto;
+}
+img[alt="large"] {
+  max-width: 800px;
+  height: auto;
+}
+
+/* ----------------------------------------------------------------------------- */
+/*  SoW Pages                                                                    */
+/* ----------------------------------------------------------------------------- */
+
+[data-theme='light'] .agreement-doc-sans .paragraph-indent {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  line-height: 22px;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-indent {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  line-height: 22px;
+  color: var(--text-color-dark-mode);
+}
+
+[data-theme='light'] .agreement-doc-sans .paragraph-medium {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-medium {
+  font-family: 'DMSans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  color: var(--text-color-dark-mode);
+}
+
+
+[data-theme='light'] .agreement-doc-sans .paragraph-text {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: black;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-text {
+  font-family: 'DMSans', sans-serif;
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--text-color-dark-mode);
+}
+
+.agreement-doc-sans .paragraph-text-n {
+  font-weight: normal;
+  font-family: var(--font-family-document-sans);
+  font-size: var(--font-size-normal-text);
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+
+.agreement-doc-sans .paragraph-text-n2 {
+  font-weight: normal;
+  font-family: var(--font-family-document-sans);
+  font-size: var(--font-size-normal-text);
+  margin-left: 40px;
+  font-weight: normal;
+  display: inline-block;
+  white-space: break-spaces;
+  vertical-align: top;
+  line-height: var(--paragraph-line-height);
+}
+
+[data-theme='light'] .agreement-doc-sans .paragraph-indent-l2 {
+  margin-left: 50px;
+}
+[data-theme='dark'] .agreement-doc-sans .paragraph-indent-l2 {
+  margin-left: 50px;
+  color: var(--text-color-dark-mode);
+}
+
+.agreement-doc-sans .paragraph-indent-in {
+  margin-left: -20px;
+}
+
+[data-theme='light'] .agreement-doc-sans .list-roman { 
+  margin-left: 40px;
+}
+[data-theme='dark'] .agreement-doc-sans .list-roman { 
+  margin-left: 40px;
+  color: var(--text-color-dark-mode);
+}
+
+[data-theme='light'] .agreement-doc-sans .list-roman li span { 
+  position: relative;  
+  left: 10px;
+}
+[data-theme='dark'] .agreement-doc-sans .list-roman li span { 
+  position: relative;
+  color: var(--text-color-dark-mode);
+  left: 10px;
+}
+[data-theme='light'] .agreement-doc-sans img {
+  width: 253px;
+  height: 89px;
+  background-image: url("/static/img/logo_SignUp_Dark.png");
+}
+[data-theme='dark'] .agreement-doc img {
+  width: 253px;
+  height: 89px;
+  background-image: url("/static/img/logo_SignUp_Light.png");
+}
+/* END  SoW Pages                                                                    */
+
+
 /* END Agreement documents styling */
-
-

@@ -3,6 +3,7 @@ title: View and edit imported invoices
 sidebar_position: 2
 hide_title: true
 custom_edit_url: null
+hide_table_of_contents: true
 ---
 ## View and edit imported invoices 
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
@@ -17,7 +18,7 @@ When you have reviewed all the required information, you can validate the data b
 
 ![A screenshot of a computer Description automatically generated with low confidence](@site/static/img/media/image95.png)
 
-
+<div class="table-expanded-header">
 |Buttons (Action pane)| |
 |:-|:-|
 |Save|Save the data entered in the form.|
@@ -61,7 +62,9 @@ When you have reviewed all the required information, you can validate the data b
 |Manage/View automatic coding|Active when using Automatic invoice coding, Invoice coding suggestions when importing or selected by user. Reselect will delete old data if "Get invoice coding" or "Select invoice coding – (Replace)" is used. If `OK` is pressed in selection form, the lines will be inserted in the suggestions|
 |Overview|Show more fields from the Invoice header and no fields from the lines.|
 |General|Show fields related to the lines and a limited number of header fields.|
+</div>
 
+<div class="table-expanded-header">
 |Buttons (Lower pane), Import lines (Line view)| |
 |:-|:-|
 |Add line|Add a new line.|
@@ -74,7 +77,9 @@ When you have reviewed all the required information, you can validate the data b
 |Add approver<br/>(Tab Approvers)|Insert a new line and select an approver.|
 |Remove<br/>(Tab Approvers)|Delete the selected approver.|
 |Get approvers from auto coding<br/>(Tab Approvers)|To get approvers from auto coding.
+</div>
 
+<div class="table-expanded-header">
 |Fields (Upper pane), Import header (Line view)| |
 |:-|:-|
 |Vendor account|Select or displays the Vendor.|
@@ -123,10 +128,12 @@ When you have reviewed all the required information, you can validate the data b
 |Invoice type|Used to classify invoices.|
 |Receive document date|This field is only used if the Eastern Europe localization is switched on in ExFlow configuration form.|
 |Prepaid invoice|If this invoice is used with prepayment.|
+</div>
 
+<div className="table-expanded-header">
 |Fields (Lower pane), Import lines (Line view)| |
 |:-|:-|
-|Line type|<u>Shows the line type.</u><br/>Ledger: Line with General ledger accounting only.<br/>Item: Line with stocked items and linked to a purchase order<br/>Charges: Charges that are added to an invoice.<br/>Project: Line related to the Project module with a project id.<br/>Asset: Line related to the Fixed assets module with an asset id.<br/>Procurement: Line that defines the Procurement category.<br/>Customer: Line that defines the customer.<br/>Landed cost: Line that defines the Landed cost.|
+|Line type|&nbsp;&nbsp;<u>Shows the line type:<br/><br/></u><table className="table-invisible"><tr><td>Ledger</td><td>Line with General ledger accounting only</td></tr><tr><td>Item</td><td>Line with stocked items and linked to a purchase order</td></tr><tr><td>Charges</td><td>Charges that are added to an invoice</td></tr><tr><td>Project</td><td>Line related to the Project module with a project id</td></tr><tr><td>Asset</td><td>Line related to the Fixed assets module with an asset id</td></tr><tr><td>Procurement</td><td>Line that defines the Procurement category</td></tr><tr><td>Customer</td><td>Line that defines the customer</td></tr><tr><td>Landed cost</td><td>Line that defines the Landed cost</td></tr></table> |
 |Purchase quantity| Displays the purchase quantity.|
 |Purchase price| Displays the unit price|
 |Amount| Displays the amount.|
@@ -153,20 +160,25 @@ When you have reviewed all the required information, you can validate the data b
 |Line Discount|Discount amount.|
 |Unit|Unit of measure.|
 |Tax exempt number|Tax exempt number from the purchase order|
+</div>
 
-|Fields (Lower pane), Line details (Line view), Tab Dimensions| |
+<div class="table-expanded-header">
+|Fields (Lower pane), Line details (Line view), Tab Dimensions | |
 |:-|:-|
 |Account|Enter or select the accounting dimensions values.<br/>Alt + Up arrow: Displays the account structure’s dimensions.<br/>Alt + Down arrow: Displays the current dimension’s values.|
 |Financials dimensions|Displays the selected dimension values.|
 |Other dimensions|Displays the non-financial dimensions which apply to the selected line type (Ledger, Asset etc.).|
 |Unit|Unit of measure.|
+</div>
 
-
+<div class="table-expanded-header">
 |Below fields for Procurement type lines only:| |
 |:-|:-|
 |Procurement category|Selection of the Procurement category.|
+</div>
 
-|Below fields for Landed cost type lines only:|
+<div class="table-expanded-header">
+|Below fields for Landed cost type lines only:| |
 |:-|:-|
 |Voyage|Voyage ID|
 |Cost type code|Cost type code.|
@@ -176,9 +188,11 @@ When you have reviewed all the required information, you can validate the data b
 |Project date|Project date|
 |Project sales tax group|Project sales tax group|
 |Project Item sales tax group|Project Item sales tax group|
+</div>
 
-
+<div class="table-expanded-header">
 | Fields (Lower pane), Line details (Line view), Tab Approvers | |
 |:-|:-|
 | Is role                                                      | Ticked when a Role is selected in the field User/Role.                                                                                          |
 | User/role                                                    | Select a User or a Role to approve this invoice line. A Role is a predefined group of users where any one of them can approve the invoice line. |
+</div>

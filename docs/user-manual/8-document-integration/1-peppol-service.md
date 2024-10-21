@@ -21,12 +21,15 @@ The ExFlow document Integration platform is a new product within the ExFlow fami
 
 ### Menu´s
 When installing the new model two new menu exit is added below ExFlow. ExFlow Core and ExFlow document integration. The ExFlow Core menu exit is used to handle the subscription. (This is where you sign up and pay for the new functionality via Microsoft Marketplace).
-
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image459.png)
+</div>
 
 The new Peppol functionality is found under the ExFlow document integration menu.
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image460.png)
+</div>
 
 ### Setup
 #### Connect to the subscription for the Peppol Service
@@ -34,7 +37,9 @@ The new Peppol functionality is found under the ExFlow document integration menu
 
 The first step to setup the Peppol Service is to push the Initiate button to fill in the necessary URL’s.
 
+<div className="img-size-large">
 ![large](@site/static/img/media/image461.png)
+</div>
 
 **ExFlow Core | Common | Subscriptions**
 
@@ -44,17 +49,25 @@ Select General/Onboarding to start the subscription for the Peppol Service at Mi
 
 Push on the button Azure Marketplace and follow the instructions to subscribe to an offer.
 
+<div className="img-size-small">
 ![small](@site/static/img/media/image463.png)
+</div>
 
 A web page in Microsoft Azure is opened with Peppol E-Invoicing offer. Choose your desired plan and follow the instructions on the web page. Make sure you have the correct permissions in your Azure tenant to do purchases in Azure Marketplace.
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image464.png)
+</div>
 
 Fill in the Resource group, Name and click Review+subscribe.
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image465.png)
+</div>
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image466.png)
+</div>
 
 - Push the "Check subscription" button and please notice that the text has changed to “Subscribed”.
 - Push the button “Sign in” and then “Post”, ExFlow Document Integration is now connected to a subscription.
@@ -68,8 +81,9 @@ Fill in the Resource group, Name and click Review+subscribe.
 
 Push the button “Get document profiles” to load all different Peppol formats that are available and activate the profiles that will be used (for example 158 and 160 are very common in Europe)
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image468.png)
-
+</div>
 
 ### Parameters
 **ExFlow Document integration | Setup | Parameters**
@@ -77,7 +91,9 @@ Push the button “Get document profiles” to load all different Peppol formats
 #### General
 Select the type of logging you prefer, when testing the system it is recommended to set logging to "Always" and when running in production it should be set to Errors only.
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image469.png)
+</div>
 
 #### Peppol
 On this page your Peppol address is setup consisting of Country code and participant id. 
@@ -165,7 +181,9 @@ When the invoice is set to the status “waiting” it can be imported in ExFlow
 | Communication log| This opens the log form and displays the communication for this unique invoice. See more detailed instructions further down in the section “Communication log”.|
 |Error information| If an invoice has the status “Error” more information can be found about the error. This function retrieves the error information from the communication log and makes it easier to read in plain text.|
 
+<div className="img-size-medium">
 ![medium](@site/static/img/media/image478.png)
+</div>
 
 ### Import methods
 **ExFlow | Setup | Import methods**
@@ -204,5 +222,6 @@ The communication log logs all the communication between F&O and the Peppol Netw
 |Activate customer|Activate customer is used to automatically set one or several customers to set up the eIncvoice parameter to yes in the standard customer form.|
 |Customer check setup|Used to verify the setup of customer settings in standard that is used with Peppol outgoing invoices.|
 
+<div className="img-size-small">
 ![small](@site/static/img/media/image481.png)
-
+</div>
