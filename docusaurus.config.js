@@ -45,8 +45,6 @@ const config = {
   baseUrl: '/finance-operations/',    // Use this for production  
   
 
-
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -84,6 +82,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -114,11 +113,13 @@ const config = {
       navbar: {
 
         logo: {
-          //alt: 'ExFlow',
-          src: 'img/exflow-logo-v5.png',
-        },
+            alt: 'SignUp logo',
+            src: 'img/logo_SignUp_Dark.png',
+            srcDark: 'img/logo_SignUp_Light.png',
+            href: 'https://docs.exflow.cloud/',
+          },
 
-        items: [
+          items: [
 /*          
           {
             type: 'localeDropdown',
