@@ -474,8 +474,6 @@ table td, table th {
 }
 
 
-
-
 /* ============================================================================= */
 /*  Agreement documents styling                                                  */                   
 /* ============================================================================= */
@@ -486,6 +484,7 @@ table td, table th {
   --font-size-big-header: 20pt;
   --font-size-main-header: 14pt;
   --font-size-medium-header: 12pt;
+  --font-size-bigger-header: 13pt;
   --font-size-normal-paragraph: 12pt;
   --font-size-small-paragraph: 11pt;
 
@@ -731,6 +730,7 @@ table td, table th {
 .agreement-table-index table td:first-child {
   width: auto;
   background-color: #f8f1ea; 
+  height: 45px;
 }
 
 /* ----------------------------------------------------------------------------- */
@@ -872,6 +872,29 @@ img[alt="large"] {
   height: 89px;
   background-image: url("/static/img/logo_SignUp_Light.png");
 }
+/* EA 2024-10-21 */
+[data-theme='light'] .sow-header { 
+  font-size: var(--font-size-big-header);
+  color: #2F5496;
+}
+[data-theme='dark'] .sow-header { 
+  color: var(--text-color-dark-mode);
+  font-size: var(--font-size-big-header);
+  color: #2F5496;
+}
+[data-theme='light'] .sow-header-smaller { 
+  position: relative;  
+  font-size: var(--font-size-bigger-header);   
+  font-weight: bold;
+}
+[data-theme='dark'] .sow-header-smaller { 
+  color: var(--text-color-dark-mode);
+  font-size: var(--font-size-bigger-header);
+  font-weight: bold;
+}
+
+
+
 /* END  SoW Pages                                                                    */
 
 
