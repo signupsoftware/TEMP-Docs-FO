@@ -8,6 +8,10 @@ hide_table_of_contents: true
 ## Terms and Conditions
 <br/>
 
+<!--
+<iframe width="600" height="400" src="https://www.youtube.com/embed/xx8-tEYfcfQ"></iframe>
+-->
+
 <div class="agreement-table agreement-table-index">
 |  | &nbsp;&nbsp;Date | &nbsp;&nbsp;Document | 
 | :-------- | :-------- | :-------- | 

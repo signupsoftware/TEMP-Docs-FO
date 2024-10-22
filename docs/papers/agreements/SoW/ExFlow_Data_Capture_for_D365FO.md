@@ -9,33 +9,6 @@ custom_edit_url: null
 ![SignUp Software](./../img/none-pixel.png)
 
 
-
-<div className="paragraph-medium">
-1.<div className="paragraph-text">SERVICES</div>
-</div>
-
-<div className="paragraph-indent">
-The Supplier undertakes to assist the Customer in the implementation of the Software in the
-Customer's environment by providing the following Implementation Services at the price set out in
-the Agreement.
-</div>
-
-<br/>
-
-i)<div className="paragraph-text">Kick-off meeting</div>
-<div className="paragraph-indent-l2">
-The Supplier will arrange a kick-off meeting where the structure of the Implementation
-Services will be discussed with the Customer.
-</div>
-
-ii)<div className="paragraph-text">Technical meeting & preparations</div>
-<div className="paragraph-indent-l2">
-The Supplier will arrange a technical meeting to inform about the technical requirements
-and gather technical information impacting the project.
-</div>
-
-
-
 <div className="paragraph-medium">
 1.<div className="paragraph-text"> SERVICES</div>
 </div>

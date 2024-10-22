@@ -22,7 +22,7 @@ const baseURL = "/finance-operations/";
 //const siteURL = 'http://localhost:3000/';
 //const baseURL = "/";
 
-// ========================================================================================================
+// ======================================================================================================== 
 // ========================================================================================================
 
 
@@ -137,18 +137,18 @@ const config = {
             label: 'Documentation',
             position: 'left',
             // This is for local dev:
-            //href: '/docs/user-manual/exflow-home-page/introduction'            
+            to: 'docs/user-manual/exflow-home-page/introduction'            
             // This is for Prod:
-            to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news'
+            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news'
           },
 
           {
             label: 'News',
             position: 'left',
             // This is for local dev:
-            //href: 'docs/user-manual/whats-new-and-planned/news',
+            to: 'docs/user-manual/whats-new-and-planned/news',
             // This is for Prod:
-            to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news',
+            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news',
           },
 
           /* Uncomment this when the Release notes page is ready */
@@ -156,9 +156,9 @@ const config = {
             label: 'Release notes',
             position: 'left',            
             // This is for local dev:
-            //href: '/docs/user-manual/whats-new-and-planned/release-notes'
+            to: 'docs/user-manual/whats-new-and-planned/release-notes'
             // This is for Prod:
-            to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes'
+            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes'
           },
           
 
