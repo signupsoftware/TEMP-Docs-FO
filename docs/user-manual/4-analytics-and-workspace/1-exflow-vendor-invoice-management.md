@@ -17,7 +17,7 @@ The tiles are clickable and will open the result based on the filter set on the 
 
 ![Timeline, Teams Description automatically generated](@site/static/img/media/image114.png)
 
-| Workspace          | |
+| Workspace    |
 |:-|:-|
 | Workspace          | Display's tiles showing number of invoices in different statuses.        |
 | Analytics          | Display's invoice and approval information in embedded Power BI reports. |
@@ -36,7 +36,7 @@ The tiles are clickable and will open the result based on the filter set on the 
 |Open imported invoices older than 5 days|Number of invoices to process in ExFlow import form that is older than 5 days.|
 |Open imported invoices with missing documents|Number of invoices to process in ExFlow import form that is missing and invoice image.|
 |Open imported invoices with missing coding|Number of invoices to process in ExFlow import form that has not been coded.|
-|Open document invoice with price variance|Number of purchase order invoices in ExFlow document form with matching status price variance.|
+|Open document invoice with price variances|Number of purchase order invoices in ExFlow document form with matching status price variance.|
 |Open document invoice with status rejected|Number of invoices in ExFlow document form with the status rejected.|
 |Open document invoice with past due date|Number of invoices in ExFlow document form that has past the due date.|
 |Open document invoice due within 10 days|Number of invoices in ExFlow document form with due dates within 10 days.|
