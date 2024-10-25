@@ -4,9 +4,63 @@ sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
-## Release 2.15.1
+
+## Release 2.15.4
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
+#### INTRODUCTION
+A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of October 2024.
+Below describes all the included changes and corrections that have been included in this and earlier patches release based on the latest major release 2.15. 
+
+This release includes our new subscription module, released in ExFlow 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
+
+#### Version numbers
+The described release in this document supports the following versions.
+
+| D365 FO Platform version | D365 FO application version nb | ExFlow version nb |
+| ----------- | -------------- | -------------- | 
+| Update 63 (7.0.7198.66) or later | 10.0.39 (10.0.1860.56) | 2.15.4 |
+
+#### CORRECTIONS
+**42400** An error message Range no 48 not found was displayed occasionally when working in ExFlow Import form.
+
+**43367** An extension on class PurchInvoiceJournalCreate made it possible to post purchase order based invoices even if the matching result failed in standard.
+
+### RELEASED IN 2.15.3
+#### Improvements
+**41628** We have added more functionality to our new AI/ML service that is used in combination with ExFlow Web.
+
+#### Corrections
+**42931** Importing of invoices to ExFlow from Invoice Capture was not working properly in the later releases of Finance and Operations. 
+
+### RELEASED IN 2.15.2
+#### Improvements
+**31045** We have made it possible to view invoices in Import Form through the image URL exposed in entities.
+**36770** We have made the core ExFlow tables available for AllowRowVersionChangeTracking.
+**40997** We have created a new list of entities to use when running with Azure Synapse Link for Dataverse.
+
+#### Vendor statement
+As part of this release, we have made several changes and added more functionality into the vendor statement functionality.
+**41738** New columns added for vendor name to Statement form and Reconciliation form.
+**41739** We have improved the validation checks between the from date and the minimum date imported from the statement lines.
+**41740** We have improved the validation for due date. The Due date is only a relation to the invoice due date and shall not be validate against to date.
+**41743** The statements are now editable if the status is open. It’s open for change of dates, amounts and add/remove lines. If the status of the statement is reconciled, editing of the statement it not possible.
+**41744** The buttons for Validate and Reopen are now greyed out when the statement is Posted.
+**41745** A new form is created called Vendor document status. Found under ExFlow common -Inquiries and reports - Vendor document status. The form shows transactions from the data source for vendor and payments. The users can set the transactions as “set as fully reconciled” or “set as not reconciled”.
+**41746** New fields have been added in staging table and rework of logic for Vendor statement form for opening balance and ending balances. Opening balance amount from staging table will be added as line into the statement and can be manually match against vendor transactions. Settlement lines can be manually matched against more than one vendor transaction.
+**41747** Validation added of imported statement lines vs ending balance.
+**41748** Imported payment lines from statement can now be matched against open/settled vendor payments.
+
+#### Corrections
+**40751** When running purchase order based invoices in ExFlow in combination with Tax calculation service, taxes were not calculated correctly on line level.
+**41011** The document date where not transferred correctly to ExFlow web.
+**41394** The upgrade script for the released feature (37320) in 2.15, was not triggered automatically.
+**41567** The released feature (37320) in 2.15, added an extra validation causing previous setup with multiple values for one column (for example sales tax group) not working properly.
+**41651** Multiple forms were shown in the ExFlow menu, unless ExFlow were enabled in the legal entity.
+**41681** Cost invoices with line type Ledger were not created with the correct amount upon import.
+________________________________________________________________________________________________________________________
+
+### Release 2.15.1
 #### INTRODUCTION
 A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of July 2024.
 This document describes all the included changes and corrections that have been included in this and earlier patches release based on the latest major release 2.15. 
@@ -24,7 +78,8 @@ The described release in this document supports the following versions.
 **40328** The approval order for the approvers was not set correctly when running invoice matching together with suggest approver neither in Import Form or during the invoice register posting. This caused the approver status to be set to None, if suggest approvers did not return any approvers.
 
 **41001** The new function to handle access to documents in ExFlow Web caused an unhandled exception when accessing or approving documents in some scenarios.
-________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________________
 
 ### Major Release 2.15.0
 #### INTRODUCTION
