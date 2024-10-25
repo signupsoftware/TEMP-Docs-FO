@@ -22,7 +22,7 @@ The described release in this document supports the following versions.
 | Update 63 (7.0.7198.66) or later | 10.0.39 (10.0.1860.56) | 2.15.4 |
 
 #### Corrections
-**42400** An error message Range no 48 not found was displayed occasionally when working in ExFlow Import form.
+**42400** An error message: "Range no 48 not found" was displayed occasionally when working in ExFlow Import form.
 
 **43367** An extension on class PurchInvoiceJournalCreate made it possible to post purchase order based invoices even if the matching result failed in standard.
 
