@@ -26,14 +26,14 @@ The described release in this document supports the following versions.
 
 **43367** An extension on class PurchInvoiceJournalCreate made it possible to post purchase order based invoices even if the matching result failed in standard.
 
-### RELEASED IN 2.15.3
+### Released in 2.15.3
 #### Improvements
 **41628** We have added more functionality to our new AI/ML service that is used in combination with ExFlow Web.
 
 #### Corrections
 **42931** Importing of invoices to ExFlow from Invoice Capture was not working properly in the later releases of Finance and Operations. 
 
-### RELEASED IN 2.15.2
+### Released in 2.15.2
 #### Improvements
 **31045** We have made it possible to view invoices in Import Form through the image URL exposed in entities.
 **36770** We have made the core ExFlow tables available for AllowRowVersionChangeTracking.
