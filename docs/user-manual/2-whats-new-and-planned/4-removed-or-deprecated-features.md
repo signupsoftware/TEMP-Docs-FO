@@ -40,7 +40,7 @@ custom_edit_url: null
 | Affected product areas | Old function and setup will be removed. |
 | Script | No script will be available. |
 | Deprecated date | January 17th 2024. |
-| Planned to be removed from release | 2.16.0. |
+| Planned to be removed from release | 2.17.0. |
 
 #### Methods for suggesting approvers (ExFlow Parameters)
 
@@ -51,7 +51,7 @@ custom_edit_url: null
 | Affected product areas | Old approval workflows not built upon Advanced workflow needs to be rebuilt. This also means that parameters/functions that are related to legacy workflows will be removed. For example, Position hierarchy logic based on owner of dimension and Position controlled by financial dimension. |
 | Script | No script will be available. |
 | Deprecated date | January 17th 2024. |
-| Planned to be removed from release | 2.16.0. |
+| Planned to be removed from release | 2.17.0. |
 
 #### Position hierarchy logic based on owner of dimension (ExFlow Parameters)
 
@@ -84,7 +84,7 @@ custom_edit_url: null
 | Affected product areas | Workflows. |
 | Script | Script available. |
 | Deprecated date | January 17th 2024. |
-| Planned to be removed from release | 2.16.0. |
+| Planned to be removed from release | 2.17.0. |
 
 :::info Deprecated during 2021
 :::

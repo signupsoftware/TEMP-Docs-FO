@@ -4,8 +4,16 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+______________________________________________________
+# Release ExFlow 2.15.4 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-# Release ExFlow 2.15.1 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+Released in October 2024, see more information about the details 
+under "Release notes".
+
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+______________________________________________________________________
+
+## Release ExFlow 2.15.1
 
 Released in July 2024, see more information about the details 
 under "Release notes".
