@@ -27,7 +27,8 @@ To get a license key, you need to contact your partner or Signup Software and pr
 
 After we have been provided with this information an ExFlow license key will be sent to the customer or partner via mail, chat or text message. 
 
-**Please note**; that the ExFlow license key is connected to the D365FO serial number and is only valid when used in this particular Dynamics 365 installation.
+:::info **Please note**; that the ExFlow license key is connected to the D365FO serial number and is only valid when used in this particular Dynamics 365 installation.
+:::
 
 ### Installing the license key
 #### Parameters
