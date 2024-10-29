@@ -66,5 +66,5 @@ The tab "Source dimension" is only for customer specific requirements. For examp
 | UP_Deny_Hold | Disables the Hold button |
 
   
-**NOTE! User level permissions is case sensitive**
- 
+:::info **NOTE! User level permissions is case sensitive**
+:::

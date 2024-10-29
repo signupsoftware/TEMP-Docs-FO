@@ -40,7 +40,8 @@ After we have been provided with this information an ExFlow license key will be 
 - The General parameters form is opened. 
 - Select tab "Parameters" and the current license key is shown in the License key field. 
 
-**Note**: In a new installation this field will be blank.
+:::info **Note**: In a new installation this field will be blank.
+:::
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image405.png)
 

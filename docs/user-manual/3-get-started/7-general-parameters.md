@@ -74,13 +74,14 @@ If PDF web service is used, relevant information should be entered here.
 |Port|Specify port for web service or use port 40001.|
 |Use IP address|Connect with IP adress instead of URL.|
 
+<br/>
+
 #### Setup of invoice image generating using external blob storage
-If there is a need to use external blob storage for generating invoice image.
+If there is a need to use external blob storage for generating invoice image.<br/>
+Additional fields like Storage Account name, Storage Account Key and Container reference that have to be populated.<br/>
 
-Additional fields like Storage Account name, Storage Account Key and Container reference that have to be populated.
-
-**NOTE: That the storage account is required to have
-Allow blob anonymous access enabled as public.**
+:::info **NOTE: That the storage account is required to have Allow blob anonymous access enabled as public.**
+:::
 
 |Azure storage| |
 |:-|:-|
@@ -121,18 +122,17 @@ The feature management tab is used to enable/disable new features within ExFlow.
 |Tax calculation framework|Enables the Tax calculation framwork|
 
 ### System Options
-![small](@site/static/img/media/image494.png)
+![medium](@site/static/img/media/image494.png)
 
 |System options| |
 |:-|:-|
-| Validate invoice in ExFlow web| To validate all lines on the invoice and get all the errors in the same time. Without this enabled, Exflow stops on the first error and then after correction looks at the next one and so on. 
-0 = disabled, 1= default. 1 thread for all validations. 2-xx = Splits the validation in parallel threads.|
+| Validate invoice in ExFlow web| To validate all lines on the invoice and get all the errors in the same time. Without this enabled, Exflow stops on the first error and then after correction looks at the next one and so on. <br/>0 = disabled,<br/> 1= default. <br/>1 thread for all validations. <br/>2-xx = Splits the validation in parallel threads.<br/>|
 
 ### Vendor statement
 To initiate subscription and activate the Vendor statement product.
 
-![small](@site/static/img/media/image565.png)
+![medium](@site/static/img/media/image565.png)
 
 ### Number sequences
 
-![small](@site/static/img/media/image566.png)
+![medium](@site/static/img/media/image566.png)
