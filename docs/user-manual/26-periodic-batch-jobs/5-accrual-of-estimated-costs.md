@@ -9,20 +9,27 @@ custom_edit_url: null
 
 ExFlow \| Periodic tasks \| Post \| Accrual \| Create journal for accrual of estimated costs of all document line types
 
-The purpose of the Create journal for accrual of estimated costs functionality is to provide a practical, user friendly and risk-free way to recognize a cost that is linked to an ExFlow invoice that is open (not finally posted) at a certain time, normally at period closing. The purpose is not to achieve automation but to improve efficiency in period closing routines.
+The purpose of the Create journal for accrual of estimated costs functionality is to provide a practical, user friendly and risk-free way to recognize a cost that is linked to an ExFlow invoice that is open (not finally posted) at a certain time, normally at period closing.<br/>
+The purpose is not to achieve automation but to improve efficiency in period closing routines.<br/>
+
+:::info Stocked Items, Line types of Fixed asset, Customer, Freight bill and Landed cost are not supported
+:::
 
 ![small](@site/static/img/media/image124.png)
 ______________________________________
 
 #### Prerequisites
-Standard D365 F&O daily journals must be created.
+Standard D365FO daily journals must be created.
 
 #### Limitations
-Line types of Fixed asset, Customer, Freight bill and Landed cost are not supported.
+Stocked Items, Line types of Fixed asset, Customer, Freight bill and Landed cost are not supported.<br/>
+
+
 
 #### Process
 
-1. Navigate to Periodic tasks \| Post \| Accrual \| Create journal for accrual of estimated costs of all document line types. Open the periodic job and select the invoice line transactions in ExFlow to be included in the accrual journal. 
+1. Navigate to Periodic tasks \| Post \| Accrual \| Create journal for accrual of estimated costs of all document line types. 
+2. Open the periodic job and select the invoice line transactions in ExFlow to be included in the accrual journal. 
 
 | Group | Field | Description |
 | ---- | ---- | ---- |
@@ -36,8 +43,8 @@ Line types of Fixed asset, Customer, Freight bill and Landed cost are not suppor
 |Project |Include Project | If selected, invoice lines of line type "Project" will be accrued. |
 | |Include intercompany transactions| N/A.<br/>*Accrual of intercompany project transactions is not supported.* |
 | | Accrue on project | If selected, costs on projects will be accrued to the sub module "Project".<br/>*Can only be selected if Include Project is enabled.* | 
-| Item | Include Item | If selected, invoice lines of line type "Item" or "Procurement category", referencing a purchase order line will be possible to select for accrual, see below.|
-|| Include Item, non-stocked|If selected, invoice lines of line type "Item", referencing a purchase order line where the item's Inventory policy does not have the parameter Stocked product enabled, will be accrued.<br/>*Select this if service-based items should be accrued.* |
+| Item | Include Item | If selected, invoice lines of line type "Item" or "Procurement category", referencing a purchase order line will be possible to select for accrual, see below.<br/>**Stocked items are not supported** |
+|| Include Item, non-stocked|If selected, invoice lines of line type "Item", referencing a purchase order line where the item's Inventory policy does not have the parameter Stocked product enabled, will be accrued.<br/>*Select this if service-based items should be accrued.*<br/>**Stocked items are not supported** |
 ||Include Procurement category | If selected, invoice lines referencing a "purchase order line with only a Procurement category code" selected, will be accrued.<br/>*Select this if category based services should be accrued.*
 ||Include Project|If selected, invoice lines referencing a purchase order line with a connected Project ID will be accrued.|
 ||Accrue on project| If selected, invoice lines referencing a purchase order line with a connected Project ID will be accrued to the sub module Project.<br/>*Can only be selected if Include Project is enabled*|
@@ -51,7 +58,6 @@ Line types of Fixed asset, Customer, Freight bill and Landed cost are not suppor
 ||Include item sales tax group|If selected, any item sales tax group selected on ExFlow document lines will be carried across to the accrual journal.<br/>*Note! Only to be used if sales tax is recognized at time of Invoice approval and the daily journal is set to "include sales tax".*|
 |Currency|Currency exchange rate|If Posting date is selected, the currency exchange rate in the accrual journal is based on the posting date of the accrual journal. If Invoice register is selected, the currency exchange rate in the accrual journal is based on the date for each lines invoice register posting.|
 ||Use invoice currency|If selected, the invoice currency will be used in the accrual journal. If not selected, the company currency will used in the accrual journal.|
-||
 
 
 2. Select `OK`. The accrual journal is created.
