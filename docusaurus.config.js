@@ -82,7 +82,10 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          
+
+          // EA 2024-10-25 This removes /docs from the URL, for good and bad
+          //routeBasePath: '/',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -208,9 +211,15 @@ const config = {
 
               {
                 label: 'Terms and Conditions',
-                href: '/docs/papers/agreements',
+                href: '/docs/proxy/proxy-terms-and-conditions',
+                //docs\proxy\proxy-terms-and-conditions.md
               },
-
+/*
+              {
+                label: '.',
+                href: '/finance-operations/docs/agreements',
+              },
+*/
             ],
           },
         ],
