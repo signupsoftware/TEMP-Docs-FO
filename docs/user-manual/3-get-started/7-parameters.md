@@ -202,7 +202,7 @@ ExFlow \| Setup \| Parameters
 |Journal name for invoice registration|Journal name to be used for the created invoice register journal.|
 |Journal name for final approval of invoices|Journal for the invoice approval journal to be used for final posting. If left blank first invoice approval will be used.|
 |Journal name for canceled invoices|Mandatory, the journal that is used when a registered invoice is cancelled via ExFlow (the same journal for posting invoice register invoice can be used, but not recommended).|
-|Default approved by|Select the default approver for the standard invoice register journal field "Approved by" in the import invoices form (header)."Approved by" is automatically updated from the ExFlow parameter "Default approved by" when the periodic task "Import OCR" is triggered. If the Import action is triggered manually in import form by an user, the user's own worker will be applied instead.|
+|Default approved by|Select the default approver for the standard invoice register journal field "Approved by" in the import invoices form (header)."Approved by" is automatically updated from the ExFlow parameter "Default approved by" when the periodic task "Import OCR" is triggered. If the Import action is triggered manually in import form by an user, the user's own worker will be applied instead.<br/> **NOTE** Parameter is mandatory for the Direct posting process.|
 
 |Posting date adjustments||
 |:-|:-|
