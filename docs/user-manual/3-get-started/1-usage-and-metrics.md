@@ -8,11 +8,10 @@ custom_edit_url: null
 
 ## Usage and Metrics
  
-1.	ExFlow AP For Microsoft Dynamics Finance and Operations
+1.	**ExFlow AP For Microsoft Dynamics Finance and Operations**<br/>
 The license is based on the number of processed documents within a 12-month period. The volume is measured on a rolling 12-month basis, continuously calculated over the previous 365 days.
  
  
-2.	ExFlow Data Capture
+2.	**ExFlow Data Capture**<br/>
 The license is based on the number of processed documents within a 12-month period. The volume is measured on a rolling 12-month basis, continuously calculated over the previous 365 days.
  
-
