@@ -1,6 +1,6 @@
 ---
 title: License handling
-sidebar_position: 3
+sidebar_position: 4
 hide_title: true
 custom_edit_url: null
 ---

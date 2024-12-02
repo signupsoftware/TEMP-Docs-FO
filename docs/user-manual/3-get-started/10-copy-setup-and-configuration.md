@@ -1,6 +1,6 @@
 ---
 title: Copy the setup and configuration
-sidebar_position: 10
+sidebar_position: 11
 hide_title: true
 custom_edit_url: null
 ---

@@ -1,6 +1,6 @@
 ---
 title: Setup vendors in Account payable module
-sidebar_position: 9
+sidebar_position: 10
 hide_title: true
 custom_edit_url: null
 ---
