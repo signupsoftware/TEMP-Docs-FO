@@ -16,6 +16,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/document-integrati
 
 ### Prerequisites
 D365FO standard functionality for Electronic invoices needs to be set up and configured. 
+**Note: this doesn’t apply to use ExFlow Document Integration (e-Invoicing), Peppol Service.**
 
 https://learn.microsoft.com/en-us/dynamics365/finance/localizations/global/e-invoicing-set-up-parameters
 
