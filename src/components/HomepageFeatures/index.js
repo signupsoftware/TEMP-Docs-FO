@@ -25,7 +25,7 @@ const FeatureList = [
     [
       {
         title: 'ExFlow E-Invoicing',
-        url: '/finance-operations/docs/user-manual/document-integration/peppol-service',
+        url: '/finance-operations/docs/proxy/proxy-exflow-e-invoices',
         index: 1,
       },
       {
