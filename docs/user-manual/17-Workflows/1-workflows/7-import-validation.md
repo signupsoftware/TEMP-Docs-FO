@@ -82,13 +82,13 @@ Then close the window.<br/>
 
 
 **Condition - Select the below conditions for the validation of less than 100 in VAT difference.**<br/>
-Where: Imports.VAT Difference <= `Value` 100
+Where: Imports.VAT Difference &lt;= `Value` 100
 Then close the window.<br/>
 
 ![medium](@site/static/img/media/image605.png)
 
 **Condition - Select the below conditions for the validation of more than 100 in VAT difference.**<br/>
-Where: Imports.VAT Difference >= `Value` 100
+Where: Imports.VAT Difference &gt;= `Value` 100
 Then close the window.<br/>
 
 ![medium](@site/static/img/media/image606.png)
