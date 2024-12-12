@@ -47,7 +47,7 @@ See below section on how to set up Company identifiers.
 https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/setup-import-methods#company-identifiers
 
 ### Electronic reporting source
-Don’t forget to set up SharePoint folders and make the setup in Electronic reporting source under Organization administration in standard Dynamics.
+Don´t forget to set up SharePoint folders and make the setup in Electronic reporting source under Organization administration in standard Dynamics.
 
 ### Process
 #### Import invoices by batch
