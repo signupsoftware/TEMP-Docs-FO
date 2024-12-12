@@ -16,20 +16,13 @@ The benefit of this is of course that the approver will not have to scroll throu
 
 
 ### Limitations in the solution
-
-**Note! ExFlow web version 2022.10.1.4RC (or higher) is required.**
-
-- Purchase order invoices are not supported in the summarized functionality in this first release, will be added later. 
-
-- A summarized invoice can only be Approved or Rejected.
-
-- An approver cannot change the coding of a summarized invoice.
-
-- An approver cannot split invoice lines for a summarized invoice.
-
-- An approver cannot add approvers for a summarized invoice.
-
-- The PO Reconnect app cannot be used for summarized invoices.
-
-- The general parameters for Fast fetch invoice document to web and Fast validate in ExFlow web needs to be switched `ON` (ExFlow – Setup – General parameters – Web setup).
-- The general parameter for New Xml serializer needs to be switched `OFF` (ExFlow – Setup – General parameters – Feature management)
+- Purchase order invoices are supported in the summarized functionality.<br/>
+- A summarized invoice can only be Approved or Rejected.<br/>
+- An approver cannot change the coding of a summarized invoice.<br/>
+- An approver cannot split invoice lines for a summarized invoice.<br/>
+- An approver cannot add approvers for a summarized invoice.<br/>
+- The PO Reconnect app cannot be used for summarized invoices.<br/>
+- The general parameters for Fast fetch invoice document to web and Fast validate in ExFlow web needs to be switched `ON` <br/>
+(ExFlow – Setup – General parameters – Web setup).<br/>
+- The general parameter for New Xml serializer needs to be switched `OFF` <br/>
+(ExFlow – Setup – General parameters – Feature management)<br/>

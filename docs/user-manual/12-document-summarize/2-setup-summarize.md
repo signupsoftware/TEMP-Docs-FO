@@ -12,7 +12,7 @@ This functionality is not recommended to switch on if your installation does not
 For example, when an invoice has 500 lines the rows can be summarized based on line type and approver, only the summarized lines will be sent out for approval. This functionality can also be setup based on vendors meaning if you know you have 4 vendors with a lot of lines, the rest of the invoices will be handled as before.
 
 ### Turn on ExFlow parameter
-ExFlow \| Setup \| Parameters
+ExFlow \| Setup \| Parameters<br/>
 
 There is a parameter flag in the ExFlow parameters form that turns on the summarize functionality.
 
@@ -20,7 +20,7 @@ There is a parameter flag in the ExFlow parameters form that turns on the summar
 
 
 ### Document Summarize settings
-ExFlow \| Setup \| Miscellaneous \| Document summarize settings
+ExFlow \| Setup \| Miscellaneous \| Document summarize settings<br/>
 
 The document summarize settings form is used to determine which vendors invoices that should be summarized. It can be setup with Table, Group or All. At least one All line has to be setup, recommended is that it is setup based on unique vendors or groups.
 
@@ -32,8 +32,9 @@ The document summarize settings form is used to determine which vendors invoices
 Valid for |  Table, Group, All. |
 | Account selection | Used when table and group is selected.| 
 | Name | Name of the specific vendor or group. |
+| Invoice type | Expense, purchase |
 | Lines | The total number of lines an invoice must have for the summarize function to be run (invoices below the number of lines will not be included int the batch job). |
-| Active | If the rule schould be used or not. |
+| Active | If the rule should be used or not. |
 | Create attachment |If an excel attachment should be added displaying all the original lines of an invoice. | 
 | Auto confirm | If a summarized invoice should be automatically confirmed if the rule has been run at import. Meaning it is ready to be updated by the summarized batch job.| 
 | Simulate | If the summarize functionality should create an excel attachment when an invoice is imported, displaying how the summarized lines will look like for the approver.|
