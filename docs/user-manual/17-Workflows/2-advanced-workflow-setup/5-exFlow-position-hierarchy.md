@@ -31,7 +31,8 @@ Navigate to Exflow | Setup | Workflows | Approval Workflow setup | Exflow positi
 #### Global reference
 In global reference values, next to the position field, a new field “Exflow position” is added which allows assignment of Exflow positions from the “Exflow Position” form.<br/>
 
-![Table Description automatically generated](@site/static/img/media/image562.png)
+![Table Description automatically generated](@site/static/img/media/image562.png)<br/>
+![Table Description automatically generated](@site/static/img/media/image607.png)<br/>
 
 #### Workflow providers
 For Advanced approval workflow and Agreements workflow there are two providers:<br/>
@@ -39,5 +40,3 @@ For Advanced approval workflow and Agreements workflow there are two providers:<
 - Exflow dimension owner – this allows the assignment of approver from the “Exflow owner” field on the financial dimension value.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image563.png)<br/>
-
-![Table Description automatically generated](@site/static/img/media/image607.png)<br/>
