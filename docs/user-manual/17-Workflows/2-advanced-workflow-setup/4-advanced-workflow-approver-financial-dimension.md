@@ -102,7 +102,7 @@ To connect an approver to a segment line;
     - If no overrides are added in area "Legal entity overrides", this approver or list of approvers will be added in any company that uses this Coding structure. 
 
 **NB: Signing limit is a mandatory field, but you may set it to 0.00. 
-If set to 0.00, the signing limit derived from the applicable position hierarchy will apply. 
+If set to 0.00, the signing limit derived from the applicable position hierarchy will apply regardless of weather its a credit or a debit value on the invoice.
 Please note! that signing limits derived from the applicable position hierarchy only when workflow is configured with reference to a position hierarchy.**
 
 
@@ -122,7 +122,7 @@ Please note! that signing limits derived from the applicable position hierarchy 
 |Owner| Lookup for workers that can be added as an approver/owner for the segment.|
 |Role/Group| Lookup for security roles and user groups that can be added as an approver.|
 |Position| Lookup for positions that can be added as an approver.|
-|Signing limits| Mandatory field to set the signing limits. If set to 0.00, the signing limit derived from the applicable position hierarchy will apply.|
+|Signing limits| Mandatory to set the signing limits. If set to 0.00, the signing limit is derived from the applicable position hierarchy will apply and suggested based on the defined signing limits regardless of weather its a credit or a debit value on the invoice.|
 |Currency| Currency for the signing limit|
 |Legal entity| To specify the legal enity for overrides.|
 | Name| Name of the legal entity.|
