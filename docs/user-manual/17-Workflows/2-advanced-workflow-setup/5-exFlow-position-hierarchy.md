@@ -40,4 +40,4 @@ For Advanced approval workflow and Agreements workflow there are two providers:<
 
 ![Table Description automatically generated](@site/static/img/media/image563.png)<br/>
 
-![Table Description automatically generated](@site/static/img/media/image607.png)
+![Table Description automatically generated](@site/static/img/media/image607.png)<br/>
