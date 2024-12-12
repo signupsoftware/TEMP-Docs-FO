@@ -16,7 +16,6 @@ The benefit of this is of course that the approver will not have to scroll throu
 
 
 ### Limitations in the solution
-- Purchase order invoices are supported in the summarized functionality.<br/>
 - A summarized invoice can only be Approved or Rejected.<br/>
 - An approver cannot change the coding of a summarized invoice.<br/>
 - An approver cannot split invoice lines for a summarized invoice.<br/>
