@@ -5,7 +5,27 @@ hide_title: true
 custom_edit_url: null
 ---
 ______________________________________________________
-# Release ExFlow 2.15.4 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+# Major Release ExFlow 2.16.0 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+### Major Release ExFlow 2.15.0
+A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2024.
+
+This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
+
+# Release topics!
+### Direct postings
+We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.
+
+### TMS Freight Bill
+We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.
+
+### Procurement categories – matching tolerances
+We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.
+
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+_________________________________________________________________________________________________
+
+## Release ExFlow 2.15.4
 
 Released in October 2024, see more information about the details 
 under "Release notes".
