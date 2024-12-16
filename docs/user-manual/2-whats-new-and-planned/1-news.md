@@ -4,7 +4,7 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
-______________________________________________________
+
 # Major Release ExFlow 2.16.0 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.<br/>
