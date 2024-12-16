@@ -195,7 +195,7 @@ ExFlow \| Setup \| Parameters
 |Fetch approver primarily from PO instead of reference table | If enabled, ExFlow will fetch the Worker from the Purchase Order to use as the invoice Reference, instead of fetching directly from the Reference person form.|
 
 ### Posting logic
-![Graphical user interface, application Description automatically generated](@site/static/img/media/image547.png)
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image609.png)
 
 |Invoice parameters||
 |:-|:-|
@@ -207,22 +207,21 @@ ExFlow \| Setup \| Parameters
 |Posting date adjustments||
 |:-|:-|
 |Change posting date based on module status|If the posting date of the invoice corresponds to a closed period, ExFlow will automatically adjust the date to the earliest available open date in the following month.|
-|Suggested invoice register posting date| Is used for the adjusment of the posting date in invoice register form.|
-|Suggested invoice approval posting date|is used for the adjustment of the posting date in invoice approval form.|
-||
+|Cost/purch invoice register suggested posting date| Is used for the adjustment of the posting date in invoice register form for both cost and purch invoices.|
+|Cost invoice final posting suggested posting date|Is used for the adjustment of the posting date in invoice approval form for cost invoices.|
+|Purch invoice final posting suggested posting date|Is used for the adjustment of the posting date in invoice approval form for purch invoices.|
 
-**Both parameters above have six options:**
-Exflow provides flexibility in controlling the invoice posting date in invoice register and invoice approval forms through a range of selectable options in Exflow parameters setup.
+**All parameters above have different options:**
+All three parameters above have different options: Exflow provides flexibility in controlling the invoice posting date in invoice register and invoice approval forms through a range of selectable options in Exflow parameters setup.<br/>
 
 |Option|Description|
 |:-|:-|
-|Invoice date, change to first open if period closed|If the posting date of the invoice corresponds to a closed period, the system automatically adjusts the date to the earliest available open date in the following month.|
-|Always Invoice date| The invoice posting date remains constant and is not automatically changed.|
-|Always Actual date|The invoice posting date is automatically adjusted to align with the current system date.|
+|Invoice date, change to first open if period closed|Adjusts the posting date to the invoice date or to the first open period if the invoice period is closed.|
+|Always Invoice date| Posting date will always match the scanned invoice date without any adjustment.|
+|Always Actual date| Adjusts the posting date to the current system date when the journal is created.|
 |Actual date, change to first open if period closed|The invoice posting date is set to match the system date. However, if the period for the system date is closed, then the posting date is changed to the earliest available open date in the following month.|
-|Always Last goods receipt date|The posting date is set as the date of the last received packing slip for the linked purchase order.|
-|Last goods receipt date, change to first open if period closed|The posting date is determined by the latest received packing slip for the linked purchase order, except when the period for that slip's date is closed. In such case, the invoice posting date is changed to the earliest open date in the following month.|
-||
+|Always Last goods receipt date|Adjust the posting date to the date of the last received packing slip for the linked purchase order selected in the header.|
+|Last goods receipt date, change to first open if period closed|Adjusts the posting date to the last goods receipt date of the purchase order or to the first open period if the receipt period is closed.|
 
 |Ledger accrual||
 |:-|:-|
