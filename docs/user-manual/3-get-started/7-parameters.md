@@ -211,7 +211,7 @@ ExFlow \| Setup \| Parameters
 |Cost invoice final posting suggested posting date|Is used for the adjustment of the posting date in invoice approval form for cost invoices.|
 |Purch invoice final posting suggested posting date|Is used for the adjustment of the posting date in invoice approval form for purch invoices.|
 
-**All parameters above have different options:**
+**All parameters above have different options:**<br/>
 All three parameters above have different options: Exflow provides flexibility in controlling the invoice posting date in invoice register and invoice approval forms through a range of selectable options in Exflow parameters setup.<br/>
 
 |Option|Description|
@@ -234,12 +234,10 @@ All three parameters above have different options: Exflow provides flexibility i
 |Localization||
 |:-|:-|
 |Always update voucher number|When is enabled the voucher number will be updated from the final approval journal at final posting.<br/>When standard changes the voucher number it will use the voucher series specified on the final approval journal. The solution is to always use this same logic if the parameter is enabled. So it dosen't matter if period is closed - you will always fetch a new voucher.|
-||
 
 |Override ExFlow default dimensions||
 |:-|:-|
 |Override ExFlow default dimensions with approval journal dimensions|If the journal used for invoice approval journal is set up to use default dimension values, then the dimensions set in the ExFlow web for project lines should overwrite the default journal dimensions.|
-||
 
 ### Approval
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image9.png)
