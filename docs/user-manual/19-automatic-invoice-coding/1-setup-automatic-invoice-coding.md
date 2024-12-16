@@ -7,13 +7,15 @@ custom_edit_url: null
 ## Automatic invoice coding 
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-ExFlow \| Setup \| Miscellaneous \| Automatic invoice coding
+ExFlow \| Setup \| Miscellaneous \| Automatic invoice coding<br/>
 
-Automatic coding of invoices can be switched on via Feature Management as a preview functionality. This feature is intended to help automatic coding of ledger invoices in ExFlow Import form at the time of importing new invoices or while working with the actual invoices in the import form. The function is self-learning meaning the more transactions that are processed with a certain coding, the better the function will be.
+Automatic coding of invoices can be switched on from ExFlow general parameters, tab Feature management. This feature is intended to help automatic coding of invoices of type ledger, project, fixed asset or as procurement category in ExFlow Import form at the time of importing new invoices, or while working with the actual invoices in the import form. The function is self-learning meaning the more transactions that are processed with a certain coding, the better the function will be.<br/>
 
-![Graphical user interface, application Description automatically generated](@site/static/img/media/image88.png)
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image608.png)<br/>
 
-*More detailed information is found in the white paper "[Automatic invoice coding](https://support.signupsoftware.com/knowledgebase/article/KA-01149)".*
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image88.png)<br/>
+
+*More detailed information is found in the white paper "[Automatic invoice coding](https://support.signupsoftware.com/knowledgebase/article/KA-01149)".*<br/>
 
 
 |Buttons (Action pane)| |
