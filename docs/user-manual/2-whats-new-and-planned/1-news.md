@@ -7,22 +7,20 @@ custom_edit_url: null
 ______________________________________________________
 # Major Release ExFlow 2.16.0 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-### Major Release ExFlow 2.15.0
-A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2024.
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.<br/>
+This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.<br/>
 
-This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
+# Release topics!<br/>
+### Direct postings<br/>
+We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 
-# Release topics!
-### Direct postings
-We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.
+### TMS Freight Bill<br/>
+We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.<br/>
 
-### TMS Freight Bill
-We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.
+### Procurement categories – matching tolerances<br/>
+We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.<br/>
 
-### Procurement categories – matching tolerances
-We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.
-
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes<br/>
 _________________________________________________________________________________________________
 
 ## Release ExFlow 2.15.4
