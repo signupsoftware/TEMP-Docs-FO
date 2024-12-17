@@ -11,10 +11,10 @@ Action workflow functionality in ExFlow is an out-of-the box data driven framewo
 
 There are predefined actions that can be performed when such business events are triggered such as sending a mail or a notification, changing data, run functions and more. To set up rules for when a certain action should be run or not are defined in Dynamics 365FO standard workflow engine. That means that it is easy to set up your predefined rules that suits your own processes.<br/>
 
-### ExFlow action import workflow - 
+### ExFlow action import workflow
 is used when importing invoices and in ExFlow import form.<br/>
 
-### ExFlow action document workflow - 
+### ExFlow action document workflow
 can be used in ExFlow WEB and in ExFlow document form.<br/>
 
 *More detailed information is found in the white paper "[Action Workflow](https://support.signupsoftware.com/knowledgebase/article/KA-01140)".*
