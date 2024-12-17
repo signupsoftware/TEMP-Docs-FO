@@ -32,6 +32,7 @@ Use this form to view and edit the data in an invoice that is distributed for ap
 |General/Invoice matching | Use to run invoice matching. For example, if a purchase order has been delivered after it has been posted from the ExFlow Import form. This function will rematch the invoice against the purchase order again and attempt a full match.|
 |General/Post | Post the purchase order. This option will open up a Dynamics 365 standard form for handling purchase order, but the data will be automatically populated based on the ExFlow lines.|
 |General/Show invoice | Open a preview window with attached PDF invoice file. |
+|General/Prepaid invoice| Set invoice as prepaid. In a pop ip select if vendor transaction also need to be updated.|
 
 |Buttons (Lower pane), Document lines (Line view)| |
 |:-|:-|
