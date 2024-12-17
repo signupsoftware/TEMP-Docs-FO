@@ -14,6 +14,10 @@ This document outlines the key enhancements, corrections, and improvements featu
 ### Direct postings
 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 
+:::info See more datailed information;<br/>
+https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/upgrade-information
+:::
+
 ### TMS Freight Bill
 We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.<br/>
 
