@@ -60,7 +60,7 @@ Navigate to Accounts payable – Vendors – All vendors<br/>
 - Add Purpose from dropdown<br/>
 - You can enable Primary as well if you have multiple contact information – Click OK.<br/>
 
-::: NOTE: It's possible to send external email address on vendor account in action workflow both in import form and in document form.
+:::info NOTE: It's possible to send external email address on vendor account in action workflow both in import form and in document form.
 Email is being sent to Primary user if any, if not primary then it is sending to all users on vendor account.
 :::
 
@@ -80,7 +80,7 @@ To run in document form, choose Run action workflow in document form in Action w
 ![medium](@site/static/img/media/image615.png)<br/>
 
 Set Properties<br/>
-![small](@site/static/img/media/image616.png)<br/>
+![Table Description automatically generated with medium confidence](@site/static/img/media/image616.png)<br/>
 
 Basic settings<br/>
 ![medium](@site/static/img/media/image617.png)<br/>

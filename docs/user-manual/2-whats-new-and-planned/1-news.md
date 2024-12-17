@@ -14,7 +14,7 @@ This document outlines the key enhancements, corrections, and improvements featu
 ### Direct postings
 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 
-:::info See more datailed information;<br/>
+:::info See more detailed information;<br/>
 https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/upgrade-information
 :::
 
