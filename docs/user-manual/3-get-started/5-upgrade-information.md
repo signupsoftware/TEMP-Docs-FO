@@ -78,7 +78,8 @@ If the customer needs to change the from the invoice registration process to the
 
 ### Parameters
 
-![Table Description automatically generated](@site/static/img/media/image621.png)
+![medium](@site/static/img/media/image621.png)<br/>
+
 ---
 |Parameter | Description |
 |--- | ---------|
@@ -92,8 +93,8 @@ If the customer needs to change the from the invoice registration process to the
 |Delete temporary journals separately|When set to yes, the temporary journal isn’t deleted directly after posting. Instead, a batch job can be set up to perform this action. Found under periodic tasks – Clean up – Delete temporary journals separately.|
 
 ### Description of the functionality
-#### The Process
 
+#### The Process
 **Import and post invoices**<br/>
 •	Connected to temporary invoice journal. Validate invoice number, payment id, amounts etc.<br/>
 •	No posting in general ledger, all information kept inside Exflow.<br/>
