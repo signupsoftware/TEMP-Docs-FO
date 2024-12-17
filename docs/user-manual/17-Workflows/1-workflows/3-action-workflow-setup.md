@@ -50,6 +50,58 @@ Vendor groups can be set up for action workflows and then used as conditions in 
 *More detailed information is found in the white paper "[Action Workflow](https://support.signupsoftware.com/knowledgebase/article/KA-01140)".*
 
 
+### Example - Possibility to send external email to address on vendor account
 
+#### Setup of Vendor Account
+Navigate to Accounts payable – Vendors – All vendors<br/>
+- Select a vendor<br/>
+- Add Contact information<br/>
+- Click Edit contact information<br/>
+- Add Purpose from dropdown<br/>
+- You can enable Primary as well if you have multiple contact information – Click OK.<br/>
+
+::: NOTE: It's possible to send external email address on vendor account in action workflow both in import form and in document form.
+Email is being sent to Primary user if any, if not primary then it is sending to all users on vendor account.
+:::
+
+![medium](@site/static/img/media/image613.png)
+
+#### Action workflow setup
+The emails should be sent in the Workflow process to all the Vendor emails with the same Purpose as in Action WF setup if From Vendor = True.<br/>
+To run in Import form, choose either Import OCR invoices to import form or Run action workflow in import form in Action workflow setup.<br/>
+To run in document form, choose Run action workflow in document form in Action workflow setup.<br/>
+
+1. Navigate to ExFlow AP \|Setup \|Workflows \|Workflows<br/>
+
+- Select New to create an action workflow<br/>
+- Select workflow type "ExFlow action import/document workflow"<br/>
+- And the conditions and save/activate the workflow<br/>
+
+![small](@site/static/img/media/image615.png)<br/>
+
+Set Properties<br/>
+![small](@site/static/img/media/image616.png)<br/>
+
+Basic settings<br/>
+![small](@site/static/img/media/image617.png)<br/>
+
+Set Assignment - Role based:<br/>
+![small](@site/static/img/media/image618.png)<br/>
+
+Set Condition:<br/>
+![small](@site/static/img/media/image619.png)<br/>
+
+
+2. Navigate to ExFlow AP \|Setup \|Workflows \|Action workflow setup \|Action workflow setup <br/>
+
+- Select where<br/>
+- Mark the workflow to activate<br/>
+- Enable and select settings<br/>
+- Select tab "External email"<br/>
+- From vendor: Yes and select the vendor and purpose<br/>
+- Add notifiation text<br/>
+- Selct ok<br/>
+
+![medium](@site/static/img/media/image614.png)
 
 
