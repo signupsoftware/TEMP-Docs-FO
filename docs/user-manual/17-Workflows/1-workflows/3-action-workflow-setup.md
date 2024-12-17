@@ -64,7 +64,7 @@ Navigate to Accounts payable – Vendors – All vendors<br/>
 Email is being sent to Primary user if any, if not primary then it is sending to all users on vendor account.
 :::
 
-![medium](@site/static/img/media/image613.png)
+![large](@site/static/img/media/image613.png)
 
 #### Action workflow setup
 The emails should be sent in the Workflow process to all the Vendor emails with the same Purpose as in Action WF setup if From Vendor = True.<br/>
@@ -77,19 +77,19 @@ To run in document form, choose Run action workflow in document form in Action w
 - Select workflow type "ExFlow action import/document workflow"<br/>
 - And the conditions and save/activate the workflow<br/>
 
-![small](@site/static/img/media/image615.png)<br/>
+![medium](@site/static/img/media/image615.png)<br/>
 
 Set Properties<br/>
 ![small](@site/static/img/media/image616.png)<br/>
 
 Basic settings<br/>
-![small](@site/static/img/media/image617.png)<br/>
+![medium](@site/static/img/media/image617.png)<br/>
 
 Set Assignment - Role based:<br/>
-![small](@site/static/img/media/image618.png)<br/>
+![medium](@site/static/img/media/image618.png)<br/>
 
 Set Condition:<br/>
-![small](@site/static/img/media/image619.png)<br/>
+![medium](@site/static/img/media/image619.png)<br/>
 
 
 2. Navigate to ExFlow AP \|Setup \|Workflows \|Action workflow setup \|Action workflow setup <br/>
@@ -102,6 +102,6 @@ Set Condition:<br/>
 - Add notifiation text<br/>
 - Selct ok<br/>
 
-![medium](@site/static/img/media/image614.png)
+![large](@site/static/img/media/image614.png)
 
 
