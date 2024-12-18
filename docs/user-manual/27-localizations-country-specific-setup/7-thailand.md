@@ -31,3 +31,10 @@ After the posting of the invoice to document form, the "Calculate withholding ta
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image580.png)
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image579.png)
+
+
+### Project lines available to calculate withholding tax
+After a change from ExFlow version 2.16, withholding tax in ExFlow for the Thailand localization and the feature Global withholding tax. 
+ExFlow will also be taking the Project lines and not only taking the Ledger lines as base for the withholding tax transactions.
+
+![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image625.png)
