@@ -112,7 +112,7 @@ const FeatureList = [
 function Feature({title, url, index}) {
   
   // Hide the Axtension buttons for now
-  if (index < 5) {
+  //if (index < 5) {
   return (
     <td>
     <a href={url} className="menu-item-link">
@@ -122,12 +122,12 @@ function Feature({title, url, index}) {
     </a>
     </td>
   );
-}
-  else {
-    return (
-      <td>&nbsp;</td>
-    );
-  }
+//}
+//  else {
+//    return (
+//      <td>&nbsp;</td>
+//    );
+//  }
 }
 
 /*
