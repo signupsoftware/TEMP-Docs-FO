@@ -30,7 +30,7 @@ Withholding tax is set in the invoice header from import form:
 After the posting of the invoice to document form, the "Calculate withholding tax“ parameter is set to `Yes` and the item withholding tax group is also populated on the header:
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image580.png)
 
-![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image579.png)
+![medium](@site/static/img/media/image579.png)
 
 
 ### Project lines available to calculate withholding tax
