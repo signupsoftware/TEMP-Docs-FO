@@ -32,12 +32,12 @@ This functionality is dependent on the new Direct posting functionality.<br/>
 **Procurement categories – matching tolerances**<br/>
 36547 We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.<br/>
 
-**This functionality also includes** <br/>
+**This functionality also includes;**
 - Amount tolerances for item matching.<br/>
 - Matching policy as part of tolerance setup for item matching.<br/>
 - Made the extended price matching setup more detailed.<br/>
 
-#### IMPROVEMENTS<br/>
+#### IMPROVEMENTS
 **AI/ML**<br/>
 As part of the release, we have made several changes and added more functionality around the AI/ML functions within ExFlow AP.<br/>
 
@@ -47,7 +47,6 @@ As part of the release, we have made several changes and added more functionalit
 
 **Approval object**<br/>
 We have as part of this release extended the new approval object in the below areas and added more validations around the setup to avoid confusion.<br/>
-<br/>
 40577 We have extended the header information in the Approver workflow log.<br/>
 41152 We have added extra validations when adding legal entity overrides in Approver workflow rules.<br/>
 41159 We have added a warning message when approvers were not found when pressing Suggest approver.<br/>
@@ -96,7 +95,7 @@ Settlement lines can be manually matched against more than one vendor transactio
 41751 Rework is done for the matching of vendors within import. We added the same logic and additional criteria’s as for ExFlow AP Vendor identifier rule functionality.<br/>
 41755 Rework is done for the Reconciliation report- Label and format changes, removed unnecessary information to do the report cleaner and more understandable.<br/>
 
-#### Various<br/>
+#### Various
 12152 We have added filters to the ExFlow user creation wizard.<br/>
 15862 We have added functionality in the lookup functionality in ExFlow Web to hide suspended dimension values for other line types than Ledger.<br/>
 24122 We have made it technically possible to send out accounting distribution values to purchase order info screen in ExFlow Web. This will be implemented in a future release of ExFlow Web.<br/>
@@ -117,7 +116,7 @@ Settlement lines can be manually matched against more than one vendor transactio
 43161 We have extended the functionality to import attachments from EDC to also validate the attachments against the document handler in F&O.<br/>
 43235 We have made it possible to work with withholding tax on project lines in ExFlow.<br/>
 
-#### CORRECTIONS<br/>
+#### CORRECTIONS
 16936 The option to set a logo in the broadcast email has been hidden due to incompatibility.<br/>
 17791 We have addressed a limitation in Advanced workflow approve on financial dimension. An overlap error occurred when coding strings had identical values in some columns, despite having different values in the other columns.<br/>
 30689 The validation against the account structure for the invoice register dimension values were not considered correctly upon posting.<br/>
@@ -136,15 +135,15 @@ Settlement lines can be manually matched against more than one vendor transactio
 40314 We have corrected the license type assignments for the roles; ExFlow web user role and ExFlow Core. Instead of license type Team Member they were listed with the incorrect license type None.<br/>	
 40328 The approval order for the approvers was not set correctly when running invoice matching together with suggest approver neither in Import Form nor during the invoice register posting. This caused the approver status to be set to None, if suggest approvers did not return any approvers.<br/>
 40331 The date as base for tax calculations at line level was picked incorrectly when running with the ax calculation framework active.<br/>
-40340	The project group is now possible to use within the validation for purchase order based invoices.<br/>
+40340 The project group is now possible to use within the validation for purchase order based invoices.<br/>
 40368 The approval button was active in Document Form at line level even if the approver status was approved.<br/>
 40412 When using separate suggest approver from validate and changing financial dimensions in ExFlow Web and then approved, the approver actually approved and moved the approval route to the next approver (proper status would have been approved and then none).<br/>
 40454 When the field Date of VAT register was changed, the exchange rate was not updated correctly.<br/>
 40456 We have updated the warning message when attempting to delete multiple lines in the Document form to clearly explain that at least one invoice line must remain.<br/>
 40482 The reference field filter was not working properly when working with Global reference.<br/>
-40605	 Upon automatically approval of a landed cost line, the system incorrectly also approved other line types if the cost value was less than the estimated cost.<br/>
+40605 Upon automatically approval of a landed cost line, the system incorrectly also approved other line types if the cost value was less than the estimated cost.<br/>
 40629 The field UserId was incorrectly field when running the batch job Import OCR invoices to import form – threads.<br/>
-40730	In entity for ExFlow columns the field Dimension name was set as mandatory.<br/>
+40730 In entity for ExFlow columns the field Dimension name was set as mandatory.<br/>
 40751 When running purchase order based invoices in ExFlow in combination with Tax calculation service, taxes were not calculated correctly on line level.<br/>
 40832 When running with Tax Calculation framework it was possible to post unbalanced invoices from Import form.<br/>
 40849 An error was thrown in some cases when changing the sales tax group on the header in Import form when running with Tax calculation framework active.<br/>
