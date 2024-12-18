@@ -8,41 +8,46 @@ custom_edit_url: null
 ## Major Release 2.16.0
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-#### INTRODUCTION<br/>
+#### INTRODUCTION
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.<br/>
 
-#### Version numbers<br/>
+#### Version numbers
 The described release in this document supports the following versions.
 
 | D365 FO Platform version | D365 FO application version nb | ExFlow version nb |
 | ----------- | -------------- | -------------- | 
 | Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.0 |
 
-#### NEW FUNCTIONALITY<br/>
+#### NEW FUNCTIONALITY
 **Direct postings**<br/>
-39677 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
+39677 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal.<br/>
+This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 Related tickets: 40193, 40222, 40353, 40354, 42479, 42981, 43024, 43281, 43283, 43286, 43375, 43708, 43709, 43949<br/>
 
 **TMS Freight Bill**<br/>
-22030, 40059 We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.<br/>
+22030, 40059 We have added support for Freight invoices that can be processed through Transportation Management.<br/> 
+This functionality is dependent on the new Direct posting functionality.<br/>
 
 **Procurement categories – matching tolerances**<br/>
 36547 We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.<br/>
-This functionality also includes <br/>
-Amount tolerances for item matching.<br/>
-Matching policy as part of tolerance setup for item matching.<br/>
-Made the extended price matching setup more detailed.<br/>
+
+**This functionality also includes** <br/>
+- Amount tolerances for item matching.<br/>
+- Matching policy as part of tolerance setup for item matching.<br/>
+- Made the extended price matching setup more detailed.<br/>
 
 #### IMPROVEMENTS<br/>
 **AI/ML**<br/>
 As part of the release, we have made several changes and added more functionality around the AI/ML functions within ExFlow AP.<br/>
+
 3860, 41628 We have added more functionality to our new AI/ML service that is used in combination with ExFlow Web.<br/>
 41100 We have extended the internal function Automatic invoice coding with the line type Procurement.<br/>
 43381 We have created a separate model called ExFlow Copilot that includes Copilot summaries on ExFlow AP forms.<br/>
 
 **Approval object**<br/>
 We have as part of this release extended the new approval object in the below areas and added more validations around the setup to avoid confusion.<br/>
+<br/>
 40577 We have extended the header information in the Approver workflow log.<br/>
 41152 We have added extra validations when adding legal entity overrides in Approver workflow rules.<br/>
 41159 We have added a warning message when approvers were not found when pressing Suggest approver.<br/>

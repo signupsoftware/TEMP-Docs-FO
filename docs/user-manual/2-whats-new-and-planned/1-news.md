@@ -19,7 +19,8 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/upgrad
 :::
 
 ### TMS Freight Bill
-We have added support for Freight invoices that can be processed through Transportation Management. This functionality is dependent on the new Direct posting functionality.<br/>
+We have added support for Freight invoices that can be processed through Transportation Management.<br/>
+**TMS is dependent on the new Direct posting functionality**.<br/>
 
 ### Procurement categories – matching tolerances
 We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.<br/>
