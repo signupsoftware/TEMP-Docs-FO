@@ -110,6 +110,9 @@ const FeatureList = [
 // Change this to get a new design of the menu items.
 //
 function Feature({title, url, index}) {
+  
+  // Hide the Axtension buttons for now
+  if (index < 5) {
   return (
     <td>
     <a href={url} className="menu-item-link">
@@ -120,7 +123,14 @@ function Feature({title, url, index}) {
     </td>
   );
 }
+  else {
+    return (
+      <td>&nbsp;</td>
+    );
+  }
+}
 
+/*
 function Feature2({row}) {
   var tmp = row;
   //alert(tmp);
@@ -132,6 +142,9 @@ function Feature2({row}) {
     </a>
   );
 }
+*/
+
+
 
 /*
 function LineBreak({ index }) { 
