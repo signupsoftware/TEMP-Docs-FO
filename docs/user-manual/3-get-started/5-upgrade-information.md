@@ -10,6 +10,7 @@ custom_edit_url: null
 ### Upgrades
 Request a new deployable or code package, consider Releases and License Keys. New releases might have new license management.
 
+______________________________________________________________________________________________
 
 ### Change to the Direct posting process
 
