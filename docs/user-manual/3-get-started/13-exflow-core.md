@@ -10,7 +10,7 @@ custom_edit_url: null
 ## Introduction
 In Exflow Core you manage all the subscriptions that is provided by Signup, both the onboarding and where you can find statistics for its billing and documents. Then you also see the communication logs which shows all incoming and outgoing traffic from the subscriptions and any errors that occur in the communication.<br/>
 
-![Graphical user interface, application Description automatically generated](@site/static/img/media/image631.png)
+![small](@site/static/img/media/image631.png)
 
 
 ### Subscriptions
