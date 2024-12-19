@@ -27,7 +27,7 @@ Invoice matching against purchase orders is made with net amount postings.<br/>
 
 **Direct posting process**<br/>
 No invoice register, means that the data can be changed all the way until final posting and full support for pending invoice process which MS is targeting for all new features.<br/>
-Sales tax is not deducted until final posting although you can a use preliminary sales tax all the way until final posting.<br/>
+Sales tax is not deducted until final posting, although you can use the captured sales tax from the invoice all the way until final posting.<br/>
 No effect in GL/Submodules etc. for invoice and sales tax until final posting.<br/>
 
 **Market and Target group**<br/>
@@ -55,7 +55,8 @@ No effect in GL/Submodules etc. for invoice and sales tax until final posting.<b
 - Support for external tax engines, e.g. Wolter Kluwer’s CCH SureTax<br/>
 - India Sales Tax and localization<br/>
 - Vendor statement reconciliation<br/>
-- PO re-connect<br/>
+- PO re-connect app<br/>
+- Project operations<br/>
 
 Post and transfer button from approval journal is hidden, due to redesign of functionality.<br/>
 
