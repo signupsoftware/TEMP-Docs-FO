@@ -10,13 +10,13 @@ Vendor Collaboration is a standard functionality delivered by Microsoft and is u
 
 The functionality is for Customers who works with Purchase order process using Vendor collaboration portal in D365FO and wants to use it in combination with ExFlow.
 
-## Prerequisites
+### Prerequisites
 ExFlow web needs to be upgraded to version 2023.5.0.2 (or later).
 
-## Application requirements
+### Application requirements
 The Microsoft Vendor Collaboration Portal must be set up, tested and working before this functionality can be used.
 
-## Limitations
+### Limitations
 1.	In this release only PO invoices are supported. 
 
 2.	External users must be set up in Azure Active Directory as a guest user. Important that the guest user is hosted in an Azure driven tenant (for example a gmail account is not supported by Microsoft to validate the user). 
