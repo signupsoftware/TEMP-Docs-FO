@@ -8,9 +8,9 @@ custom_edit_url: null
 
 **NOTE** Support for TMS is only applicable for the Direct posting process
 
-### Example of Freight Bill Setup in D465FO
+### Example of Freight Bill Setup in D365FO
 
-**Transportation management parameters**
+**Transportation management parameters**<br/>
 Transportation management | Setup | Transportation management parameters
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image633.png)
 
@@ -38,13 +38,13 @@ Transportation management | Setup | Freight reconciliation | Freight bill type a
 
 ### Setup in ExFlow AP
 ExFLow AP | Setup | Parameters | Posting logic | Direct posting |
-
 ExFlow TMS freight invoice related functionality is available only if ExFlow AP for the Direct posting process.<br/>
+
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image638.png)
 
 For executing Freight bill in ExFlow: process a cost invoice with Load ID to get all freight bill lines.<br/>
 There is a button added to fetch freight bill lines from Load ID in Import form.<br/>
-Go to action menu in Import form -> Actions->Retrieve from freight bill.
+- Go to action menu in Import form -> Actions->Retrieve from freight bill.
 
 #### Batch jobs
 ExFlow AP | Periodic tasks | TMS Freight invoice<br/>

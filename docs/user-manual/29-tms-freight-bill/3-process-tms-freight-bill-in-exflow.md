@@ -10,7 +10,7 @@ custom_edit_url: null
 
 1. Create purchase order in D365FO<br/>
 
-![small](@site/static/img/media/image640.png)
+![medium](@site/static/img/media/image640.png)
 
 2. In the PO, go to Header tab and fill in required "Mode of delivery" and "Delivery terms"<br/>
 
@@ -24,7 +24,7 @@ custom_edit_url: null
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image642.png)
 
-![small](@site/static/img/media/image643.png)
+![medium](@site/static/img/media/image643.png)
 
 5. New load is added to the PO<br/>
 
@@ -70,6 +70,8 @@ For executing Freight bill in ExFlow: process a cost invoice with Load ID to get
 Posting and approval is same as for PO invoices in the ExFlow process, if the freight invoice is matched with Load id, then the invoice gets auto approved if not matched then approved manually.<br/>
 As soon as invoice is approved, the TMS freight invoice process can be done via TMS freight invoice batches.<br/>
 
+ExFlow AP | Periodic tasks | TMS Freight invoice<br/>
+
 ![small](@site/static/img/media/image653.png)
 
 -  **Create:** This batch creates the Freight bill invoices based on the approved invoice. Use filter or do batch processing.<br/>
@@ -89,7 +91,7 @@ As soon as invoice is approved, the TMS freight invoice process can be done via 
 ![small](@site/static/img/media/image657.png)
 
 
-### If Error occurs when the Freight bill invoice is not matched according to setup and tolerances
+#### If Error occurs when the Freight bill invoice is not matched according to setup and tolerances
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image658.png)
 
