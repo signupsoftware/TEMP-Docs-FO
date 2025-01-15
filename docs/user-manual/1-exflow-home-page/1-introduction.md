@@ -13,7 +13,7 @@ By being completely integrated withing D365 FO, the accounts payable staff perfo
 
 Invoices that require approval by the business are easily accessible via a workspace, a web portal, or any mobile device. The approvers will be notified when they are expected to act.
 
-<video src="https://docs.signupsoftware.com/finance-operations/video/exflow ap process demo.mp4" width="600" height="400" controls></video>
+<video src="https://docs.signupsoftware.com/finance-operations/video/EXFLOW AP PROCESS DEMO.mp4" width="600" height="400" controls></video>
 
 ## ExFlow Area Page
 
