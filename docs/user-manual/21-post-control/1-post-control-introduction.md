@@ -10,6 +10,8 @@ This function gives the accounts payable team the option to add an extra layer o
 
 The typical usage of this function is, a company has set up batch posting of invoices and the approvers are the persons that set the coding on an invoice, and the accounting department still would like to double-check the accounts, project, fixed assets, or dimension values used before the invoice is finally posted. The invoices are approved in a new form called 'Post control' and is similar to the ExFlow 'Document' form.
 
+<video src="https://docs.signupsoftware.com/finance-operations/video/Post_control_demo.mp4" width="600" height="400" controls></video>
+
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image113.png)
 
 One or several invoices may be marked and "Set as controlled" by using the button in the header. As long as an invoice has not been finally posted, the invoice can also be reversed to "Not controlled" again. If the parameter for "Allow corrections" is enabled in the setup, it is possible to "Correct invoice" when it is already approved and you are able to change for e.g. financial dimensions directly in post control form without need to restart approval route.
