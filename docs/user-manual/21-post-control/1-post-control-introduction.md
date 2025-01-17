@@ -8,9 +8,14 @@ custom_edit_url: null
 
 This function gives the accounts payable team the option to add an extra layer of quality assurance either before an invoice is routed for approval, before the final posting takes place or at both times.
 
-The typical usage of this function is, a company has set up batch posting of invoices and the approvers are the persons that set the coding on an invoice, and the accounting department still would like to double-check the accounts, project, fixed assets, or dimension values used before the invoice is finally posted. The invoices are approved in a new form called 'Post control' and is similar to the ExFlow 'Document' form.
+The typical usage of this function is, a company has set up batch posting of invoices and the approvers are the persons that set the coding on an invoice, and the accounting department still would like to double-check the accounts, project, fixed assets, or dimension values used before the invoice is finally posted. The invoices are approved in a new form called 'Post control' and is similar to the ExFlow 'Document' form.<br/>
 
+**Post control setup**<br/>
+<video src="https://docs.signupsoftware.com/finance-operations/video/Post_control_setup.mp4" width="600" height="400" controls></video>
+
+**Post control process**<br/>
 <video src="https://docs.signupsoftware.com/finance-operations/video/Post_control_ demo.mp4" width="600" height="400" controls></video>
+
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image113.png)
 
