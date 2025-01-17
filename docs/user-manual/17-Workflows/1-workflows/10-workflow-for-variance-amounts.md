@@ -20,7 +20,8 @@ The matching results are accessible from both import form and document form whic
 
 ![Table Description automatically generated with medium confidence](@site/static/img/media/image571.png)
 
-:::info **Please note!** That the standard matching in D365FO handles both Charges and Discounts in a different way compared to ExFlow. That means it is of no use to setup workflow criteria for Charges variance or Total discount variance but you can still use these fields to see if there are any charges or discounts on the related Purchase order. Standard D365FO uses the Charges on purchases field on the purchase order line instead of looking at the Charges under Maintain charges and ExFlow handles the discounts in a different way compared to standard D365FO.
+:::info Please note!<br/>
+That the standard matching in D365FO handles both Charges and Discounts in a different way compared to ExFlow. That means it is of no use to setup workflow criteria for Charges variance or Total discount variance but you can still use these fields to see if there are any charges or discounts on the related Purchase order. Standard D365FO uses the Charges on purchases field on the purchase order line instead of looking at the Charges under Maintain charges and ExFlow handles the discounts in a different way compared to standard D365FO.
 :::
 
 ### Setup signing limits
