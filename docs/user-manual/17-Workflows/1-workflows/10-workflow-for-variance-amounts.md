@@ -95,7 +95,7 @@ If the sales tax variance is greater than 10% the approval route suggested is Re
 
 ![medium](@site/static/img/media/image575.png)
 
-![mini](@site/static/img/media/image576.png)
+![small](@site/static/img/media/image576.png)
 
 ![medium](@site/static/img/media/image577.png)
 
