@@ -22,7 +22,7 @@ The described release in this document supports the following versions.
 
 <br/>
 
-**RELEASED IN 2.15.1**
+**RELEASED IN 2.16.1**
 #### Corrections
 **43632** The checkbox Has chat was not always populated when a chat message was added.<br/>
 **45012** We have made a change to the upgrade scripts fillTaxUncommittedImport and fillTaxUncommittedDocument.<br/>
