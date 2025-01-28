@@ -5,12 +5,20 @@ hide_title: true
 custom_edit_url: null
 ---
 
-# Major Release ExFlow 2.16.0 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
+# Release ExFlow 2.16.1 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+Released in January 2025, see more information about the details 
+under "Release notes".
+
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+
+____________________________________________________________________________________________________
+
+## Major Release 2.16.0
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.<br/>
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.<br/>
 
-# Release topics!<br/>
+**Release topics!**<br/>
 ### Direct postings
 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 
@@ -37,19 +45,17 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-plan
 ______________________________________________________________________
 
 ## Release ExFlow 2.15.1
-
-Released in July 2024, see more information about the details 
-under "Release notes".
+Released in July 2024, see more information about the details under "Release notes".
 
 https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 _____________________________________________________________________________________________________
 
-### Major Release ExFlow 2.15.0
+## Major Release ExFlow 2.15.0
 A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2024.
 
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
 
-# Release topics!
+**Release topics!**
 ### Sales tax handling
 30034 We have made a framework on how and when line tax calculations in ExFlow lines are being performed. Calculations can now be performed both based on request and/or immediately as before. All amounts and values received from the calculations are now stored for later use.
 
@@ -113,7 +119,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-plan
 
 ______________________________________________________________________
 ## Major Release ExFlow 2.14
-# Release Topics:
+**Release Topics:**
 ### 28037 Auto create debit and credit invoices
 We have added a new functionality that automates the creation of both debit and credit invoices for previously posted invoices. This enhancement streamlines the correction process for erroneous postings in cost invoices, providing a more efficient management solution.
 
