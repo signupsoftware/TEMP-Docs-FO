@@ -54,7 +54,8 @@ const FeatureList = [
       },
       {
         title: 'Axtension Project Management',
-        url: '/finance-operations/docs/proxy/proxy-axtension-project-management',
+        //url: '/finance-operations/docs/proxy/proxy-axtension-project-management',
+        url: '/finance-operations/docs/proxy/proxy-axtension-production-planning',
         index: 8,
       },
     ],
