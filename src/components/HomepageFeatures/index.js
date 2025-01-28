@@ -30,7 +30,8 @@ const FeatureList = [
       },
       {
         title: 'Axtension Production Planning',
-        url: '/finance-operations/docs/proxy/proxy-axtension-product-planning',
+        //url: '/finance-operations/docs/proxy/proxy-axtension-product-planning',
+        url: '/finance-operations/docs/proxy/proxy-axtension-production-planning',
         index: 6,
       },    
     ],
@@ -54,8 +55,7 @@ const FeatureList = [
       },
       {
         title: 'Axtension Project Management',
-        //url: '/finance-operations/docs/proxy/proxy-axtension-project-management',
-        url: '/finance-operations/docs/proxy/proxy-axtension-production-planning',
+        url: '/finance-operations/docs/proxy/proxy-axtension-project-management',        
         index: 8,
       },
     ],
