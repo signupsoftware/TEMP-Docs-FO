@@ -5,8 +5,35 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Major Release 2.16.0
+## Release 2.16.1
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+#### INTRODUCTION
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of January 2025.<br/>
+This document outlines the key enhancements, corrections, and improvements featured in this major update.
+This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
+
+#### Version numbers
+The described release in this document supports the following versions.
+
+| Dynamics 365 for Finance and Operations Platform version | Dynamics 365 for Finance and Operations application version  | ExFlow AP version |
+| ----------- | -------------- | -------------- | 
+| Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.1|
+
+<br/>
+
+**RELEASED IN 2.15.1**
+#### Corrections
+**43632** The checkbox Has chat was not always populated when a chat message was added.<br/>
+**45012** We have made a change to the upgrade scripts fillTaxUncommittedImport and fillTaxUncommittedDocument.<br/>
+**45203** A new entity introduced in 2.16 caused the Open in Microsoft Office functionality to not working due to a name conflict.<br/>
+**45065** The report Invoices did not return any search result due to a change in 2.16.<br/>
+**45207** The Correct invoice functionality in Post control did not work properly when running with Direct Postings.<br/>
+**45229** The exchange rate was not updated properly during the final posting in the approval journal due to a correction done in 36199 included in 2.16.<br/>
+
+__________________________________________________________________________________________________________
+
+### Major Release 2.16.0
 
 #### INTRODUCTION
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.
@@ -222,7 +249,7 @@ Settlement lines can be manually matched against more than one vendor transactio
 
 _________________________________________________________________________________________________________
 
-## Release 2.15.4
+### Release 2.15.4
 #### INTRODUCTION
 A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations has been released as of October 2024.
 Below describes all the included changes and corrections that have been included in this and earlier patches release based on the latest major release 2.15. 
