@@ -20,7 +20,6 @@ The described release in this document supports the following versions.
 | ----------- | -------------- | -------------- | 
 | Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.1|
 
-<br/>
 
 **RELEASED IN 2.16.1**
 #### Corrections
