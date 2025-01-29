@@ -42,7 +42,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   // localhost:3000
   //baseUrl: '/',    // Use this for local dev
-  baseUrl: '/finance-operations/',    // Use this for production  
+  baseUrl: '/finance-operations/',
   
 
   // GitHub pages deployment config.
