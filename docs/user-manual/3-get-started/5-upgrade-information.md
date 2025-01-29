@@ -12,7 +12,7 @@ Request a new deployable or code package, consider Releases and License Keys. Ne
 
 ______________________________________________________________________________________________
 
-### Change to the Direct posting process
+## Change to the Direct posting process
 
 #### Purpose
 Main purpose of this development was to get away from the arrival registration of invoices and give the customers an opportunity to choose which process they want to use. And to add a little extra edge to this, we also wanted to make it easier for accounting staff to manage the invoice process through ExFlow.
