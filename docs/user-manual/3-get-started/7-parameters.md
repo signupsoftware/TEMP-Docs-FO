@@ -90,27 +90,30 @@ ExFlow \| Setup \| Parameters
 
 | Sales tax  | |
 |:-|:-|
-| Default Item sales tax group | When import expense invoice, Select the default item sales tax group to use.  |
-| Time of sales tax posting | Information of when the sales tax is posted, display from accounts payable pararmeters.|
-| Adjust VAT in Invoice approval journal|Enable if ExFlow should handle the VAT difference between the VAT registered and the VAT allocated to invoice lines to be posted in invoice journal.|
-| Allocate tax difference percent| Used in combination with "Adjust VAT at approval". If ExFlow should automatically handle the difference between the invoice register VAT and the calculated VAT in invoice approval based on percentage. |
+|Tax calculation framework| To enable this feature; Navigate to ExFlow AP - Setup - General Parameters - Feature management, Activate the Tax caclulation framwork.<br/> **If turned off** Old display method approach will be used.<br/> **If turned on** the new calculation method with support for Tax calculation service takes place, that can be configured through "Calculation method" and "Display method".|
+|Calculation method|The calculation method lets you decide whether which tax calculation method to use the per legal entity.<br/>**Standard** Use standard D365FO tax setup.<br/>**MS Sales Tax calculation service** Send the transaction to the Tax calculation service.|
+|Display method|The display method in ExFlow controls how changes to a transaction, which could trigger a sales tax update, are indicated.<br/> For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>**Standard** If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form. This method is recommended if performance is a priority.<br/> **Indicate change** The display method “Indicate change” will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>**Immediately**In this mode, the sales tax is calculated instantly based on inputs at the header and line levels. For example, changes to the amount, sales tax group, item sales tax group, or sales tax code will immediately trigger a sales tax calculation for the invoice line. Available with calculation method “Microsoft Sales Tax Calculation”.|
+|Default Item sales tax group | When import expense invoice, Select the default item sales tax group to use.  |
+|Time of sales tax posting | Information of when the sales tax is posted, display from accounts payable pararmeters.|
+|Adjust VAT in Invoice approval journal|Enable if ExFlow should handle the VAT difference between the VAT registered and the VAT allocated to invoice lines to be posted in invoice journal.|
+|Allocate tax difference percent| Used in combination with "Adjust VAT at approval". If ExFlow should automatically handle the difference between the invoice register VAT and the calculated VAT in invoice approval based on percentage. |
 |Allocate VAT difference if less than (percent)| Set a percentage for how large a VAT difference amount ExFlow should automatically handle.|
-| Allocate tax difference amount | Used in combination with "Adjust VAT at approval". If ExFlow should automatically handle the difference between the invoice register VAT and the calculated VAT in invoice approval based on amount. If both are used the lowest value will be used.|
-| Allocate tax difference if less than (amount)| Define the max amount of VAT difference amount that ExFlow should automatically handle (in accounting currency). |
+|Allocate tax difference amount | Used in combination with "Adjust VAT at approval". If ExFlow should automatically handle the difference between the invoice register VAT and the calculated VAT in invoice approval based on amount. If both are used the lowest value will be used.|
+|Allocate tax difference if less than (amount)| Define the max amount of VAT difference amount that ExFlow should automatically handle (in accounting currency). |
 |Validate tax difference for invoice register posting| Validate tax allocation for invoice register, is equal to the total lines tax and taking in consideration the parameter "Adjust VAT at approval" and "Allocate VAT difference".|
-| Show extended VAT information on lines| If extended VAT information should be visible on the lines - this is only used if line level VAT is used. |
-| Use calculated sales tax if blank from OCR for PO invoices | Enable If use calculated sales tax if scanned value is blank for PO invoices.|
-| Enable sales tax amount in third currency | If the sales tax amount should be displayed also in a third currency. Enables new fields in import and docuemnt form.  |
-| Validate sales tax groups on invoice lines | If sales tax is used on line level the system can validate the sales tax groups as D365FO standard does on header level.|
-| Require complete sales tax combination| Validates the sales tax combination when posting from import form and approving invoices in ExFlow web.|
-| Get default item sales tax group for temporary tax  | If no item sales tax group is set on the main account, the system will suggest the item sales tax group from the parameter "Item sales tax group for line type ledger" found under the Time of sales tax posting section as a temporary value. |
-| Keep sales tax groups at approval  | If you change the coding on the invoice line as an approver, the sales tax combination (group and item) will not update and current values in these fields are kept.|
-| Legal entity for intercompany tax posting | Used to setup if the VAT should be deducted in the source company or in the destination company. Since by default all the journals have destination and when ExFlow post intercompany invoices via batch it must be possible to setup if source should be used.|
-| Enable Date of VAT Register| Enables the Date of VAT Register field in ExFlow for other legal enities then in Eastern Europe. To be able to work with this field the functionality for "Date of VAT Register" must be switched on in feature management. |
-| Validate tax exempt number  | Will validate the tax-exempt number on the invoice with the tax-exempt number on the PO. Only valid for PO invoices.|
-| Keep tax groups | If ticked, ExFlow will keep the tax groups although coding is changed. Otherwise, the tax groups will be retrieved. |
-| Intercompany line VAT calculation||
-| Tax calculation approach|**Tax calculation**- ExFlow calculates tax within import. **Manual**- Manually triggered calculation triggered, Feature needs to be activated from ExFlow feature management.|
+|Show extended VAT information on lines| If extended VAT information should be visible on the lines - this is only used if line level VAT is used. |
+|Use calculated sales tax if blank from OCR for PO invoices | Enable If use calculated sales tax if scanned value is blank for PO invoices.|
+|Enable sales tax amount in third currency | If the sales tax amount should be displayed also in a third currency. Enables new fields in import and docuemnt form.  |
+|Validate sales tax groups on invoice lines | If sales tax is used on line level the system can validate the sales tax groups as D365FO standard does on header level.|
+|Require complete sales tax combination| Validates the sales tax combination when posting from import form and approving invoices in ExFlow web.|
+|Get default item sales tax group for temporary tax  | If no item sales tax group is set on the main account, the system will suggest the item sales tax group from the parameter "Item sales tax group for line type ledger" found under the Time of sales tax posting section as a temporary value. |
+|Keep sales tax groups at approval  | If you change the coding on the invoice line as an approver, the sales tax combination (group and item) will not update and current values in these fields are kept.|
+|Legal entity for intercompany tax posting | Used to setup if the VAT should be deducted in the source company or in the destination company. Since by default all the journals have destination and when ExFlow post intercompany invoices via batch it must be possible to setup if source should be used.|
+|Enable Date of VAT Register| Enables the Date of VAT Register field in ExFlow for other legal enities then in Eastern Europe. To be able to work with this field the functionality for "Date of VAT Register" must be switched on in feature management. |
+|Validate tax exempt number  | Will validate the tax-exempt number on the invoice with the tax-exempt number on the PO. Only valid for PO invoices.|
+|Keep tax groups | If ticked, ExFlow will keep the tax groups although coding is changed. Otherwise, the tax groups will be retrieved. |
+|Intercompany line VAT calculation||
+|Override purchase tax|Enbale to allow override on the purchase tax on Purchase order invoices. |
 
 | Time of sales tax posting |- Approval|
 |:-|:-|
