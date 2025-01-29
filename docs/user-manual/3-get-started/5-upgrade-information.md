@@ -80,7 +80,7 @@ If the customer needs to change the from the invoice registration process to the
 
 ### Parameters
 
-![medium](@site/static/img/media/image621.png)<br/>
+![large](@site/static/img/media/image621.png)<br/>
 
 ---
 |Parameter | Description |
