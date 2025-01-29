@@ -9,7 +9,7 @@ custom_edit_url: null
 :::info Deprecated from version 2.16.0 and 2.17.0
 :::
 
-#### Create journal for accrual of estimated costs
+### Create journal for accrual of estimated costs
 
 | | |
 | :----- | :----- |
@@ -20,7 +20,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024.
 | Planned to be removed from release | 2.16.0.
 
-#### Import OCR invoices to import form
+### Import OCR invoices to import form
 
 | | |
 | :-----| :-----|
@@ -31,7 +31,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.17.0. |
 
-#### Posting proposal
+### Posting proposal
 
 | | |
 | :-----| :-----|
@@ -42,7 +42,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.17.0. |
 
-#### Methods for suggesting approvers (ExFlow Parameters)
+### Methods for suggesting approvers (ExFlow Parameters)
 
 | | |
 | :-----| :-----|
@@ -53,7 +53,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.17.0. |
 
-#### Position hierarchy logic based on owner of dimension (ExFlow Parameters)
+### Position hierarchy logic based on owner of dimension (ExFlow Parameters)
 
 | | |
 | :-----| :-----|
@@ -64,7 +64,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.16.0. |
 
-#### Position controlled by financial dimension (ExFlow Parameters)
+### Position controlled by financial dimension (ExFlow Parameters)
 
 | | |
 | :-----| :-----|
@@ -75,7 +75,7 @@ custom_edit_url: null
 | Deprecated date | January 17th 2024. |
 | Planned to be removed from release | 2.16.0. |
 
-#### Reference person
+### Reference person
 
 | | |
 | :-----| :-----|
@@ -89,7 +89,7 @@ custom_edit_url: null
 :::info Deprecated during 2021
 :::
 
-#### Import Methods (Parameter)
+### Import Methods (Parameter)
 
 | | |
 | :-----| :-----|
@@ -100,7 +100,7 @@ custom_edit_url: null
 | Deprecated date | 1st of February 2021. |
 | Planned to be removed from release | - |
 
-#### Import Invoice XML Files
+### Import Invoice XML Files
 
 | | |
 | :-----| :-----|
@@ -111,7 +111,7 @@ custom_edit_url: null
 | Deprecated date | 1st of February 2021. |
 | Planned to be removed from release | 2.13.0 |
 
-#### Middleware Integration batch job
+### Middleware Integration batch job
 
 | | |
 | :-----| :-----|
@@ -122,7 +122,7 @@ custom_edit_url: null
 | Deprecated date | 1st of February 2021. |
 | Planned to be removed from release | 2.13.0 |
 
-#### Vendor Upload RSO
+### Vendor Upload RSO
 
 | | |
 | :-----| :-----|
@@ -133,7 +133,7 @@ custom_edit_url: null
 | Deprecated date | 1st of February 2021. |
 | Planned to be removed from release | 2.13.0 |
 
-#### Email Notification
+### Email Notification
 
 | | |
 | :-----| :-----|
@@ -144,7 +144,7 @@ custom_edit_url: null
 | Deprecated date | 1st of February 2021. |
 | Planned to be removed from release | - |
 
-#### Coding Line for Import
+### Coding Line for Import
 
 | | |
 | :-----| :-----|
