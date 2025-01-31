@@ -15,7 +15,10 @@ Clients that are using the below functionalities in ExFlow AP.
 
 - Generate PDF invoice images based on stylesheets. This functionality is used by clients that are importing EDI invoices such as OIOUBL, PEPPOL and EHF that doesn’t include an invoice image.
 - Import of invoices from Azure blob storage. Other import methods such as FTP/SFTP or EDC are not affected.
-- Access to invoice image from the PowerApp PO Reconnect (will not be solved with updates in FO)
+- Access to invoice image from the PowerApp PO Reconnect (will not be solved with updates in FO).
+- Customer who uses the new Auto credit/debit functionality.
+https://docs.exflow.cloud/finance-operations/docs/user-manual/accounts-payable-process/auto-create-debit-credit
+
 
 **When will the change happen?**<br/>
 The change is implemented from Microsoft with 10.0.43 that was released for Preview on January 27th and will be have a general availability from March 14th. However, it is important to keep in mind that this may happen sooner if Microsoft releases the change as a quality update.<br/>
