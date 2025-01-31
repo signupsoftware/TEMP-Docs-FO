@@ -6,7 +6,7 @@ custom_edit_url: null
 ---
 
 
-# IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 With the new Dynamics 365 Finance and Operation release 10.0.43 from Microsoft there are breaking changes that is affecting ExFlow AP. The changes included from Microsoft is affecting the libraries that are used to work with Azure blob storages, but also accessing the internal blob storage that is provided with F&O.<br/>
 
@@ -36,7 +36,12 @@ SignUp will in the beginning of February create a new version of ExFlow AP that 
 
 The new release will be based on our latest major release 2.16.0 released in December 2024.<br/>
 
-## General Parameters
+<br/>
+
+
+## For customers generating PDF images
+
+### General Parameters
 You first need to configure the PDF webservice for ExFlow AP. The configuration is 
 handled in the ExFlow form General Parameters.<br/>
 
