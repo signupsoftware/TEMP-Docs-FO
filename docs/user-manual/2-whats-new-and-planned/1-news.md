@@ -6,7 +6,74 @@ custom_edit_url: null
 ---
 
 
-# Release ExFlow 2.16.1 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+With the new Dynamics 365 Finance and Operation release 10.0.43 from Microsoft there are breaking changes that is affecting ExFlow AP. The changes included from Microsoft is affecting the libraries that are used to work with Azure blob storages, but also accessing the internal blob storage that is provided with F&O.<br/>
+
+**Who is affected by the change?**<br/>
+Clients that are using the below functionalities in ExFlow AP.
+
+- Generate PDF invoice images based on stylesheets. This functionality is used by clients that are importing EDI invoices such as OIOUBL, PEPPOL and EHF that doesn’t include an invoice image.
+- Import of invoices from Azure blob storage. Other import methods such as FTP/SFTP or EDC are not affected.
+- Access to invoice image from the PowerApp PO Reconnect (will not be solved with updates in FO).
+- Customer who uses the new Auto credit/debit functionality.
+https://docs.exflow.cloud/finance-operations/docs/user-manual/accounts-payable-process/auto-create-debit-credit
+
+
+**When will the change happen?**<br/>
+The change is implemented from Microsoft with 10.0.43 that was released for Preview on January 27th and will be have a general availability from March 14th. However, it is important to keep in mind that this may happen sooner if Microsoft releases the change as a quality update.<br/>
+
+The blocking of Connection-String access can potentially be backported to 10.0.42 by a PQU from Microsoft during March.<br/>
+
+**Actual changes**<br/>
+- Disable storage account key access to F&O managed storage account.
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates#disable-storage-account-key-access-to-finance-and-operations-managed-storage-accounts
+<br/>
+
+- Blob library migration.
+https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates#migration-from-deprecated-libraries--windowsazurestorage-and-microsoftazurestorage-to-azurestorageblobs
+<br/>
+
+**Solution?**<br/>
+SignUp will in the beginning of February create a new version of ExFlow AP that will be available on the LCS for download. For customers generating PDF images, please see the below instructions.<br/>
+
+The new release will be based on our latest major release 2.16.0 released in December 2024.<br/>
+
+<br/>
+
+
+## For customers generating PDF images
+
+### General Parameters
+You first need to configure the PDF webservice for ExFlow AP. The configuration is 
+handled in the ExFlow form General Parameters.<br/>
+
+### PDF WEB SERVICE
+![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image665.png)
+
+The service is hosted by SignUp Software.
+- Web service URL: https://pdfconverter.exflow.io
+- Password: Upon request
+- Port: 443
+- Use UP address: No
+
+### AZURE STORAGE
+The security setting on the Container needs to be marked as Public (Public read access for blobs only). The reason for this is that many of the stylesheets that are used often 
+contains of multiple files to generate images. In these scenarios, some of the files usually have references to one or more of the other files.<br/>
+Previously we have used the internal Blob storage for FO, but that is no longer possible due to security changes by Microsoft in 10.0.43.<br/> 
+**Important to notice** is that we only upload the stylesheets and not the actual invoice xml. When we generate the invoice images all files must be possible to resolve based on a 
+URL link to the blob storage.<br/>
+In order to achieve this we are using the .NET class System.Xml.XmlUrlResolver. This class are not able to resolve the references unless the Container access level is set to Public.<br/>
+
+### EXTERNAL BLOB STORAGE
+- Use external blob storage: Yes
+- Storage Account Name: YourStorageAccount
+- Storage Account Key: YourStorageAccountKey
+- Container reference: YourStorageContainer
+
+_______________________________________________________________________________________________________
+### Release ExFlow 2.16.1
+
 Released in January 2025, see more information about the details 
 under "Release notes".
 
@@ -14,7 +81,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-plan
 
 ____________________________________________________________________________________________________
 
-## Major Release 2.16.0
+### Major Release 2.16.0
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.<br/>
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.<br/>
 

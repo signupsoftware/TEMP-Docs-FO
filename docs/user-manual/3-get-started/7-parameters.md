@@ -90,9 +90,9 @@ ExFlow \| Setup \| Parameters
 
 | Sales tax  | |
 |:-|:-|
-|Tax calculation framework| To enable this feature; Navigate to ExFlow AP - Setup - General Parameters - Feature management, Activate the Tax caclulation framwork.<br/> **If turned off** Old display method approach will be used.<br/> **If turned on** the new calculation method with support for Tax calculation service takes place, that can be configured through "Calculation method" and "Display method".|
-|Calculation method|The calculation method lets you decide whether which tax calculation method to use the per legal entity.<br/>**Standard** Use standard D365FO tax setup.<br/>**MS Sales Tax calculation service** Send the transaction to the Tax calculation service.|
-|Display method|The display method in ExFlow controls how changes to a transaction, which could trigger a sales tax update, are indicated.<br/> For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>**Standard** If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form. This method is recommended if performance is a priority.<br/> **Indicate change** The display method “Indicate change” will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>**Immediately**In this mode, the sales tax is calculated instantly based on inputs at the header and line levels. For example, changes to the amount, sales tax group, item sales tax group, or sales tax code will immediately trigger a sales tax calculation for the invoice line. Available with calculation method “Microsoft Sales Tax Calculation”.|
+|Tax calculation framework| **To enable this feature;** Navigate to ExFlow AP - Setup - General Parameters - Feature management, Activate the Tax caclulation framwork.<br/> **If turned off;** Old display method approach will be used.<br/> **If turned on;** The new calculation method with support for Tax calculation service takes place, that can be configured through "Calculation method" and "Display method".|
+|Calculation method|The calculation method lets you decide whether which tax calculation method to use the per legal entity.<br/>**Standard;** Use standard D365FO tax setup.<br/>**MS Sales Tax calculation service;** Send the transaction to the Tax calculation service.|
+|Display method|The display method in ExFlow controls how changes to a transaction, which could trigger a sales tax update, are indicated.<br/> For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>**Standard;** If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form. This method is recommended if performance is a priority.<br/> **Indicate change;** The display method “Indicate change” will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>**Immediately;** In this mode, the sales tax is calculated instantly based on inputs at the header and line levels. For example, changes to the amount, sales tax group, item sales tax group, or sales tax code will immediately trigger a sales tax calculation for the invoice line. Available with calculation method “Microsoft Sales Tax Calculation”.|
 |Default Item sales tax group | When import expense invoice, Select the default item sales tax group to use.  |
 |Time of sales tax posting | Information of when the sales tax is posted, display from accounts payable pararmeters.|
 |Adjust VAT in Invoice approval journal|Enable if ExFlow should handle the VAT difference between the VAT registered and the VAT allocated to invoice lines to be posted in invoice journal.|
@@ -143,7 +143,7 @@ ExFlow \| Setup \| Parameters
 ### Fixed assets
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image7.png)
 
-| Fixed asset|settings|
+| Fixed asset settings| Description |
 |:-|:-|
 | Keep fixed asset dimensions | When an approver changes a fixed asset id, standard ExFlow also deletes the remaining dimension values. If this parameter is set, the values will remain - unless the new fixed asset id in conjunction with the book has default dimensions. |
 | Merge fixed asset and line  | If "Keep fixed asset dimensions" is ticked, this parameter is activated, giving you the choice to merge dimension values from the fixed asset with values on the line. If not ticked, only values from the fixed asset will be used.|
@@ -151,28 +151,28 @@ ExFlow \| Setup \| Parameters
 ### Purchase order
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image8.png)
 
-| General| |
+| General| Description |
 |:-|:-|
-|**Get purchase order lines**- Auto get purchase order lines| Enable if only the invoice header information is imported, and you wish for ExFlow to suggest coding of the invoice by retrieving the item lines of the referenced purchase order.|
+|**Get purchase order lines**<br/>- Auto get purchase order lines| Enable if only the invoice header information is imported, and you wish for ExFlow to suggest coding of the invoice by retrieving the item lines of the referenced purchase order.|
 |Auto get purchase order charges| Enable if only the invoice header information is imported, and you wish for ExFlow to suggest coding of the invoice by retrieving the charge lines of the purchase order referenced in the invoice header. ***Only charges with Compare purchase order and invoice values field set to Yes will get retrieved.*** |
 |Set invoice on hold if no PO found| If set to yes, invoices that are imported with purchase order numbers that does not match any purchase order in D365FO, will automatically be set on Hold in ExFlow Import form |
 | Allocate difference amount between header and lines | Allocate balance difference between header and lines to lines automatically or a specified charge code.|
-|**Show Inventory Dimensions**- Show inventory dimensions| Enable to display purchase order inventory dimensions in ExFlow forms.|
-|**Line Item Charges**- Line item charges| Set to yes if line item charges should be used. |
+|**Show Inventory Dimensions**<br/>- Show inventory dimensions| Enable to display purchase order inventory dimensions in ExFlow forms.|
+|**Line Item Charges**<br/>- Line item charges| Set to yes if line item charges should be used. |
 | Line item charges attributes| Set to yes if line item charges should be imported via file within the attributes functionality.|
 | Include line charges in line amount | If the charges amount should be included in the line amount when used for workflows checking approval limits or when the approval amount control is used to include the line charge amount.|
 | Max line charge amount|The fallback parameter for the total amount of line charges that should get automatically approved if the sum of all line charges that are the same and are below this amount.|
 |**Use specific Packing Slip Connection** |Enables the functionality to connect specific packing slips.|
-|**Copy Dimensions from Purchase Order** Copy to account dimensions| If set to Yes - the default values on the purchase order will be copied to the header account financial dimensions on the invoice. |
+|**Copy Dimensions from Purchase Order**<br/>- Copy to account dimensions| If set to Yes - the default values on the purchase order will be copied to the header account financial dimensions on the invoice. |
 |Copy to offset dimensions|If set to Yes - will copy the default dimensions from the purchase order to the offset account on the invoice.|
 | Override charge dimensions| Set this to Yes if you wish to be able to override the charge dimensions on PO invoices. |
 
-| Penny difference | |
+| Penny difference |Description|
 |:-|:-|
 | Maximum penny difference | The maximum penny difference that ExFlow shall add at scanned import, if the line sum and header net sum differ. |
 | Charge code for penny difference | The standard charge code that the penny difference should be posted with.|
 
-| Charges from invoice for auto approval | |
+| Charges from invoice for auto approval | Description |
 |:-|:-|
 | Charge 1 from invoice | If header charges are included in the XML file, set the charge code 1 and it will be added automatically to the invoice at scanned import. |
 | Charge 2-5 from invoice | Another four invoice header fields that can be predefined in the same way as Charge 1 above. |
@@ -185,14 +185,14 @@ ExFlow \| Setup \| Parameters
 |**Auto match purchase order invoices of arrival of goods**- Number of days before release of quantity variance invoices| Number of days before release of purchase order invoices for approval if matching status is "quantity variance" (therefore having a status of "On hold"). This setting is used in combination with the periodic job "Auto match purchase order invoices on arrival of goods". |
 |**Prematch**- Run pre-match and suggest approvers together in import form | If switched on the suggest approver function will run at the same time when the pre-match function is run.|
 |Re-run suggest approver at invoice register posting| To run this job at the time of posting of invoice register, ensures that the approvers are set based on the latest matching status.|
-|**Variance amount**- |Variance criteria's in workflow and matching details| Enabels the criteria´s for variance matching in ExFlow workflows and activates matching details form for PO.|
+|**Variance amount**- |Variance criteria's in workflow and matching details| Enabels the criteria´s for variance matching in ExFlow workflows and activates matching details form for PO.<br/> Read more; https://docs.exflow.cloud/finance-operations/docs/user-manual/Workflows/workflows/workflow-for-variance-amounts#workflow-for-variance-amounts|
 
-| Posting | |
+| Posting | Description |
 |:-|:-|
 | Posting profile PO invoices| The standard posting profile that should be used with invoice registration. If none is chosen, the default posting profile is used. |
 | Posting of PO invoices requires lot-id | PO invoices must have a Lot-id to be able to make the preliminary registration. |
 
-| Get reference from orderer ||
+| Get reference from orderer | Description |
 |:-|:-|
 | Fetch approver from PO |Choose from where the reference field in import form will be populated to fetch 1st approver for PO invoices.|
 |Fetch approver primarily from PO instead of reference table | If enabled, ExFlow will fetch the Worker from the Purchase Order to use as the invoice Reference, instead of fetching directly from the Reference person form.|
@@ -200,14 +200,14 @@ ExFlow \| Setup \| Parameters
 ### Posting logic
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image609.png)
 
-|Invoice parameters||
+|Invoice parameters| Description |
 |:-|:-|
 |Journal name for invoice registration|Journal name to be used for the created invoice register journal.|
 |Journal name for final approval of invoices|Journal for the invoice approval journal to be used for final posting. If left blank first invoice approval will be used.|
 |Journal name for canceled invoices|Mandatory, the journal that is used when a registered invoice is cancelled via ExFlow (the same journal for posting invoice register invoice can be used, but not recommended).|
-|Default approved by|Select the default approver for the standard invoice register journal field "Approved by" in the import invoices form (header)."Approved by" is automatically updated from the ExFlow parameter "Default approved by" when the periodic task "Import OCR" is triggered. If the Import action is triggered manually in import form by an user, the user's own worker will be applied instead.<br/> **NOTE** Parameter is mandatory for the Direct posting process.|
+|Default approved by|Select the default approver for the standard invoice register journal field "Approved by" in the import invoices form (header)."Approved by" is automatically updated from the ExFlow parameter "Default approved by" when the periodic task "Import OCR" is triggered. If the Import action is triggered manually in import form by an user, the user's own worker will be applied instead.<br/> **NOTE!** Parameter is mandatory for the Direct posting process.|
 
-|Posting date adjustments||
+|Posting date adjustments| Description |
 |:-|:-|
 |Change posting date based on module status|If the posting date of the invoice corresponds to a closed period, ExFlow will automatically adjust the date to the earliest available open date in the following month.|
 |Cost/purch invoice register suggested posting date| Is used for the adjustment of the posting date in invoice register form for both cost and purch invoices.|
@@ -226,7 +226,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |Always Last goods receipt date|Adjust the posting date to the date of the last received packing slip for the linked purchase order selected in the header.|
 |Last goods receipt date, change to first open if period closed|Adjusts the posting date to the last goods receipt date of the purchase order or to the first open period if the receipt period is closed.|
 
-|Ledger accrual||
+|Ledger accrual|Description|
 |:-|:-|
 |General journal name|The journal that is used to create ledger accrual transactions.|
 |Date for currency exchange rate|If the exchange rate should be calculated based on the posting date of the invoice or the transaction date of the invoice register transaction.|
@@ -234,18 +234,18 @@ All three parameters above have different options: Exflow provides flexibility i
 |Use invoice currency|If the local currency of the invoice should be used in generation of the accrual line in the journal.|
 |Accrue project lines using project type|When running the ExFlow ledger accrual report this setting will instead of suggesting the underlying account based on the used project category use the actual project in accrual journal.|
 
-|Localization||
+|Localization|Description|
 |:-|:-|
 |Always update voucher number|When is enabled the voucher number will be updated from the final approval journal at final posting.<br/>When standard changes the voucher number it will use the voucher series specified on the final approval journal. The solution is to always use this same logic if the parameter is enabled. So it dosen't matter if period is closed - you will always fetch a new voucher.|
 
-|Override ExFlow default dimensions||
+|Override ExFlow default dimensions|Description|
 |:-|:-|
 |Override ExFlow default dimensions with approval journal dimensions|If the journal used for invoice approval journal is set up to use default dimension values, then the dimensions set in the ExFlow web for project lines should overwrite the default journal dimensions.|
 
 ### Approval
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image9.png)
 
-|Approval parameters| |
+|Approval parameters|Description |
 |:-|:-|
 |Allow changes to suggested approval route by D365 user|Enable if the user in Dynamics 365 is allowed to manipulate the suggested approval route.|
 |Minimum number of unique approvers|To enable the "four eyes principal". Approval of an invoice must have at least this number of different approvers.|
@@ -254,7 +254,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |Keep original last approver|If a change in coding initiates a new approval route, shall we keep the original last approver despite the new coding setting?|
 |Add same approver after current if forwarded|If set to Yes – it will automatically add the current approver, that forwards the invoice as the next approver after the "Forwarded to" approver: <ul><li>Bengt forwards invoice to Maria.</li><li>Bengt is automatically set as the approver after Maria has approved.</li></ul>|
 
-|Approval logic| |
+|Approval logic| Description |
 |:-|:-|
 |Method for suggesting approvers|Approval routes can be based on different methods. <br/><br/><u>Position hierarchy:</u><br/>Approval routes are based on a position hierarchy only, in combination with the reference (optional) of the invoice.<br/><br/><u>Standard workflow:</u><br/>Approval routes are based on workflow only, in combination with the reference of the invoice. Reference is the typical field used; however, many other fields may be used in the workflow configuration.<br/><br/><u>Both (Workflow and Position Hierarchy):</u><br/>The system will first try to get a match on the approval workflow and continues to position hierarchy if no approvers are found in workflow.<br/><br/><u>Use workflow to find specific position hierarchy:</u><br/>The system will use a workflow rule to determine which position hierarchy to be used using the "Find position hierarchy" workflow. For example, if there is a purchase order number, use one hierarchy and if there is no purchase order number use another hierarchy.<br/><br/><u>Both standard workflow and find position hierarchy:</u><br/>The system will first try to get a match on the standard approval workflow, and if no match continues to find and use a position hierarchy using the "Find position hierarchy" workflow. In other words, if no standard approval workflow is found, revert to the above setting "Use workflow to find specific position hierarchy".<br/><br/><u>Advanced workflow:</u><br/>The system will use the advanced approval engine that extends the options of using dedicated workflows (i.e., standard workflows) with specific name driven approvers or fixed position hierarchies. The purpose of the advanced approval engine is to be more flexible than the standard way of adding approval routes, to enable data driven approval and to create something from scratch that is easily extended without the patchwork nature that the current versions have. For more information, please contact Signup Software AB.|
 |Cross company search for workflow to find position hierarchy|If ticked, the system will look in all companies with this parameter ticked to find a workflow to determine the position hierarchy to use. If it finds multiple workflows, the first will be used. If not ticked, the system will only look for the workflow in the current company.|
@@ -264,7 +264,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |Reviewer|If set to yes – you have the possibility to choose to have users as reviewers, i.e., the user will receive the invoice in the approval flow, but the approval of the reviewer will not count as a formal approval.<br/>**Please note** – a reviewer cannot approve the invoice if he/she is the last approver. This is valid for standard workflow, position hierarchy and advanced workflow.|
 
 
-| Advanced workflow options - This sections setting is used for the new advanced approval engine |  |
+| Advanced workflow options - This sections setting is used for the new advanced approval engine |Description  |
 |:-|:-|
 | Return only first and last approver                                                            | If for example 4 approvers are found the system will only suggest the first and the last approver.                                                                   |
 | Add parent approver if only one is found                                                       | If only one approver is suggested if for example the approver has the correct signing limit the next approver is automatically added to fulfill four eyes principal. |
@@ -272,7 +272,7 @@ All three parameters above have different options: Exflow provides flexibility i
 | Minimum number of approvers for posting from import form                                       | A check that validates the minimum number of approvers before an invoice is posted in ExFlow import form.                                                            |
 
 
-|Position hierarchy logic| |
+|Position hierarchy logic|Description |
 |:-|:-|
 |Add parent approver if only one approver found|Adds a second approver to meet the (e.g., SOX) rules if only one approver is found based on the approval limits.|
 |Only first and last approver of position hierarchy are added|When Position hierarchy is used to find approval routes, this setting will only return the first and last approvers from the approval chain.|
@@ -281,7 +281,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |Position controlled by financial dimension|If set to "Yes" this will fetch owner of financial dimension|
 |Approval based on invoice header or line amount|Select whether the approval route should be based on the Invoice line amount or the total invoice amount. E.g., if invoice is coded to IT for $250 (Approver 1’s limit) and HR for $300 (Approver 2’s limit), if set to "Invoice Amount", Approver 3 will also be added, who has a limit of $550+|
 
-|Escalation| |
+|Escalation|Description |
 |:-|:-|
 |Escalate to|This functionality is working in combination with the periodic batch job "Escalation". See more under https://docs.exflow.cloud/finance-operations/docs/user-manual/periodic-batch-jobs/escalation.<br/> Escalate to this user or user group if no next approver can be found or an extra approver is required. Leave blank if the invoice shall follow the approval chain. **Note**; Advanced approval workflow needs to be active with position hierarchy selected|
 |Days|Number of working days before an invoice is escalated.|
@@ -314,7 +314,7 @@ All three parameters above have different options: Exflow provides flexibility i
 
 ![medium](@site/static/img/media/image564.png)
 
-|Post Control| |
+|Post Control| Description |
 |:-|:-|
 |Enable post control|Activate post control which will require that the accounting personnel will approve all invoices before they can be finally posted in the invoice journal. This final validation is performed in ExFlow / Common / Final approval.|
 |Include purchase orders|If purchase order invoices should be included in the post control process.|
@@ -323,13 +323,13 @@ All three parameters above have different options: Exflow provides flexibility i
 |Allow corrections|Allow corrections in the post control form.|
 
 
-|Agreements| |
+|Agreements|Description |
 |:-|:-|
 |Use purchase agreements|Enable if agreements (contract management and self-invoicing) functionality should be enabled.|
 |Default matching error policy|Used for determining what policy that should be used when an agreement and invoice is matched whether it should be automatically approved or sent out for manual approval. Optional choices are If greater than tolerance or if greater than or less than tolerance.|
 |Self-billing invoice document type|If contract management and self-invoicing is used a document type must be set for the system to be able to create self-billing invoice image.|
 
-|Override approval| |
+|Override approval|Description |
 |:-|:-|
 |Max approval override amount|The maximum amount for which a clerk can override an approval of in ExFlow import form. To be able to set this amount you must have system administrator rights.|
 
@@ -337,7 +337,7 @@ All three parameters above have different options: Exflow provides flexibility i
 ### Prepayment and settlements
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image10.png)
 
-| Prepayment and settlements tab | |
+| Prepayment and settlements tab |Description |
 |:-|:-|
 |Enable prepayment |Enable if prepayment functionality should be used. |
 |Method to avoid duplicates| Choose which payment method to be used to avoid duplicates.|
