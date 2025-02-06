@@ -33,7 +33,20 @@ jobs:
         shell: bash
         run: echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         id: extract_branch
-         
+ 
+      # EA 2025-01-29 Adding stage site for DocsFO
+      - name: Set Staging config
+        if: steps.extract_branch.outputs.branch != 'main'
+        shell: pwsh
+        run: |
+          #Set Docasaurus basepath to '/'
+          $docusaurusConfig = get-content .\docusaurus.config.js
+          $docusaurusConfigDev = $docusaurusConfig.replace("baseUrl: '/finance-operations/',", "baseUrl: '/',")
+          Set-Content -Path .\docusaurus.config.js -Value $docusaurusConfigDev
+          #Set StaticWebapp to Internal net
+          $json = '{"networking": {"allowedIpRanges": ["178.174.233.194/32"]}}'
+          Set-Content .\staticwebapp.config.json -Value $json
+
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
@@ -57,5 +70,6 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
+          app_location: "/" # EA 2025-01-29 Adding this, App source code path
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_YELLOW_POND_058AE2B03 }}
           action: "close"
