@@ -7,18 +7,6 @@ custom_edit_url: null
 ## QA - Direct posting process
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-### Difference between Invoice reg/approval process and Direct posting process
-**ExFlow Invoice reg/approval process:**
--	Invoice register posting holds data that you need to take into consideration at final posting.
--	Immediately effect on general ledger and vendor balance accounts.<br/>
-
-**ExFlow Direct posting process:**
--	Data can be changed all the way until final posting.
--	Full support for D365 FO pending invoice process which Microsoft is targeting for all new features regarding the procure to pay process.
--	Sales tax is not deducted until final posting although you can change the scanned sales tax all the way until final posting.
--	No effect in GL/Submodules etc. for invoice and sales tax until final posting.<br/>
-
-### Q&A
 **When is the liability to the vendor recognized in the financial books?**
 -	Direct posting: At invoice journal posting.
 -	Invoice reg/approval: At Invoice register posting (Import form).<br/>
@@ -49,5 +37,3 @@ custom_edit_url: null
 **Is cancellation of invoices in ExFlow affecting the GL and Vendor balance?**
 -	Direct posting: No.
 -	Invoice reg/approval: Yes.
-
-

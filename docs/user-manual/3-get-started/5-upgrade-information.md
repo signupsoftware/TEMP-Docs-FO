@@ -21,15 +21,15 @@ Main purpose of this development was to get away from the arrival registration o
 :::
 
 **Invoice register process**<br/>
-Invoice register posting holds data that you need to take into consideration at final posting. <br/>
-Immediately effect on general ledger and vendor balance accounts.<br/>
-Sales tax are deducted at invoice register posting and can be reported to local tax authorities.<br/>
-Invoice matching against purchase orders is made with net amount postings.<br/>
+- Invoice register posting holds data that you need to take into consideration at final posting.
+- Immediately effect on general ledger and vendor balance accounts.
+- Sales tax are deducted at invoice register posting and can be reported to local tax authorities.
+- Invoice matching against purchase orders is made with net amount postings.
 
 **Direct posting process**<br/>
-No invoice register, means that the data can be changed all the way until final posting and full support for pending invoice process which MS is targeting for all new features.<br/>
-Sales tax is not deducted until final posting, although you can use the captured sales tax from the invoice all the way until final posting.<br/>
-No effect in GL/Submodules etc. for invoice and sales tax until final posting.<br/>
+- No invoice register, means that the data can be changed all the way until final posting and full support for pending invoice process which MS is targeting for all new features.
+- Sales tax is not deducted until final posting, although you can use the captured sales tax from the invoice all the way until final posting.
+- No effect in GL/Submodules etc. for invoice and sales tax until final posting.
 
 **Market and Target group**<br/>
 - Mainly for US market and new customers who don´t want to use the arrival registration process.<br/>
@@ -134,6 +134,5 @@ To make it easier for the AP personnel to work we have decreased the amount of d
 
 ![Table Description automatically generated](@site/static/img/media/image624.png)
 
-
-:::INFO Questions and Answers: https://docs.exflow.cloud/finance-operations/docs/user-manual/faq/direct-posting
+::info **Questions and Answers:** https://docs.exflow.cloud/finance-operations/docs/user-manual/faq/direct-posting
 :::
