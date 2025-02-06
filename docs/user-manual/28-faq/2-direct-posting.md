@@ -16,7 +16,7 @@ custom_edit_url: null
 -	Data can be changed all the way until final posting.
 -	Full support for D365 FO pending invoice process which Microsoft is targeting for all new features regarding the procure to pay process.
 -	Sales tax is not deducted until final posting although you can change the scanned sales tax all the way until final posting.
--	No effect in GL/Submodules etc. for invoice and sales tax until final posting.
+-	No effect in GL/Submodules etc. for invoice and sales tax until final posting.<br/>
 
 ### Q&A
 **When is the liability to the vendor recognized in the financial books?**
