@@ -133,3 +133,7 @@ The ExFlow vendor invoice management workspace is redesigned and it is now possi
 To make it easier for the AP personnel to work we have decreased the amount of default visible columns in import and document form.<br/> 
 
 ![Table Description automatically generated](@site/static/img/media/image624.png)
+
+
+:::INFO Questions and Answers: https://docs.exflow.cloud/finance-operations/docs/user-manual/faq/direct-posting
+:::

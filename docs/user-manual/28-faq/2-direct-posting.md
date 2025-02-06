@@ -4,10 +4,10 @@ sidebar_position: 2
 hide_title: true
 custom_edit_url: null
 ---
-## Direct posting process QA
+## QA - Direct posting process
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-### Difference between ExFlow Invoice reg/approval process and ExFlow Direct posting process
+### Difference between Invoice reg/approval process and Direct posting process
 **ExFlow Invoice reg/approval process:**
 -	Invoice register posting holds data that you need to take into consideration at final posting.
 -	Immediately effect on general ledger and vendor balance accounts.<br/>
