@@ -65,7 +65,8 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 ### PDF Web service
 
 #### Setup option for PDF Web Service
-If PDF web service is used, relevant information should be entered here.
+If PDF web service is used, relevant information should be entered here.<br/>
+Needs to be setup if the customer generate images based on the xml invoice or use the "create debit/credit" functionality.
 
 |PDF Web service| |
 |:-|:-|

@@ -18,6 +18,7 @@ custom_edit_url: null
 **Can you register VAT in ExFlow import form without a tax transaction being registered?**
 -	Direct posting: Yes.
 -	Invoice reg/approval: Yes, if time of sales tax posting is set to “Invoice approval”.<br/>
+**Note: Time of sales tax posting is mandatory to set to “Invoice register” if PO-invoices are processed through ExFlow**.<br/>
 
 **Which std D365FO journals/forms are ExFlow using for handling of vendor invoices?**
 -	Direct posting: Invoice journal (non-PO), Pending vendor invoice (PO).
