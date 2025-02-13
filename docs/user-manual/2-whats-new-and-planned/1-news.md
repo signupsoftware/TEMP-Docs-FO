@@ -5,9 +5,14 @@ hide_title: true
 custom_edit_url: null
 ---
 
-
 ## Release 2.16.2 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 Released in February 2025, see more information about the details under "Release notes".
+The reason for the patch is primarily the deprecation of blob storage libraries that we have used within ExFlow AP.
+
+•	42938 Migration of azure blob libraries to Azure.Storage.Blob 
+
+More information about the change from Microsoft: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates#migration-from-deprecated-libraries--windowsazurestorage-and-microsoftazurestorage-to-azurestorageblobs
+
 
 https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
