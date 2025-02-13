@@ -5,8 +5,34 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Release 2.16.1
+## Release 2.16.2
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+#### INTRODUCTION
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of February 2025.
+This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
+
+#### Version numbers
+The described release in this document supports the following versions.
+
+| Dynamics 365 for Finance and Operations Platform version | Dynamics 365 for Finance and Operations application version  | ExFlow AP version |
+| ----------- | -------------- | -------------- | 
+| Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.2|
+
+
+**RELEASED IN 2.16.2**
+#### Improvements
+**42938** As part of the Microsoft deprecation of old blob storage libraries in 10.0.43 we have migrated all functions in ExFlow using blob storage to use the new recommended library Azure.Storage.Blob.
+
+#### Corrections
+**45507** Post Controlled invoices where not picked up correctly in the final posting batch jobs when working with the Direct Postings.<br/>
+**45514** When activating the standard D365 workflow for vendor invoices also the ExFlowi invoices were considered when working with Direct Postings.<br/>
+**45534** When uploading XSLT files to our XSLT repository under the import methods the characters where decoded which caused the function to generate images to fail.<br/>
+
+
+___________________________________________________________________________________________________________
+
+### Release 2.16.1
 
 #### INTRODUCTION
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of January 2025.<br/>

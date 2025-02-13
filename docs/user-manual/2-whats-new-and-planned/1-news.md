@@ -6,8 +6,14 @@ custom_edit_url: null
 ---
 
 
-## IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## Release 2.16.2 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+Released in February 2025, see more information about the details under "Release notes".
 
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+
+________________________________________________________________________________________________________________________________________
+
+## IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ
 With the new Dynamics 365 Finance and Operation release 10.0.43 from Microsoft there are breaking changes that is affecting ExFlow AP. The changes included from Microsoft is affecting the libraries that are used to work with Azure blob storages, but also accessing the internal blob storage that is provided with F&O.<br/>
 
 **Who is affected by the change?**<br/>
@@ -72,7 +78,7 @@ In order to achieve this we are using the .NET class System.Xml.XmlUrlResolver. 
 - Container reference: YourStorageContainer
 
 _______________________________________________________________________________________________________
-### Release ExFlow 2.16.1
+## Release ExFlow 2.16.1
 
 Released in January 2025, see more information about the details 
 under "Release notes".
@@ -81,7 +87,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-plan
 
 ____________________________________________________________________________________________________
 
-### Major Release 2.16.0
+## Major Release 2.16.0
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of December 2024.<br/>
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.<br/>
 
