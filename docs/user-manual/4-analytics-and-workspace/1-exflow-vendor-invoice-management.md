@@ -17,12 +17,12 @@ The tiles are clickable and will open the result based on the filter set on the 
 
 ![Timeline, Teams Description automatically generated](@site/static/img/media/image114.png)
 
-| Workspace    |
+| Workspace ||
 |:-|:-|
-| Workspace          | Display's tiles showing number of invoices in different statuses.        |
-| Analytics          | Display's invoice and approval information in embedded Power BI reports. |
-| Company            | Filter the tiles for a specific company.                                 |
-| Show cross company | Display cross company information in the tiles.                          |
+| Workspace | Display's tiles showing number of invoices in different statuses. |
+| Analytics | Display's invoice and approval information in embedded Power BI reports. |
+| Company | Filter the tiles for a specific company.  |
+| Show cross company | Display cross company information in the tiles. |
 
 
 |Tiles| |

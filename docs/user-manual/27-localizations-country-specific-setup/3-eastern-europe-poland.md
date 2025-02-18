@@ -28,7 +28,7 @@ ExFlow | Setup | Configuration | Dimension properties | Localizations<br/>
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image666.png)
 
-| Description of parameters|
+| Description of parameters||
 |:-|:-|
 | Service tariff number | Enable this option if you want to include service tariff number.|
 | Date of VAT register | Enable this option if you want to include the Date of VAT register.|
