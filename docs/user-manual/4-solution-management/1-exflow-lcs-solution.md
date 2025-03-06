@@ -4,14 +4,13 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
-## ExFlow LCS Solutions
+# ExFlow LCS Solutions
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
-
 
 Available geographies for Dynamics D365FO: 
 https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deployment-options-geo
 
-## ExFlow - LCS Solution for EU
+## ExFlow - LCS Solution for EU, Norway and US
 For Customers and Partners to be able to access and install our solution from Microsoft Lifecycle 
 Services for supported versions of Dynamics 365 for Finance and Operations.<br/>
 
@@ -20,6 +19,11 @@ This solution will be updated regularly when new releases are available.<br/>
 Please have notifications enabled on your Project in LCS for Update notifications.<br/>
 This solution includes the latest major release, the latest patch release and the latest patch release 
 for the previous major releases, and the latest labels.<br/>
+
+### Version published
+EU - Version 14<br/>
+Norway - Version 13<br/>
+US - Version 58
 
 ### Releases
 |Releases||
@@ -31,6 +35,7 @@ for the previous major releases, and the latest labels.<br/>
 | Software Deployable package|Application Version Compatibility| Release Date|
 |:-|:-|:-|
 |ExFlow 2.16.2 for Dynamics 365 10.0.41 |Operations version 10.0.41 |2025-02-13|
+|ExFlow 2.16.0 for Dynamics 365 10.0.41| Operations version 10.0.41| 2024-12-16 |
 |ExFlow Copilot 1.0.0 for Dynamics 365 10.0.41|Operations version 10.0.41 |2024-12-16 |
 |ExFlow Document Integration 1.1.2|Operations version 10.0.41|2025-02-13 |
 |ExFlow 2.15.4 for Dynamics 365 10.0.39 |Operations version 10.0.39 |2024-10-25 |
@@ -42,8 +47,9 @@ for the previous major releases, and the latest labels.<br/>
 
 <br/>
 
-### Version Information Updates EU Location
-(https://eu.lcs.dynamics.com/)
+### Version Information Updates for your Location
+EU: https://eu.lcs.dynamics.com/
+Norway: https://no.lcs.dynamics.com/
 
 |Versions||
 |---|---|
@@ -56,6 +62,18 @@ for the previous major releases, and the latest labels.<br/>
 |Version 5| N/A| 
 |Version 4| ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.|
 |Version 3| ExFlow 2.13.0 for Dynamics 365 10.0.32 and above.<br/>ExFlow Labels 2.12.0 for Dynamics 365 10.0.29 and above.|
+|Version 58| ExFlow 2.16.2 for Dynamics 365 10.0.41 and above.<br/>ExFlow Document Integration 1.1.2 for Dynamics 365 10.0.41 |
+|Version 57| ExFlow 2.16.1 for Dynamics 365 10.0.41 and above.<br/>ExFlow Document Integration 1.1.1 for Dynamics 365 10.0.41|
+|Version 56| ExFlow 2.16.0 for Dynamics 365 10.0.41 and above|
+|Version 55| ExFlow 2.15.4 for Dynamics 365 10.0.39 and above| 
+|Version 54| ExFlow 2.15.1 for Dynamics 365 10.0.39 and above|
+|Version 53| ExFlow 2.15.0 for Dynamics 365 10.0.39 and above.<br/>ExFlow 2.14.2 for Dynamics 365 10.0.36 and above.<br/>ExFlow Labels 2.15.0 for Dynamics 365 10.0.39 and above.|
+|Version 52| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.<br/>ExFlow 2.14.2 for Dynamics 365 10.0.36 and above<br/>ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.<br/> 
+ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.| 
+|Version 51| ExFlow 2.14.1 for Dynamics 365 10.0.36 and above.<br/>ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.|
+|Version 50| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.| 
+|Version 49| ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.|
+|Version 48| ExFlow 2.13.0 for Dynamics 365 10.0.32 and above.|
 
 ### Access Information
 To be able to access the Solution you need to be added by Signup Software.<br/> 
@@ -127,7 +145,7 @@ are not the same that imported the solution last time to the current project.<br
 
 **To be able to access additional files**, they are located in the “Release Notes” downloadable link. 
 
-<u>ExFlow Docs.zip will be downloaded and this file includes<u>
+<u>ExFlow Docs.zip for EU will be downloaded and this file includes<u>
 - ExFlow LCS Solution EU Rev 14.pdf 
 - ExFlow 2.16.2 for Dynamics 365 for Operations - Release notes.pdf 
 - ExFlow label package 2.15.0 for Dynamics 365 for Operations - Release notes.pdf 
@@ -145,6 +163,29 @@ are not the same that imported the solution last time to the current project.<br
 - ExFlow PBI User Manual Ver 1.3.pdf 
 - RSO Default Dynamics 365.XSLT
 
+
+<u>ExFlow Docs.zip NO will be downloaded and this file includes<u>
+- ExFlow LCS Solution Rev 56.pdf
+- ExFlow LCS Solution EU Rev 11.pdf 
+- ExFlow LCS Solution NO Rev10 .pdf 
+- ExFlow 2 13 1 for Dynamics 365 for Operations - Release notes .pdf 
+- ExFlow label package 2.12.0 for Dynamics 365 for Operations - Release notes.pdf 
+- ExFlow Dynamics 365-O User Manual Ver 3.3.pdf 
+- Deprecated Features Feb 2021.pdf 
+- Automatic invoice coding_ver1.2.pdf 
+- ExFlow Embedded Analytics ver 1.1.pdf 
+- Exflow Web Service User.pdf 
+- Microsoft Installation Guidelines.pdf 
+- ExFlow Cloud - Finance & Operation Information.pdf 
+- AdditionalFiles.zip 
+- EmailTemplate_Approvers.zip 
+- ExFlow Dynamics 365-O User Manual Ver 3.5.pdf 
+- ExFlow License for Dynamics 365 for Operations.pdf 
+- ExFlow PBI User Manual Ver 1.3.pdf 
+- RSO Default Dynamics 365.XSLT - Updated version 2020-10-09
+
 The link can be found under “VERSIONS”. “Release Notes”. 
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image680.png)
+
+_____________________________________________________________________________________________________________________
