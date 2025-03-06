@@ -42,7 +42,7 @@ for the previous major releases, and the latest labels.<br/>
 
 <br/>
 
-### Version Information Updates EU Location.** 
+### Version Information Updates EU Location
 (https://eu.lcs.dynamics.com/)
 
 |Versions||
@@ -63,17 +63,17 @@ After that you can install the solution to ANY LCS project you have access to wi
 account and EU Location.<br/>
 
 **We recommend that you have two accounts.**<br/>
-One service account that you use for the import and installation of the solution for the 
+<u>One service account<u> that you use for the import and installation of the solution for the 
 partner/customer. For example: d365admin@signupsoftware.com<br/>
-One or several personal account(s), this to be able to get the notifications for new releases and 
+<u>One or several personal account(s)<u>, this to be able to get the notifications for new releases and 
 updated versions when they become available.<br/>
 
-:::info **Note!** Only the account importing the solution will be able to apply the packages and access the solution artifacts. For other users the solution will say “deactivated”.
+:::info **Note!** Only the account importing the solution will be able to apply the packages and access the solution artifacts.<br/>
+For other users the solution will say “deactivated”.
 :::
 
-This is per Microsoft Design.<br/>
 
-https://lcs.dynamics.com/V2/<br/>
+**LCS By Microsoft:** https://lcs.dynamics.com/V2/<br/>
 1. In LCS, go to the Asset Library of the current project.
 2. Go to Solution package.
 3. Select Import - Pick “ExFlow - Accounts Payable Automation”.
@@ -82,12 +82,12 @@ https://lcs.dynamics.com/V2/<br/>
 *You will then find the Artifacts imported in your asset library.*<br/>
 
 **Please note!**
-- Always copy the package from LCS Solution scope to Project Scope before downloading the 
+Always copy the package from LCS Solution scope to Project Scope before downloading the 
 package.<br/>
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image673.png)
 
-This is a new feature from Microsoft since October -20<br/>
+This is a new feature from Microsoft since October 2020<br/>
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image674.png)
 
 ### When updated versions are available you will get a Email Notification.
@@ -115,22 +115,21 @@ To access an older version of ExFlow you can always apply an older version of ou
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image678.png)
 
-### Update version fail. Status “deactivated”. 
+### Update version fails - Status “deactivated”. 
 If you get an error saying “deactivated”, then your current account you are logged on to LCS project 
-are not the same that imported the solution last time to the current project. 
-To fix this. 
+are not the same that imported the solution last time to the current project.<br/>
 
+**To fix this**
 1. Delete the solution. 
 2. Reimport the solution again from “Access Information” section above. 
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image679.png)
 
-
 **To be able to access additional files**, they are located in the “Release Notes” downloadable link. 
 
-ExFlow Docs.zip will be downloaded and this file includes. 
+<u>ExFlow Docs.zip will be downloaded and this file includes<u>
 - ExFlow LCS Solution EU Rev 14.pdf 
-- ExFlow 2 16 2 for Dynamics 365 for Operations - Release notes .pdf 
+- ExFlow 2.16.2 for Dynamics 365 for Operations - Release notes.pdf 
 - ExFlow label package 2.15.0 for Dynamics 365 for Operations - Release notes.pdf 
 - ExFlow Dynamics 365-O User Manual Ver 3.3.pdf 
 - Deprecated Features Feb 2021.pdf 
