@@ -11,7 +11,7 @@ custom_edit_url: null
 The aim of this functionality is to have a hierarchy setup similar to D365 Standard but with the addition of different user groups or roles. This also includes the implementation of signing limits within these groups/roles which makes it easier to include them in the approval process. To achieve this, a flexible hierarchy has been used for the assignment of various resources to different positions. Additionally, a new “Exflow owner” and “Exflow position” fields are added within the financial dimensions and global reference to accommodate these adjustments in workflow management.<br/>
 
 ### Dimension values
-eneral ledger | Chart of accounts | Dimensions | Financial dimensions<br/>
+General ledger | Chart of accounts | Dimensions | Financial dimensions<br/>
 In the financial dimension values, next to the owner field, a new field “Exflow owner” is created where Exflow users, Security roles, User groups can be assigned.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image561.png)
