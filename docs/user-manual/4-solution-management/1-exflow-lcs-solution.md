@@ -80,9 +80,9 @@ After that you can install the solution to ANY LCS project you have access to wi
 account and EU Location.<br/>
 
 **We recommend that you have two accounts.**<br/>
-<u>One service account<u> that you use for the import and installation of the solution for the 
+<u>One service account</u> that you use for the import and installation of the solution for the 
 partner/customer. For example: d365admin@signupsoftware.com<br/>
-<u>One or several personal account(s)<u>, this to be able to get the notifications for new releases and 
+<u>One or several personal account(s)</u>, this to be able to get the notifications for new releases and 
 updated versions when they become available.<br/>
 
 :::info **Note!** Only the account importing the solution will be able to apply the packages and access the solution artifacts.<br/>
@@ -144,7 +144,7 @@ are not the same that imported the solution last time to the current project.<br
 
 **To be able to access additional files**, they are located in the “Release Notes” downloadable link. 
 
-<u>ExFlow Docs.zip for EU will be downloaded and this file includes<u>
+<u>ExFlow Docs.zip for EU will be downloaded and this file includes</u>
 - ExFlow LCS Solution EU Rev 14.pdf 
 - ExFlow 2.16.2 for Dynamics 365 for Operations - Release notes.pdf 
 - ExFlow label package 2.15.0 for Dynamics 365 for Operations - Release notes.pdf 
@@ -163,7 +163,7 @@ are not the same that imported the solution last time to the current project.<br
 - RSO Default Dynamics 365.XSLT
 
 
-<u>ExFlow Docs.zip NO will be downloaded and this file includes<u>
+<u>ExFlow Docs.zip NO will be downloaded and this file includes</u>
 - ExFlow LCS Solution Rev 56.pdf
 - ExFlow LCS Solution EU Rev 11.pdf 
 - ExFlow LCS Solution NO Rev10 .pdf 
