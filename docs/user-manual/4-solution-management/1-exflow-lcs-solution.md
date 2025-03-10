@@ -45,7 +45,6 @@ US - Version 58
 |---|---|
 |ExFlow Analytics Workspace v47|Operations version 10.0.41 |2024-12-16|
 
-<br/>
 
 ### Version Information Updates for your Location
 EU: https://eu.lcs.dynamics.com/
