@@ -62,30 +62,14 @@ Next Major Release will be built on 10.0.43.<br/>
 ### Version Information Updates for your Location
 EU: https://eu.lcs.dynamics.com/
 Norway: https://no.lcs.dynamics.com/
+US: 
 
 |Versions||
 |---|---|
 |Version 14| ExFlow 2.16.2 for Dynamics 365 10.0.41 and above.<br/>ExFlow Document Integration 1.1.2 for Dynamics 365 10.0.41.|
 |Version 13| ExFlow 2.16.1 for Dynamics 365 10.0.41 and above.|
-|Version 11| ExFlow 2.16.0 for Dynamics 365 10.0.41 and above.|
-|Version 8| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.<br/>ExFlow 2.14.2 for Dynamics 365 10.0.36 and above.<br/>ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.<br/>ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.|
-|Version 7| ExFlow 2.14.1 for Dynamics 365 10.0.36 and above.<br/>ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.
-|Version 6| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.| 
-|Version 5| N/A| 
 |Version 4| ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.|
-|Version 3| ExFlow 2.13.0 for Dynamics 365 10.0.32 and above.<br/>ExFlow Labels 2.12.0 for Dynamics 365 10.0.29 and above.|
 |Version 58| ExFlow 2.16.2 for Dynamics 365 10.0.41 and above.<br/>ExFlow Document Integration 1.1.2 for Dynamics 365 10.0.41 |
-|Version 57| ExFlow 2.16.1 for Dynamics 365 10.0.41 and above.<br/>ExFlow Document Integration 1.1.1 for Dynamics 365 10.0.41|
-|Version 56| ExFlow 2.16.0 for Dynamics 365 10.0.41 and above|
-|Version 55| ExFlow 2.15.4 for Dynamics 365 10.0.39 and above| 
-|Version 54| ExFlow 2.15.1 for Dynamics 365 10.0.39 and above|
-|Version 53| ExFlow 2.15.0 for Dynamics 365 10.0.39 and above.<br/>ExFlow 2.14.2 for Dynamics 365 10.0.36 and above.<br/>ExFlow Labels 2.15.0 for Dynamics 365 10.0.39 and above.|
-|Version 52| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.<br/>ExFlow 2.14.2 for Dynamics 365 10.0.36 and above<br/>ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.<br/> 
-ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.| 
-|Version 51| ExFlow 2.14.1 for Dynamics 365 10.0.36 and above.<br/>ExFlow Labels 2.14.0 for Dynamics 365 10.0.36 and above.|
-|Version 50| ExFlow 2.14.0 for Dynamics 365 10.0.36 and above.| 
-|Version 49| ExFlow 2.13.1 for Dynamics 365 10.0.32 and above.|
-|Version 48| ExFlow 2.13.0 for Dynamics 365 10.0.32 and above.|
 
 ### Access Information
 To be able to access the Solution you need to be added by Signup Software.<br/> 
