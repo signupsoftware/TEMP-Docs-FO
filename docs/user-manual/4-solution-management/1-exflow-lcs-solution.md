@@ -10,7 +10,7 @@ custom_edit_url: null
 Available geographies for Dynamics D365FO: 
 https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/deployment/deployment-options-geo
 
-## ExFlow - LCS Solution for EU, Norway and US
+## ExFlow - LCS Solutions
 For Customers and Partners to be able to access and install our solution from Microsoft Lifecycle 
 Services for supported versions of Dynamics 365 for Finance and Operations.<br/>
 
