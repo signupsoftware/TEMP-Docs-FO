@@ -60,9 +60,9 @@ Next Major Release will be built on 10.0.43.<br/>
 
 
 ### Version Information Updates for your Location
-EU: https://eu.lcs.dynamics.com/
-Norway: https://no.lcs.dynamics.com/
-US: 
+EU: https://eu.lcs.dynamics.com/<br/>
+Norway: https://no.lcs.dynamics.com/<br/>
+US: https://lcs.dynamics.com/V2/<br/>
 
 |Versions||
 |---|---|
