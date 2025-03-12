@@ -16,6 +16,12 @@ More information about the change from Microsoft: https://learn.microsoft.com/en
 
 https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
+### Package information
+The latest package available via LCS are currently 2.16.2. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
+This version is tested and compatible with 10.0.42 and 10.0.43
+
+**More information:** https://docs.exflow.cloud/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
+
 ________________________________________________________________________________________________________________________________________
 
 ## IMPORTANT NOTICE MICROSOFT CRITICAL CHANGE - PLEASE READ

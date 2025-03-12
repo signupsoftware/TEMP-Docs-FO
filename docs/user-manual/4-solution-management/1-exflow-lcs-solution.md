@@ -21,9 +21,22 @@ This solution includes the latest major release, the latest patch release and th
 for the previous major releases, and the latest labels.<br/>
 
 ### Version published
-EU - Version 14<br/>
-Norway - Version 13<br/>
-US - Version 58
+EU - 14<br/>
+Norway - 13<br/>
+US - 58<br/>
+SA - 4
+
+### Package information
+The latest package available via LCS are currently 2.16.2. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
+This version is tested and compatible with 10.0.42 and 10.0.43.<br/>
+
+If you are running earlier versions, they will be compatible, but not fully tested.<br/>
+Our recommendations are that you should not be more than 2 versions down, and we always recommend you to update to the latest version.<br/>
+
+We are following Microsoft´s Release Plans, as we always build on the lowest supported version from microsoft at the time of release.<br/>
+This is du due minimize the maintenance and number of versions released of the product.<br/>
+
+Next Major Release will be built on 10.0.43.<br/>
 
 ### Releases
 |Releases||
