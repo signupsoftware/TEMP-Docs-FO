@@ -32,9 +32,9 @@ In the parameter form under the prepayments and settlement tab, find section cal
 
 ![medium](@site/static/img/media/image525.png)
 
-| Fields |
+| Fields ||
 |:-|:-|
-| Debit invoice retain coding |If the parameter “Debit invoice retain coding” is set **true** (Yes) the lines will retain the coding making the invoice an exact copy. If it is set to **false** (No), the invoice should be created with the same lines as the original invoice but without coding.|
+| Debit invoice retain coding |If the parameter “Debit invoice retain coding” is set **true** (Yes) the lines will retain the coding making the invoice an exact copy.<br/> If it is set to **false** (No), the invoice should be created with the same lines as the original invoice but without coding.|
 |Display reason comment| The reason comment should be added and displayed in the admin comment field.|
 
 #### Generate number sequence
