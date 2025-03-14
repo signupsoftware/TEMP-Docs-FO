@@ -86,7 +86,7 @@ If the customer needs to change the from the invoice registration process to the
 |Parameter | Description |
 |--- | ---------|
 |Default approved by | Is mandatory to set for the direct posting process.|
-|Post using invoice journal and pending invoice | Journal name for temporary vendor invoice journal. In this journal all information about the transaction is kept until the invoice is posted.| 
+|Temporary invoice journal | Journal name for temporary vendor invoice journal. In this journal all information about the transaction is kept until the invoice is posted.| 
 |Invoice Journal | Vendor invoice journal name.|
 |Validation type| Only used for validation of the *temporary journal*.<br/>**ExFlow:** Only ExFlow related data is validated.<br/>**Journal header:** ExFlow related data together with data from the journal is validated (recommended setup).<br/>**Total:** Beside ExFlow related data and journal header data all invoice lines registered in ExFlow are created in the journal and are validated one by one. (warning, if many lines this could affect performance)| 
 |Ledger dimension for validation |Only used for validation of the *temporary journal*. Validates the journal against std D365 FO validation on main account/financial dimension. Only used if the Validation type is set to Journal header or Total. |
