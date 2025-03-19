@@ -12,9 +12,10 @@ If dimension ranges or approver ranges are used separately, they will be treated
 
 ![Graphical user interface, text, email Description automatically generated](@site/static/img/media/image65.png)
 
-| Buttons (Action pane) | |
+| Buttons (Action pane) | Description|
 |:-|:-|
-| Save                  | Save the changes.         |
-| New                   | Add a new line.           |
-| Delete                | Delete the selected line. |
+| Save                  | Save the changes         |
+| New                   | Add a new line           |
+| Delete                | Delete the selected line |
 
+<video src="https://docs.signupsoftware.com/finance-operations/video/dimension_ranges.mp4" width="600" height="400" controls></video>
