@@ -17,7 +17,10 @@ const FeatureList = [
       },
       {
         title: 'Axtension Content Gate',
-        url: '/finance-operations/docs/proxy/proxy-axtension-content-gate',
+        url: translate({
+          message: 'PROXY-LINK-AXT-CONTENT-GATE',
+          description: 'Axtension Content Gate link',
+        }),
         index: 5,
       },
     ],
@@ -25,13 +28,18 @@ const FeatureList = [
     [
       {
         title: 'ExFlow E-Invoicing',
-        url: '/finance-operations/docs/proxy/proxy-exflow-e-invoices',
+        url: translate({
+          message: 'PROXY-LINK-EXFLOW-E-INVOICING',
+          description: 'ExFlow E-Invoicing link',
+        }),
         index: 1,
       },
       {
         title: 'Axtension Production Planning',
-        //url: '/finance-operations/docs/proxy/proxy-axtension-product-planning',
-        url: '/finance-operations/docs/proxy/proxy-axtension-production-planning',
+        url: translate({
+          message: 'PROXY-LINK-AXT-PROD-PLANNING',
+          description: 'Axtension Production Planning link',
+        }),
         index: 6,
       },    
     ],
@@ -43,7 +51,10 @@ const FeatureList = [
       },
       {
         title: 'Axtension Project Controlling',
-        url: '/finance-operations/docs/proxy/proxy-axtension-project-controlling',
+        url: translate({
+          message: 'PROXY-LINK-AXT-PROJ-CONTROLLING',
+          description: 'Axtension Project Controlling link',
+        }),
         index: 7,
       },
     ],
@@ -55,7 +66,10 @@ const FeatureList = [
       },
       {
         title: 'Axtension Project Management',
-        url: '/finance-operations/docs/proxy/proxy-axtension-project-management',        
+        url: translate({
+          message: 'PROXY-LINK-AXT-PROJ-MANAGEMENT',
+          description: 'Axtension Project Management link',
+        }),
         index: 8,
       },
     ],
@@ -63,14 +77,18 @@ const FeatureList = [
     [
         {
         title: 'ExFlow Vendor Statement',
-        uzl: '/finance-operations/docs/user-manual/document-integration/peppol-service',
-
-        url: '/finance-operations/docs/proxy/proxy-exflow-vendor-statement',
+        url: translate({
+          message: 'PROXY-LINK-EXFLOW-VENDOR-STATEMENT',
+          description: 'ExFlow Vendor Statement link',
+        }),
         index: 4,
       },
       {
         title: 'Axtension Shipping Control',
-        url: '/finance-operations/docs/proxy/proxy-axtension-shipping-control',
+        url: translate({
+          message: 'PROXY-LINK-AXT-SHIPPING-CONTROL',
+          description: 'Axtension Shipping Control link',
+        }),
         index: 9,
       },
     ]

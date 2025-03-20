@@ -1,0 +1,22 @@
+{
+  "logo.alt": {
+    "message": "SignUp logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.News": {
+    "message": "News",
+    "description": "Navbar item with label News"
+  },
+  "item.label.Release notes": {
+    "message": "Release notes",
+    "description": "Navbar item with label Release notes"
+  }
+}
