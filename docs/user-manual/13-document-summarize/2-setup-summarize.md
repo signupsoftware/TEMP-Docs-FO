@@ -45,7 +45,6 @@ Valid for |  Table, Group, All. |
 | Field name | The criteria’s that are used to summarize lines (Approver is always used).| 
 | Active | If the criteria should be used or not.|
 | Dimension | Displaying if a criteria is a dimension in the system.|
-| Lines | The number of lines an invoice must for the summarize function to be used.|
 
 ### Vendor groups for summarized documents
 ExFlow \| Setup \| Resources \| Vendor Groups for summarize documents
