@@ -1,0 +1,38 @@
+{
+  "link.title.Other documentation": {
+    "message": "Other documentation",
+    "description": "The title of the footer links column with title=Other documentation in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.ExFlow for BC": {
+    "message": "ExFlow for BC",
+    "description": "The label of footer link with label=ExFlow for BC linking to https://docs.exflow.cloud/business-central"
+  },
+  "link.item.label.ExFlow Web": {
+    "message": "ExFlow Web",
+    "description": "The label of footer link with label=ExFlow Web linking to https://docs.exflow.cloud/web"
+  },
+  "link.item.label.ExFlow Data Capture": {
+    "message": "ExFlow Data Capture",
+    "description": "The label of footer link with label=ExFlow Data Capture linking to https://docs.exflow.cloud/datacapture"
+  },
+  "link.item.label.ExFlow support": {
+    "message": "ExFlow support",
+    "description": "The label of footer link with label=ExFlow support linking to https://support.signupsoftware.com/"
+  },
+  "link.item.label.Partner portal": {
+    "message": "Partner portal",
+    "description": "The label of footer link with label=Partner portal linking to https://azuresignup.sharepoint.com/sites/Signupsoftware"
+  },
+  "link.item.label.Terms and Conditions": {
+    "message": "Terms and Conditions",
+    "description": "The label of footer link with label=Terms and Conditions linking to /docs/proxy/proxy-terms-and-conditions"
+  },
+  "copyright": {
+    "message": "Copyright © 2025 SignUp Software AB",
+    "description": "The footer copyright"
+  }
+}

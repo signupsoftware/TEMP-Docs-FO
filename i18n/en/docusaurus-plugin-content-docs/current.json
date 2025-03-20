@@ -1,0 +1,158 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.ExFlow Home page": {
+    "message": "ExFlow Home page",
+    "description": "The label for category ExFlow Home page in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.What's new and planned": {
+    "message": "What's new and planned",
+    "description": "The label for category What's new and planned in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Get started": {
+    "message": "Get started",
+    "description": "The label for category Get started in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Solution Management": {
+    "message": "Solution Management",
+    "description": "The label for category Solution Management in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Analytics and workspace": {
+    "message": "Analytics and workspace",
+    "description": "The label for category Analytics and workspace in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Copilot and AI": {
+    "message": "Copilot and AI",
+    "description": "The label for category Copilot and AI in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Accounts payable process": {
+    "message": "Accounts payable process",
+    "description": "The label for category Accounts payable process in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Work in Import form": {
+    "message": "Work in Import form",
+    "description": "The label for category Work in Import form in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Work in Document form": {
+    "message": "Work in Document form",
+    "description": "The label for category Work in Document form in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Process of purchase order invoices": {
+    "message": "Process of purchase order invoices",
+    "description": "The label for category Process of purchase order invoices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Import methods": {
+    "message": "Import methods",
+    "description": "The label for category Import methods in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Permissions, users and reference handling": {
+    "message": "Permissions, users and reference handling",
+    "description": "The label for category Permissions, users and reference handling in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Agreements matching": {
+    "message": "Agreements matching",
+    "description": "The label for category Agreements matching in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Automatic Postings": {
+    "message": "Automatic Postings",
+    "description": "The label for category Automatic Postings in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Split and validate": {
+    "message": "Split and validate",
+    "description": "The label for category Split and validate in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Document summarize": {
+    "message": "Document summarize",
+    "description": "The label for category Document summarize in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Invoice types": {
+    "message": "Invoice types",
+    "description": "The label for category Invoice types in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Connect purchase order invoices": {
+    "message": "Connect purchase order invoices",
+    "description": "The label for category Connect purchase order invoices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.PO Reconnect in Power Apps": {
+    "message": "PO Reconnect in Power Apps",
+    "description": "The label for category PO Reconnect in Power Apps in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Vendor Collaboration portal": {
+    "message": "Vendor Collaboration portal",
+    "description": "The label for category Vendor Collaboration portal in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.WorkFlows": {
+    "message": "WorkFlows",
+    "description": "The label for category WorkFlows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Workflows": {
+    "message": "Workflows",
+    "description": "The label for category Workflows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced workflow setup": {
+    "message": "Advanced workflow setup",
+    "description": "The label for category Advanced workflow setup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Posting proposals": {
+    "message": "Posting proposals",
+    "description": "The label for category Posting proposals in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Automatic invoice coding": {
+    "message": "Automatic invoice coding",
+    "description": "The label for category Automatic invoice coding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Generate template import coding": {
+    "message": "Generate template import coding",
+    "description": "The label for category Generate template import coding in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Post control": {
+    "message": "Post control",
+    "description": "The label for category Post control in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Chat notifications and approval email": {
+    "message": "Chat notifications and approval email",
+    "description": "The label for category Chat notifications and approval email in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Invoice approval": {
+    "message": "Invoice approval",
+    "description": "The label for category Invoice approval in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.My vendor invoices": {
+    "message": "My vendor invoices",
+    "description": "The label for category My vendor invoices in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Inquiries and reports": {
+    "message": "Inquiries and reports",
+    "description": "The label for category Inquiries and reports in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Logging": {
+    "message": "Logging",
+    "description": "The label for category Logging in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Periodic batch jobs": {
+    "message": "Periodic batch jobs",
+    "description": "The label for category Periodic batch jobs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Upgrade jobs": {
+    "message": "Upgrade jobs",
+    "description": "The label for category Upgrade jobs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Clean up jobs": {
+    "message": "Clean up jobs",
+    "description": "The label for category Clean up jobs in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Localizations country specific setup": {
+    "message": "Localizations country specific setup",
+    "description": "The label for category Localizations country specific setup in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.FAQ": {
+    "message": "FAQ",
+    "description": "The label for category FAQ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.TMS Freight Bill": {
+    "message": "TMS Freight Bill",
+    "description": "The label for category TMS Freight Bill in sidebar tutorialSidebar"
+  }
+}
