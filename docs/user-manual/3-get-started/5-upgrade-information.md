@@ -37,12 +37,13 @@ Main purpose of this development was to get away from the arrival registration o
 
 ### Prerequisites
 -	Supported from ExFlow version 2.16.0.<br/>
--	Setup 2 journals, one for temporary journals and one for invoice journal.<br/>	
+-	Setup 2 journals, one for temporary journals and one for invoice journal.<br/>
     - Type: Vendor invoice recording<br/>
     - App Journal – not include sales tax<br/>
 -	Activate feature in ExFlow AP – Parameters – Posting logic – Direct posting.<br/>
-    - Approved by: is mandatory to set for the direct posting process<br/>
+    - Approved by: is mandatory to set for the direct posting process.<br/>
 -	Sales tax handling.<br/>
+    - ExFlow parameter for Tax calculation framework need to be enabled.<br/>
     - Scanned tax – tax on invoice<br/>
     - Calculated tax on lines shall sum up to the sum of scanned tax amount<br/>
 -	If needed, activate batch jobs for delete temporary journals separately. See below description in parameters.<br/>
