@@ -27,7 +27,7 @@ US - 58<br/>
 SA - 4
 
 ### Package information
-The latest package available via LCS are currently 2.16.2. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
+The latest package available via LCS are currently 2.16.4. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
 This version is tested and compatible with 10.0.42 and 10.0.43.<br/>
 
 If you are running earlier versions, they will be compatible, but not fully tested.<br/>
@@ -42,13 +42,12 @@ Next Major Release will be built on 10.0.43.<br/>
 |Releases||
 |---|---|
 |Current latest Major Release|ExFlow 2.16.0 for Dynamics 365 10.0.41 and above|
-|Current Patch Release(s)|ExFlow 2.15.4 for Dynamics 365 10.0.39 and above <br/> ExFlow 2.16.2 for Dynamics 365 10.0.41 and above|
+|Current Patch Release(s)|ExFlow 2.15.4 for Dynamics 365 10.0.39 and above <br/> ExFlow 2.16.2 for Dynamics 365 10.0.41 and above<br/>ExFlow 2.16.4 for Dynamics 365 10.0.41 and above|
 |Current Labels Release| ExFlow Labels 2.15.0 Dynamics 365 10.0.39 and above| 
 
 | Software Deployable package|Application Version Compatibility| Release Date|
 |:-|:-|:-|
-|ExFlow 2.16.2 for Dynamics 365 10.0.41 |Operations version 10.0.41 |2025-02-13|
-|ExFlow 2.16.0 for Dynamics 365 10.0.41| Operations version 10.0.41| 2024-12-16 |
+|ExFlow 2.16.4 for Dynamics 365 10.0.41 |Operations version 10.0.41 |2025-03-21|
 |ExFlow Copilot 1.0.0 for Dynamics 365 10.0.41|Operations version 10.0.41 |2024-12-16 |
 |ExFlow Document Integration 1.1.2|Operations version 10.0.41|2025-02-13 |
 |ExFlow 2.15.4 for Dynamics 365 10.0.39 |Operations version 10.0.39 |2024-10-25 |

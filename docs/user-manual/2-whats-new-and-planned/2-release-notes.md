@@ -5,9 +5,31 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Release 2.16.2
+## Release 2.16.4
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of March 2025.
+This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
 
+#### Version numbers
+The described release in this document supports the following versions.
+
+| Dynamics 365 for Finance and Operations Platform version | Dynamics 365 for Finance and Operations application version  | ExFlow AP version |
+| ----------- | -------------- | -------------- | 
+| Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.4|
+
+
+**RELEASED IN 2.16.4**
+#### Improvements
+**46193** We have added one more parameter method to the object EXF_cWorkerHierarchyApprovalChain to make more extensions possible.
+
+#### Corrections
+**45598** Activation of a structure in Advanced workflow approver on financial dimension could fail when there were common segments with Allow blank values.<br/>
+**46133** Due to a change in the data source record lookup within the forms Import and Document Form an extensive query was performed which could cause an AOS failure.<br/>
+**46359** When an invoice had both debit and credit lines, the lines were not transferred correctly to the Invoice Journal, when running with Direct Postings.<br/>
+
+___________________________________________________________________________________________________________
+
+###  Release 2.16.2
 #### INTRODUCTION
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of February 2025.
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.

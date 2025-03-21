@@ -5,7 +5,26 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Release 2.16.2 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## Release 2.16.4 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+Released in March 2025, see more information about the details under "Release notes".
+The reason for the patch is primarily the deprecation of blob storage libraries that we have used within ExFlow AP.
+
+
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+
+
+
+### Package information
+The latest package available via LCS are currently 2.16.4. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
+This version is tested and compatible with 10.0.42 and 10.0.43
+
+**More information:** https://docs.exflow.cloud/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
+
+
+
+__________________________________________________________________________________________________________________________________________
+
+## Release 2.16.2
 Released in February 2025, see more information about the details under "Release notes".
 The reason for the patch is primarily the deprecation of blob storage libraries that we have used within ExFlow AP.
 
