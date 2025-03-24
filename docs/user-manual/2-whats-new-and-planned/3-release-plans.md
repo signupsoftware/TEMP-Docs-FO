@@ -8,13 +8,12 @@ custom_edit_url: null
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
 ### Planned Major Releases 2025
-Major Release R1 2025 - end of May 2025
+Major Release R1 2025 - beginning of June 2025
 
-Major Release R2 2025 - end of November 2025
+Major Release R2 2025 - beginning of December 2025
 
 ### Planned Major Releases 2026
 Major Release R1 2026 - end of May 2026
 
 Major Release R2 2026 - end of November 2026
-
 

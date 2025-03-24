@@ -61,3 +61,5 @@ When agreement has no lines and there is no setup for Terms of payment and Payme
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image560.png)
 
+:::info Posting date adjustment - When running Self billing invoices, "Always actual date and Actual date" is not recommended. Due to agreements matching issues.<br/> ![Graphical user interface, application Description automatically generated](@site/static/img/media/image681.png)
+:::
