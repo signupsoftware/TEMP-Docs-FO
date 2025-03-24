@@ -7,8 +7,10 @@ custom_edit_url: null
 
 ## Release 2.16.4 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 Released in March 2025, see more information about the details under "Release notes".
-The reason for the patch is primarily the deprecation of blob storage libraries that we have used within ExFlow AP.
+The reason for the patch is primarily the performance issue that was reported a couple of weeks ago.
 
+- **46133** Due to a change in lookup of records that was created in 2.16, we had scenarios that caused extensive queries that
+potentially could cause an AOS crash.
 
 https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
