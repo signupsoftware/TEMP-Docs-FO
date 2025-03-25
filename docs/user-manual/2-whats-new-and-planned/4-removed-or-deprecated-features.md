@@ -84,7 +84,7 @@ custom_edit_url: null
 | Affected product areas | Workflows. |
 | Script | Script available. |
 | Deprecated date | January 17th 2024. |
-| Planned to be removed from release | 2.17.0. |
+| Planned to be removed from release | 2.18.0. |
 
 :::info Deprecated during 2021
 :::
