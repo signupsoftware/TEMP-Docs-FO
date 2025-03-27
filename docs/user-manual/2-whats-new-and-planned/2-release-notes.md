@@ -17,8 +17,6 @@ The described release in this document supports the following versions.
 | ----------- | -------------- | -------------- | 
 | Update 65 (7.0.7367.49) or later | 10.0.41 (10.0.2015.54) | 2.16.4|
 
-
-**RELEASED IN 2.16.4**
 #### Improvements
 **46193** We have added one more parameter method to the object EXF_cWorkerHierarchyApprovalChain to make more extensions possible.
 
@@ -26,6 +24,17 @@ The described release in this document supports the following versions.
 **45598** Activation of a structure in Advanced workflow approver on financial dimension could fail when there were common segments with Allow blank values.<br/>
 **46133** Due to a change in the data source record lookup within the forms Import and Document Form an extensive query was performed which could cause an AOS failure.<br/>
 **46359** When an invoice had both debit and credit lines, the lines were not transferred correctly to the Invoice Journal, when running with Direct Postings.<br/>
+
+### RELEASED IN 2.16.3
+#### Improvements
+**45751** Previously when generating invoice images, we have communicated with the Azure blob container with anonymous access and have required the container to be Public. This change will make it possible to access the container even if it is marked Private.
+
+#### Corrections
+**45369** Posting date was not updated correctly during the final posting when modules are closed.<br/>
+**45749** When modifying the invoice coding for Ledger line types the connected DefaultDimension field on the lines were not update correctly.<br/>
+**45788** When running with Tax Calculation Service we did not calculate sales tax for line-item charges. We have also updated the information provided in the sales tax form.<br/>
+**45904** When posting pending vendor invoices outside of ExFlow we triggered a validation intended for ExFlow invoices.<br/>
+
 
 ___________________________________________________________________________________________________________
 
