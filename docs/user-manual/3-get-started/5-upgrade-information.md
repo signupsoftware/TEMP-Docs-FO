@@ -59,6 +59,7 @@ Main purpose of this development was to get away from the arrival registration o
 - Vendor statement reconciliation<br/>
 - PO re-connect app<br/>
 - Project operations<br/>
+- Document summarize and Split and validate functionality<br/>
 
 Post and transfer button from approval journal is hidden, due to redesign of functionality.<br/>
 
