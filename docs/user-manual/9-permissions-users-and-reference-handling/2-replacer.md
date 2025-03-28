@@ -12,7 +12,7 @@ Guidance for Accounts Payable users, team leads, and other authorised personnel 
 ### Step by step 
 - Navigate to ExFlow AP - Setup - Maintenance - Users.
 
-![medium](@site/static/img/media/image682.png)
+![small](@site/static/img/media/image682.png)
 
 - Locate the user id to update the replacer for.
 - Navigate to the lower section and select tab Replacer. 
