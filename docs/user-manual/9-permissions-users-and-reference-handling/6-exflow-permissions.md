@@ -1,6 +1,6 @@
 ---
 title: ExFlow permissions
-sidebar_position: 4
+sidebar_position: 6
 hide_title: true
 custom_edit_url: null
 ---
