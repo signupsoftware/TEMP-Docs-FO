@@ -4,7 +4,7 @@
     "description": "Axtension Content Gate link"
   },
   "PROXY-LINK-EXFLOW-E-INVOICING": {
-    "message": "https://docs.exflow.cloud/axtension/ein",
+    "message": "https://docs.exflow.cloud/exflow/einvoice",
     "description": "ExFlow E-Invoicing link"
   },
   "PROXY-LINK-AXT-PROD-PLANNING": {
