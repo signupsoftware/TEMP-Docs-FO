@@ -61,7 +61,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/accounts-payable-p
 **When will the change happen?**<br/>
 The change is implemented from Microsoft with 10.0.43 that was released for Preview on January 27th and will be have a general availability from March 14th. However, it is important to keep in mind that this may happen sooner if Microsoft releases the change as a quality update.<br/>
 
-The blocking of Connection-String access can potentially be backported to 10.0.42 by a PQU from Microsoft during March.<br/>
+The blocking of Connection-String access can potentially be backported from Microsoft.<br/>
 
 **Actual changes**<br/>
 - Disable storage account key access to F&O managed storage account.
