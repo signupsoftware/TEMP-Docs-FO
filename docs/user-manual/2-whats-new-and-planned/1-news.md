@@ -5,7 +5,42 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Release 2.16.4 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## Urgent Invoice Import Error <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+#### Issue
+
+Customers may encounter an error when importing invoices into the Import form, similar to the error message shown below:<br/>
+![medium](@site/static/img/media/image684.png)
+
+#### Root cause
+Microsoft has done a policy change related to blob storage. These changes were previously communicated in the ‘Important notice’ (linked at the end of this message). While these changes are not necessarily tied to a specific update of D365FO, Microsoft stated that they would be effective from at least version 10.0.43. However, Microsoft has done this policy change depending on regions from the 21st to 28th March (Finance and Operations Apps – Account key access for your storage account to be disabled).<br/>
+The issue occurs when importing invoices into the ExFlow Import form without an embedded invoice image in the XML file. Invoices imported using ExFlow Data Capture or other Import methods where an invoice image is always included with the invoice will not result in an error.<br/>
+
+#### Solution
+There are 2 possible solutions:
+- Update ExFlow to version 2.16.3 or later.
+    - Question: Are additional steps required if clients choose to update?
+- For ExFlow version 2.14.4 or later, it is possible to add a blob storage without requiring an update to ExFlow. However, as the ‘Important notice’ covers other Microsoft-related changes, all clients using blob storage should update ExFlow to at least version 2.16.2 when upgrading to D365FO version 10.0.43 or newer.
+    - Create blob storage to support ExFlow when generating images for invoices lacking an embedded invoice image (commonly seen for e-invoices such as OIOUBL and PEPPOL). When creating the storage, set the access level to ‘Anonymous read access for containers and blobs’
+    - After creating the blob storage, configure it in ExFlow via: **ExFlow AP > Setup > General parameters > PDF Web service**<br/>
+
+The provided screenshot is from the SignUp D365FO environment with ExFlow version 2.16.4. Label names may vary depending on version.<br/>
+![medium](@site/static/img/media/image685.png)
+
+**Additional Information from the Doc. Platform:**
+https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news#for-customers-generating-pdf-images
+
+**Important to notice** is that we only upload the stylesheets and not the actual invoice xml. When we generate the invoice images all files must be possible to resolve based on a URL link to the blob storage. In order to achieve this we are using the .NET class System.Xml.XmlUrlResolver. This class are not able to resolve the references unless the Container access level is set to Public.
+
+:::info This is a limitation in ExFlow AP versions prior to 2.16.3. From 2.16.3 we have made it possible to work with Container access level set to “No public access”.
+:::
+
+This information was previously distributed via newsletter and also posted on docs.exflow.cloud: https://docs.exflow.cloud/https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news#important-notice-microsoft-critical-change---please-read
+
+
+
+_______________________________________________________________________________________________________________
+
+### Release 2.16.4
 Released in March 2025, see more information about the details under "Release notes".
 The reason for the patch is primarily the performance issue that was reported a couple of weeks ago.
 
