@@ -4,8 +4,9 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+<!--
 import anythingYouWant from "/video/Import_Coding_From_Excel.mp4";
-
+-->
 ## Generate template for importing invoice lines 
 <button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
@@ -57,7 +58,10 @@ f.	All the rows from the template are imported and applied as invoice lines:
 **Tips!** You can save the generated template and reuse it for the next invoice.
 
 ![Table Description automatically generated](@site/static/img/media/image207.png)
-
+<!--
 <video controls width="100%">
   <source src={anythingYouWant}/>
 </video>
+-->
+
+<video src="https://docs.exflow.cloud/videos/FO/Import_Coding_From_Excel.mp4" width="600" height="400" controls></video>

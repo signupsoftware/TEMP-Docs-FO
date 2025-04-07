@@ -65,5 +65,5 @@ If the reference from values above is found, then that is used to search for a l
 1.	Trying to find a legal override using the global reference header and where the company is current company and vendor value matches. 
 2.	If not found, then trying to find legal override using global reference header and where the company is current company and blank vendor value. 
 
-<video src="https://docs.signupsoftware.com/finance-operations/video/global_reference.mp4" width="600" height="400" controls></video>
+<video src="https://docs.exflow.cloud/videos/FO/global_reference.mp4" width="600" height="400" controls></video>
 

@@ -17,7 +17,7 @@ It can also be used to automatically split the invoice into multiple lines with 
 
 Additionally, the "Posting Proposal Advanced" feature allows users to distribute invoice amounts more accurately across different lines. This is achieved by offering two calculation methods: "Percent" and "Fixed weight". These methods are applied to the remaining invoice amount after deducting any "Fixed amount".
 
-<video src="https://docs.signupsoftware.com/finance-operations/video/postingproposals.mp4" width="600" height="400" controls></video>
+<video src="https://docs.exflow.cloud/videos/FO/postingproposals.mp4" width="600" height="400" controls></video>
 
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image86.png)

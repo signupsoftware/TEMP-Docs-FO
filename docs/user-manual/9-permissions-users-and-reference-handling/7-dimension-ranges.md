@@ -18,4 +18,4 @@ If dimension ranges or approver ranges are used separately, they will be treated
 | New                   | Add a new line           |
 | Delete                | Delete the selected line |
 
-<video src="https://docs.signupsoftware.com/finance-operations/video/dimension_ranges.mp4" width="600" height="400" controls></video>
+<video src="https://docs.exflow.cloud/videos/FO/dimension_ranges.mp4" width="600" height="400" controls></video>
