@@ -49,7 +49,7 @@ To be able to import the invoices that are sent from Vendor collaboration portal
 - Go to ExFlow Import methods.
 - Create and enable an import method for Vendor portal. 
 
-For more detailed description on how to create an import method see: https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/setup-import-methods
+For more detailed description on how to create an import method see: https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/setup-import-methods
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image376.png)
 

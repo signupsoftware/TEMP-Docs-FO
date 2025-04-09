@@ -136,5 +136,5 @@ To make it easier for the AP personnel to work we have decreased the amount of d
 
 ![Table Description automatically generated](@site/static/img/media/image624.png)
 
-:::info **Questions and Answers:** https://docs.exflow.cloud/finance-operations/docs/user-manual/faq/direct-posting
+:::info **Questions and Answers:** https://docs.signupsoftware.com/finance-operations/docs/user-manual/faq/direct-posting
 :::

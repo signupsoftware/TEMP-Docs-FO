@@ -26,5 +26,5 @@ If the original approver is out of work for longer than expected and this time f
  ![medium](@site/static/img/media/image683.png)
 
 :::info More information about delegations from My vendor invoices.
-https://docs.exflow.cloud/finance-operations/docs/user-manual/invoice-approval/my-vendor-invoices/delegations#my-delegations-save-as-pdf
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/invoice-approval/my-vendor-invoices/delegations#my-delegations-save-as-pdf
 :::

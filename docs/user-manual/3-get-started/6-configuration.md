@@ -69,4 +69,4 @@ The tab "Source dimension" is only for customer specific requirements. For examp
 :::info **NOTE! User level permissions is case sensitive**
 :::
 
-<video src="https://docs.exflow.cloud/videos/FO/config_exflow_ap.mp4" width="600" height="400" controls></video>
+<video src="https://docs.signupsoftware.com/videos/FO/config_exflow_ap.mp4" width="600" height="400" controls></video>

@@ -16,7 +16,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 //const DEPLOY_MODE = "DEV";
 //const DEPLOY_MODE = "PROD";
 
-const siteURL = 'https://docs.exflow.cloud/';    
+const siteURL = 'https://docs.signupsoftware.com/';    
 const baseURL = "/finance-operations/";
 
 //const siteURL = 'http://localhost:3000/';
@@ -35,7 +35,7 @@ const config = {
   // Set the production url of your site here
   //url: 'https://thankful-grass-074f8cd03.5.azurestaticapps.net/',
   //url: 'https://localhost:3000/',       // Use this for local dev
-  url: 'https://docs.exflow.cloud/',    // Use this for production
+  url: 'https://docs.signupsoftware.com/',    // Use this for production
 
  
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -119,7 +119,7 @@ const config = {
             alt: 'SignUp logo',
             src: 'img/logo_SignUp_Dark.png',
             srcDark: 'img/logo_SignUp_Light.png',
-            href: 'https://docs.exflow.cloud/',
+            href: 'https://docs.signupsoftware.com/',
           },
 
           items: [
@@ -142,7 +142,7 @@ const config = {
             // This is for local dev:
             to: 'docs/user-manual/exflow-home-page/introduction'            
             // This is for Prod:
-            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news'
+            //to: 'https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/news'
           },
 
           {
@@ -151,7 +151,7 @@ const config = {
             // This is for local dev:
             to: 'docs/user-manual/whats-new-and-planned/news',
             // This is for Prod:
-            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news',
+            //to: 'https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/news',
           },
 
           /* Uncomment this when the Release notes page is ready */
@@ -161,7 +161,7 @@ const config = {
             // This is for local dev:
             to: 'docs/user-manual/whats-new-and-planned/release-notes'
             // This is for Prod:
-            //to: 'https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes'
+            //to: 'https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes'
           },
           
 
@@ -184,16 +184,16 @@ const config = {
             items: [
               {
                 label: 'ExFlow for BC',
-                to: 'https://docs.exflow.cloud/business-central',
+                to: 'https://docs.signupsoftware.com/business-central',
               },
               {
                 label: 'ExFlow Web',
-                to: 'https://docs.exflow.cloud/web'
+                to: 'https://docs.signupsoftware.com/web'
                
               },
               {
                 label: 'ExFlow Data Capture',
-                to: 'https://docs.exflow.cloud/datacapture',
+                to: 'https://docs.signupsoftware.com/datacapture',
               },
             ],
           },

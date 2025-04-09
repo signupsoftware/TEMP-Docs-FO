@@ -1,30 +1,30 @@
 {
   "PROXY-LINK-AXT-CONTENT-GATE": {
-    "message": "https://docs.exflow.cloud/axtension/cg",
+    "message": "https://docs.signupsoftware.com/axtension/cg",
     "description": "Axtension Content Gate link"
   },
   "PROXY-LINK-EXFLOW-E-INVOICING": {
-    "message": "https://docs.exflow.cloud/exflow/einvoice",
+    "message": "https://docs.signupsoftware.com/exflow/einvoice",
     "description": "ExFlow E-Invoicing link"
   },
   "PROXY-LINK-AXT-PROD-PLANNING": {
-    "message": "https://docs.exflow.cloud/axtension/app",
+    "message": "https://docs.signupsoftware.com/axtension/app",
     "description": "Axtension Production Planning link"
   },
   "PROXY-LINK-AXT-PROJ-CONTROLLING": {
-    "message": "https://docs.exflow.cloud/axtension/apc",
+    "message": "https://docs.signupsoftware.com/axtension/apc",
     "description": "Axtension Project Controlling link"
   },
   "PROXY-LINK-AXT-PROJ-MANAGEMENT": {
-    "message": "https://docs.exflow.cloud/axtension/apm",
+    "message": "https://docs.signupsoftware.com/axtension/apm",
     "description": "Axtension Project Management link"
   },
   "PROXY-LINK-EXFLOW-VENDOR-STATEMENT": {
-    "message": "https://docs.exflow.cloud/axtension/evs",
+    "message": "https://docs.signupsoftware.com/axtension/evs",
     "description": "ExFlow Vendor Statement link"
   },
   "PROXY-LINK-AXT-SHIPPING-CONTROL": {
-    "message": "https://docs.exflow.cloud/axtension/asc",
+    "message": "https://docs.signupsoftware.com/axtension/asc",
     "description": "Axtension Shipping Control link"
   },
   "theme.ErrorPageContent.title": {
