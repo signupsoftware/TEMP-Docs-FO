@@ -22,7 +22,7 @@ In the lower section you can see the marked invoice with its connected lines, an
 |Cross company|Opens a new checkbox "Show all companies". When ticked, all companies’ invoices will be displayed. The standard filtering can be used (for example) a user will by default only see 2 out of 10 companies in cross company mode.|
 |Edit|Open the selected invoice in Edit-mode.|
 |General/Cancel invoice|Cancel the invoice is used when an invoice that has been processed by ExFlow should be cancelled. The invoice will be reversed from the invoice register transactions and the ExFlow status will be set to ‘Cancelled’. To cancel an invoice, at least one line must be rejected.<br/>When cancelling an invoice, you will be given a choice to re-use the invoice and import it again in the ExFlow Import form. This can be useful if (for example) the invoice should be moved to another legal entity within the same D365 FO installation.<br/>Do not forget to set up a cancellation Journal name in the ExFlow parameters.|
-|General/Invoice timeline|opens the timeline for and details about the invoice can be followed for the marked invoice. More detail for the functionality<br/>https://docs.exflow.cloud/finance-operations/docs/user-manual/Logging/invoice-timeline|
+|General/Invoice timeline|opens the timeline for and details about the invoice can be followed for the marked invoice. More detail for the functionality<br/>https://docs.signupsoftware.com/finance-operations/docs/user-manual/Logging/invoice-timeline|
 |General/Show invoice|Displays the invoice image.|
 |General/Hide side by side|Hides the preview section displaying invoice image from the form.|
 

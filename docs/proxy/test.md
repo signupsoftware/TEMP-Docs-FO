@@ -7,6 +7,12 @@ custom_edit_url: null
 foo bar
 
 
+<video src="https://docs.signupsoftware.com/videos/FO/Demo_VSR.mp4" width="600" height="400" controls></video>
+
+
+
+<br/><br/><br/><br/><br/>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GbwRiMTu4Pc" frameborder="0" allowfullscreen></iframe>
 
 

@@ -17,7 +17,7 @@ ExFlow \| Setup \| General parameters
 | License code | It is mandatory to obtain and fill in a license code to be able to use ExFlow. To obtain the license code please contact Signup Software AB or your ExFlow partner.
 
 ### License information
-Licens handling information found here; https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/license-handling
+Licens handling information found here; https://docs.signupsoftware.com/finance-operations/docs/user-manual/get-started/license-handling
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image15.png)
 

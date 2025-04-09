@@ -51,7 +51,7 @@ ExFlow \| Setup \| Parameters
 
 |Import - Settings| |
 |:-|:-|
-|Import method|This setting is deprecated, and replaced by the Import methods located under ExFlow Setup. <br/>More information how to setup https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/import-methods-overview |
+|Import method|This setting is deprecated, and replaced by the Import methods located under ExFlow Setup. <br/>More information how to setup https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/import-methods-overview |
 |**Invoice parameters** - Enable batch import for scanned invoices|Check mark to activate the automatic import of invoice captured data to the ExFlow import form.|
 |Auto suggest approvers|Tick, if the approval route should be automatically populated when importing invoices.|
 |Suggest approver threads|Can be used for performance reasons when the suggest approver function is run when Retrieve purchase order or Retrieve packing slips. The parallel threads will not process more than the web server allow. Recommended value is between 4 and 8 if used. Should be tested to see how performance on your server is affected.|
@@ -185,7 +185,7 @@ ExFlow \| Setup \| Parameters
 |**Auto match purchase order invoices of arrival of goods**- Number of days before release of quantity variance invoices| Number of days before release of purchase order invoices for approval if matching status is "quantity variance" (therefore having a status of "On hold"). This setting is used in combination with the periodic job "Auto match purchase order invoices on arrival of goods". |
 |**Prematch**- Run pre-match and suggest approvers together in import form | If switched on the suggest approver function will run at the same time when the pre-match function is run.|
 |Re-run suggest approver at invoice register posting| To run this job at the time of posting of invoice register, ensures that the approvers are set based on the latest matching status.|
-|**Variance amount**- |Variance criteria's in workflow and matching details| Enabels the criteria´s for variance matching in ExFlow workflows and activates matching details form for PO.<br/> Read more; https://docs.exflow.cloud/finance-operations/docs/user-manual/Workflows/workflows/workflow-for-variance-amounts#workflow-for-variance-amounts|
+|**Variance amount**- |Variance criteria's in workflow and matching details| Enabels the criteria´s for variance matching in ExFlow workflows and activates matching details form for PO.<br/> Read more; https://docs.signupsoftware.com/finance-operations/docs/user-manual/Workflows/workflows/workflow-for-variance-amounts#workflow-for-variance-amounts|
 
 | Posting | Description |
 |:-|:-|
@@ -230,7 +230,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |:-|:-|
 |General journal name|The journal that is used to create ledger accrual transactions.|
 |Date for currency exchange rate|If the exchange rate should be calculated based on the posting date of the invoice or the transaction date of the invoice register transaction.|
-|Select main account for the accruals of ExFlow invoices| Is used as a summary account for the ledger accrual posting. For more details see https://docs.exflow.cloud/finance-operations/docs/user-manual/periodic-batch-jobs/accrual-of-estimated-costs |
+|Select main account for the accruals of ExFlow invoices| Is used as a summary account for the ledger accrual posting. For more details see https://docs.signupsoftware.com/finance-operations/docs/user-manual/periodic-batch-jobs/accrual-of-estimated-costs |
 |Use invoice currency|If the local currency of the invoice should be used in generation of the accrual line in the journal.|
 |Accrue project lines using project type|When running the ExFlow ledger accrual report this setting will instead of suggesting the underlying account based on the used project category use the actual project in accrual journal.|
 
@@ -283,7 +283,7 @@ All three parameters above have different options: Exflow provides flexibility i
 
 |Escalation|Description |
 |:-|:-|
-|Escalate to|This functionality is working in combination with the periodic batch job "Escalation". See more under https://docs.exflow.cloud/finance-operations/docs/user-manual/periodic-batch-jobs/escalation.<br/> Escalate to this user or user group if no next approver can be found or an extra approver is required. Leave blank if the invoice shall follow the approval chain. **Note**; Advanced approval workflow needs to be active with position hierarchy selected|
+|Escalate to|This functionality is working in combination with the periodic batch job "Escalation". See more under https://docs.signupsoftware.com/finance-operations/docs/user-manual/periodic-batch-jobs/escalation.<br/> Escalate to this user or user group if no next approver can be found or an extra approver is required. Leave blank if the invoice shall follow the approval chain. **Note**; Advanced approval workflow needs to be active with position hierarchy selected|
 |Days|Number of working days before an invoice is escalated.|
 |Extra approver when escalating invoice|If an extra approver always should be added if an invoice is escalated. **Note**; Advanced approval workflow needs to be active with position hierarchy selected||
 

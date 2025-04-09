@@ -64,4 +64,4 @@ f.	All the rows from the template are imported and applied as invoice lines:
 </video>
 -->
 
-<video src="https://docs.exflow.cloud/videos/FO/Import_Coding_From_Excel.mp4" width="600" height="400" controls></video>
+<video src="https://docs.signupsoftware.com/videos/FO/Import_Coding_From_Excel.mp4" width="600" height="400" controls></video>

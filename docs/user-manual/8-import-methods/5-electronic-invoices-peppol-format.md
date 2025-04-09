@@ -12,7 +12,7 @@ It’s more and more common to use electronic invoices and currently we offer tw
 This section describes how to use and receive e-invoices in Peppol format through ExFlow **by using D365FO standard functionality with your own Peppol broker**.
 To read about ExFlow document integration module that handles incoming and outgoing invoices in Peppol format using our Broker, see below link:
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/document-integration/peppol-service
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/document-integration/peppol-service
 
 ### Prerequisites
 D365FO standard functionality for Electronic invoices needs to be set up and configured. 
@@ -30,7 +30,7 @@ Navigate to ExFlow | Setup | Import methods
 - Select `New` and choose "Microsoft electronic invoice" as Import method.
 
 For more detailed description on how to create an import method see below link:
-https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/setup-import-methods
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/setup-import-methods
 
 ![medium](@site/static/img/media/image554.png)
 
@@ -39,12 +39,12 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/set
 ### Setup Peppol format – EHF 3.0
 See below section for description on how to set up the Peppol format.
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/setup-import-methods#setup-peppol-format---ehf-30
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/setup-import-methods#setup-peppol-format---ehf-30
 
 ### Company identifiers
 See below section on how to set up Company identifiers.
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/import-methods/setup-import-methods#company-identifiers
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/setup-import-methods#company-identifiers
 
 ### Electronic reporting source
 Don´t forget to set up SharePoint folders and make the setup in Electronic reporting source under Organization administration in standard Dynamics.

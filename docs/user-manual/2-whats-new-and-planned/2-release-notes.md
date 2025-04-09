@@ -445,7 +445,7 @@ The new logic is restricted to a new feature parameter named Approver workflow, 
 
 **Various**
 
-25968 We have removed old code and parameters no longer used together with deprecated features mentioned on the Documentation Platform (https://docs.exflow.cloud/finance-operations/).
+25968 We have removed old code and parameters no longer used together with deprecated features mentioned on the Documentation Platform (https://docs.signupsoftware.com/finance-operations/).
 Affected entities: EXF_tAgreementsEntity, EXF_tParameterEntity, 
 
 27275 We have added the possibility to include the line type Procurement when running the function Create journal for accrual of estimated costs of all document line types.
@@ -702,7 +702,7 @@ A new version of ExFlow for Microsoft Dynamics 365 for Finance and Operations ha
 This document outlines the key enhancements, corrections, and improvements featured in this major update. 
 
 **DEPRECATED FROM VERSION 2.14.0**
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/removed-or-deprecated-features
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/removed-or-deprecated-features
 
 **New Module;**
 This release includes our new subscription module, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
@@ -734,7 +734,7 @@ The described release in this document supports the following versions.
 If using the Post control functionality, you need to check the section for post control parameters after update to 2.14.0. 
 In the new update there are separate sliders for including cost invoices or invoices connected to purchase order invoices.
 
-**See more details in section** https://docs.exflow.cloud/finance-operations/docs/user-manual/post-control/setup-and-work-with-post-control
+**See more details in section** https://docs.signupsoftware.com/finance-operations/docs/user-manual/post-control/setup-and-work-with-post-control
 
 Before update
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image548.png)
