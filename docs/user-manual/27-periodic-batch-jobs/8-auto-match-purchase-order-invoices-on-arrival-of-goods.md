@@ -13,7 +13,7 @@ Auto match purchase order invoices on arrival of goods is typically used when th
 
 A detailed description of this functionality can be found in the section "Setup and use of purchase order invoice on arrival of goods".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/accounts-payable-process/process-of-purchase-order-invoices/setup-and-use-of-purchase-order-invoice-on-arrival-of-goods
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/accounts-payable-process/process-of-purchase-order-invoices/setup-and-use-of-purchase-order-invoice-on-arrival-of-goods
 
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image129.png)

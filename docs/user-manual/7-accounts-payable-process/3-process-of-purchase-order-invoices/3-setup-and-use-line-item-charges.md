@@ -66,7 +66,7 @@ ExFlow | Setup | Parameters
 
 Set the parameters for line item charges.<br/>
 To deep dive and get all the parameters explained for general ExFlow setup see separate section in the document platform.
-https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/parameters#purchase-order
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/get-started/parameters#purchase-order
 
 
 ![Graphical user interface, application Description automatically generated](@site/static/img/media/image582.png)

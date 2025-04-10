@@ -8,4 +8,4 @@ custom_edit_url: null
 
 Link to document platform Data Capture information
 
-https://docs.exflow.cloud/datacapture
+https://docs.signupsoftware.com/datacapture

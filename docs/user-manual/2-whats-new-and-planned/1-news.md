@@ -28,14 +28,14 @@ The provided screenshot is from the SignUp D365FO environment with ExFlow versio
 
 
 **Additional Information from the Doc. Platform:**
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news#for-customers-generating-pdf-images
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/news#for-customers-generating-pdf-images
 
 **Important to notice** is that we only upload the stylesheets and not the actual invoice xml. When we generate the invoice images all files must be possible to resolve based on a URL link to the blob storage. In order to achieve this we are using the .NET class System.Xml.XmlUrlResolver. This class are not able to resolve the references unless the Container access level is set to Public.
 
 :::info This is a limitation in ExFlow AP versions prior to 2.16.3. From 2.16.3 we have made it possible to work with Container access level set to **No public access**.
 :::
 
-This information was previously distributed via newsletter and also posted on docs.exflow.cloud: https://docs.exflow.cloud/https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/news#important-notice-microsoft-critical-change---please-read
+This information was previously distributed via newsletter and also posted on docs.signupsoftware.com: https://docs.signupsoftware.com/https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/news#important-notice-microsoft-critical-change---please-read
 
 
 
@@ -48,7 +48,7 @@ The reason for the patch is primarily the performance issue that was reported a 
 - **46133** Due to a change in lookup of records that was created in 2.16, we had scenarios that caused extensive queries that
 potentially could cause an AOS crash.
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 
 
@@ -56,7 +56,7 @@ https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-plan
 The latest package available via LCS are currently 2.16.4. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
 This version is tested and compatible with 10.0.42 and 10.0.43
 
-**More information:** https://docs.exflow.cloud/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
+**More information:** https://docs.signupsoftware.com/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
 
 
 
@@ -71,13 +71,13 @@ The reason for the patch is primarily the deprecation of blob storage libraries 
 More information about the change from Microsoft: https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/removed-deprecated-features-platform-updates#migration-from-deprecated-libraries--windowsazurestorage-and-microsoftazurestorage-to-azurestorageblobs
 
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 ### Package information
 The latest package available via LCS are currently 2.16.2. This version is built on 10.0.41 and that’s the lowest version it can be installed on.
 This version is tested and compatible with 10.0.42 and 10.0.43
 
-**More information:** https://docs.exflow.cloud/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
+**More information:** https://docs.signupsoftware.com/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
 
 ________________________________________________________________________________________________________________________________________
 
@@ -91,7 +91,7 @@ Clients that are using the below functionalities in ExFlow AP.
 - Import of invoices from Azure blob storage. Other import methods such as FTP/SFTP or EDC are not affected.
 - Access to invoice image from the PowerApp PO Reconnect (will not be solved with updates in FO).
 - Customer who uses the new Auto credit/debit functionality.
-https://docs.exflow.cloud/finance-operations/docs/user-manual/accounts-payable-process/auto-create-debit-credit
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/accounts-payable-process/auto-create-debit-credit
 
 
 **When will the change happen?**<br/>
@@ -151,7 +151,7 @@ ________________________________________________________________________________
 Released in January 2025, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 ____________________________________________________________________________________________________
 
@@ -164,7 +164,7 @@ This document outlines the key enhancements, corrections, and improvements featu
 We have added support in ExFlow AP to post invoices directly against Pending Vendor Invoices and Invoice Journal. This removes the pre-requirement to setup and work with the invoice register process inside F&O.<br/>
 
 :::info See more detailed information;<br/>
-https://docs.exflow.cloud/finance-operations/docs/user-manual/get-started/upgrade-information
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/get-started/upgrade-information
 :::
 
 ### TMS Freight Bill
@@ -174,7 +174,7 @@ We have added support for Freight invoices that can be processed through Transpo
 ### Procurement categories – matching tolerances
 We have extended the matching tolerances that exists in F&O and added tolerances when working with Procurement Categories like the ones that exists for Items.<br/>
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes<br/>
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes<br/>
 _________________________________________________________________________________________________
 
 ## Release ExFlow 2.15.4
@@ -182,13 +182,13 @@ ________________________________________________________________________________
 Released in October 2024, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 ______________________________________________________________________
 
 ## Release ExFlow 2.15.1
 Released in July 2024, see more information about the details under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 _____________________________________________________________________________________________________
 
 ## Major Release ExFlow 2.15.0
@@ -241,7 +241,7 @@ This also required us to rebuild major parts of how the approval logic from ExFl
 
 *See more information about the details for 2.15.0.
 under "Release notes".**
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 ______________________________________________________
 
@@ -249,14 +249,14 @@ ______________________________________________________
 Released in March 2024, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 ______________________________________________________________________
 
 ## Release ExFlow 2.14.1
 Released in february 2024, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 ______________________________________________________________________
 ## Major Release ExFlow 2.14
@@ -277,7 +277,7 @@ The ExFlow Post Control rules v2 workflow can now be configured to halt only whe
 If using the Post control functionality, you need to check the section for post control parameters after update to 2.14.0. 
 In the new update there are separate sliders for including cost invoices or invoices connected to purchase order invoices.
 
-**See more details in section** https://docs.exflow.cloud/finance-operations/docs/user-manual/post-control/setup-and-work-with-post-control
+**See more details in section** https://docs.signupsoftware.com/finance-operations/docs/user-manual/post-control/setup-and-work-with-post-control
 
 Before update
 ![Graphical user interface, text, application Description automatically generated](@site/static/img/media/image548.png)
@@ -314,7 +314,7 @@ We have added functionality to import charges from Invoice Capture if they have 
 
 **See more information about the details for 2.14.0.
 under "Release notes".**
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 __________________________________________________________________
 
@@ -322,14 +322,14 @@ __________________________________________________________________
 Released in december 2023, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 _________________________________________________________________
 ## Patch release ExFlow 2.13.1
 Released august 15, see more information about the details 
 under "Release notes".
 
-https://docs.exflow.cloud/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes
 
 _________________________________________________________________
 

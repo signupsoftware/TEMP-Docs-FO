@@ -9,15 +9,15 @@
   },
   "link.item.label.ExFlow for BC": {
     "message": "ExFlow for BC",
-    "description": "The label of footer link with label=ExFlow for BC linking to https://docs.exflow.cloud/business-central"
+    "description": "The label of footer link with label=ExFlow for BC linking to https://docs.signupsoftware.com/business-central"
   },
   "link.item.label.ExFlow Web": {
     "message": "ExFlow Web",
-    "description": "The label of footer link with label=ExFlow Web linking to https://docs.exflow.cloud/web"
+    "description": "The label of footer link with label=ExFlow Web linking to https://docs.signupsoftware.com/web"
   },
   "link.item.label.ExFlow Data Capture": {
     "message": "ExFlow Data Capture",
-    "description": "The label of footer link with label=ExFlow Data Capture linking to https://docs.exflow.cloud/datacapture"
+    "description": "The label of footer link with label=ExFlow Data Capture linking to https://docs.signupsoftware.com/datacapture"
   },
   "link.item.label.ExFlow support": {
     "message": "ExFlow support",
