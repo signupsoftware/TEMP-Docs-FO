@@ -48,7 +48,7 @@ Licens handling information found here; https://docs.exflow.cloud/finance-operat
 
 | Web setup  | |
 |:-|:-|
-| Recent  | In this field the number of day's can be setup for how long the filtering on recent handled invoices in ExFlow should be based on. (Value 0 = 30 days by default)|
+| Recent| Number of day's for the filtering of processed invoices for the "Recent" folder in ExFlow web and My vendor invoices. (Value 0 = 30 days by default)|
 | Fast fetch invoice document to web | If this setting is switched on a different communication method between ExFlow web and D365FO is used that will speed up the communication for invoices with hundreds of lines. The old way will be deprecated in later versions.|
 | Fast validate in ExFlow web  | Used in combination with Split validate functionality. |
 | Merge dimensions | If set to "Yes", when changing accounting in ExFlow web the dimensions from the vendor and the dimensions from the main account will be merged. If set to "No" the dimensions are set from the account and if no dimensions are setup on the account, they are fetched from the vendor. |
