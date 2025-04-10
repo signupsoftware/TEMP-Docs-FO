@@ -103,27 +103,27 @@ If the customer needs to change the from the invoice registration process to the
 
 #### The Process
 **Import and post invoices**<br/>
-•	Connected to temporary invoice journal. Validate invoice number, payment id, amounts etc.<br/>
-•	No posting in general ledger, all information kept inside Exflow.<br/>
-•	Send out for approval of cost and if non-po, code the invoice.<br/>
-•	User approve the invoice from ExFlow web or from my vendor invoices.<br/>
+- Connected to temporary invoice journal. Validate invoice number, payment id, amounts etc.
+- No posting in general ledger, all information kept inside Exflow.
+- Send out for approval of cost and if non-po, code the invoice.
+- User approve the invoice from ExFlow web or from my vendor invoices.<br/>
 
 **Document form**<br/>
-•	Invoice is visible with document number and not voucher number.<br/>
-•	No invoice journal is connected – it is a temporary hidden journal. And we keep the data in there as long as the invoice is not approved and final posted.<br/> 
-(can be viewed from invoice journal form) AP – invoices – invoice journal – the journal Is visible or from Or from Exflow – invoice journal - Show temporary journals.<br/>
-In temp journal - No offset, no lines.<br/>
-•	When invoice is approved –> Final posting process.<br/>
+- Invoice is visible with document number and not voucher number.
+- No invoice journal is connected – it is a temporary hidden journal. And we keep the data in there as long as the invoice is not approved and final posted.<br/> 
+(can be viewed from invoice journal form) AP – invoices – invoice journal – the journal Is visible or from Or from Exflow – invoice journal - Show temporary journals.
+- In temporary journal - No offset, no lines.
+- When invoice is approved –> Final posting process.<br/>
 
 **Final posting**<br/>
-•	AP do the final posting – By using Invoice journal instead of approval journal or run the posting via batch job for final posting.<br/>
-•	In the background we copy all data from the temporary journal into the invoice journal and then deletes the temporary journal after post.<br/>
-•	Inquiries and voucher – Voucher number is now set.<br/>
-•	Transaction is posted in General ledger, and document form shows the document number and voucher number.<br/>
+- AP do the final posting – By using Invoice journal instead of approval journal or run the posting via batch job for final posting.
+- In the background we copy all data from the temporary journal into the invoice journal and then deletes the temporary journal after post.
+- Inquiries and voucher – Voucher number is now set.
+- Transaction is posted in General ledger, and document form shows the document number and voucher number.<br/>
 
 **Accrual journal changes**<br/>
-•	Possibility to follow up incoming costs.<br/>
-•	We take out the data from import form and document form.<br/>
+- Possibility to follow up incoming costs.
+- We take out the data from import form and document form.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image622.png)
 
