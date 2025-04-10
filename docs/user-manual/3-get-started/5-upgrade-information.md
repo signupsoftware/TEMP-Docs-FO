@@ -32,22 +32,25 @@ Main purpose of this development was to get away from the arrival registration o
 - No effect in GL/Submodules etc. for invoice and sales tax until final posting.
 
 **Market and Target group**<br/>
-- Mainly for US market and new customers who don´t want to use the arrival registration process.<br/>
-- To avoid problems with VAT on two occasions.<br/>
+- Mainly for US market and new customers who don´t want to use the arrival registration process.
+- To avoid problems with VAT on two occasions.
 
 ### Prerequisites
--	Supported from ExFlow version 2.16.0.<br/>
--	Setup 2 journals, one for temporary journals and one for invoice journal.<br/>
-    - Type: Vendor invoice recording<br/>
-    - App Journal – not include sales tax<br/>
--	Activate feature in ExFlow AP – Parameters – Posting logic – Direct posting.<br/>
-    - Approved by: is mandatory to set for the direct posting process.<br/>
--	Sales tax handling.<br/>
-    - ExFlow parameter for Tax calculation framework need to be enabled.<br/>
-    - Scanned tax – tax on invoice<br/>
-    - Calculated tax on lines shall sum up to the sum of scanned tax amount<br/>
--	If needed, activate batch jobs for delete temporary journals separately. See below description in parameters.<br/>
--	For customers that already runs ExFlow in the Invoice register process it is very important to empty and handle the open transactions. See more information below under upgrade information.<br/>
+-	Supported from ExFlow version 2.16.0.
+-	Setup 2 journals, one for temporary journals and one for invoice journal.
+    - Journal type: Vendor invoice recording.
+    - Sales tax – **NOT** include sales tax.
+- Approval journal.
+    - Journal type: Approval.
+    - Sales tax – **NOT** include sales tax.
+-	Activate feature in ExFlow AP – Parameters – Posting logic – Direct posting.
+    - Approved by: is mandatory to set for the direct posting process.
+-	Sales tax handling.
+    - ExFlow parameter for Tax calculation framework need to be enabled.
+    - Scanned tax – tax on invoice.
+    - Calculated tax on lines shall sum up to the sum of scanned tax amount.
+-	If needed, activate batch jobs for delete temporary journals separately. See below description in parameters.
+-	For customers that already runs ExFlow in the Invoice register process it is very important to empty and handle the open transactions. See more information below under upgrade information.
 
 ### Limitations
 **The following features are not supported in this version:**<br/>
