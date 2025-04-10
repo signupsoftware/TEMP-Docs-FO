@@ -20,18 +20,18 @@ Main purpose of this development was to get away from the arrival registration o
 :::info **Note:** The user interface and process will be the same as for invoice register process. It is only technical changes in the background.
 :::
 
-**Invoice register process**<br/>
+**Invoice register process**
 - Invoice register posting holds data that you need to take into consideration at final posting.
 - Immediately effect on general ledger and vendor balance accounts.
 - Sales tax are deducted at invoice register posting and can be reported to local tax authorities.
 - Invoice matching against purchase orders is made with net amount postings.
 
-**Direct posting process**<br/>
+**Direct posting process**
 - No invoice register, means that the data can be changed all the way until final posting and full support for pending invoice process which MS is targeting for all new features.
 - Sales tax is not deducted until final posting, although you can use the captured sales tax from the invoice all the way until final posting.
 - No effect in GL/Submodules etc. for invoice and sales tax until final posting.
 
-**Market and Target group**<br/>
+**Market and Target group**
 - Mainly for US market and new customers who don´t want to use the arrival registration process.
 - To avoid problems with VAT on two occasions.
 
@@ -53,35 +53,35 @@ Main purpose of this development was to get away from the arrival registration o
 -	For customers that already runs ExFlow in the Invoice register process it is very important to empty and handle the open transactions. See more information below under upgrade information.
 
 ### Limitations
-**The following features are not supported in this version:**<br/>
-- ExFlow Analytics (Power BI)<br/>
-- Cross company views from ExFlow workspace<br/>
-- Prepayment/auto settlement functionality<br/>
-- Support for external tax engines, e.g. Wolter Kluwer’s CCH SureTax<br/>
-- India Sales Tax and localization<br/>
-- Vendor statement reconciliation<br/>
-- PO re-connect app<br/>
-- Project operations<br/>
-- Document summarize and Split and validate functionality<br/>
+**The following features are not supported in this version:**
+- ExFlow Analytics (Power BI).
+- Cross company views from ExFlow workspace.
+- Prepayment/auto settlement functionality.
+- Support for external tax engines, e.g. Wolter Kluwer’s CCH SureTax.
+- India Sales Tax and localization.
+- Vendor statement reconciliation.
+- PO re-connect app.
+- Project operations.
+- Document summarize and Split and validate functionality.
 
-Post and transfer button from approval journal is hidden, due to redesign of functionality.<br/>
+Post and transfer button from approval journal is hidden, due to redesign of functionality.
 
 ### Upgrade information – How to change the process
 If the customer needs to change the from the invoice registration process to the direct posting process.  Make sure that below steps are followed;<br/>
--	Analyze<br/>
-    - Supported from ExFlow version 2.16.0<br/>
-    - Analyze the process, check if the customer really needed to do the change.<br/>
-    - Changing the process can be compared to changing the ERP system.<br/>
-    - Activation of the process can be done per company (possible to run both processes cross legal entities)<br/>
-    - **You cannot switch back!!**<br/>
+-	Analyze
+    - Supported from ExFlow version 2.16.0
+    - Analyze the process, check if the customer really needed to do the change.
+    - Changing the process can be compared to changing the ERP system.
+    - Activation of the process can be done per company (possible to run both processes cross legal entities).
+    - **You cannot switch back!!**
 
--	Before Switch to the new process - Changing the process can be compared to changing the ERP system. So below need to be followed;<br/>
-    - ExFlow needs to be empty, all transactions need to be handled (All invoices in status invoices or cancelled in document form).<br/>
-    - Script available if needed for bigger companies, to move unposted invoices from import form back to import history.<br/>
-    - Do the changes in test and uat;<br/>
-    - Set the parameters<br/>
-    - Don´t forget to do the end to end tests of the process.<br/>
-    - When ok, migrate the changes to production.<br/>
+-	Before Switch to the new process - Changing the process can be compared to changing the ERP system. So below need to be followed;
+    - ExFlow needs to be empty, all transactions need to be handled (All invoices in status invoices or cancelled in document form).
+    - Script available if needed for bigger companies, to move unposted invoices from import form back to import history.
+    - Do the changes in test and uat.
+    - Set the parameters.
+    - Don´t forget to do the end to end tests of the process.
+    - When ok, migrate the changes to production.
 
 ### Parameters
 
@@ -102,26 +102,26 @@ If the customer needs to change the from the invoice registration process to the
 ### Description of the functionality
 
 #### The Process
-**Import and post invoices**<br/>
+**Import and post invoices**
 - Connected to temporary invoice journal. Validate invoice number, payment id, amounts etc.
 - No posting in general ledger, all information kept inside Exflow.
 - Send out for approval of cost and if non-po, code the invoice.
 - User approve the invoice from ExFlow web or from my vendor invoices.<br/>
 
-**Document form**<br/>
+**Document form**
 - Invoice is visible with document number and not voucher number.
 - No invoice journal is connected – it is a temporary hidden journal. And we keep the data in there as long as the invoice is not approved and final posted.<br/> 
 (can be viewed from invoice journal form) AP – invoices – invoice journal – the journal Is visible or from Or from Exflow – invoice journal - Show temporary journals.
 - In temporary journal - No offset, no lines.
 - When invoice is approved –> Final posting process.<br/>
 
-**Final posting**<br/>
+**Final posting**
 - AP do the final posting – By using Invoice journal instead of approval journal or run the posting via batch job for final posting.
 - In the background we copy all data from the temporary journal into the invoice journal and then deletes the temporary journal after post.
 - Inquiries and voucher – Voucher number is now set.
 - Transaction is posted in General ledger, and document form shows the document number and voucher number.<br/>
 
-**Accrual journal changes**<br/>
+**Accrual journal changes**
 - Possibility to follow up incoming costs.
 - We take out the data from import form and document form.<br/>
 
@@ -132,7 +132,6 @@ If the customer needs to change the from the invoice registration process to the
 The ExFlow vendor invoice management workspace is redesigned and it is now possible to use actions.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image623.png)
-
 
 #### Less columns as default
 To make it easier for the AP personnel to work we have decreased the amount of default visible columns in import and document form.<br/> 
