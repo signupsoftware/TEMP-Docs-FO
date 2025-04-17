@@ -28,8 +28,8 @@ const baseURL = "/finance-operations/";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ExFlow Documentation Platform',
-  tagline: 'ExFlow Documentation Platform',
+  title: 'SignUp Software Documentation Platform',
+  tagline: 'Documentation for SignUp Software products',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
