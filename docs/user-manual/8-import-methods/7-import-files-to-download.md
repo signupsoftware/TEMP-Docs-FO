@@ -15,4 +15,4 @@ custom_edit_url: null
 
 
 ### Peppol
-<a target="_blank" href={ require("/Downloadable files/Stylesheet_BIS-BILLING-3_250514.zip").default } download>ExFlow Import Method Files</a><br/>
+<a target="_blank" href={ require("/Downloadable files/Stylesheet_BIS-BILLING-3_250514.zip").default } download>Peppol Import Method File</a><br/>
