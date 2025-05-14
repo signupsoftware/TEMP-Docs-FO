@@ -5,7 +5,34 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Urgent Invoice Import Error <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+## Urgent error during import of Peppol invoices <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+#### Issue
+After upgrade to 2.16.4 - Peppol invoices gets a faulty invoice image when delivery node is missing in XML.
+Reported bug id: 47812
+ 
+#### Root cause
+After investigation we can see that when the delivery node is missing, the invoice image gets squeezed to either the left or right side of the image.
+ 
+#### Solution
+Correction of the code will be included in the R1 2025 release in the beginning of June.
+ 
+**Quick work around** - upload new file to import methods
+
+- ExFlow AP - Go to the import methods
+- Find the method - select general and XSLT repository
+- Mark the one for Peppol_Bis_bill
+- Select "Edit"
+- Clean/delete the already uploaded information
+- Upload the new file found under Peppol https://docs.signupsoftware.com/finance-operations/docs/user-manual/import-methods/import-files-to-download
+- Press OK.
+
+![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image686.png)
+
+
+________________________________________________________________________________________________________________
+
+### Urgent Invoice Import Error
 #### Issue
 
 Customers may encounter an error when importing invoices into the Import form, similar to the error message shown below:<br/>

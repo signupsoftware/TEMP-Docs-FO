@@ -15,3 +15,4 @@ custom_edit_url: null
 
 
 ### Peppol
+<a target="_blank" href={ require("/Downloadable files/Stylesheet_BIS-BILLING-3_Invoice+CreditNote.zip").default } download>ExFlow Import Method Files</a><br/>
