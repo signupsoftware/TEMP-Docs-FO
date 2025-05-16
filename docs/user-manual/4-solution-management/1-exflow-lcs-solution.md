@@ -21,10 +21,11 @@ This solution includes the latest major release, the latest patch release and th
 for the previous major releases, and the latest labels.<br/>
 
 ### Version published
-EU - 14<br/>
-Norway - 13<br/>
-US - 58<br/>
-SA - 4
+EU - 15<br/>
+US - 59<br/>
+Norway - 14<br/>
+South Africa - 5<br/>
+Switzerland - 1
 
 ### Package information
 The latest package available via LCS are currently 2.16.4. This version is built on 10.0.41 and that’s the lowest version it can be installed on.

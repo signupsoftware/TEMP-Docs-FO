@@ -36,7 +36,7 @@ Exflow AP \| Setup \| Workflows \| Advanced workflow setup \| Advanced workflow 
 
 To be able to support routing based on the difference amount instead of the invoice amount or invoice line amount a new hierarchy provider called “Variance hierarchy” is created. It can be setup in "Advanced workflow position hierarchy mapping";
 
-https://docs.signupsoftware.com/finance-operations/docs/user-manual/Workflows/advanced-workflow-setup/advanced-workflow-position-hierarchy-mapping
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/workflows/advanced-workflow-setup/advanced-workflow-position-hierarchy-mapping
 
 ![Table Description automatically generated with medium confidence](@site/static/img/media/image573.png)
 
