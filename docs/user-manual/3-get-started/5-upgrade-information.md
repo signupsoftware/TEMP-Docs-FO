@@ -42,7 +42,7 @@ Main purpose of this development was to get away from the arrival registration o
     - Navigate to ExFlow AP - Parameters - Posting logic - Direct posting
     - Enable "Direct posting".
 
-2. **Mandatory settings**
+#### 2. **Mandatory settings**
 - **Approved by:**
     - Must be set for the Direct Posting process.
     - Defaults from “Default approved by” in Posting logic section of ExFlow parameters.
@@ -50,7 +50,7 @@ Main purpose of this development was to get away from the arrival registration o
     - Go to Sales tax section in ExFlow parameters.
     - Enable “Tax calculation framework”.
 
-3. **Choose Setup Option**
+#### 3. **Choose Setup Option**
 **Option 1: Net Amount + Scanned Sales Tax (Default Setup)**
 - **Invoice Line Handling:**
     - Net amount on lines.
@@ -83,7 +83,7 @@ Main purpose of this development was to get away from the arrival registration o
     - **Disable** “Adjust VAT in Invoice journal”
     - **Disable** “Validate sales tax difference at posting”
 
-4. **Additional Configuration**
+#### 4. **Additional Configuration**
 - **Batch Jobs:**
     - (If needed) Activate batch jobs to delete temporary journals.
     - See description in Parameters for setup.
