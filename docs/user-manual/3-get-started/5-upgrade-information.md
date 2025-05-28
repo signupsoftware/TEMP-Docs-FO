@@ -35,22 +35,62 @@ Main purpose of this development was to get away from the arrival registration o
 - Mainly for US market and new customers who don´t want to use the arrival registration process.
 - To avoid problems with VAT on two occasions.
 
-### Prerequisites
--	Supported from ExFlow version 2.16.0.
--	Setup 2 journals, one for temporary journals and one for invoice journal.
-    - Journal type: Vendor invoice recording.
-    - Sales tax – **NOT** include sales tax.
-- Approval journal.
-    - Journal type: Approval.
-    - Sales tax – **NOT** include sales tax.
--	Activate feature in ExFlow AP – Parameters – Posting logic – Direct posting.
-    - Approved by: is mandatory to set for the direct posting process.
--	Sales tax handling.
-    - ExFlow parameter for Tax calculation framework need to be enabled.
-    - Scanned tax – tax on invoice.
+### Direct Posting Setup in ExFlow
+1. **Prerequisites**
+- **ExFlow version:** Supported from v2.16.0.
+- **Activate Direct Posting:**
+    - Navigate to ExFlow AP - Parameters - Posting logic - Direct posting
+    - Enable "Direct posting".
+
+2. **Mandatory settings**
+- **Approved by:**
+    - Must be set for the Direct Posting process.
+    - Defaults from “Default approved by” in Posting logic section of ExFlow parameters.
+- **Enable Tax Calculation Framework:**
+    - Go to Sales tax section in ExFlow parameters.
+    - Enable “Tax calculation framework”.
+
+3. **Choose Setup Option**
+**Option 1: Net Amount + Scanned Sales Tax (Default Setup)**
+- **Invoice Line Handling:**
+    - Net amount on lines.
+    - Sales tax is scanned/received from invoice header.
     - Calculated tax on lines shall sum up to the sum of scanned tax amount.
--	If needed, activate batch jobs for delete temporary journals separately. See below description in parameters.
--	For customers that already runs ExFlow in the Invoice register process it is very important to empty and handle the open transactions. See more information below under upgrade information.
+- **Journal Setup:**
+    - Create 2 journals:
+    - Temporary journal
+    - Invoice journal
+        - **Journal type:** Vendor invoice recording
+        - **Sales tax:** **DO NOT** include sales tax
+-  **Additional Parameter Settings:**
+    - Enable **“Adjust VAT in Invoice journal”** (Sales tax section)
+        - Set tolerance values to auto-allocate VAT differences.
+    - Enable **“Validate sales tax difference at posting”** (Posting logic section).
+    - (Optional) Enable **“Validate tax difference before send out for approval”**
+        - This is optional, if validation should already happen in the ExFlow import form.<br/>
+
+**Option 2: Gross Amount + No Scanned Sales Tax**
+- **Invoice Line Handling:**
+    - Gross amount on lines.
+    - Do not scan or receive sales tax from invoice header.
+- **Journal Setup:**
+    - Create 2 journals:
+        - Temporary journal
+        - Invoice journal
+    - **Journal type:** Vendor invoice recording
+    - **Sales tax:** Amounts include sales tax
+- **Parameter Settings:**
+    - **Disable** “Adjust VAT in Invoice journal”
+    - **Disable** “Validate sales tax difference at posting”
+
+4. **Additional Configuration**
+- **Batch Jobs:**
+    - (If needed) Activate batch jobs to delete temporary journals.
+    - See description in Parameters for setup.
+- **Upgrade Note** (for existing Invoice Register users):
+    - Important: **Empty and manage open transactions** before activating Direct Posting.
+    - See upgrade section for full details.
+
 
 ### Limitations
 **The following features are not supported in this version:**
@@ -60,7 +100,7 @@ Main purpose of this development was to get away from the arrival registration o
 - Support for external tax engines, e.g. Wolter Kluwer’s CCH SureTax.
 - India Sales Tax and localization.
 - Vendor statement reconciliation.
-- PO re-connect app.
+- PO re-connect app. (deprecated)
 - Project operations.
 - Document summarize and Split and validate functionality.
 

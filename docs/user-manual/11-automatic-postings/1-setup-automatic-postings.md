@@ -85,7 +85,7 @@ The function vendors for goods arrival are used for invoices that are put on hol
 
 ### Attribute value map
 
-Attribute value map is used to setup tags that are read from the imported XML file that holds line level data for cost account invoices such as ledger accounts, dimensions, tax settings etc. To use this functionality, contact Signup Software AB or your partner for further discussions on how to configure the XML file that is used for import invoice data.
+Attribute value map is used to setup tags that are read from the imported XML file that holds line level data for cost account invoices such as ledger accounts, dimensions, charges (misc.) and tax settings etc. To use this functionality, contact Signup Software AB or your partner for further discussions on how to configure the XML file that is used for import invoice data.
 
 ![A picture containing text, screenshot, indoor Description automatically generated](@site/static/img/media/image53.png)
 
@@ -96,7 +96,7 @@ Attribute value map is used to setup tags that are read from the imported XML fi
 |Account relation|Choose specific vendor/group depending on settings in account code.<br/>See the below section for setting up ExFlow approval groups.|
 |Reference|Reference|
 |Key|The name of the tag in the XML file.|
-|Column reference|The destination field in D365FO (the fields that are setup in ExFlow columns for the current company.|
+|Column reference|The destination field in D365FO (the fields that are setup in ExFlow columns for the current company, e.g. project, cost center or misc).|
 |Pass–through|If checked the raw data from the XML file is sent directly to the destination field.|
 |From value setup| Priority setup for finding values. When importing an invoice with line attributes, the priority is to find value for:<br/>1. "Exactly like" setup - value is exactly the same as in "From value" field.<br/>2. "Begins with" - value starts with the same character as in "From value" field.<br/>3. "Ends with" - value ends with the same character as in "From value" field.<br/>4. "Contains" - value contains characters as in "From value" field.<br/>5. "Pass through" - blanks out the "From value" and "To value" fields and sends the raw data from the XML file directly to the destination field.|
 |From value|If the value in the XML file is the same it is triggering a translation to the value in the "To value field", see below.|

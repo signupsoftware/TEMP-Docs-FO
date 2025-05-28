@@ -12,7 +12,7 @@ import anythingYouWant from "/video/Import_Coding_From_Excel.mp4";
 
 ExFlow \| Setup \| Miscellaneous \| Generate template for importing invoice lines
 
-The ExFlow Import form features a function that enables users to import lines from a CSV or Excel sheet, resulting in the creation of an imported invoice. This functionality also allows users to generate CSV or Excel file templates specifically tailored to different line types such as Ledger, Projects, or Fixed Assets. It's important to remember that separate templates must be created for each line type.
+The "ExFlow Import from file" feature is a function that enables users to import coding lines from a CSV or Excel sheet. This functionality also allows users to generate CSV or Excel file templates specifically tailored to different line types such as ledger, project, fixed asset or procurement and with support for multiple lines types and possibility to import different line types from file for same invoice.
 One common business scenario where this functionality is useful is when a user needs to split an invoice into multiple lines. The pre- defined template is created and managed in Excel.
 A typical example is if a company receives cost invoices of employee’s cell phones that each line on the invoice is marked with a telephone number and that represents the cost center for that employee. The benefit of this is then that you will get the invoice on line level already divided into separate lines with the correct accounting. 
 
@@ -21,28 +21,30 @@ A typical example is if a company receives cost invoices of employee’s cell ph
 ### Step by Step process
 
 #### Generate a new template for importing invoice lines
-a.	Go to ExFlow – Setup – Miscellaneous - Generate template for importing invoice lines.
-b.	Select the file format for import; Excel or CSV.
-c.	Select the Content; Ledger, Project or Fixed asset.
+a.	Navigate to ExFlow – Setup – Miscellaneous - Generate template for importing invoice lines.<br/>
+b.	Select the file format for import; Excel or CSV.<br/>
+c.	Select the Content; Ledger, Project, Fixed asset or Procurement.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image203.png)
 
-d.	Press OK (the editable file is now generated).
-e.	Save the generated file on your computer.
-f.	Populate the template with the line information required and save the file.
+d.	Press OK (the editable file is now generated).<br/>
+e.	Save the generated file on your computer.<br/>
+f.	Populate the template with the line information required and save the file.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image204.png)
 
 #### Import the file to the invoice from import form
 
-a.	Go to ExFlow Invoices – Import form (All or Expense).
-b.	Select “Edit” to make changes on the invoice.
-c.	Go to general –> import from file.
+a.	Navigate to ExFlow Invoices – Import form (All or Expense).<br/>
+b.	Select “Edit” to make changes on the invoice.<br/>
+c.	Go to general –> Import from file.<br/>
 
 ![Table Description automatically generated](@site/static/img/media/image205.png)
 
-d.	Select “Browse” and find the file with populated with data that you saved in earlier step.
-e.	Press OK, the invoice will now be populated with data from the CVS/excel file.
+d.	Select “Browse” and find the file with populated with data that you saved in earlier step. <br/>
+e.  If required, select the options for merge default dimensions, apply derived dimensions, validate account structure or Keep existin lines as explained in the table below. <br/>
+f. Press OK, the invoice will now be populated with data from the CSV/excel file.<br/>
+g.	All the rows from the template are imported and applied as invoice lines.<br/> 
 
 ![Table Description automatically generated](@site/static/img/media/image206.png)
 
@@ -51,9 +53,7 @@ e.	Press OK, the invoice will now be populated with data from the CVS/excel file
 Merge with default dimensions | Merge from default main account and financial dimensions from vendor account.
 | Apply derived dimensions | When enabled, ExFlow utilizes derived dimensions from the dimension setup in cases where no specific dimensions are defined within the template. |
 | Account Structure validation | This parameter performs a validation process by comparing the dimensions per invoice line in the template with the dimension account structures. In the event of a mismatch, ExFlow will refrain from importing any account or dimension associated with that line. |
-
-
-f.	All the rows from the template are imported and applied as invoice lines: 
+|Keep existing lines|Keeps the existing/original coding lines on the invoice and adding the lines from template when importing lines from file.|
 
 **Tips!** You can save the generated template and reuse it for the next invoice.
 
