@@ -11,6 +11,10 @@ ExFlow \| Workspaces \| ExFlow vendor invoice management
 
 ExFlow for D365 FO is delivered with a workspace named "ExFlow vendor invoice management", used for accounts payable members or other personnel working with finance. The workspace has two different pages, one displaying tiles with cross company functionality and the other displaying an analytical workspace with several tabs showing invoice and approval data.
 
+:::info There are differences in the workspace view between the invoice register and the direct posting process. The new look in the direct posting process, will be implemented into invoice register process during 2025. 
+:::
+
+
 ### Workspace
 
 The tiles are clickable and will open the result based on the filter set on the tile.

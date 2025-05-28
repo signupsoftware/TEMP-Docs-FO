@@ -7,6 +7,7 @@ custom_edit_url: null
 ## Invoice process overview 
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
+Analytics reports are supported for the ExFlow invoice register and direct posting processes.<br/>
 First page gives a general overview of the companies vendor invoices and the time to process them. Filtering can be made by company by using the filter tab to the right. For filtering on a specific company in the ribbon to the left, mark the item and set a unique company id filter for that specific chart. Some of the charts can be filtered by company id using the general filter “Filters on all pages”. 
 
 ![Graphical user interface, chart, application Description automatically generated](@site/static/img/media/image246.png)

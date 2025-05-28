@@ -94,11 +94,9 @@ Main purpose of this development was to get away from the arrival registration o
 
 ### Limitations
 **The following features are not supported in this version:**
-- ExFlow Analytics (Power BI).
 - Cross company views from ExFlow workspace.
 - Prepayment/auto settlement functionality.
 - Support for external tax engines, e.g. Wolter Kluwer’s CCH SureTax.
-- India Sales Tax and localization.
 - Vendor statement reconciliation.
 - PO re-connect app. (deprecated)
 - Project operations.
