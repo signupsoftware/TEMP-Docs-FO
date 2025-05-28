@@ -36,7 +36,7 @@ Main purpose of this development was to get away from the arrival registration o
 - To avoid problems with VAT on two occasions.
 
 ### Direct Posting Setup in ExFlow
-##### 1. **Prerequisites**
+#### 1. **Prerequisites**
 - **ExFlow version:** Supported from v2.16.0.
 - **Activate Direct Posting:**
     - Navigate to ExFlow AP - Parameters - Posting logic - Direct posting
