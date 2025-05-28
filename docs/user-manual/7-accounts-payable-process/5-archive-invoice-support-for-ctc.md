@@ -38,4 +38,4 @@ The rejection code and free text must be provided when archiving an invoice. Thi
 
 ![medium](@site/static/img/media/image692.png)
 
-![medium](@site/static/img/media/image693.png)
+![Large](@site/static/img/media/image693.png)
