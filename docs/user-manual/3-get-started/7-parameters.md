@@ -349,6 +349,7 @@ All three parameters above have different options: Exflow provides flexibility i
 |Maximum difference amount| The maximum difference in amount that are allowed between the debit and credit invoice for a settlement to be carried out.|
 |Debit invoice retain coding| If the parameter “Debit invoice retain coding” is set true (Yes) then the lines will retain the coding making the invoice an exact copy. If it is set to false (No), the invoice should be created with the same lines as the original invoice but without coding.|
 |Display reason comment| If enabled, it is mandatory to add the reason comment.|
+|Payment workflow enabled| Enables the Payment workflow functionality common used in Belgium. More detailed info |
 
 
 ### Email notification - Deprecated feature
