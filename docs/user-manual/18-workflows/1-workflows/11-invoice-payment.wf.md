@@ -82,7 +82,7 @@ The flag should not be possible to enable if the workflow is active for the tran
 
 There is a possibility to enable it when the Payment Workflow for some reason did not work but the approvers are added according to the setup. In vendor transactions ExFlow > Approve. The same button will set Approved flag back to `No`.
 
-![medium](@site/static/img/media/image717.png)
+![large](@site/static/img/media/image717.png)
 
 The mapping of position hierarchy should leverage the mapping of hierarchies that exists in ExFlow under<br/> ExFlow AP > Setup > Workflows > Approval workflow setup > Position hierarchy mapping
 
@@ -90,15 +90,15 @@ The mapping of position hierarchy should leverage the mapping of hierarchies tha
 The new form for payment lists the documents that have been sent out through the new workflow.
 When the invoice is open from the list page, the invoice is opened in the regular view for Document form, but with all fields locked.
 
-![medium](@site/static/img/media/image718.png)
+![large](@site/static/img/media/image718.png)
 
 ### My vendor invoices workspace
 A tile and subpage for the payment invoices added<br/>
 When the invoice is open from the list page, the invoice is opened in the regular view for Document form, but with all fields locked.<br/>
 
-![medium](@site/static/img/media/image719.png)
+![large](@site/static/img/media/image719.png)
 
-![medium](@site/static/img/media/image720.png)
+![large](@site/static/img/media/image720.png)
 
 
 ### Security roles
