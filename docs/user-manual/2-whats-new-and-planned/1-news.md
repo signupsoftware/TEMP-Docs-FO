@@ -4,8 +4,35 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
+## Major Release 2.17.0
+<button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-## Urgent error during import of Peppol invoices <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2025
+
+**Release topics!**
+### Direct posting
+We have as part of this release added support for the below functions in direct postings process.<br/>
+
+**28210** We have extended the lookup for Pay when Paid terms to work with ExFlow journal structures and correctly identify whether Pay when paid is active.<br/>
+
+**32919** We have made it possible to add deferral information in ExFlow to be used when posting approval journals. Limited to Direct posting, straight-line templates and line type Ledger.<br/>
+
+### ExFlow CO2 insights – Atmoz Sustainability reporting
+**40916** We have added support to integrate with an external sustainability reporting tool: Atmoz.<br/>
+Related tickets: 46003, 46791, 47692<br/>
+
+### Financial Tags
+**41096** We have made it possible to add and use financial tags in ExFlow to be used when posting approval journals.<br/>
+
+### Payment Workflow
+**44148** We have introduced a new workflow that can be triggered after the invoice is finally posted, to have an extra approval step prior to the invoice being available for payment.<br/>
+Limited to approvals within F&O.<br/>
+
+https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes<br/>
+
+
+_______________________________________________________________________________________________________
+## Urgent error during import of Peppol invoices
 
 #### Issue
 After upgrade to 2.16.4 - Peppol invoices gets a faulty invoice image when delivery node is missing in XML.

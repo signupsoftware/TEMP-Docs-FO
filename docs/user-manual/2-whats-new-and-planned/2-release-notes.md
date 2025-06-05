@@ -5,8 +5,233 @@ hide_title: true
 custom_edit_url: null
 ---
 
-## Release 2.16.4
+## Major Release 2.17.0
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
+
+#### INTRODUCTION
+A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2025.
+
+#### Version numbers
+The described release in this document supports the following versions.
+
+| Dynamics 365 for Finance and Operations Platform version | Dynamics 365 for Finance and Operations application version  | ExFlow AP version |
+| ----------- | -------------- | -------------- | 
+| Update 67 (7.0.7521.60) or later | 10.0.43 (10.0.1860.56) | 2.17.0|
+
+#### NEW FUNCTIONALITY
+**Direct posting**<br/>
+We have as part of this release added support for the below functions in direct postings process.<br/>
+
+**28210** We have extended the lookup for Pay when Paid terms to work with ExFlow journal structures and correctly identify whether Pay when paid is active.<br/>
+
+**32919** We have made it possible to add deferral information in ExFlow to be used when posting approval journals. Limited to Direct posting, straight-line templates and line type Ledger.<br/>
+
+**ExFlow CO2 insights – Atmoz Sustainability reporting**
+**40916** We have added support to integrate with an external sustainability reporting tool: Atmoz.<br/>
+Related tickets: 46003, 46791, 47692<br/>
+
+**Financial Tags**<br/>
+**41096** We have made it possible to add and use financial tags in ExFlow to be used when posting approval journals.<br/>
+
+**Payment Workflow**<br/>
+**44148** We have introduced a new workflow that can be triggered after the invoice is finally posted, to have an extra approval step prior to the invoice being available for payment.<br/>
+Limited to approvals within F&O.<br/>
+
+#### IMPROVEMENTS
+**Direct Posting**<br/>
+We have as part of this release extended the support for direct postings in the below areas and added more validations around the setup to avoid confusion.<br/>
+**39992** Support added for direct posting in the vendor invoice management Analytics Power Bi report.<br/>
+**42020** We have added support for Italy when running with Direct Postings.<br/>
+**42021** We have added support for India when running with Direct Postings.<br/>
+**43730** Implementing Auto settlement functionality in ExFlow direct posting for cost and Purchase order invoices.<br/>
+**46401** We have moved the menu item for the batch job Post and send out for approval have been moved from Miscellaneous to Post in the main menu.<br/>
+
+**Import from file (Excel import)**<br/>
+As part of this release, we have made several changes and added more functionality into the import form file functionality.<br/>
+**15995** The excel import template functionality have been extended to also validate dimension properties such as sales tax group and item sales tax group dimension values validation.<br/>
+**22469** We have made it possible to keep existing lines when import the template.<br/>
+**25027** We have made it possible to lines of type Procurement Category.<br/>
+**36902** We have added Line reference to the import template.<br/>
+**45458** We have added support for more date formats for the Polish fields Received date and VAT due date.<br/>
+
+**Approval object**<br/>
+We have as part of this release extended the new approval object in the below areas and added more validations around the setup to avoid confusion.<br/>
+**44609** We have introduced a new parameter to enable and disable new Approver Workflow per legal entity to allow for more seamless and phase-wise adoption of the functionality.<br/>
+**45307** A new approver workflow rule is added to remove any approvers or approver groups during the validation process. When posting the invoice, any approvers that are already validated will be skipped from the validation process.<br/>
+
+**Sales tax framework**<br/>
+We have as part of this release extended the sales tax framework in the below areas.<br/>
+**45826** To handle address selections in journals when working with TCS, we have when working with ExFlow added new address fields to support selections of invoice from/to. These fields and selected values are being used both in the standard posting calls and the calls within ExFlow.<br/>
+**46454** We have updated the logic around activating “Tax calculation framework”.<br/>
+If legal entity utilizes ExFlow direct posting AND legal entity is NOT within India country region context the following will apply:<br/>
+
+(1) “Tax calculation framework” field must be set to Yes;<br/>
+(2) “Tax calculation framework” field is not editable when set to Yes.<br/>
+
+**Workflow**<br/>
+As part of the release, we have made several changes and added more fields to use in the workflow conditions.<br/>
+**42076** A new combined form for ExFlow and Advanced workflow hierarchy mapping has been introduced. The addition allows for simplified identification and correction of the actual mapping used in workflows.<br/>
+**43936** ExFlow workflows now support additional fields—Voyage, Freight Bill, and Fixed Asset details—to enhance invoice tracking, approval, and asset accountability.<br/>
+**44103** In the ExFlow dimension combination owner, ExFlow Position can be used as a reference to select from ExFlow position hierarchy.<br/>
+**45516** We have added a new method in the ExFlow validation exception type, ExFlow post control rules V2 and ExFlow Advance Approval Workflow Type workflows to compare the difference between calculated line sales tax and header sales tax. This function is dependent on the tax framework functionality.<br/>
+
+**Vendor statement**<br/>
+As part of this release, we have made several changes and added more functionality into the vendor statement functionality.<br/>
+**43707** Security roles have been added with different level of duties and permissions for the vendor statements.<br/>
+**43993** Name of some objects in vendor statements were changed to meet the company's naming convention.<br/>
+
+#### Various
+**10368** When the Reviewer parameter is on, and a user is set as a Reviewer in ExFlow users, that user is not counted towards "Minimum number of approvers for posting from import form". It will be excluded from counting.<br/>
+**11459** Posted project transactions form list page has been extended with an ExFlow button drop down button which contains Documents and Show invoice buttons.<br/>
+**11811** We have improved the configuration of available line types in ExFlow Web.<br/>
+**13539** ExFlow import list page and details form. “Take” and “Post” buttons have been moved to the top action pane.<br/>
+**28949** We have added support for QR-IBAN for Swiss vendors. This ensures accurate bank account matching when processing invoices with QR-IBAN details.<br/>
+**34110** We have extended the functionality of the Recent folder both in ExFlow Web and My vendor invoices to also show invoices that were approved by a replacer.<br/>
+**36425** Added an upcoming feature for ExFlow web that will allow invoices to be set with a 'tag' such as approval.<br/>
+**40411** When using Penny difference (General/Add penny difference) the charge line is created with correct the sales tax group and item sales tax group.<br/>
+**40514** Invoice approval journal, find vouchers form. “Is ExFlow invoice” field was added to the grid. “Show only ExFlow invoice” toggle functionality was adjusted. If set to Yes, only ExFlow invoices to be listed in the grid. If set to No, all invoices to be listed in the grid.<br/> 
+**41097** Self billing invoices are now created with EXF_cImportTableLogContract to create a unified way of creating invoices into import history.<br/>
+**41098** The method of the invoice images creation for debit-credit functionality (Import source is Internal) is unified.<br/>
+**41724** We have made it possible to import suggested lines from automatic invoice coding when using intercompany lines.<br/>
+**42401** We have added a possibility to suspend references within the Global references form both on header level and on the LegalEntityOverride level. This functionality allows the lookups for reference persons to show the correct list of records which are not suspended. It affects the workflows functionality and agreements selection of the worker.<br/>
+**42498** Reviewed and updated extensions to ensure they correctly use the ExFlow enable checkbox, with stack trace logging added for extensions not being executed for tractability.<br/>
+**42938** As part of the Microsoft deprecation of old blob storage libraries in 10.0.43 we have migrated all functions in ExFlow using blob storage to use the new recommended library, Azure.Storage.Blob.<br/>
+**42977** ExFlow invoice matching details dialog. Improved the process to cover extended price variance caused by currency exchange rate difference.<br/>
+**43132** Posted project transactions form has been extended to view related purchase order invoices posted through ExFlow.<br/>
+**44024** The actions on Approver tab in My vendor invoices were grayed out when the tab was not last in order under Line Details. The logic was improved to correctly identify the approver tab regardless of position in Approval form.<br/>
+**44085** Import charge attribute code and value the same way as line attribute after we have extended the mapping set up for Attributes to make it more flexible and added the possibility to configure the mapping with; Exactly like, Pass-through, Contains, Begins with, Ends with.<br/>
+**44423** Both Sales tax group and the Item sales tax group are inherited from the main account based on the new parameter which is created to separate the logic.<br/>
+**44515** Vendor groups setup is consolidated both on the UI into one form and in the database. That contains vendor groups: for separate validate and suggest approver, for summarized documents, for service import, workflow action vendor groups. Workflow placeholders are affected.<br/>
+**44559** We have enhanced logging for new Approver Workflow and included logging for conditions used in workflows.<br/>
+**44786** We have changed the format of scanned time to 24h when working with import of invoices from Microsoft Invoice Capture.<br/>
+**44798** When running an accrual with the "accrue on project" enabled - the accrual journal applies the default financial dimensions from the posted financial dimension in document form. The same functionality is applied for the Item line type but populated from the project if "accrue on project" is enabled.<br/>
+**45156** Italy, we have removed the warning message in ExFlow parameters when activating Allow Invoices with Zero Amount.<br/>
+**45751** Previously when generating invoice images, we communicated with the Azure blob container with anonymous access and have required the container to be Public. This change will make it possible to access the container even if it is marked Private.<br/>
+**45878** We have made it be able to default sales tax group and item sales tax group on intercompany lines based on the destination company setup.<br/>
+**45959** Added post control check to invoice timeline that will show the outcome and step traversed.<br/>
+**46073** We have created a functionality to store deleted or rejected invoices from Import Form into a separate archive. This functionality can also be used in combination with CTC process together with ExFlow Document Integration.<br/>
+**46193** We have added one more parameter method to the object EXF_cWorkerHierarchyApprovalChain to make more extensions possible.<br/>
+**46570** When suggesting approvers on cost invoices in Import form we did not mark the records as temporary properly.<br/>
+**46719** We have updated the endpoints for authentication against Pagero Online according to their information (https://pagero.github.io/partners/apis/api-authentication-authorization/). The old endpoints will be deprecated after June 1st.<br/>
+**46766** India sales tax, we have introduced a new way of finding the correct tax components when performing tax calculations.<br/>
+**46771** We have changed the validation of licenses within ExFlow AP.<br/>
+**46881** Project intercompany invoices in ExFlow will now be excepted from the standard workflow Vendor invoice workflow upon posting an invoice approval journal.<br/>
+**47294** We have updated the .Net libraries that are used for authentication in combination with the new AI service.<br/>
+**47341** We have enhanced the PO connect feature to also include functionality to find the purchase order number based on queries.<br/>
+
+#### CORRECTIONS
+**28411** To match the Standard Pending vendor invoice form behavior we don’t allow to save negative Unit Price in ExFlow forms, check if the Quantity and amount have opposite signs, throw error. This change is only applicable for project intercompany transactions.<br/>
+**40789** We have made it easier to differentiate between purchasing category on purchase lines, (Purch category) and procurement category for line-type procurement (Procurement).<br/>
+**41319** We have made a code refactoring of the cost invoice batch job to have a better error handling within the job.<br/>
+Related tickets: 22021, 40392, 44083, 44193, 44954<br/>
+**41609** The currency error with "approve line" button on My vendor invoices form is fixed. The currency code is taken either from the vendor transaction or the ledger journal transaction.<br/>
+**42123** The warning message was not displayed on the Import form list page when you posted an invoice that is on-hold.<br/>
+**42722** It was not possible to delete a newly created approver line in Import form without selecting it first.<br/>
+**43006** If the same cost type exists on both the voyage and shipping container the whole cost is now assigned the shipping container.<br/>
+**43348** When clicking Add line button in the posting proposal advanced form, lines were not seen for line type layout:<br/> Project, Fixed asset, Landed cost, Procurement.<br/>
+**43632** The checkbox Has chat was not always populated when a chat message was added.<br/>
+**43995** It was possible to edit an active advanced workflow approver on financial dimension directly after activation while a draft version still existed. This triggered an error if the environment experienced slow performance and the user would try to create a new draft before the old was removed.<br/>
+**44205** We have made calculation corrections to the 'Average days from import to approval' field in ExFlow analytics, that caused wrong data to be displayed due to improper aggregation method.<br/>
+**44378** Resolved an issue when ExFlow document form was missing header and lines info for specific users. Specific user criteria: one of roles applied is assigned to any but current organization.<br/>
+**44426** Action workflow lacks error handling; as a result, a failure on one invoice causes the process to stop, preventing other invoices from being processed.<br/>
+**44445** The line type 'Mixed values' did not work properly in the posting proposal advanced form.<br/>
+**44505** Corrected a refresh issue in Document form list page when an update occurred on certain fields on an open invoice.<br/>
+**44522** Dimension values are now cleared correctly when removing Project ID or Voyage ID. This applies to both Project and Landed Cost line types across all forms.<br/>
+**44524** Resolved an issue for new approval workflow that could cause an approver not to be added correctly if that approver already existed, due to incorrect sort order.<br/>
+**44529** Direct postings, India sales tax, the invoice amount and remaining amount displayed the net amount both in ExFlow Web and My vendor invoices.<br/>
+**44597** We have improved validation to prevent approval of invoice lines with zero amount when 'Allow Invoices with Zero Amount' is turned off.<br/>
+**44599** When using feature 'Fast validate' and/or new approval workflow the amount in reporting currency were set wrong causing conditional statements to always fail. This is now corrected.<br/>
+**44608** Invoice approval journal, find vouchers process for ExFlow invoices and vend parameters ”Adjust invoice posting date to next year’s posting period” field. Now when ”Adjust invoice posting date to next year’s posting period” field is set to “Block with error”, find voucher process is not aborted and vouchers are fetched.
+44612 The approved date on the cluster within automatic invoice coding was not updated to the latest approved date on invoice.<br/>
+**44658** If allocate tax difference was used and the amount and/or percent to allocate was set to 0 then the validation to compare differences between total line tax amount and invoice tax amount did not work properly. 
+44703 Vendor Portal, XML dynamic field groups form received a validation to remove the error “field with id '0' does not exist”.<br/>
+**44713** The due date was changed when removing purchase order number from the invoice header.<br/>
+**44762** Posting Proposal advanced form shows incorrect dimensions coding for line types of Procurement, Landed Cost and Freight Bill when a mixed value line type is defined.<br/>
+**45012** Prevented a previously executed data upgrade script from executing after database refreshes, eliminating unexpected script runs.<br/>
+**45020** Invoice total fields did not display correct details in the ExFlow matching details forms.<br/>
+**45023** A new entity introduced in 2.16 caused the Open in Microsoft Office functionality to not working due to a name conflict.<br/>
+**45037** Corrected a problem where pending vendor invoices in intercompany projects failed to inherit dimensions from the vendor, ensuring accurate transaction tracking.<br/>
+**45065** The report Invoices did not return any search result due to a change in 2.16.<br/>
+**45180** Corrected an issue related to error message 'Table: 0 does not exist' when trying to use lookup for landed cost reference.<br/>
+**45202** Direct postings, the defaulted filter for the agreement field did not work properly.<br/>
+**45205** Resolved an issue using new approval workflow were an approver that had used forward was changed to approved under certain scenarios.<br/>
+**45207** Direct postings, the Correct invoice functionality in Post control did not work properly.<br/>
+**45229** The exchange rate was not updated properly during the final posting in the approval journal due to a correction done in 36199 included in 2.16.<br/>
+**45324** When changing the procurement categories in Import and Document form the dimensions were not saved properly.<br/>
+**45346** The exchange rate was not updated properly during the final posting in the approval journal.<br/>
+**45464** We were sending the wrong voucher number to ExFlow web settlement information.<br/>
+**45492** ExFlow direct posting invoice with project intercompany lines. Resolved an issue when wrong invoice is opened in ExFlow document form when navigating from invoice journal form.<br/>
+**45507** Direct postings, Post Controlled invoices where not picked up correctly in the final posting batch jobs.<br/>
+**45514** Direct postings, when activating the standard D365 workflow for vendor invoices, the ExFlow invoices were also affected.<br/>
+**45515** Chinese voucher number was not set correctly when it was restarted into a new period.<br/>
+**45534** When uploading XSLT files to our XSLT repository under the import methods the characters where decoded which caused the function to generate images to fail.<br/>
+**45564** Import validation exception workflow for IBAN isn't triggered, causing the workflow condition to be skipped and resulting in the invoice being posted incorrectly.<br/>
+**45590** Direct postings, the voucher field in Document Form list page did not include a hyperlink.<br/>
+**45598** Activation of a structure in Advanced workflow approver on financial dimension could fail when there were common segments with Allow blank values.<br/>
+**45602** Auto match purchase order invoices on arrival of goods (new). Resolved an issue when approvers are not suggested for “Price variance” match result.<br/>
+**45612** Direct postings, it was not possible to open the invoice journal from Document Form if the status was “In Journal”.<br/>
+**45615** We have removed the option to use Global Reference in advanced approval workflow conditions. Reference will be used instead, providing the expected functionality.<br/>
+**45632** Using the new approval workflow feature, you can now add approvers using conditions related to line manager levels.<br/>
+**45639** Posting date was not updated correctly during the final posting when modules are closed.<br/>
+**45654** ExFlow web. Lines with line type “Item”. Fixed an issue when “Product search name” is displayed instead of “Product name”.<br/>
+**45663** Auto match purchase order invoices on arrival of goods (new). Resolved an issue when approver’s status “Hold” is reset ignoring “Number of days before system release of quantity variance invoices” field from parameters.<br/>
+**45706** Suggest approver’s function. “Separate suggest approvers from validate” parameter’s field is set to Yes. Fixed an issue when “Keep approval chain” field set to Yes was ignored during suggest approver process (approvers were added after all).<br/>
+**45742** Adding a warning message when creating Posting Proposal advanced with Line Type Project and selecting a closed project.<br/>
+**45749** When modifying the invoice coding for Ledger line types the connected DefaultDimension field on the lines were not updated correctly.<br/>
+**45788** When running Tax Calculation Service, we did not calculate sales tax for line-item charges. We have also updated the information provided in the sales tax form.<br/>
+**45825** When using new approval workflow, the approval validation process was triggered when trying to hold, reject or delete an invoice line in ExFlow web.<br/>
+**45904** When posting pending vendor invoices outside of ExFlow we triggered a validation intended for ExFlow invoices. <br/>
+**45936** We have added support for invoices with large amounts.<br/>
+**45943** The definition value 'invoice_url' will now be included as a default value.<br/>
+**45982** Including the value from MiscField9 in the transaction text was not working properly when updated.<br/>
+**46045** We have added a correction for the grid quickfilter in Approval workflow rule groups.<br/>
+**46053** Filling Vendor account manually in Import form could throw an error message “Some of the information that you entered is not valid. You must enter a valid information before you can continue.”<br/>
+**46085** Fixed a minor display issue, when using invoice history for an invoice line saying that main account was coded although no coding had taken place.<br/>
+**46103** Invoice totals tolerances for charges when using ExFlow matching rules, gives different matching outcome between import and document form.<br/>
+**46111** Post Control Workflow does not correctly evaluate 'Workflow action vendor group' conditions, leading to incorrect invoice routing.<br/>
+**46126** When using global reference, reference lookup field in import, document and agreement form takes a long time loading the data.<br/>
+**46133** Due to a change in the data source record lookup within the forms Import and Document Form an extensive query was performed which could cause an AOS failure.<br/>
+**46135** Auto match purchase order invoices on arrival of goods (new). Batch job records to include query adjustment. Resolved an issue when “Approval status” field was locked for editing.<br/>
+**46136** Under certain scenarios invoices could be set on hold when imported without any reasonable explanation.<br/>
+**46280, 46961** Addressed issues of unintended “Date of VAT register” field modification during ExFlow process flow.<br/>
+**46294** Resolved an issue when “XML without transformation applied” field is blank once “Show XML file” button is clicked on “Import vendor statement history” form.<br/>
+**46359** Direct postings, when an invoice had both debit and credit lines, the lines were not transferred correctly to the Invoice Journal.<br/>
+**46394** Direct postings, when clicking on the voucher number in Document Form, you were not navigated to the voucher on the vendor transaction.<br/> 
+**46402** Direct postings, the invoice number have been locked in Document form.<br/>
+**46419** India sales tax, the batch job Cost account invoices was doubled in the menu.<br/>
+**46452** Invoice approval journal. Fetch vouchers process. Fixed extra line creation issue for Project and Fixed asset invoices when “Always update voucher number" parameter is set to Yes.<br/>
+**46504** If an invoice had been selected for post control it was previously not possible to clear change this, even if the invoice was restarted and validated ok by the post control workflow.<br/>
+**46701** Direct postings, the method of payment was not transferred correctly into the invoice journal.<br/>
+**46705** We have updated the API contracts used in combination with Pagero Online. The old contracts could cause invoices not to be imported correctly.<br/>
+**46706** We have updated the logic in the upload of vendors to ExFlow Data Capture to only block vendors if the flag Vendor hold is set to All.<br/>
+**46720** when a default account was configured on the vendor record, default financial dimensions were not retained during invoice import process. resulting in blank dimensions on the import form.<br/>
+**46777** India sales tax. When working with India sales tax all charges need to be allocated to the lines to have the correct tax calculation. The allocation will now also be done to lines that are non-stocked.<br/>
+**46847** When coding project intercompany invoice in ExFlow Web, the default financial dimensions from the project is not automatically added to the accounting string.<br/>
+**46954** We have updated the label for showing ExFlow invoices on the Fetch voucher form within the invoice approval journal.<br/>
+**46965** Direct postings, the reference field was not updated based on the selected agreement number when this was updated in the Document Form. <br/>
+**47014** We have resolved an issue that was causing system error for a specific group configuration. Specifically, it was triggered when the configuration was used to build coding field in Import form.<br/>
+**47040** We identified a scenario where the workflow was not evaluated correctly due to an incorrect value conversion when the workflow xml was created.<br/>
+**47050** Direct postings, India sales tax. Validation between the scanned sales tax compared to posted sales tax was not performed correctly.<br/>
+**47069** Direct postings, the Import form list page showed amounts in both debit and credit field when showing all invoices. <br/>
+**47079** When running with the PO connect feature in certain scenarios the Purchase order number was not set correctly on the line in ExFlow.<br/>
+**47102** The approved date was not set correctly when approving from ExFlow Web.<br/>
+**47180** When using suggest approvers in Import form the current approval route should always be deleted even if no new approvers was found. This was not the case when using new approval workflow.<br/>
+**47212** Direct postings, it was possible to post invoices stopped for post control through the ExFlow Vendor invoice management workspace.<br/>
+**47331** Cancelling an invoice triggers the posting process instead of cancelling the invoice, causing the invoice status in the document form to be set to "Invoiced" instead of "Cancelled."<br/>
+**47333** ExFlow import form. Resolved an issue when it was possible to edit, add, delete bank accounts for user with only ExFlow roles assigned.<br/>
+**47362** In the job Auto match purchase order invoices on arrival of goods (new): "Suggest approver starts replacing from" option were not working properly.<br/>
+**47364** Fixed a security issue that made it impossible to click the show details button for the step details for the new approval workflow time line log.<br/>
+**47635** ExFlow direct posting. Import form. Fixed an issue when expense invoice posting fails if ExFlow parameters “Validation type” field is not set to “ExFlow”.<br/>
+**47671** Refresh Line VAT was not working properly in Import form.<br/>
+**47684** Fixed a approver order issue when an approver using forward was added back again to the approval route, due to parameter Add same approver after current if forwarded.<br/>
+**47698** We have corrected an issue where updates to any tab under line details in Approval form caused an automatic switch to the first tab.<br/>
+**47706** The parameter setting Add same approver after current if forwarded under approval tab was greyed out if the new approval workflow was enabled. This option is now possible to adjust again.<br/>
+**47812** Fixed an issue where EDI invoices displayed a distorted image when the delivery node was missing in the XML after upgrading to version 2.16.4. The root cause was related to Html transformation engine.<br/>
+**48093** On vendor transactions when opening Original document and view details for Ledger journal a code error appears.<br/>
+
+____________________________________________________________________________________________
+
+### Release 2.16.4
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of March 2025.
 This document outlines the key enhancements, corrections, and improvements featured in this major update. This release includes our new subscription module, released in ExFlow AP 2.14, enabling users to conveniently purchase functionality subscriptions directly from the Azure Marketplace.
 
