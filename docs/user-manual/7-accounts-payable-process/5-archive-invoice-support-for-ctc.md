@@ -6,7 +6,7 @@ hide_title: true
 ## Archive invoices
 <button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
-**NOTE: This function is built to support CTC messages for reject in e-invoice flow**
+**NOTE: This function is also built to support CTC messages for reject in e-invoice flow**
 
 ### Purpose
 Functionality Overview: Archive functionality that allows users to archive invoices in the import form instead of deleting them. This functionality helps keep a history of invoices, including the invoice image, data, payment ID, voucher number, amount, and a rejection code. The archived invoices will be stored in a separate table.
