@@ -53,11 +53,10 @@ Next Major Release will be built on 10.0.44.<br/>
 |ExFlow Labels 2.16.0 for Dynamics 365 10.0.43|Operations version 10.0.43| 2025-06-05 |
 |ExFlow 2.16.4 for Dynamics 365 10.0.41 |Operations version 10.0.41 |2025-03-21|
 |ExFlow Copilot 1.0.0 for Dynamics 365 10.0.41|Operations version 10.0.41 |2024-12-16 |
-|ExFlow Document Integration 1.1.2|Operations version 10.0.41|2025-02-13 |
 
-|Power BI report model||
-|---|---|
-|ExFlow Analytics Workspace v47|Operations version 10.0.41 |2024-12-16|
+|Power BI report model|||
+|---|---|---|
+|ExFlow Analytics Workspace v47|Operations version 10.0.41|2024-12-16|
 
 
 ### Version Information Updates for your Location
