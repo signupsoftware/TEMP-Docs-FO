@@ -26,7 +26,7 @@ We have as part of this release added support for the below functions in direct 
 
 **32919** We have made it possible to add deferral information in ExFlow to be used when posting approval journals. Limited to Direct posting, straight-line templates and line type Ledger.<br/>
 
-**ExFlow CO2 insights – Atmoz Sustainability reporting**
+**ExFlow CO2 insights – Atmoz Sustainability reporting**<br/>
 **40916** We have added support to integrate with an external sustainability reporting tool: Atmoz.<br/>
 Related tickets: 46003, 46791, 47692<br/>
 
@@ -250,7 +250,7 @@ The described release in this document supports the following versions.
 **46133** Due to a change in the data source record lookup within the forms Import and Document Form an extensive query was performed which could cause an AOS failure.<br/>
 **46359** When an invoice had both debit and credit lines, the lines were not transferred correctly to the Invoice Journal, when running with Direct Postings.<br/>
 
-### RELEASED IN 2.16.3
+### Released in 2.16.3
 #### Improvements
 **45751** Previously when generating invoice images, we have communicated with the Azure blob container with anonymous access and have required the container to be Public. This change will make it possible to access the container even if it is marked Private.
 

@@ -10,8 +10,8 @@ custom_edit_url: null
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2025
 
 **Release topics!**
-### Direct posting
-We have as part of this release added support for the below functions in direct postings process.<br/>
+### Direct posting process
+We have as part of this release added support for the below functions in direct posting process.<br/>
 
 **28210** We have extended the lookup for Pay when Paid terms to work with ExFlow journal structures and correctly identify whether Pay when paid is active.<br/>
 
@@ -29,6 +29,14 @@ Related tickets: 46003, 46791, 47692<br/>
 Limited to approvals within F&O.<br/>
 
 https://docs.signupsoftware.com/finance-operations/docs/user-manual/whats-new-and-planned/release-notes<br/>
+
+### Package information
+The latest package available via LCS are currently 2.17.0. This version is built on 10.0.43 and that’s the lowest version it can be installed on.
+This version is tested and compatible with 10.0.42 and 10.0.43
+
+**More information:** https://docs.signupsoftware.com/finance-operations/docs/user-manual/solution-management/exflow-lcs-solution
+
+
 
 
 _______________________________________________________________________________________________________
