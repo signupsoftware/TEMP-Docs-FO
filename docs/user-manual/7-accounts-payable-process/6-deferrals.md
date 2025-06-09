@@ -6,7 +6,8 @@ hide_title: true
 ## Deferral functionality
 <button class="pdf-button btn_higher" onClick={() => { print(); }}>Save as PDF</button>
 
-**NOTE: This function is built to only support the direct posting process**
+:::info **NOTE: This function is built to only support the direct posting process**
+:::
 
 ### Introduction
 Revenue and expense deferrals are implemented in an organization’s billing schedule to distribute expenses over certain periods of time.
