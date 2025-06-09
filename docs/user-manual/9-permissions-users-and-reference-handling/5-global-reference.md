@@ -6,22 +6,25 @@ custom_edit_url: null
 ---
 ## Global Reference <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-ExFlow | Setup | Global settings | References 
+ExFlow | Setup | Global settings | References<br/> 
 
-The "Global reference" functionality allows users to set up global references with legal entity override values. It works similarly to the "Reference person" functionality; however, the functionality is expanded to support global reference values and legal entity overrides. Also, it allows users to connect the reference with Worker/Position/Group/Role. 
+The "Global reference" functionality allows users to set up global references with legal entity override values. It works similarly to the "Reference person" functionality; however, the functionality is expanded to support global reference values and legal entity overrides. Also, it allows users to connect the reference with Worker/Position/Group/Role.<br/> 
 
 Global reference and vendor account combinations are also supported. Global reference setup can be used simultaneously with the old Reference person setup.
 
-•	Participant global reference is supported for agreement workflow.
+- Participant global reference is supported for agreement workflow.
 
 ### Global Reference setup
-Global reference functionality is activated as soon as there is at least one record in the setup. To migrate old Reference person setup to new Global reference setup the functionality “Migrate references” is used. It will copy all Reference person setup from all the legal entities and generate new entries in the Global reference setup. To delete all Global reference records “Delete all” button can be used. 
+Global reference functionality is activated as soon as there is at least one record in the setup. To migrate old Reference person setup to new Global reference setup the functionality “Migrate references” is used. It will copy all Reference person setup from all the legal entities and generate new entries in the Global reference setup. To delete all Global reference records “Delete all” button can be used.<br/> 
 
-Once activated global reference, all ExFlow forms with legacy reference will be substituted by global reference.
+Once activated "global reference", all ExFlow forms with legacy reference will be substituted by global reference.<br/> 
 
-In the example below the Global reference value “(100)” is configured. Across all legal entities it will point to Worker “Jody Christiansen”, however, there is one legal entity override – in the FRSI company the value “(100)” is pointing to “Charlie Carson”. 
+In the example below the Global reference value “(Jordi)” is configured. Across all legal entities it will point to Worker “Jody Christiansen”, however, there is one legal entity override – in the CAPM company the value “(Jordi)” is pointing to “Charlie Carson”. And for legal entity CNMF Jordi is suspended.
 
-•	Filling any of the fields Worker position, User groups, Security roles, will grey-out the other except for vendor.
+- Filling any of the fields Worker position, User groups, Security roles, will grey-out the other except for vendor.
+- Possible to have suspend both on header record with override on line level as well as override on line level.
+    - Each time you are going to use the Global references the record would be excluded from lookups or selections (in import form, document form and agreement form) if Suspended = Yes in this Legal entity. 
+
 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image200.png)
 
@@ -44,12 +47,9 @@ The configuration of workflow is similar to Reference person configuration. To u
 
 ### Global reference search execution order 
 The functionality supports the following combinations: 
-
-•	Reference + Vendor
-
-•	Vendor
-
-•	Reference
+- Reference + Vendor
+- Vendor
+- Reference
 
 It is also supported to have blank vendor/reference values. 
 
