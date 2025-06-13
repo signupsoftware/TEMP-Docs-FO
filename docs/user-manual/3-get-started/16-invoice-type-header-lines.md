@@ -1,6 +1,6 @@
 ---
 title: Invoice type header/lines
-sidebar_position: 15
+sidebar_position: 16
 hide_title: true
 custom_edit_url: null
 ---
