@@ -14,7 +14,9 @@ This documentation explains how ExFlow leverages the Sales Tax Calculation Servi
 **Audience:** D365FO application specialists and end users familiar with tax handling and accounting in D365FO.
 
 ### Limitations
-This document does not cover general tax handling in D365FO or all potential tax setup scenarios.
+This documentation does not cover general tax handling in D365FO or all potential tax setup scenarios.
+
+https://learn.microsoft.com/en-us/dynamics365/finance/localizations/global/global-tax-calcuation-service-overview
 
 ### Background and Business value
 The Tax Calculation Service is a microservice on Microsoft Azure designed to enhance tax determination and calculation in Dynamics 365 Finance and Supply Chain Management. It automates and standardizes tax processes across regions, supports flexible configurations, and simplifies compliance.
