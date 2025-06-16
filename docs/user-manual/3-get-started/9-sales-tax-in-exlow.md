@@ -72,13 +72,15 @@ In the ExFlow AP module, navigate to Setup and select Parameters. Under tab **Sa
 
 ![medium](@site/static/img/media/image742.png)
 
-- **Tax calculation framework:** Enable/disable the framework. If activated, the user can select whether to use standard D365 FO tax setup or send the transaction to the Tax calculation service. 
+- **Tax calculation framework:**<br/>
+Enable/disable the framework. If activated, the user can select whether to use standard D365 FO tax setup or send the transaction to the Tax calculation service. 
 
-- **Calculation Method:** The calculation method lets you decide whether which tax calculation method to use the per legal entity.<br/>
+- **Calculation Method:**<br/>
+The calculation method lets you decide whether which tax calculation method to use the per legal entity.<br/>
 **Standard** – Use D365FO tax setup to calculate sales tax.<br/>
 **Microsoft Sales Tax Calculation Service** – Use tax calculation service to calculate sales tax.<br/>
 
-- **Display method:**
+- **Display method:**<br/>
 The display method in ExFlow controls how changes to a transaction, which could trigger a sales tax update, are indicated.<br/>
 For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>
 
@@ -144,7 +146,8 @@ When used alongside Indicate Change, ExFlow will display a visual alert to signa
 ### Override sales tax
 On the Import form there is a new field called “Override sales tax”.<br/>
 This field allows the user to **override the sales tax on the invoice**, meaning ExFlow will send the invoice to the Tax Calculation Service but will disregard the applicability rules defined there.<br/>
-Instead, ExFlow will rely solely on the intersection of the Sales tax group and Item sales tax group.<br/>
+Instead, ExFlow will rely solely on the intersection of the Sales tax group and Item sales tax group.
+<br/>
 
 ![medium](@site/static/img/media/image751.png)
 
