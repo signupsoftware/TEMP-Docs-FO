@@ -110,8 +110,6 @@ In this mode, the sales tax is not visible at the header or line level but can b
 
 **This method is recommended if performance is a priority.**<br/>
 
-![medium](@site/static/img/media/image744.png)
-
 <u>Indicate change</u>
 
 The display method **Indicate change** will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
