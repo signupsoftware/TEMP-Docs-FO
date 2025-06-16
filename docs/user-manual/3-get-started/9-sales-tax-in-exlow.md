@@ -44,9 +44,9 @@ Within the Globalization Studio workspace, configuring a service provider is req
 Tax calculation configurations are accessible via the Tax configurations tile, which you can reach by selecting Electronic reporting in the Globalization Studio workspace.
 Under the Tax Calculation tile, you can then proceed with the tax configuration.<br/>
 
-![medium](@site/static/img/media/Image739.png)
+![medium](@site/static/img/media/image739.png)
 <br/>
-![medium](@site/static/img/media/Image740.png)
+![medium](@site/static/img/media/image740.png)
 <br/>
 
 #### Tax Calculation parameters
@@ -55,7 +55,7 @@ When selection the sales tax configuration under “Name”, D365FO will synchro
 
 **In the Tax module, go to Setup and Tax Configuration:**<br/>
 
-![medium](@site/static/img/media/Image741.png)
+![medium](@site/static/img/media/image741.png)
 
 ### Prerequisites setup in ExFlow
 
@@ -64,13 +64,13 @@ ExFlow AP \| Setup \| General parameters<br/>
 In the ExFlow AP module, navigate to Setup and select General Parameters. Under **Feature; Management**, activate the Tax Calculation framework.<br/>
 Enabling this feature allows you to select the tax calculation framework within the parameters.<br/>
 
-![medium](@site/static/img/media/Image743.png)
+![medium](@site/static/img/media/image743.png)
 
 #### Parameters
 ExFlow AP \| Setup \| Parameters<br/> 
 In the ExFlow AP module, navigate to Setup and select Parameters. Under tab **Sales tax**, activate the Tax calculation framework:<br/> 
 
-![medium](@site/static/img/media/Image742.png)
+![medium](@site/static/img/media/image742.png)
 
 - **Tax calculation framework:**<br/>
 Enable/disable the framework. If activated, the user can select whether to use standard D365 FO tax setup or send the transaction to the Tax calculation service. 
@@ -92,7 +92,7 @@ In this mode, the sales tax is not visible at the header or line level but can b
 
 **This method is recommended if performance is a priority.**<br/>
 
-![Graphical user interface, application Description automatically generated](@site/static/img/media/image744.png)
+![Graphical user interface, application Description automatically generated](@site/static/img/media/Image744.png)
 
 <u>Indicate change</u>
 The display method **Indicate change** will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
@@ -104,7 +104,7 @@ The user can manually trigger an update of the sales tax on the invoice by:<br/>
 -	Simulate posting.
 -	Opening the sales tax form on header/line – level.<br/>
 
-![medium](@site/static/img/media/Image745.png)
+![medium](@site/static/img/media/image745.png)
 
 <u>Immediately</u>
 <br/>
