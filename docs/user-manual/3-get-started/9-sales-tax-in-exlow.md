@@ -175,3 +175,4 @@ Instead, ExFlow will rely solely on the intersection of the Sales tax group and 
 
 <br/>
 ![medium](@site/static/img/media/image751.png)
+
