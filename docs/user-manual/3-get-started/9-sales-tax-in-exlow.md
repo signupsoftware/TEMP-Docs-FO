@@ -92,7 +92,7 @@ In this mode, the sales tax is not visible at the header or line level but can b
 
 **This method is recommended if performance is a priority.**<br/>
 
-![Graphical user interface, application Description automatically generated](@site/static/img/media/Image744.png)
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image744b.png)
 
 <u>Indicate change</u>
 The display method **Indicate change** will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
@@ -116,7 +116,7 @@ For example, changes to the amount, sales tax group, item sales tax group, or sa
 <br/>
 If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form.<br/>
 
-![medium](@site/static/img/media/Image746.png)
+![medium](@site/static/img/media/image746b.png)
 
 <u>Indicate change</u>
 <br/>
@@ -127,21 +127,21 @@ The user can manually trigger an update of the sales tax on the invoice by:<br/>
 -	Simulate posting.
 -	Opening the sales tax form on header/line – level.<br/>
 
-![medium](@site/static/img/media/Image747.png)
+![medium](@site/static/img/media/image747b.png)
 
 ### Tax Calculation influence fields
 The main purpose of the Tax Calculation fields is to allow users to customize which fields should trigger a sales tax calculation. The setup includes a set of predefined, mandatory fields, but users can add additional fields for ExFlow to consider when determining if a sales tax recalculation is needed on Import and Document Form.
 These additional fields can be specified for both header and line levels.<br/>
 
-![medium](@site/static/img/media/Image748.png)
+![medium](@site/static/img/media/image748b.png)
 
 For example, if you want changes to the Invoice Type field to trigger a sales tax calculation update, you can add Invoice Type to the Tax Calculation Influence field setup. By doing so, any modification to the Invoice Type on a transaction will prompt ExFlow to recalculate the sales tax, ensuring that adjustments to critical fields automatically reflect in the tax calculations.<br/>
 
-![medium](@site/static/img/media/Image749.png)
+![medium](@site/static/img/media/image749b.png)
 
 When used alongside Indicate Change, ExFlow will display a visual alert to signal that the sales tax may be impacted by changes to the Invoice Type.<br/>
 
-![medium](@site/static/img/media/Image750.png)
+![medium](@site/static/img/media/image750b.png)
 
 ### Override sales tax
 On the Import form there is a new field called “Override sales tax”.<br/>
@@ -149,6 +149,6 @@ This field allows the user to **override the sales tax on the invoice**, meaning
 Instead, ExFlow will rely solely on the intersection of the Sales tax group and Item sales tax group.
 <br/>
 
-![medium](@site/static/img/media/Image751.png)
+![medium](@site/static/img/media/image751b.png)
 
 <!-- Edited -->
