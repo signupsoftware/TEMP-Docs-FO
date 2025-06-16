@@ -110,7 +110,7 @@ In this mode, the sales tax is not visible at the header or line level but can b
 
 **This method is recommended if performance is a priority.**<br/>
 
-![Graphical user interface, application Description automatically generated](@site/static/img/media/image744.png)
+![medium](@site/static/img/media/image744.png)
 
 <u>Indicate change</u>
 
