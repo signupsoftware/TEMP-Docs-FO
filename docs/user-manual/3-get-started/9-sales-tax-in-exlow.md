@@ -83,7 +83,8 @@ The display method in ExFlow controls how changes to a transaction, which could 
 For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>
 
 **Available with calculation method “Standard**<br/>
-<u>Standard</u><br/>
+<u>Standard</u>
+<br/>
 If the display method is set to **Standard**, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax.<br/>
 In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form.<br/>
 
@@ -91,7 +92,7 @@ In this mode, the sales tax is not visible at the header or line level but can b
 
 ![medium](@site/static/img/media/image744.png)
 
-<u>Indicate change<u>
+<u>Indicate change</u>
 The display method **Indicate change** will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
 
 The visual representation is a yellow exclamation mark. It appears at the header level, line level, or both, depending on where the change was made on the invoice.<br/>
@@ -103,17 +104,20 @@ The user can manually trigger an update of the sales tax on the invoice by:<br/>
 
 ![medium](@site/static/img/media/image745.png)
 
-<u>Immediately<u><br/>
+<u>Immediately</u>
+<br/>
 In this mode, the sales tax is calculated instantly based on inputs at the header and line levels.<br/>
 For example, changes to the amount, sales tax group, item sales tax group, or sales tax code will immediately trigger a sales tax calculation for the invoice line.<br/>
 
 **Available with calculation method “Microsoft Sales Tax Calculation**<br/>
-<u>Standard</u><br/>
+<u>Standard</u>
+<br/>
 If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form.<br/>
 
 ![medium](@site/static/img/media/image746.png)
 
-<u>Indicate change<u><br/>
+<u>Indicate change</u>
+<br/>
 The display method “Indicate change” will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
 
 The user can manually trigger an update of the sales tax on the invoice by:<br/>
