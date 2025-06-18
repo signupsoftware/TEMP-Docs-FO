@@ -24,6 +24,10 @@ https://docs.signupsoftware.com/finance-operations/docs/user-manual/get-started/
 Exflow\| Setup\| Parameters\| Posting logic<br/>
 - Start with the parameter setup. <br/>
 For more information please Please navigate to ExFlow Documentation Platform\|Get started\|Upgrade information for more information on the setup of Direct posting.<br/>
+- The std D365FO parameter for validation will tick in since we "pre validate" the invoice from import form. 
+The journal that is the temporary journal needs to be setup with “blank” in Sales tax box section and “blank” in the field Italian tax book. There will be no posting to the temporary journal so this will be OK from a tax perspective.
+
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image752.png)
 
 https://docs.signupsoftware.com/finance-operations/docs/user-manual/get-started/upgrade-information
 
