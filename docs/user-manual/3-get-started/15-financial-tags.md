@@ -24,13 +24,17 @@ https://learn.microsoft.com/en-us/dynamics365/finance/general-ledger/financial-t
 
 ![medium](@site/static/img/media/image703.png)
 
+### ExFlow
+All financial tags that are **activated in General Ledger** can be used in ExFlow AP forms in D365.<br/>
+To be able use financial tags in ExFlow Web the Financial Tags need to be activated in the ExFlow configuration.<br/>
+
 ### Configuration
-ExFlow AP\| Setup\| Configuration<br/>
+ExFlow AP\| Setup\| Configuration
 
 #### ADD/DELETE COLUMNS
-Only active Financial tags are shown as possible to handle.
-Financial tags that are active in columns but are NOT active in Financial tags setup, are shown as grey and not enabled.<br/>
-This will remove the Financial tags from configuration, (Customer and Fixed Asset).<br/>
+Activate the financial tags that should be visible/editable for users in ExFlow Web.<br/>
+Only financial tags that are active in Financial tags setup in General Ledger can be activated in configuration.<br/>
+Financial tags that aren’t active in Financial tags setup are greyed out and can’t be activated in configuration.<br/>
 
 ![medium](@site/static/img/media/image704.png)
 
@@ -77,3 +81,7 @@ Workflow criteria’s can be used both on invoice document and invoice lines.<br
 ![medium](@site/static/img/media/image711.png)<br/>
 
 
+### Limitations
+The following features are not supported in this version.<br/>
+- Financial tags on Purchase orders
+- Financial tags rules
