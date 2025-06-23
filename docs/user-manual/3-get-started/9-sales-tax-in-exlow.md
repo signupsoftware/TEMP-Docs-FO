@@ -51,8 +51,7 @@ Under the Tax Calculation tile, you can then proceed with the tax configuration.
 
 ![medium](@site/static/img/media/image739.png)
 <br/>
-
-![medium](@site/static/img/media/image740.png)
+![large](@site/static/img/media/image740.png)
 <br/>
 
 
@@ -74,14 +73,14 @@ ExFlow AP \| Setup \| General parameters<br/>
 In the ExFlow AP module, navigate to Setup and select General Parameters. Under **Feature; Management**, activate the Tax Calculation framework.<br/>
 Enabling this feature allows you to select the tax calculation framework within the parameters.<br/>
 
-![medium](@site/static/img/media/image743.png)
+![small](@site/static/img/media/image743.png)
 
 #### Parameters
 
 ExFlow AP \| Setup \| Parameters<br/>
 In the ExFlow AP module, navigate to Setup and select Parameters. Under tab **Sales tax**, activate the Tax calculation framework:<br/>
 
-![medium](@site/static/img/media/image742.png)
+![large](@site/static/img/media/image742.png)
 
 - **Tax calculation framework:**<br/>
 
@@ -100,18 +99,16 @@ The calculation method lets you decide whether which tax calculation method to u
 The display method in ExFlow controls how changes to a transaction, which could trigger a sales tax update, are indicated.<br/>
 For example, if a user modifies the amount on an invoice line, ExFlow can indicate that the sales tax might be impacted, although it hasn’t yet been sent to the tax calculation service.<br/>
 
-**Available with calculation method “Standard**<br/>
-
-<u>Standard</u>
-<br/>
-
+#### Available with calculation method “Standard“
+<u>Standard</u><br/>
 If the display method is set to **Standard**, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax.<br/>
 In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form.<br/>
 
 **This method is recommended if performance is a priority.**<br/>
 
-<u>Indicate change</u>
+![Graphical user interface, application Description automatically generated](@site/static/img/media/image744b.png)
 
+<u>Indicate change</u><br/>
 The display method **Indicate change** will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
 The visual representation is a yellow exclamation mark. It appears at the header level, line level, or both, depending on where the change was made on the invoice.<br/>
 
@@ -120,7 +117,7 @@ The user can manually trigger an update of the sales tax on the invoice by:<br/>
 -   Simulate posting.
 -   Opening the sales tax form on header/line – level.<br/>
 
-![medium](@site/static/img/media/image745.png)
+![large](@site/static/img/media/image745.png)
 
 <u>Immediately</u>
 <br/>
@@ -128,26 +125,21 @@ The user can manually trigger an update of the sales tax on the invoice by:<br/>
 In this mode, the sales tax is calculated instantly based on inputs at the header and line levels.<br/>
 For example, changes to the amount, sales tax group, item sales tax group, or sales tax code will immediately trigger a sales tax calculation for the invoice line.<br/>
 
-**Available with calculation method “Microsoft Sales Tax Calculation**<br/>
-
-<u>Standard</u>
-<br/>
-
+#### Available with calculation method “Microsoft Sales Tax Calculation“
+<u>Standard</u><br/>
 If the display method is set to Standard, ExFlow will mirror how journals (such as invoice registers or invoice journals) in standard D365FO display sales tax. In this mode, the sales tax is not visible at the header or line level but can be accessed by selecting Sales tax and entering the sales tax form.<br/>
 
-![medium](@site/static/img/media/image746.png)
+![medium](@site/static/img/media/image746b.png)
 
-<u>Indicate change</u>
-
-<br/>
+<u>Indicate change</u><br/>
 The display method “Indicate change” will give the user a visual representation in the form that there has been made a change that might affect the sales tax calculation.<br/>
 
-The user can manually trigger an update of the sales tax on the invoice by:<br/>
--   Validating the invoice.
--   Simulate posting.
--   Opening the sales tax form on header/line – level.<br/>
+The user can manually trigger an update of the sales tax on the invoice by:
+-	Validating the invoice.
+-	Simulate posting.
+-	Opening the sales tax form on header/line – level.<br/>
 
-![medium](@site/static/img/media/image747.png)
+![medium](@site/static/img/media/image747b.png)
 
 ### Tax Calculation influence fields
 
@@ -155,15 +147,15 @@ The main purpose of the Tax Calculation fields is to allow users to customize wh
 
 These additional fields can be specified for both header and line levels.<br/>
 
-![medium](@site/static/img/media/image748.png)
+![medium](@site/static/img/media/image748b.png)
 
 For example, if you want changes to the Invoice Type field to trigger a sales tax calculation update, you can add Invoice Type to the Tax Calculation Influence field setup. By doing so, any modification to the Invoice Type on a transaction will prompt ExFlow to recalculate the sales tax, ensuring that adjustments to critical fields automatically reflect in the tax calculations.<br/>
 
-![medium](@site/static/img/media/image749.png)
+![medium](@site/static/img/media/image749b.png)
 
 When used alongside Indicate Change, ExFlow will display a visual alert to signal that the sales tax may be impacted by changes to the Invoice Type.<br/>
 
-![medium](@site/static/img/media/image750.png)
+![medium](@site/static/img/media/image750b.png)
 
 ### Override sales tax
 
@@ -172,4 +164,7 @@ This field allows the user to **override the sales tax on the invoice**, meaning
 Instead, ExFlow will rely solely on the intersection of the Sales tax group and Item sales tax group.
 
 <br/>
-![medium](@site/static/img/media/image751.png)
+
+![medium](@site/static/img/media/image751b.png)
+
+<!-- Edited -->
