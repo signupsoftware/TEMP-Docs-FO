@@ -162,7 +162,6 @@ When used alongside Indicate Change, ExFlow will display a visual alert to signa
 On the Import form there is a new field called “Override sales tax”.<br/>
 This field allows the user to **override the sales tax on the invoice**, meaning ExFlow will send the invoice to the Tax Calculation Service but will disregard the applicability rules defined there.<br/>
 Instead, ExFlow will rely solely on the intersection of the Sales tax group and Item sales tax group.
-
 <br/>
 
 ![medium](@site/static/img/media/image751b.png)
