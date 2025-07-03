@@ -4,9 +4,53 @@ sidebar_position: 1
 hide_title: true
 custom_edit_url: null
 ---
-## Major Release 2.17.0
+## Important Update: Azure Blob Storage access Issue on Specific Platform Builds
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
+**Dear Customers and Partners**
+We would like to inform you about a recent critical issue observed in multiple add-on solutions for D365FO in relation to Azure Blob Storage access. The issue appears in some of our environment as Microsoft has begun removing legacy DLLs.<br/>
+________________________________________
+### Issue
+We recently encountered a recurring issue related to Azure Blob Storage access in our environments. The problem is manifested inconsistently — only affecting certain environments and AOS servers.<br/>
+
+Several customers for our **portfolios; Exflow and Axtension** also reported similar behavior. Out of 9 customers currently running on 10.0.44 with AXTip, only 3 experienced the issue, with others unaffected. The inconsistency appears to be related to differences in AOS server behavior.<br/>
+
+At this moment, we have not received any support cases from our ExFlow customers, but we expect that customers who upgrade to **application version 10.0.44**. will get this issue if they are using an external Azure blob storage.<br/>
+
+________________________________________
+### Root Cause
+Our investigation in our product portfolio has revealed that the problem is due to a version mismatch between the **Azure.Storage.Blobs .NET assembly** used in runtime and the version used when compiling models that access it due to that Microsoft has begun removing legacy DLLs.<br/>
+
+Specifically:
+•	The system uses **Azure.Storage.Blobs version 12.2300** at runtime.
+•	Some models, such as our **AXTplatform** (responsible for Azure storage access), were **built against version 12.2000 **of the same assembly.<br/>
+
+This version mismatch can cause compatibility issues and runtime failures. We confirmed this behavior after updating a development machine to 10.0.44, where the issue appeared immediately — but disappeared after rebuilding the AXTplatform model on the same version.<br/>
+
+This suggests a **break in backward compatibility** introduced in 10.0.44, particularly when models built on older platform versions interact with updated assemblies at runtime.<br/>
+**For both ExFlow AP and Invoice processing, we expect that some customer will have issues if they;**<br/>
+- Import invoices located on a Azure blob storage
+- Generate invoice images from invoice xml by using an external blob storage.<br/>
+________________________________________
+### Solution and Next Steps
+To mitigate and resolve the issue:
+- For Axtension, we have rebuilt the **AXTplatform model** using a build server running **application version 10.0.44.** 
+    - Our internal environments for the Axtension portfolio, when updated and rebuilt on 10.0.44, have no longer shown the issue.
+    - We are also exploring whether it is possible to work around the issue **without rebuilding**, but current evidence suggests rebuilding on the latest version is the most reliable solution.
+
+- For ExFlow, we are investigating the possibility to rebuild our 2 latest releases to **version 10.0.44**. 
+    - In parallel creating a functionality to access azure blob storage with a connection string instead of using storage account name and key.  
+    - Recommendation to our customers it not to upgrade to MS platform version 10.0.44. until the issue are resolved and new packages are available through the LCS if needed. If no new packages are needed, it will be communicated here on the Documentation platform.<br/>
+
+We will continue to monitor the situation and coordinate with impacted partners. If you suspect similar issues in your environment, or if you are running mixed model build versions, please reach out to us via our support portal.<br/>
+https://support.signupsoftware.com<br/>
+
+
+Thank you for your continued trust and collaboration.<br/>
+
+________________________________________________________________________________________________________________
+
+###  Major Release 2.17.0
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2025
 
 **Release topics!**
