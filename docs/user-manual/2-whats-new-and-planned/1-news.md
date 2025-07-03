@@ -9,6 +9,7 @@ custom_edit_url: null
 
 **Dear Customers and Partners**
 We would like to inform you about a recent critical issue observed in multiple add-on solutions for D365FO in relation to Azure Blob Storage access. The issue appears in some of our environment as Microsoft has begun removing legacy DLLs.<br/>
+
 ________________________________________
 ### Issue
 We recently encountered a recurring issue related to Azure Blob Storage access in our environments. The problem is manifested inconsistently — only affecting certain environments and AOS servers.<br/>
