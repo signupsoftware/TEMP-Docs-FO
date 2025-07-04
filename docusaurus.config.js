@@ -193,7 +193,8 @@ const config = {
               },
               {
                 label: 'ExFlow Data Capture',
-                to: 'https://docs.signupsoftware.com/datacapture',
+                //to: 'https://docs.signupsoftware.com/datacapture',
+                to: 'https://docs.signupsoftware.com/edc',
               },
             ],
           },

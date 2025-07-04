@@ -62,7 +62,8 @@ const FeatureList = [
       {
         title: 'ExFlow Data Capture',
         //url: 'https://docs.signupsoftware.com/datacapture',
-        url: 'https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev',
+        //url: 'https://docs.signupsoftware.com/datacapture/docs/user-manual/under-dev',
+        url: 'https://docs.signupsoftware.com/edc',
         index: 3, 
       },
       {
