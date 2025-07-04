@@ -9,7 +9,6 @@ custom_edit_url: null
 
 **Dear Customers and Partners**
 We would like to inform you about a recent critical issue observed in multiple add-on solutions for D365FO in relation to Azure Blob Storage access. The issue appears in some of our environment as Microsoft has begun removing legacy DLLs.<br/>
-
 ________________________________________
 ### Issue
 We recently encountered a recurring issue related to Azure Blob Storage access in our environments. The problem is manifested inconsistently — only affecting certain environments and AOS servers.<br/>
@@ -35,11 +34,11 @@ This suggests a **break in backward compatibility** introduced in 10.0.44, parti
 ________________________________________
 ### Solution and Next Steps
 To mitigate and resolve the issue:
-- For Axtension, we have rebuilt the **AXTplatform model** using a build server running **application version 10.0.44.** 
+- **For Axtension**, we have rebuilt the **AXTplatform model** using a build server running **application version 10.0.44.** 
     - Our internal environments for the Axtension portfolio, when updated and rebuilt on 10.0.44, have no longer shown the issue.
     - We are also exploring whether it is possible to work around the issue **without rebuilding**, but current evidence suggests rebuilding on the latest version is the most reliable solution.
 
-- For ExFlow, we are investigating the possibility to rebuild our 2 latest releases to **version 10.0.44**. 
+- **For ExFlow**, we are investigating the possibility to rebuild our 2 latest releases to **version 10.0.44**. 
     - In parallel creating a functionality to access azure blob storage with a connection string instead of using storage account name and key.  
     - Recommendation to our customers it not to upgrade to MS platform version 10.0.44. until the issue are resolved and new packages are available through the LCS if needed. If no new packages are needed, it will be communicated here on the Documentation platform.<br/>
 
