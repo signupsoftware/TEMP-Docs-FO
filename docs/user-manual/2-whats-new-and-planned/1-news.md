@@ -7,6 +7,23 @@ custom_edit_url: null
 ## Important Update: Azure Blob Storage access Issue on Specific Platform Builds
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
+**Update**<br/>
+Dear Customers and Partners,<br/>
+We’d like to share an important update regarding the critical issue affecting several add-on solutions for Dynamics 365 Finance and Operations (D365FO) related to Azure Blob Storage access.<br/>
+
+Microsoft has confirmed this was caused by an error during the rollout of application version 10.0.44.<br/>
+**A fix is now available:** Quality Update 76, which can be applied via Lifecycle Services (LCS) to resolve the issue.<br/>
+
+**This fix will also be included in the upcoming release:**
+Build: 10.0.2263.76
+Platform: 7.0.7606.112<br/>
+
+**Please note:** No new package for ExFlow is required to address this issue.
+
+Thank you for your continued trust and collaboration.
+
+_______________________________________________________________________________________________________________
+
 **Dear Customers and Partners**
 We would like to inform you about a recent critical issue observed in multiple add-on solutions for D365FO in relation to Azure Blob Storage access. The issue appears in some of our environment as Microsoft has begun removing legacy DLLs.<br/>
 ________________________________________
@@ -50,7 +67,7 @@ Thank you for your continued trust and collaboration.<br/>
 
 ________________________________________________________________________________________________________________
 
-###  Major Release 2.17.0
+##  Major Release 2.17.0
 A new version of ExFlow AP for Microsoft Dynamics 365 for Finance and Operations has been released as of June 2025
 
 **Release topics!**
@@ -109,7 +126,7 @@ Correction of the code will be included in the R1 2025 release in the beginning 
 ![Graphical user interface, text, application, email Description automatically generated](@site/static/img/media/image686.png)
 
 
-________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________
 
 ### Urgent Invoice Import Error
 #### Issue
