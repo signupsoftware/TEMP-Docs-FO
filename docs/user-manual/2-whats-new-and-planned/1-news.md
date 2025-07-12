@@ -7,10 +7,8 @@ custom_edit_url: null
 ## Important Update: Azure Blob Storage access Issue on Specific Platform Builds
 <button class="pdf-button" onClick={() => { print(); }}>Save as PDF</button>
 
-**Update**
-
+**Update**<br/>
 Dear Customers and Partners,<br/>
-
 We’d like to share an important update regarding the critical issue affecting several add-on solutions for Dynamics 365 Finance and Operations (D365FO) related to Azure Blob Storage access.<br/>
 
 Microsoft has confirmed this was caused by an error during the rollout of application version 10.0.44.<br/>
